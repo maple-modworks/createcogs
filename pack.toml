@@ -1,12 +1,12 @@
 name = "Create-Ive Cogs Season 5"
 author = "Canada_LaVearn and Herr Katze"
-version = "0.0.2"
+version = "0.0.2a"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "d4af3b4587797c1c9bffe3a9d73a900f9c24da190eebc5294874cda3d3fa3140"
+hash = "c6e34c1e1caafc2506565fedc485618d4fb8c5b6758ffc07e1756462e7260a15"
 
 [versions]
 forge = "43.2.21"
