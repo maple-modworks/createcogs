@@ -110,7 +110,7 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 108
+  width = 109
   action = deep_customization_element:title_screen_branding
   actionid = 9dd2d03d-4fd8-452b-98cc-af82757a437d1691173363144
   y = 318
@@ -120,8 +120,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 411
-  width = 228
+  x = 406
+  width = 233
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 4f41e42c-2941-45c7-a8d5-0ed4b29a97921691173363145
   y = 340
@@ -271,5 +271,24 @@ customization {
   actionid = 66853962-7f9a-4515-93db-4795b002ea671691183074015
   y = 18
   height = 55
+}
+
+customization {
+  orientation = mid-centered
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Not an official MINECRAFT service.%n%Not approved by or associated with Mojang or Microsoft.
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -151
+  width = 302
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 261c71df-d2b5-4c13-8a1e-dedfe73ad2841691200091765
+  y = 66
+  alignment = centered
+  height = 23
 }
 

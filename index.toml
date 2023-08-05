@@ -126,7 +126,7 @@ hash = "2355434b98f707e1d4c4d914fb38458b72cbe7e66fe2656696a9acd78f4a3ffd"
 
 [[files]]
 file = "config/fancymenu/customization/s5menu.txt"
-hash = "633c927e8e0a05f44328a9df100daeac0d1d5128885eeaaf9df679b5906c0be4"
+hash = "7e39c218dd578a7be012dd72bfded9f146e84e7d599ab43944ffda617e48f1ae"
 
 [[files]]
 file = "config/fancymenu/locals/de_de.local"
@@ -233,6 +233,46 @@ file = "config/jade/sort-order.json"
 hash = "77a35b1a16e77f567f29e7061a65da6a2b20a7f0f49c2325dc4df82e58ec1145"
 
 [[files]]
+file = "config/jei/blacklist.cfg"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "1db936ee0e06d726fb94b36a3db4fd7b85e7a9d3938a1aeb7d19c38fbeed4f8a"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "39b5426fb7faf645a83c210d457352b05f64859d4b9adb58242c113c2c8e6878"
+
+[[files]]
+file = "config/jei/jei-client.ini"
+hash = "c513c22b5acbf79ca29858ba472bba4a6f969df405c61b37b7ee6554358d88ea"
+
+[[files]]
+file = "config/jei/jei-colors.ini"
+hash = "c6328dcf3fb8b20a9f6ea6b61266ce289565c167353e183a105fb4915c36c072"
+
+[[files]]
+file = "config/jei/jei-debug.ini"
+hash = "24f1a0313b8ae9b6bf450d962640312613fd0f9e9a21a26756b85a6b5ee3d46d"
+
+[[files]]
+file = "config/jei/jei-mod-id-format.ini"
+hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "7493cf25c96daab8957095b8ddf97273dfb943735e9bc525e957bd1c75bc269f"
+
+[[files]]
+file = "config/jeresources-common.toml"
+hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
+
+[[files]]
+file = "config/jeresources.toml"
+hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
+
+[[files]]
 file = "config/konkrete/locals/de_de.local"
 hash = "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
 
@@ -278,7 +318,7 @@ hash = "b38269d3fa35f0467ac05b779812c94b10010e68a89a38d532cd1640a0d7faea"
 
 [[files]]
 file = "config/pregen/base.cfg"
-hash = "c2badae48eb8f1289c5aa42fc1f0bcc7289026d3374bf2651f1f98c4e9ed1a08"
+hash = "9f8e9770f4af168b0a34937fc32358b2a5f24455a47671f6e51d5bb701fbac1f"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -302,7 +342,7 @@ hash = "52fa21d31fc7a3f71311430a38f783f63923ebe84fc19823b7a5c2a087a45cf7"
 
 [[files]]
 file = "config/rubidium_extras.toml"
-hash = "1e8c3ccb8be47c2c4e3ed662daa90e7b0e53f0757cce61d2d8ea4270533e1afd"
+hash = "129fec557839c550eec10ae74b8dd6460a2d1f043805c83d6daf870fa6489d25"
 
 [[files]]
 file = "config/sidebar_buttons.json"
@@ -337,6 +377,10 @@ file = "config/voicechat/translations.properties"
 hash = "b8215b84232be41438ffb7c7304b57b0677c9cad49b717db59900872080adf20"
 
 [[files]]
+file = "config/voicechat/username-cache.json"
+hash = "f3f030cba8f3b592f4e287b913bae3a311babafa0c0df07ec743abb05749e9e1"
+
+[[files]]
 file = "config/voicechat/voicechat-client.properties"
 hash = "47042d3a604672cc954d09c1836191a0e03e4de525c571c15c09367918b146c8"
 
@@ -350,7 +394,7 @@ hash = "3580abc6b6608eaa8822c68d598bc5bfd0358a07c5c21ee0527f93f40f714249"
 
 [[files]]
 file = "config/xaerominimap_entities.json"
-hash = "77073b8451ff514a6982d8b19b108af59bbfda208ad2917e3030654ee9d27c8d"
+hash = "1d471ec8a12373d69ad2cc222832ceee1ff9169ed0425f4d6af9fd743c2216d6"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -735,6 +779,21 @@ hash = "7178ff9343de304a0b6a46bb26469b82ae90051f17ea4e5e547bbc86cbf7982f"
 metafile = true
 
 [[files]]
+file = "mods/fast-leaf-decay.pw.toml"
+hash = "da09edd338fa641d7eee1b96ecc2cc5e6dc9d299c68da33741b3b81854a551ef"
+metafile = true
+
+[[files]]
+file = "mods/fastsuite.pw.toml"
+hash = "6ec4fcec4795f75ffdb7333316b4a40acb97bd4e5560d0ea437d477358b10d87"
+metafile = true
+
+[[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "410ae69c23b2e6414acbc37dd7c6b7a538aee71791897e3191940b1249ad6a4c"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "871ea2a1ea123faac4659e52950da092d630d622f8404cc44387908175cec8a0"
 metafile = true
@@ -842,6 +901,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "8fd61b13a6da4b7f5cdf69ab6241c296b3019846a1635a2cbb427fbbb21635b2"
+metafile = true
+
+[[files]]
+file = "mods/lootr.pw.toml"
+hash = "b5292abed469471b736d2b9f47b21d861e9b6cbf332a225e781bb47aca40d3a3"
 metafile = true
 
 [[files]]
@@ -1067,6 +1131,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/Quark Programmer Art.zip"
 hash = "41cb720cf256a12ea247b2f38068b363aa5b1675470c4b5aa66850701a78bc4d"
+
+[[files]]
+file = "resourcepacks/font-reimagined.pw.toml"
+hash = "ecd8f7162c328f824f92cd493eb0832f27dfb22bb56fb5ee22fc2ca09e155eb5"
+metafile = true
 
 [[files]]
 file = "resourcepacks/font-reimagined.pw.toml"
