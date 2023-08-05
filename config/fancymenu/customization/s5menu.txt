@@ -1,0 +1,275 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=604346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = -18
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 6
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 7
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 186
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = 53f46485-eb45-4245-828a-be462e1608b91691173363115
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 9dd2d03d-4fd8-452b-98cc-af82757a437d1691173363144
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = 4f41e42c-2941-45c7-a8d5-0ed4b29a97921691173363145
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 12325878-2a61-4f47-9333-de8ad4b7b4711691173363145
+  y = 190
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = d4cfd3f0-2e7e-4141-bcc9-84630f20db391691173363145
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = 0
+  action = deep_customization_element:title_screen_splash
+  actionid = c5c856a6-c26f-4a7c-812e-3943cee1e5281691173363146
+  y = 101
+  splash_file_path = menucontent/betasplash.txt
+  height = 30
+}
+
+customization {
+  orientation = mid-centered
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  buttonaction = joinserver;createcogs.mcserver.us%btnaction_splitter_fm%
+  x = 2
+  width = 98
+  action = addbutton
+  actionid = 3d9b9dc7-16f6-4903-a11b-82b4bbf85f5d1691173831803
+  y = 6
+  label = Join Server
+  height = 20
+}
+
+customization {
+  path = menucontent/onlineoff.png
+  orientation = mid-centered
+  x = 104
+  width = 9
+  action = addtexture
+  actionid = ed03db02-a19d-42fa-ba58-891548d1ae911691173865413
+  y = 6
+  height = 9
+}
+
+customization {
+  path = menucontent/offlineoff.png
+  orientation = mid-centered
+  x = 104
+  width = 9
+  action = addtexture
+  actionid = 29ca20f1-445d-4515-8df4-5c0e8091a7771691173939385
+  y = 17
+  height = 9
+}
+
+customization {
+  path = menucontent/online.png
+  orientation = mid-centered
+  x = 104
+  width = 9
+  action = addtexture
+  actionid = 87015da3-2f05-4f02-9961-5b606606f9331691173964207
+  y = 6
+  [loading_requirement:fancymenu_loading_requirement_is_server_online][requirement_mode:if][req_id:ef690a05-e8d1-498d-8f23-248e2279214c1691173983682] = createcogs.mcserver.us
+  height = 9
+}
+
+customization {
+  path = menucontent/offline.png
+  orientation = mid-centered
+  [loading_requirement:fancymenu_loading_requirement_is_server_online][requirement_mode:if_not][req_id:631e06c0-6cac-40e3-a9ab-e920a58ae0111691174355242] = createcogs.mcserver.us
+  x = 104
+  width = 9
+  action = addtexture
+  actionid = 0fa657a2-d07b-47f2-9b45-d36428d68c721691174336301
+  y = 17
+  height = 9
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Modpack by Canada_LaVearn and HerrKatze
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -236
+  width = 236
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = fd9cb39e-8bfc-469a-87b2-62a36e7f07a21691176229496
+  y = -34
+  alignment = right
+  height = 12
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Logo by NBeeMC
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -236
+  width = 236
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 25835c73-0009-402e-95ca-a876b16a253c1691176312985
+  y = -45
+  alignment = right
+  height = 12
+}
+
+customization {
+  path = menucontent/logo5beta.png
+  orientation = top-centered
+  x = -136
+  width = 272
+  action = addtexture
+  actionid = 66853962-7f9a-4515-93db-4795b002ea671691183074015
+  y = 18
+  height = 55
+}
+

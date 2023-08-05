@@ -1,0 +1,13 @@
+name = "Chunk-Pregenerator"
+filename = "Chunk Pregenerator-1.19-4.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cb802d51fe73be124913253522b1cf08f8fe7d15"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4531968
+project-id = 267193
