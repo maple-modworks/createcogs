@@ -604,11 +604,6 @@ hash = "5880c81df1af395ec3762eff4e98c78f7b75e62db67e1d191a1772d79aabc073"
 metafile = true
 
 [[files]]
-file = "mods/collective.pw.toml"
-hash = "180b688608e8863a814dc4456eb6210a63e558aee9a506d41c09aaf67628c3fa"
-metafile = true
-
-[[files]]
 file = "mods/configured.pw.toml"
 hash = "38abb00776d34d4c650c59ef4a75a6562c96f914cbe17f09f176a682f23fd883"
 metafile = true
@@ -646,11 +641,6 @@ metafile = true
 [[files]]
 file = "mods/create-alloyed.pw.toml"
 hash = "5d9aa68db8ad8a7bfc9aae2298e56b76d690b165f618b8cee4f565109e96ab9b"
-metafile = true
-
-[[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "66e1f2dd3270ba592a425db035fd894655ee32389385843f08ec0e18b8e38d3d"
 metafile = true
 
 [[files]]
@@ -779,11 +769,6 @@ hash = "2df773e7b7659f53640f79e1e2b2e1de0df20277dc61de90a1d12881116cdc49"
 metafile = true
 
 [[files]]
-file = "mods/essential-mod.pw.toml"
-hash = "35089515ae91a09185f7c4d29cbfdbf0e4dfd2f8c147c59571e5d95f8e794e5c"
-metafile = true
-
-[[files]]
 file = "mods/etched.pw.toml"
 hash = "dbbe67c11acd1cb11cd80dd8150d54a423033c9f386ae8cd7ec376e4a9f48614"
 metafile = true
@@ -826,11 +811,6 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "0d6d8d7beaca1ae779f2e734db30da2595b98587f0714a6b15721664acf8f946"
-metafile = true
-
-[[files]]
-file = "mods/flywheel.pw.toml"
-hash = "3e9b9722da123b1d4120f0d9aba8de9968aba4aad6e9c7564423672171e00d9e"
 metafile = true
 
 [[files]]
@@ -881,11 +861,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
-metafile = true
-
-[[files]]
-file = "mods/full-brightness-toggle.pw.toml"
-hash = "278aedff15aa148b0239f8282a79591f02eea0f89c6725390fc03893d14c7432"
 metafile = true
 
 [[files]]
