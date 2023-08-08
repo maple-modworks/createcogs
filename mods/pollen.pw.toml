@@ -1,13 +1,13 @@
 name = "Pollen"
-filename = "pollen-forge-2.0.3.jar"
+filename = "pollen-forge-2.1.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "18c5db4797645e9d555ccc7c6683cc8a5c9a3921"
+hash = "d64d0bc8bddd90f2d72f6397ffc675e7f5d218a2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4659010
+file-id = 4685982
 project-id = 544350
