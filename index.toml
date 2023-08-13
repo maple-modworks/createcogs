@@ -1161,16 +1161,6 @@ hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
 metafile = true
 
 [[files]]
-file = "mods/inventorio-forge.pw.toml"
-hash = "e05a4bc998c92218290325b1d1ecbbc83d4001fd26e7d8cd6d611b691771bbf4"
-metafile = true
-
-[[files]]
-file = "mods/inventorio-forge.pw.toml"
-hash = "e05a4bc998c92218290325b1d1ecbbc83d4001fd26e7d8cd6d611b691771bbf4"
-metafile = true
-
-[[files]]
 file = "mods/jade-addons.pw.toml"
 hash = "f41cbd4e04d52ac715dc243fe0cd0df327de89a155d5c2145aa26ba7667d43c8"
 metafile = true
@@ -1407,17 +1397,17 @@ metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "4b05dba90d8c58843199202b78c88ea04649757bd20ff5c2737a9bf9a02e3a1b"
 metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "4b05dba90d8c58843199202b78c88ea04649757bd20ff5c2737a9bf9a02e3a1b"
 metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "4b05dba90d8c58843199202b78c88ea04649757bd20ff5c2737a9bf9a02e3a1b"
 metafile = true
 
 [[files]]
@@ -1532,22 +1522,22 @@ metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "f6a82b67733080447dbeaf73cff841989391f15e48b11a4a33b485a7f2ee31da"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "f6a82b67733080447dbeaf73cff841989391f15e48b11a4a33b485a7f2ee31da"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "f6a82b67733080447dbeaf73cff841989391f15e48b11a4a33b485a7f2ee31da"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "f6a82b67733080447dbeaf73cff841989391f15e48b11a4a33b485a7f2ee31da"
 metafile = true
 
 [[files]]
