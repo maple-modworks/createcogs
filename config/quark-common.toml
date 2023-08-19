@@ -139,6 +139,7 @@
 	"Nether Brick Fence Gate" = true
 	"Gold Bars" = false
 	"More Stone Variants" = false
+	"Rainbow Lamps" = true
 
 	[building.japanese_palette]
 		"Enable Paper Blocks" = true
@@ -274,6 +275,11 @@
 		"Enable Chiseled Bricks" = true
 		"Enable Pillar" = true
 
+	[building.rainbow_lamps]
+		"Light Level" = 15
+		#Whether Rainbow Lamps should be made from and themed on Corundum if that module is enabled.
+		"Use Corundum" = true
+
 [management]
 	"Hotbar Changer" = true
 	"Quick Armor Swapping" = true
@@ -315,6 +321,7 @@
 		"Enable Shulker Box Interaction" = true
 		"Enable Lava Interaction" = true
 		"Allow Opening Shulker Boxes" = true
+		"Allow Rotating Bundles" = true
 
 	[management.inventory_sorting]
 		"Enable Player Inventory" = true
@@ -519,6 +526,8 @@
 		"Add To Wandering Trader Rare" = false
 		"Draw Hud" = true
 		"Hud On Top" = false
+		#Allows retrying after a pathfinder quill fails to find a biome nearby. Turn off if you think its op
+		"Allow Retrying" = true
 
 [tweaks]
 	"Compasses Work Everywhere" = true
@@ -561,6 +570,7 @@
 	"Double Door Opening" = true
 	"Dyeable Item Frames" = true
 	"Diamond Repair" = true
+	"Map Washing" = true
 
 	[tweaks.compasses_work_everywhere]
 		"Enable Compass Nerf" = true
@@ -588,6 +598,8 @@
 		"Pet All Mobs" = false
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
+		#Even if `petAllMobs` is not set, these mobs can be pet
+		"Pettable Allowlist" = []
 
 	[tweaks.automatic_recipe_unlock]
 		#A list of recipe names that should NOT be added in by default
@@ -662,14 +674,18 @@
 		#Which blocks should right click harvesting simulate a click on instead of breaking?
 		#This is for blocks like sweet berry bushes, which have right click harvesting built in.
 		"Right Clickable Blocks" = ["minecraft:sweet_berry_bush", "minecraft:cave_vines"]
+		#Should villagers use simple harvest instead of breaking crops?
+		"Villagers Use Simple Harvest" = true
 
 	[tweaks.gold_tools_have_fortune]
 		#Allowed values: [0,)
 		"Fortune Level" = 2
 		#Allowed values: [0,4]
 		"Harvest Level" = 2
-		"Display Fortune In Tooltip" = true
 		"Italic Tooltip" = true
+		"Display Baked Enchantments In Tooltip" = true
+		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
+		"Baked Enchantments" = []
 
 	[tweaks.enhanced_ladders]
 		#Allowed values: (,0]
@@ -751,6 +767,12 @@
 		"Unrepairable Items" = []
 		"Enable Jei Hints" = true
 
+	[tweaks.hoe_harvesting]
+		#Allowed values: [1,5]
+		"Regular Hoe Radius" = 2
+		#Allowed values: [1,5]
+		"High Tier Hoe Radius" = 3
+
 [world]
 	"Monster Box" = true
 	"Spiral Spires" = true
@@ -778,6 +800,7 @@
 		"Enable Extra Loot Table" = true
 		#How many blocks to search vertically from a position before trying to place a block. Higher means you'll get more boxes in open spaces.
 		"Search Range" = 15
+		"Activation Range" = 2.5
 
 		[world.monster_box.dimensions]
 			"Is Blacklist" = false
@@ -1370,7 +1393,7 @@
 					"Is Blacklist" = false
 
 	[mobs.forgotten]
-		#1 in this many Skeletons that spawn under the threshold are replaced with Forgotten.
+		#This is the probability of a Skeleton that spawns under the height threshold being replaced with a Forgotten.
 		"Forgotten Spawn Rate" = 0.05
 		"Max Height For Spawn" = 0
 
@@ -1485,7 +1508,9 @@
 
 	[mobs.crabs]
 		"Enable Brewing" = true
-		"Enable Resillience Effect" = true
+		#Whether Resilience should be required for 'How Did We Get Here?' and (if brewing is enabled) 'A Furious Cocktail'.
+		#Keep this on when brewing is disabled if your pack adds an alternative source for the effect.
+		"Resilience Required For All Effects" = true
 
 		[mobs.crabs.spawn_config]
 			#Allowed values: (0,)
@@ -1652,6 +1677,8 @@
 		"Disable Piston Physics Exploits" = true
 		"Non Griefing Entities" = ["minecraft:creeper", "minecraft:enderman"]
 		"Elytra Allowed Dimensions" = ["minecraft:the_end"]
+		#Fixes mushroom growth being able to replace blocks
+		"Disable Mushroom Block Removal" = true
 
 	[experimental.enchantments_begone]
 		"Enchantments To Begone" = []
