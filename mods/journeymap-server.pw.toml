@@ -1,0 +1,13 @@
+name = "JourneyMap Server"
+filename = "JourneymapServer_Bukkit_MC-1.16.jar"
+side = "server"
+
+[download]
+hash-format = "sha1"
+hash = "e1da43ceed2e8b883478d8e98135629f37edc0bb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3214620
+project-id = 225341

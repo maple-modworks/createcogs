@@ -9,7 +9,7 @@ mode = "metadata:curseforge"
 
 [option]
 optional = true
-default = false
+default = true
 
 [update]
 [update.curseforge]
