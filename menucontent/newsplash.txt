@@ -9,7 +9,7 @@ Reticulating splines!
 Minecraft!
 Multiplayer!
 Keyboard compatible!
-Controller compatible!
+(not) Controller compatible!
 Create!
 Cogs!
 Not on Steam!
@@ -22,10 +22,12 @@ Technically good!
 Try it!
 Play him off, keyboard cat!
 Random splash!
+Random crash!
 Loved by dozens!
 All inclusive!
 Tell your friends!
 Music by C418!
+Logo by NBeeMC!
 Full of cogs!
 Collaborate and listen!
 Take frequent breaks!
@@ -61,16 +63,16 @@ Feature packed!
 Does barrel rolls!
 §1C§2o§3l§4o§5r§6m§7a§8t§9i§ac
 §kFUNKY LOL
-I have a suggestion.
+I have a suggestion!
 pls rt
 Now with additional stuff!
 /give @a hugs 64
 Any computer is a laptop if you're brave enough!
 Do it all, everything!
-Trains FTW
-The true meaning of covfefe
+Trains FTW!
+The true meaning of covfefe!
 Something funny!
-4 seasons of Mining and Crafting!
+5 seasons of Mining and Crafting!
 Ping the human!
 Not vanilla!
 [this splash text is now available]
@@ -103,7 +105,7 @@ ROLLBACK!
 Why can I speak here?
 @everyone!
 Hosted by Bisect!
-100% more Canadian
+100% more Canadian!
 Who's in the end?
 Too many trains, not enough tracks!
 Day 1 dragon fight!
@@ -114,6 +116,7 @@ The cog is a lie!
 Oops!
 /bump
 Replaced the magic with machinery!
+Replaced the machinery with magic!
 24 steam engines and counting!
 BEHOLD! My server-crash-inator!
 Alt+F4!
@@ -133,7 +136,6 @@ Running 5145ms or 102 ticks behind!
 It's outside the world border!
 Giant pair!
 Sleep please!
-Try the axolottery!
 Don't pick up the corpses!
 Now with less rubberbanding!
 Now with more rubberbanding!
@@ -160,3 +162,12 @@ I forgot something!
 Illegal items!
 Why is the entire server at my base?
 Building a spawn station!
+Lake of suspicious fluid!
+Dead server!
+All rights reserved!
+This splash text is hard to read at the default game resolution, but at 1080p its fine!
+Gaming activated!
+Don't poke the turrets!
+Server started!
+Server stopped!
+i hate this server >:(

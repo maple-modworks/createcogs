@@ -10,7 +10,6 @@ mode = "metadata:curseforge"
 [option]
 optional = true
 default = true
-description = "Recommended. JourneyMap is required if this mod is enabled otherwise the game will crash"
 
 [update]
 [update.curseforge]

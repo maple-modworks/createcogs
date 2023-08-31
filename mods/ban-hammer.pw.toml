@@ -1,13 +1,13 @@
 name = "Ban Hammer"
-filename = "banhammer-2.1.jar"
+filename = "banhammer-2.1a.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "23a7f97fbaa38b6b59f68d93739c4e1c36e4ca4b"
+hash = "7c640b7bb0179329788a4d28caacff2d93b58888"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4684432
+file-id = 4723651
 project-id = 818210

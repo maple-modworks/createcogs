@@ -110,7 +110,7 @@ customization {
   orientation = top-left
   hidden = false
   x = 2
-  width = 109
+  width = 108
   action = deep_customization_element:title_screen_branding
   actionid = 9dd2d03d-4fd8-452b-98cc-af82757a437d1691173363144
   y = 318
@@ -120,8 +120,8 @@ customization {
 customization {
   orientation = top-left
   hidden = false
-  x = 406
-  width = 233
+  x = 411
+  width = 228
   action = deep_customization_element:title_screen_forge_copyright
   actionid = 4f41e42c-2941-45c7-a8d5-0ed4b29a97921691173363145
   y = 340
@@ -160,7 +160,7 @@ customization {
   action = deep_customization_element:title_screen_splash
   actionid = c5c856a6-c26f-4a7c-812e-3943cee1e5281691173363146
   y = 101
-  splash_file_path = menucontent/betasplash.txt
+  splash_file_path = menucontent/newsplash.txt
   height = 30
 }
 
@@ -263,17 +263,6 @@ customization {
 }
 
 customization {
-  path = menucontent/logo5beta.png
-  orientation = top-centered
-  x = -136
-  width = 272
-  action = addtexture
-  actionid = 66853962-7f9a-4515-93db-4795b002ea671691183074015
-  y = 18
-  height = 55
-}
-
-customization {
   orientation = mid-centered
   enable_scrolling = true
   shadow = true
@@ -290,5 +279,16 @@ customization {
   y = 66
   alignment = centered
   height = 23
+}
+
+customization {
+  path = menucontent/logoseason5.gif
+  orientation = top-centered
+  x = -134
+  width = 269
+  action = addtexture
+  actionid = 835c6ad7-1dd4-428f-9f5f-58952c9c6cbb1692891587057
+  y = 17
+  height = 57
 }
 

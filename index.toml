@@ -86,7 +86,7 @@ hash = "716925cf1fd06d3d981aac5adbdc7a84dae30dbb64b17b0c25a8f739be01883d"
 
 [[files]]
 file = "config/byg/backups/last_working_configs_backup.zip"
-hash = "d5648461677e5848c422c8b969282b655230dfc7fc58abec2088087df3d9e429"
+hash = "de42172983cc65c1b590fdbe652744f1fd3b085cf570c0e28f5dc3973652ec39"
 
 [[files]]
 file = "config/byg/biomepedia.json5"
@@ -237,6 +237,10 @@ file = "config/byg/trades.json5"
 hash = "eabbf1ce6afd0ec08309e2179684ce04994df3893ff0b68315c70a2821dfd14b"
 
 [[files]]
+file = "config/canary.properties"
+hash = "a37eb7f218ab61f3277a103a85c5bd14ff0abe0dff94e17883bcbb5ea28a3855"
+
+[[files]]
 file = "config/carryon-client.toml"
 hash = "eb247bd22d2ae144c4cb1a2f24862e6aeb1467167d36112258ad36b6da0597db"
 
@@ -366,7 +370,7 @@ hash = "2355434b98f707e1d4c4d914fb38458b72cbe7e66fe2656696a9acd78f4a3ffd"
 
 [[files]]
 file = "config/fancymenu/customization/s5menu.txt"
-hash = "7e39c218dd578a7be012dd72bfded9f146e84e7d599ab43944ffda617e48f1ae"
+hash = "5b69e8a83eacca3f09beee213e85a7b6eea16744417ac8a24742e977726db57a"
 
 [[files]]
 file = "config/fancymenu/locals/de_de.local"
@@ -498,7 +502,7 @@ hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "config/jei/ingredient-list-mod-sort-order.ini"
-hash = "7f2aec73a37ff6b1868861be48ae1997f4b59b39a4baea608b1243f0898421bb"
+hash = "361fc1e17666cc9673d8688794fbf9fa7ab7b4306f783a0ea4b997d5cad5fc20"
 
 [[files]]
 file = "config/jei/ingredient-list-type-sort-order.ini"
@@ -522,7 +526,7 @@ hash = "34eb990ae2cf62220a0d1be95629bcac46e6732f1cd6f7b6fdc54bcae02916e5"
 
 [[files]]
 file = "config/jei/recipe-category-sort-order.ini"
-hash = "cb584816a04f6f5f43f1d83a92f0f379a746da9a6c20c3560c2441ea09dcf518"
+hash = "423687228149427696bc2e0ff6eb1b924e3487be352a06fe7f00e8a918e615f0"
 
 [[files]]
 file = "config/jei/world/local/spawn_prototyping/bookmarks.ini"
@@ -569,8 +573,16 @@ file = "config/mc2discord.toml"
 hash = "da0e27e43f3e841877ccfc2a81162d51fd749c3419c8f78b17d5613570b54bbf"
 
 [[files]]
+file = "config/mighty_mail.server.toml"
+hash = "316b66df11e0c4c8e1722670ab19b19be769d411625d1eeb34e99452c0a6724e"
+
+[[files]]
 file = "config/openloader/advanced_options.json"
 hash = "97c64147276f55cad728249dd77602661e2327fa178aeb8e0db12866df448211"
+
+[[files]]
+file = "config/openloader/data/CCSMP_datapack.zip"
+hash = "9401111a91c065d8af951919172d982338ae07fb3c6f8e3e62822fd4420367e3"
 
 [[files]]
 file = "config/openloader/resources/Create Computers 1.2.zip"
@@ -634,11 +646,11 @@ hash = "b642bd085b91cfe4c5783d2eea43eabf3e4a3a7d7c16532af2e7aff31b339ffc"
 
 [[files]]
 file = "config/railways-client.toml"
-hash = "7a8828ce6749cbe3121b411092909db4f91098d43f331fc71a5ecd82429577e3"
+hash = "728970d9db55f24f9d2114043aea95e0a0e8b12f99e0483448a67614617bda35"
 
 [[files]]
 file = "config/railways-common.toml"
-hash = "1532b9d02a64df321de8c4bbd25baa71f76f698b10a7ba40b67d8a6a26314821"
+hash = "21c453755d2e09ad11e46e9908174019f5e11d85121dfffde7072261cd96d8fa"
 
 [[files]]
 file = "config/rubidium-mixins.properties"
@@ -710,15 +722,19 @@ hash = "fa6289d20eb83d6382a2809607e6dcf26f2791fe66a19b063aed5485e1fa55d9"
 
 [[files]]
 file = "config/voicechat/voicechat-client.properties"
-hash = "07028ac2d8d4474d2ea27ddefa8e4d183e31961b1731edbb204dc549b01e5644"
+hash = "074411c7e9c356dc6c7a8fe96cc96f019b2eed6fe82fa2715928787a53ece3e0"
 
 [[files]]
 file = "config/voicechat/voicechat-server.properties"
-hash = "9973fbf3d8671bcb1ca683fb63f5b351851383c47a4d81f650dd1fd746bd6701"
+hash = "04e426cc1795d2be60d3c3ace12ffd45c4939714156c77ae660f0d43e55bc49e"
 
 [[files]]
 file = "config/voicechat/voicechat-volumes.properties"
 hash = "58242ef3075b166845e0081281b01113a55b9d095104a68b167e7b4bc08b87c5"
+
+[[files]]
+file = "config/worldedit/worldedit.properties"
+hash = "9e92f220b50308a7182912dc58c8156331dadf8e8650f2d238b57f66b3d47dd7"
 
 [[files]]
 file = "config/xaerominimap.txt"
@@ -762,7 +778,7 @@ hash = "8836d82b8a65fd2542e416da62d078eb4029f55742e321abb89defbfef8c6348"
 
 [[files]]
 file = "menucontent/newsplash.txt"
-hash = "4da003c3eeb7014ea3e7c1b3e1046e3ba242542501fcf967a65a14e0ad8284e8"
+hash = "52b17e066ef460ba7cfa05be80c9c14f1aa45b3b7e13083500df1b0662d63d9d"
 
 [[files]]
 file = "menucontent/offline.png"
@@ -801,6 +817,11 @@ hash = "90531cc917cf6b1c60da8a86468b02a74fdfdc2a12c94e47cee58390ce716ca0"
 metafile = true
 
 [[files]]
+file = "mods/appleskin.pw.toml"
+hash = "1be3c626f8c8e445e57444f2559dc590edafc75b6c8c18d4599703dbc614a7e8"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "e81baa549b913cf7d30a730d18846ff41aa833928328e3e1f2ec0686d815cd47"
 metafile = true
@@ -822,12 +843,12 @@ metafile = true
 
 [[files]]
 file = "mods/ban-hammer.pw.toml"
-hash = "7d0e9ac4ad3b5b63e2fbe472a914e154a784ea0a282f47a1391cc2bb26e55272"
+hash = "bdbf28fe83d092f5b5af226d5dfffbf99f959276624c5d4d5c93c302e857ab18"
 metafile = true
 
 [[files]]
 file = "mods/ban-hammer.pw.toml"
-hash = "7d0e9ac4ad3b5b63e2fbe472a914e154a784ea0a282f47a1391cc2bb26e55272"
+hash = "bdbf28fe83d092f5b5af226d5dfffbf99f959276624c5d4d5c93c302e857ab18"
 metafile = true
 
 [[files]]
@@ -883,6 +904,16 @@ metafile = true
 [[files]]
 file = "mods/botany-trees.pw.toml"
 hash = "6a620957dd6c48b36b287653aab063ada33f7644ecc3dcad6d264e55fffc5dd3"
+metafile = true
+
+[[files]]
+file = "mods/brewin-and-chewin.pw.toml"
+hash = "4b77a0ebc231a20fd3e2a9c7eca190353dbe00cdc13230e695edb2f5749278b7"
+metafile = true
+
+[[files]]
+file = "mods/canary.pw.toml"
+hash = "d08052537a462b55988c05615626eb7ad3b59262a7f62fd4e08e774b8d45ebe7"
 metafile = true
 
 [[files]]
@@ -942,7 +973,7 @@ metafile = true
 
 [[files]]
 file = "mods/compressedcreativity.pw.toml"
-hash = "7fbbc7095d5352234fb13de96975a49f5d568fe6ddfedebba4c0c66408623d4b"
+hash = "a840f125eb801e899c969ae883619e0de201ebaf600b372e0ae1bad10ea36edd"
 metafile = true
 
 [[files]]
@@ -1016,6 +1047,11 @@ hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
 metafile = true
 
 [[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "384e19fe8d3eaf385cf77d12221f99df67d6a47bd107eaa426fce8f97fd0885d"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "a816f66a89ae147f1eec455cdf67816aa6de6900c74fe00a8cd86ab34bcc773d"
 metafile = true
@@ -1027,22 +1063,22 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "6947155bf1ded4ed97e11e0c5b113266d706612f3b986adb297ec890681d881c"
+hash = "5e495cd602724c6872dbab5c377202e544e2ce9d43fdf179916f0fa1f37937a8"
 metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "6947155bf1ded4ed97e11e0c5b113266d706612f3b986adb297ec890681d881c"
+hash = "5e495cd602724c6872dbab5c377202e544e2ce9d43fdf179916f0fa1f37937a8"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "89bf28ca15640301ff8cf651ccbcae3047cbaf6af30797f739bfa45d1f2299ce"
+hash = "c0c8819595b27c1aff854c8570acc3fe87dd42d88d8219e7abdd4781257d6ac2"
 metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "89bf28ca15640301ff8cf651ccbcae3047cbaf6af30797f739bfa45d1f2299ce"
+hash = "c0c8819595b27c1aff854c8570acc3fe87dd42d88d8219e7abdd4781257d6ac2"
 metafile = true
 
 [[files]]
@@ -1202,7 +1238,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
-hash = "d1a1c490a15692317bc5c82229ff94bb7a3572ec5397611ce2a8207929dbfdea"
+hash = "a2bf4a3e4727d701ccbc326c06769619dc8caf7b12424e6f8c1fae1fa26a16c4"
 metafile = true
 
 [[files]]
@@ -1282,7 +1318,7 @@ metafile = true
 
 [[files]]
 file = "mods/journeymap-integration.pw.toml"
-hash = "3e1bb5dc210bcb3089e4aaa8453079d9b01f74cbeb49dc5680250c6e52a4d7a3"
+hash = "377d89e172b19d1921994ea8d19dcca07d126457d6603d32d4031b18c4dc50cf"
 metafile = true
 
 [[files]]
@@ -1387,7 +1423,7 @@ metafile = true
 
 [[files]]
 file = "mods/mighty-mail.pw.toml"
-hash = "0b427eb7ae63c2236d7d9188bf6b1b23b12263adc6182fa14a86fc92a92fc3a6"
+hash = "8911fae07710b2f91513251e923f2adc9fc2987dc58aa09bf3ecc713e7197243"
 metafile = true
 
 [[files]]
@@ -1512,17 +1548,17 @@ metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "a6a6b845c24fb3ed54f1d7410adbc0a62a676ed64b519ee23cb8a3c96e6998c7"
 metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "a6a6b845c24fb3ed54f1d7410adbc0a62a676ed64b519ee23cb8a3c96e6998c7"
 metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "41aa77632a5ed56e02b6c66ecc8c2996d8738e8a6c8acbbdc3973a2547ac570c"
+hash = "a6a6b845c24fb3ed54f1d7410adbc0a62a676ed64b519ee23cb8a3c96e6998c7"
 metafile = true
 
 [[files]]
@@ -1557,17 +1593,17 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "7003ed1f79ccaacb6ec3dc8d69422ff8b7821b4a294f92a307ab2a83924b2642"
+hash = "9dfd5cc227783e40cf507dcb06d6cca0b8c632bdc5e26a5ff9d3d419ed88021e"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "7003ed1f79ccaacb6ec3dc8d69422ff8b7821b4a294f92a307ab2a83924b2642"
+hash = "9dfd5cc227783e40cf507dcb06d6cca0b8c632bdc5e26a5ff9d3d419ed88021e"
 metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "7003ed1f79ccaacb6ec3dc8d69422ff8b7821b4a294f92a307ab2a83924b2642"
+hash = "9dfd5cc227783e40cf507dcb06d6cca0b8c632bdc5e26a5ff9d3d419ed88021e"
 metafile = true
 
 [[files]]
@@ -1583,6 +1619,11 @@ metafile = true
 [[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "f09b8dd9df72e507cbeb70119bd9c1c41cafde5e4806b7205ba82219591187e7"
+metafile = true
+
+[[files]]
+file = "mods/spice-of-life-apple-pie-edition.pw.toml"
+hash = "e960256f2e7c283d2c643dee4585e23a6b7e188e12911646070024268e232b07"
 metafile = true
 
 [[files]]
@@ -1642,22 +1683,22 @@ metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "5620901463d47300b4ceba59964a85f64def1a7010616584d246570055b7123b"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "5620901463d47300b4ceba59964a85f64def1a7010616584d246570055b7123b"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "5620901463d47300b4ceba59964a85f64def1a7010616584d246570055b7123b"
 metafile = true
 
 [[files]]
 file = "mods/textrues-rubidium-options.pw.toml"
-hash = "b356d99b4c7b4b3362513d50126c95d5d8ef798035b08cb5881066b32f0b1018"
+hash = "5620901463d47300b4ceba59964a85f64def1a7010616584d246570055b7123b"
 metafile = true
 
 [[files]]
@@ -1688,6 +1729,16 @@ metafile = true
 [[files]]
 file = "mods/travelers-backpack.pw.toml"
 hash = "0d1d1f944b8495d1b47f75cdbc2882f9e6402a4828b0ef54f36a6c4b94a1206e"
+metafile = true
+
+[[files]]
+file = "mods/vanishmod.pw.toml"
+hash = "71546f000c772a823042d92a3769d6093f538ce6b7c49d52080cfaf08c71db45"
+metafile = true
+
+[[files]]
+file = "mods/worldedit.pw.toml"
+hash = "719da66ac6adbf00ace4a021f1bfcd6aca271b16caa40629de9e73a79b844905"
 metafile = true
 
 [[files]]
