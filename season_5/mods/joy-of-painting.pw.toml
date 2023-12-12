@@ -1,0 +1,13 @@
+name = "Joy of Painting"
+filename = "xercapaint-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8b22e4368a1fe117f27ed13bece4f7541e49496b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4119466
+project-id = 350727

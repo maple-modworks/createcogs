@@ -1,0 +1,17 @@
+name = "Loot Beams"
+filename = "lootbeams-1.19.2-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cdb89f33bbf4944304b8c798f85a7d892b94f9b0"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
+
+[update]
+[update.curseforge]
+file-id = 4667868
+project-id = 506757
