@@ -6,8 +6,18 @@ hash = "8c8f8222d0a2c3e1f673b137637b17bd87535b0aad111d79e242f18af48d0169"
 metafile = true
 
 [[files]]
+file = "mods/autoreglib.pw.toml"
+hash = "93e1dd0ac54ad216cf4ee82e5ab12a7de23d7cdfe7a27eb0b0c168a1c939db4a"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
+metafile = true
+
+[[files]]
+file = "mods/ban-hammer.pw.toml"
+hash = "bdbf28fe83d092f5b5af226d5dfffbf99f959276624c5d4d5c93c302e857ab18"
 metafile = true
 
 [[files]]
