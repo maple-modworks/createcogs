@@ -1,0 +1,13 @@
+name = "Valkyrien Skies"
+filename = "valkyrienskies-119-2.1.2-beta.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/V5ujR2yw/versions/DAAedhhu/valkyrienskies-119-2.1.2-beta.1.jar"
+hash-format = "sha1"
+hash = "6cba2c58f8d20f91b1a5d5946a51939226d901b6"
+
+[update]
+[update.modrinth]
+mod-id = "V5ujR2yw"
+version = "DAAedhhu"

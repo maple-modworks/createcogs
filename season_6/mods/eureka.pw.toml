@@ -1,0 +1,13 @@
+name = "Eureka!"
+filename = "eureka-1192-1.2.0-beta.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/EO8aSHxh/versions/oN3JaHEJ/eureka-1192-1.2.0-beta.2.jar"
+hash-format = "sha1"
+hash = "660d19e444b32062585c31f0f1f3d01da0c5de33"
+
+[update]
+[update.modrinth]
+mod-id = "EO8aSHxh"
+version = "oN3JaHEJ"
