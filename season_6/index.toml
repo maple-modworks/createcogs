@@ -11,6 +11,11 @@ hash = "7b33ce740230efe79e8214a5204694e13b5af7d61e6f40bbffa097a637fd2789"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "e84904ac0f90c6534790baba7e3b8d74905113732164bff5b2ce143df6336065"
 metafile = true
@@ -53,6 +58,11 @@ metafile = true
 [[files]]
 file = "mods/interactive.pw.toml"
 hash = "f61c87f54714542ab5ff4674b035cc50480708f0c4664400ab35a9125026fb73"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "34beff832b98f209ac50078a6901688c2f1318739c3ebb242ee31d00e2409d3a"
 metafile = true
 
 [[files]]
