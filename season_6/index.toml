@@ -16,6 +16,11 @@ hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
 metafile = true
 
 [[files]]
+file = "mods/controlling.pw.toml"
+hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "e84904ac0f90c6534790baba7e3b8d74905113732164bff5b2ce143df6336065"
 metafile = true
@@ -28,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "c0237aeac864e47c8e55d4dad9f37cd3c81e2314f2af279337c3cb562800a158"
+metafile = true
+
+[[files]]
+file = "mods/custom-player-models.pw.toml"
+hash = "64fbf7f3ff54ea10936af6188943295d6ce1d6d9375eb23a8e8d38e108fd4a7d"
 metafile = true
 
 [[files]]
@@ -73,6 +83,16 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "94d853ec0def62adb527aee046f2c4a32127076c2995ea5c29553534544e1c35"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "6c5e1d646bee1575bd994996b4428e0fe16c6a0bfc0fbab5c6fa0c8c35547863"
+metafile = true
+
+[[files]]
+file = "mods/quark.pw.toml"
+hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
 metafile = true
 
 [[files]]
