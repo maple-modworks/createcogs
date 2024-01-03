@@ -21,6 +21,11 @@ hash = "bdbf28fe83d092f5b5af226d5dfffbf99f959276624c5d4d5c93c302e857ab18"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "3094a52897889217e37bf772fa43727fc4a7f81d0dc9a5e25be933630192bcbb"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
 metafile = true
@@ -28,6 +33,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
+metafile = true
+
+[[files]]
+file = "mods/crafttweaker.pw.toml"
+hash = "bb425e335adf19b8a6ff2f9f96e62e5121c9a4b732032394decf31d677c46c29"
 metafile = true
 
 [[files]]
@@ -51,6 +61,11 @@ hash = "64fbf7f3ff54ea10936af6188943295d6ce1d6d9375eb23a8e8d38e108fd4a7d"
 metafile = true
 
 [[files]]
+file = "mods/dynamictrees.pw.toml"
+hash = "3c50915c521dfd8a1a4f3b4657a5f3cf4fad481c2616630f5253bcd4ea43a373"
+metafile = true
+
+[[files]]
 file = "mods/essential-mod.pw.toml"
 hash = "1b8dff7de7031c38c92a67fcb9e9d458741ce994c2c068021109c5508a6ad8cf"
 metafile = true
@@ -58,6 +73,11 @@ metafile = true
 [[files]]
 file = "mods/eureka.pw.toml"
 hash = "36de055c8653378b3d28c7e48bbc7f9d21404641d5b8ed06278fd4aac2ef1739"
+metafile = true
+
+[[files]]
+file = "mods/framework.pw.toml"
+hash = "6a75531ac880801549171a165149a721c05aa50256fe4b860672c3f7bd61861e"
 metafile = true
 
 [[files]]
@@ -71,13 +91,33 @@ hash = "879813604dd833f793d6d362c6b8a13ce35bf41da13d921b1e4e6c67813ceace"
 metafile = true
 
 [[files]]
+file = "mods/ftb-quests-forge.pw.toml"
+hash = "cc6791c6d7a2cf2f2752e90e4301851cdfcb3e38f37b79b7b4577b06cdaa4e06"
+metafile = true
+
+[[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
 metafile = true
 
 [[files]]
+file = "mods/game-stages.pw.toml"
+hash = "0e520e0110faa5b2c240a154021e060226275ab0cf8748493a4c85d1545a4adc"
+metafile = true
+
+[[files]]
 file = "mods/interactive.pw.toml"
 hash = "f61c87f54714542ab5ff4674b035cc50480708f0c4664400ab35a9125026fb73"
+metafile = true
+
+[[files]]
+file = "mods/item-filters.pw.toml"
+hash = "e00e666fc6f0726fcca0f74f9252ba4b1022326ee65433b5aaa08bcd14f4390b"
+metafile = true
+
+[[files]]
+file = "mods/item-stages.pw.toml"
+hash = "210020f6e3418f4d2c9cdae6aa7d3ea459a31826b6a6e3df241b9a251dd57dee"
 metafile = true
 
 [[files]]
@@ -96,8 +136,23 @@ hash = "94d853ec0def62adb527aee046f2c4a32127076c2995ea5c29553534544e1c35"
 metafile = true
 
 [[files]]
+file = "mods/mighty-mail.pw.toml"
+hash = "a8d361c26d196e6f6bda0005a189bfe4eed50338462e662ab26764f64c89905a"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6c5e1d646bee1575bd994996b4428e0fe16c6a0bfc0fbab5c6fa0c8c35547863"
+metafile = true
+
+[[files]]
+file = "mods/patchouli.pw.toml"
+hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
+metafile = true
+
+[[files]]
+file = "mods/pneumaticcraft-repressurized.pw.toml"
+hash = "da9c3f273924b1ac31bc40d92ecc14c009188d43c70302910128a7296a9a930b"
 metafile = true
 
 [[files]]

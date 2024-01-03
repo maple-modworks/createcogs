@@ -1,0 +1,13 @@
+name = "Game Stages"
+filename = "GameStages-Forge-1.19.2-11.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "89962c946ff5db7eeebb7aef78f76e9369e86700"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4396244
+project-id = 268655
