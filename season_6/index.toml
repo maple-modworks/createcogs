@@ -26,6 +26,16 @@ hash = "3094a52897889217e37bf772fa43727fc4a7f81d0dc9a5e25be933630192bcbb"
 metafile = true
 
 [[files]]
+file = "mods/botany-pots.pw.toml"
+hash = "494a966f1c25bdf5e655e7a8527deda7f9e5fce68ebf83f284fb68c1158559fd"
+metafile = true
+
+[[files]]
+file = "mods/botany-trees.pw.toml"
+hash = "6b32bfc0813e786528b1f136d7b02a0a9eb622a3eb0e9f1683814e14db9aabb8"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
 metafile = true
@@ -101,6 +111,11 @@ hash = "c0405f2f156703f6c5a181c18e96dfdbad8760c04ff3be8c088853c7b14572df"
 metafile = true
 
 [[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "c22da7e12c88c9069eaf42ea3a04b78fb52ecd42e2ff12f167dcda67ffb13244"
+metafile = true
+
+[[files]]
 file = "mods/game-stages.pw.toml"
 hash = "0e520e0110faa5b2c240a154021e060226275ab0cf8748493a4c85d1545a4adc"
 metafile = true
@@ -146,6 +161,11 @@ hash = "6c5e1d646bee1575bd994996b4428e0fe16c6a0bfc0fbab5c6fa0c8c35547863"
 metafile = true
 
 [[files]]
+file = "mods/mutil.pw.toml"
+hash = "5e2479056133260ff0d3f29f1378567eda68762007f090ceb1839e4a59742885"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
 metafile = true
@@ -158,6 +178,16 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
+metafile = true
+
+[[files]]
+file = "mods/tetra.pw.toml"
+hash = "e4985d5bacaa77dba02140abe50a0c07e2fd31f877a4f23fb246c91dab02c7e9"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "cc1f850044950f528a8cced0a92275a8b5d526dcb005f20385f4ad4213dc7c85"
 metafile = true
 
 [[files]]
