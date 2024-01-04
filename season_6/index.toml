@@ -21,6 +21,11 @@ hash = "bdbf28fe83d092f5b5af226d5dfffbf99f959276624c5d4d5c93c302e857ab18"
 metafile = true
 
 [[files]]
+file = "mods/blueprint.pw.toml"
+hash = "079bdd15fe839b3937ae6f75e421c9d72e170374497055858d7265100a50fd48"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "3094a52897889217e37bf772fa43727fc4a7f81d0dc9a5e25be933630192bcbb"
 metafile = true
@@ -51,6 +56,11 @@ hash = "bb425e335adf19b8a6ff2f9f96e62e5121c9a4b732032394decf31d677c46c29"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "e84904ac0f90c6534790baba7e3b8d74905113732164bff5b2ce143df6336065"
 metafile = true
@@ -71,6 +81,11 @@ hash = "64fbf7f3ff54ea10936af6188943295d6ce1d6d9375eb23a8e8d38e108fd4a7d"
 metafile = true
 
 [[files]]
+file = "mods/daves-building-extended.pw.toml"
+hash = "f06cf0f8275bb8a139b78c605c8d335f30b2b1709000a32ab8a6b7c735938920"
+metafile = true
+
+[[files]]
 file = "mods/dynamictrees.pw.toml"
 hash = "3c50915c521dfd8a1a4f3b4657a5f3cf4fad481c2616630f5253bcd4ea43a373"
 metafile = true
@@ -78,6 +93,11 @@ metafile = true
 [[files]]
 file = "mods/essential-mod.pw.toml"
 hash = "1b8dff7de7031c38c92a67fcb9e9d458741ce994c2c068021109c5508a6ad8cf"
+metafile = true
+
+[[files]]
+file = "mods/etched.pw.toml"
+hash = "dbbe67c11acd1cb11cd80dd8150d54a423033c9f386ae8cd7ec376e4a9f48614"
 metafile = true
 
 [[files]]
@@ -136,6 +156,11 @@ hash = "210020f6e3418f4d2c9cdae6aa7d3ea459a31826b6a6e3df241b9a251dd57dee"
 metafile = true
 
 [[files]]
+file = "mods/jade.pw.toml"
+hash = "2857b1737b8debe4430c17f7f4fe75901710d9ddf5dc946777c6e8f219d595ed"
+metafile = true
+
+[[files]]
 file = "mods/jei.pw.toml"
 hash = "34beff832b98f209ac50078a6901688c2f1318739c3ebb242ee31d00e2409d3a"
 metafile = true
@@ -171,8 +196,18 @@ hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
 metafile = true
 
 [[files]]
+file = "mods/personality.pw.toml"
+hash = "34eaa62a613a766bd8369cc85683bb679014cbcb5852bccbb94ea8bcd993b5e4"
+metafile = true
+
+[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "da9c3f273924b1ac31bc40d92ecc14c009188d43c70302910128a7296a9a930b"
+metafile = true
+
+[[files]]
+file = "mods/pollen.pw.toml"
+hash = "ae6d9d8911efa59aaa1cddfc8fae86fd7937bb898784c14c17e3dd60ed4b7283"
 metafile = true
 
 [[files]]
