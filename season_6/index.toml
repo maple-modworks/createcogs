@@ -151,11 +151,6 @@ hash = "0e520e0110faa5b2c240a154021e060226275ab0cf8748493a4c85d1545a4adc"
 metafile = true
 
 [[files]]
-file = "mods/interactive.pw.toml"
-hash = "f61c87f54714542ab5ff4674b035cc50480708f0c4664400ab35a9125026fb73"
-metafile = true
-
-[[files]]
 file = "mods/item-filters.pw.toml"
 hash = "e00e666fc6f0726fcca0f74f9252ba4b1022326ee65433b5aaa08bcd14f4390b"
 metafile = true
@@ -203,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/patchouli.pw.toml"
 hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
+metafile = true
+
+[[files]]
+file = "mods/pehkui.pw.toml"
+hash = "c2301f543802a4244493885e5e3f9fa15f1d1a37e5f8e31ce2b1193d268687e7"
 metafile = true
 
 [[files]]
