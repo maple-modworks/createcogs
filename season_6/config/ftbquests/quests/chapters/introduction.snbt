@@ -10,10 +10,17 @@
 		{
 			description: [
 				"Make sure you read the rules"
-				"&1[INSERT RULES LINK HERE]&r"
+				"&3createcogs.herrkatze.com/rules&r"
 			]
 			id: "7EDA811B7F1E8446"
-			subtitle: "Welcome to Create-Ive Cogs"
+			rewards: [{
+				count: 8
+				id: "4DCE188ACF068BB4"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			size: 1.5d
+			subtitle: "Welcome to Create-Ive Cogs!"
 			tasks: [{
 				id: "7AFF95774BCF7603"
 				title: "Start"
@@ -35,6 +42,12 @@
 				"Crazy_Baby"
 			]
 			id: "0139C182E90C8E0B"
+			rewards: [{
+				count: 8
+				id: "3D1F7B3BC1D5BE7B"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			subtitle: "This is a list of moderators on the server"
 			tasks: [{
 				id: "64A27C3F075AD5EC"
@@ -51,6 +64,12 @@
 				"Report players that break the rules"
 			]
 			id: "708009B5869BEB45"
+			rewards: [{
+				count: 8
+				id: "75A27FC90244C30B"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			subtitle: "Another player is breaking the rules!!"
 			tasks: [{
 				id: "44E8F7A904B2374F"
@@ -64,9 +83,15 @@
 			dependencies: ["7EDA811B7F1E8446"]
 			description: [
 				"To suggest a mod or feature to the server,"
-				"Put your suggestion in #suggestions and tag it properly"
+				"Put your suggestion in &9#suggestions&r and tag it properly"
 			]
 			id: "4E1B23A13D2F9095"
+			rewards: [{
+				count: 8
+				id: "342AE28674035044"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			subtitle: "I want a new feature"
 			tasks: [{
 				id: "215A995372D3A10E"
@@ -84,6 +109,12 @@
 				"#suggestions for other bugs"
 			]
 			id: "3E2092D924692798"
+			rewards: [{
+				count: 8
+				id: "5E5B1B0CBCCC1933"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			subtitle: "EWWW A BUG"
 			tasks: [{
 				id: "07C205E52C657215"

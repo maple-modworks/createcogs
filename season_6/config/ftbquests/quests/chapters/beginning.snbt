@@ -3,6 +3,7 @@
 	default_quest_shape: ""
 	filename: "beginning"
 	group: ""
+	icon: "minecraft:oak_sapling"
 	id: "36DF35588AA32055"
 	order_index: 1
 	quest_links: [{
@@ -18,12 +19,21 @@
 				"You know the drill"
 			]
 			id: "5C1F2C08280E1A83"
-			rewards: [{
-				exclude_from_claim_all: true
-				id: "445CF2EAB49C9D95"
-				table_id: 3335652236733940150L
-				type: "choice"
-			}]
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "445CF2EAB49C9D95"
+					table_id: 3335652236733940150L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "01E40057F3421D72"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			size: 1.5d
 			subtitle: "Just like old times"
 			tasks: [{
 				id: "3134819722224AEB"
@@ -51,6 +61,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
+			subtitle: "Get to work, peasant!"
 			tasks: [{
 				id: "0CEFAC1ACA137536"
 				item: "minecraft:crafting_table"
@@ -69,7 +80,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			subtitle: "HEEEE'REEEE'S JOHNNY"
+			subtitle: "HEEEEREEEE'S JOHNNY!!!"
 			tasks: [{
 				id: "3A0E0AC04354B55D"
 				item: {
@@ -122,6 +133,7 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
+			subtitle: "The beginning of something great!"
 			tasks: [
 				{
 					id: "369457D3A4B5E85A"
@@ -163,6 +175,7 @@
 			dependencies: ["293281F3E13855C3"]
 			description: ["Chests are a good form of storage in the beginning but you are gonna need an upgrade later"]
 			id: "3644A6556A41E6E0"
+			subtitle: "Put that thing away!"
 			tasks: [{
 				id: "4608538B578A30DC"
 				item: {
@@ -176,7 +189,7 @@
 				type: "item"
 			}]
 			title: "Basic Storage"
-			x: -2.5d
+			x: -2.0d
 			y: 4.5d
 		}
 		{
@@ -208,6 +221,7 @@
 				}
 				type: "item"
 			}]
+			subtitle: "I NEED MOAR!"
 			tasks: [
 				{
 					id: "290D674D03B0A3A2"
@@ -254,9 +268,51 @@
 					type: "item"
 				}
 			]
-			title: "All the tools"
+			title: "All the tools!"
 			x: -3.0d
-			y: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3264A03FF0076BF9"]
+			id: "094572076B726BBC"
+			subtitle: "Every miner's dream!"
+			tasks: [{
+				id: "6D199371A3C38870"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "The blue stuff!"
+			x: 2.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63FF9DD51A530633"]
+			description: ["Plant a seed in the ground"]
+			id: "6038CEA7339D98CA"
+			subtitle: "The first step to civilization!"
+			tasks: [{
+				advancement: "minecraft:husbandry/plant_seed"
+				criterion: ""
+				id: "722136A2DD427431"
+				type: "advancement"
+			}]
+			title: "Earth's Best Friend"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6038CEA7339D98CA"]
+			description: ["Craft a Cooking Pot from Farmer's Delight"]
+			id: "2588E533A875528B"
+			subtitle: "Now you're cooking with... something!"
+			tasks: [{
+				id: "22B0863914010DE4"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			title: "Let's Get Cooking!"
+			x: 0.0d
+			y: 4.5d
 		}
 	]
 	title: "Beginning"

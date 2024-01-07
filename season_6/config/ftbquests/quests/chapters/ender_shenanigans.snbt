@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:end_portal_frame"
 	id: "3C6587B5024DC706"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -25,7 +25,7 @@
 				type: "dimension"
 			}]
 			x: 0.0d
-			y: 0.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["5F24CC9F94C5812A"]
@@ -39,6 +39,7 @@
 				title: "Enables Ender Drawers"
 				type: "command"
 			}]
+			subtitle: "YEAH BABY!!!"
 			tasks: [{
 				entity: "minecraft:ender_dragon"
 				icon: "minecraft:dragon_head"
@@ -46,6 +47,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "Kill the Dragon!"
 			x: 0.0d
 			y: 2.5d
 		}
@@ -53,6 +55,7 @@
 			dependencies: ["3E1FA6A9134904D5"]
 			description: ["Find an end city and kill shulkers to get shulker boxes. Elytra are also found here"]
 			id: "438879DE0C2C95B3"
+			subtitle: "Who built these?"
 			tasks: [{
 				icon: "minecraft:shulker_box"
 				id: "25758DACEDEBC64D"
@@ -60,12 +63,13 @@
 				title: "Find an End City"
 				type: "structure"
 			}]
-			x: 0.0d
-			y: 4.5d
+			x: -1.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["438879DE0C2C95B3"]
 			id: "4219B0DD0769C7A9"
+			subtitle: "The beauty of flight!"
 			tasks: [{
 				id: "04C3782A1069522F"
 				item: {
@@ -77,19 +81,37 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: 6.5d
+			x: 0.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["438879DE0C2C95B3"]
+			description: ["Obtain a shulker box by placing two shulker shells around a chest"]
 			id: "14BFF5B262D73E35"
+			subtitle: "Mobile chests!"
 			tasks: [{
 				id: "4F0C54891E8248F6"
 				item: "minecraft:shulker_box"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 6.5d
+			x: -2.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["3E1FA6A9134904D5"]
+			description: [
+				"In the corpse of the dragon, you find a schematic for a device you haven't seen before."
+				"This device seems to store items like a drawer but can also transport them across the world"
+			]
+			id: "24D2F99AAD7312B2"
+			subtitle: "Store it anywhere, store it everywhere!"
+			tasks: [{
+				id: "708D6B9F334FA58F"
+				item: "functionalstorage:ender_drawer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 4.0d
 		}
 	]
 	title: "Ender Shenanigans"

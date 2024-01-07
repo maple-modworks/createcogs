@@ -7,7 +7,16 @@
 	detection_delay: 20
 	disable_gui: false
 	drop_loot_crates: false
-	emergency_items_cooldown: 300
+	emergency_items: [{
+		Count: 1b
+		id: "minecraft:glass"
+		tag: {
+			display: {
+				Name: "{\"text\":\"In Case of Fire, Break Glass\",\"color\":\"red\"}"
+			}
+		}
+	}]
+	emergency_items_cooldown: 120
 	grid_scale: 0.5d
 	lock_message: ""
 	loot_crate_no_drop: {

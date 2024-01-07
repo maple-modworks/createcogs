@@ -6,31 +6,35 @@ hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/admin_items.snbt"
-hash = "bbe797906e0215eba4ccd9a7fe9740b035fd770fcffe3b063132c7540c5f20a7"
+hash = "59ef338538684b665b48cb3da51d64d533834a1e9ac7e23255bcbc388707907c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/beginning.snbt"
-hash = "e803d067b0f341e880798bf2c6f5c43abbfd3cec3cabf06579399c6aa7b9fe90"
+hash = "f0a970dd434c7dfa90af0f79413eac42260a78412c932eb8969265ba691cbbf2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "9ecba31e7468bd9ce0b583337519810df43a08d8c3a38d08f9041683781e60a2"
+hash = "e1e1a59237a86171090add89f5ed51e3c394a27b3df7824edb7976709e750b53"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ender_shenanigans.snbt"
-hash = "2f0c386225c4460fd4e531e1f8b838e2e0a120bb93685acb908c057aa36fd1fa"
+hash = "1741c46e059a2bb974c4431dc6030818ee7e728b022c79dedf346a48d8147ce6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/farming_simulator_69.snbt"
+hash = "d03fa6c79ca643269e4320818ffe26f0d1d722e07203174f9c93cabdf0efd44f"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hell.snbt"
-hash = "ed11fb2e6f5e048e9448b4133ff0f86e230846ecde34b0f69848f3e87840d591"
+hash = "5ecb0cf79b37af5b7dae0ae7accf745cee63b35a00b4f167438ca4e663f234d6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "c0c18b360cc75012196e89aa196961fa173acc51f30587f92bffa87bcda26309"
+hash = "600622f95ac289c0978bdf1d16f0c232129304fbb7d95cf2b4fdf68fb422c726"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "acfb4740ce88359b8d957ff865cfb2c6dbbf3c462ab25237ac5ae09c48359a90"
+hash = "1e37987a43bb586203c5eda26d613100e079d02daa2a01667da0639eee20ee88"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/72712A52DA6FF3A6.snbt"
@@ -43,6 +47,11 @@ hash = "89d83878a6dc52f0413554b75850bdf7581302b9872e249c619903a062833e30"
 [[files]]
 file = "config/gamestages/known_stages.json"
 hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
+
+[[files]]
+file = "mods/advanced-peripherals.pw.toml"
+hash = "1c7b78cb6902d1ce14fcb5cb49fdaff5c09d75d846fe77d2c7b63a12703ab9a1"
+metafile = true
 
 [[files]]
 file = "mods/architectury-api.pw.toml"
