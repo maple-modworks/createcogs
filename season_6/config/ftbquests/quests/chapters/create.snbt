@@ -1,0 +1,337 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	id: "490D0EAC13224DDF"
+	order_index: 3
+	quest_links: [{
+		id: "1C2E05D0A2E314D2"
+		linked_quest: "75B9D8DABDFB570D"
+		x: -2.0d
+		y: 0.0d
+	}]
+	quests: [
+		{
+			dependencies: ["24454E17EFA17EB6"]
+			description: ["The basic material of Create."]
+			id: "3B2ACF4A87F138D3"
+			tasks: [{
+				id: "7C2720FEE6D4FE71"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"3B2ACF4A87F138D3"
+				"75B9D8DABDFB570D"
+			]
+			id: "16621FA4D9F095D7"
+			tasks: [{
+				id: "7701B5DB05F2995F"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["16621FA4D9F095D7"]
+			description: ["The Mechanical Mixer can do many things including making cheaper andesite alloy and potion brewing"]
+			icon: "create:mechanical_mixer"
+			id: "01C75F4B08FAC74C"
+			tasks: [
+				{
+					id: "2A99E86D3237EB55"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "5610DFD0015CBC42"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16621FA4D9F095D7"]
+			id: "345317BEA32E68F3"
+			tasks: [{
+				id: "2B4675F1E408B351"
+				item: "create:mechanical_press"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16621FA4D9F095D7"]
+			id: "4372176BA1E50ED4"
+			tasks: [{
+				id: "5AC292852B521E94"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16621FA4D9F095D7"]
+			id: "7184B273317ADBF8"
+			tasks: [{
+				id: "00FD16F2431550BA"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["16621FA4D9F095D7"]
+			id: "4C971C202FE01861"
+			tasks: [{
+				id: "4899FA35E0C4BA78"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"1869536A045277A6"
+				"2D8E65275BCB3FDB"
+				"01C75F4B08FAC74C"
+			]
+			description: ["Capturing a blaze in this device seems to pacify it allowing you to use its heat to your advantage"]
+			id: "256F96B74459E690"
+			subtitle: "Beginnings of Brass"
+			tasks: [{
+				id: "06F55917B4DF06D0"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["256F96B74459E690"]
+			description: ["Mix copper and zinc ingots with a blaze burner below to get brass"]
+			icon: "create:brass_casing"
+			id: "687263E7F05E1AA8"
+			tasks: [
+				{
+					id: "66713BCB5D0CD146"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "690B42FBBAA5D462"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "Brass Age"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["47B0621DF76DDA14"]
+			description: ["Useful tool to move rotation around"]
+			id: "2DEAB602594A9910"
+			rewards: [{
+				count: 16
+				id: "6A5FD90753C46077"
+				item: "create:shaft"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06504FA21EFB70C0"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3B2ACF4A87F138D3"]
+			description: ["Transmits rotation in a straight line"]
+			id: "47B0621DF76DDA14"
+			tasks: [{
+				id: "5847C320F464401B"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["47B0621DF76DDA14"]
+			description: ["Moves items from place to place as well as transferring rotation across shafts"]
+			id: "799E98217D9CAD84"
+			rewards: [{
+				count: 2
+				id: "4988E1F702F2CD44"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			tasks: [{
+				id: "58AB77AD1E202260"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["687263E7F05E1AA8"]
+			description: ["Making Mechanical Crafters will unlock many things in Create including Crushing Wheels for better ore processing"]
+			id: "4270E4B9299C946D"
+			tasks: [{
+				count: 21L
+				id: "78685B6A071D63F5"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "Autocrafting"
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4270E4B9299C946D"]
+			description: ["Crushing Wheels can be used to crush various items into tiny pieces for ore processing or to make ingredients for other recipes"]
+			id: "6FE9D178DAD75C45"
+			subtitle: "KyleMax was processed by crushing wheels"
+			tasks: [{
+				id: "6B9AF22D1377BF93"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "Crushing Wheels"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["6FE9D178DAD75C45"]
+			description: ["Sturdy Sheets can be used for making train casings which are needed to make your first trains"]
+			icon: "create:railway_casing"
+			id: "0ABE5BC601F7E87B"
+			rewards: [
+				{
+					id: "166F561B0E2E20E2"
+					item: "create:track_station"
+					type: "item"
+				}
+				{
+					id: "457F558920F5D078"
+					item: "create:controls"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "600C3848E4F7101D"
+					item: "create:sturdy_sheet"
+					type: "item"
+				}
+				{
+					id: "2B6F09B81028F1BB"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Beginning of Trains"
+			x: 0.0d
+			y: 10.5d
+		}
+		{
+			dependencies: ["687263E7F05E1AA8"]
+			description: ["Using a brass hand, you can automate many player actions. Deployers can place blocks, use tools, and attack mobs (or other players!)"]
+			id: "126AB3409BF172F6"
+			tasks: [{
+				id: "087DA29085361967"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 7.5d
+		}
+		{
+			dependencies: [
+				"345317BEA32E68F3"
+				"256F96B74459E690"
+			]
+			icon: "pneumaticcraft:air_compressor"
+			id: "39311198140FA91B"
+			rewards: [{
+				auto: "enabled"
+				command: "/gamestage add @s pneumaticcraft"
+				icon: "pneumaticcraft:air_compressor"
+				id: "1247DD10E5DEC5D7"
+				player_command: true
+				title: "Enables mod Pneumaticcraft"
+				type: "command"
+			}]
+			subtitle: "Completing this quest unlocks the mod Pneumaticcraft"
+			tasks: [{
+				id: "1A102D0846367CD8"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Pneumaticcraft"
+			x: -2.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["0ABE5BC601F7E87B"]
+			description: ["These tracks are used to let trains move along them. There are also wooden variants added by Create: Steam n' Rails"]
+			id: "3506565012CD18A2"
+			tasks: [{
+				id: "17C6AD9F62C10E26"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["3506565012CD18A2"]
+			id: "7C80EE9300D87F4B"
+			tasks: [{
+				id: "496221F1590C3388"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3506565012CD18A2"]
+			id: "43B7D7F0F0F12322"
+			tasks: [{
+				id: "499C9BE59D943653"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 13.5d
+		}
+		{
+			dependencies: ["3506565012CD18A2"]
+			id: "1FE20134EED1DAA5"
+			tasks: [{
+				id: "55BEDF65D07A4641"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 13.5d
+		}
+	]
+	title: "Create"
+}

@@ -1,0 +1,98 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "introduction"
+	group: ""
+	id: "7254D75B72D79FBF"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Make sure you read the rules"
+				"&1[INSERT RULES LINK HERE]&r"
+			]
+			id: "7EDA811B7F1E8446"
+			subtitle: "Welcome to Create-Ive Cogs"
+			tasks: [{
+				id: "7AFF95774BCF7603"
+				title: "Start"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EDA811B7F1E8446"]
+			description: [
+				"&aServer Administrators:&r"
+				"Canada_LaVearn"
+				"HerrKatzeGaming"
+				""
+				"&cGame Moderators:&r"
+				"Cazzlover"
+				"Eliasthefox"
+				"Crazy_Baby"
+			]
+			id: "0139C182E90C8E0B"
+			subtitle: "This is a list of moderators on the server"
+			tasks: [{
+				id: "64A27C3F075AD5EC"
+				title: "Moderators"
+				type: "checkmark"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EDA811B7F1E8446"]
+			description: [
+				"Press &aF7&r to open the report screen"
+				"Report players that break the rules"
+			]
+			id: "708009B5869BEB45"
+			subtitle: "Another player is breaking the rules!!"
+			tasks: [{
+				id: "44E8F7A904B2374F"
+				title: "Reporting"
+				type: "checkmark"
+			}]
+			x: -4.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7EDA811B7F1E8446"]
+			description: [
+				"To suggest a mod or feature to the server,"
+				"Put your suggestion in #suggestions and tag it properly"
+			]
+			id: "4E1B23A13D2F9095"
+			subtitle: "I want a new feature"
+			tasks: [{
+				id: "215A995372D3A10E"
+				type: "checkmark"
+			}]
+			title: "Suggestions"
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7EDA811B7F1E8446"]
+			description: [
+				"Report bugs on the discord"
+				"#katze-bugs for any bugs caused by a datapack or this quest line"
+				"#suggestions for other bugs"
+			]
+			id: "3E2092D924692798"
+			subtitle: "EWWW A BUG"
+			tasks: [{
+				id: "07C205E52C657215"
+				type: "checkmark"
+			}]
+			title: "Bugs?"
+			x: -4.5d
+			y: -5.0d
+		}
+	]
+	title: "Introduction"
+}

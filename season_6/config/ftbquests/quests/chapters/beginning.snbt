@@ -1,0 +1,263 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "beginning"
+	group: ""
+	id: "36DF35588AA32055"
+	order_index: 1
+	quest_links: [{
+		id: "42435F0EC338FFAF"
+		linked_quest: "3B2ACF4A87F138D3"
+		x: 1.0d
+		y: 6.0d
+	}]
+	quests: [
+		{
+			description: [
+				"Punch a tree, get a log"
+				"You know the drill"
+			]
+			id: "5C1F2C08280E1A83"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "445CF2EAB49C9D95"
+				table_id: 3335652236733940150L
+				type: "choice"
+			}]
+			subtitle: "Just like old times"
+			tasks: [{
+				id: "3134819722224AEB"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "minecraft:logs"
+					}
+				}
+				title: "Any #minecraft:logs"
+				type: "item"
+			}]
+			title: "Punch a tree"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5C1F2C08280E1A83"]
+			description: ["Get a crafting table to start crafting"]
+			id: "63FF9DD51A530633"
+			rewards: [{
+				count: 4
+				id: "0F4C901B5558140F"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0CEFAC1ACA137536"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Crafting"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["63FF9DD51A530633"]
+			id: "293281F3E13855C3"
+			rewards: [{
+				count: 4
+				id: "6BC36ABE2464183C"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "HEEEE'REEEE'S JOHNNY"
+			tasks: [{
+				id: "3A0E0AC04354B55D"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:axes"
+					}
+				}
+				title: "Any #forge:axes"
+				type: "item"
+			}]
+			title: "Faster chopping"
+			x: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["63FF9DD51A530633"]
+			id: "3264A03FF0076BF9"
+			rewards: [{
+				count: 4
+				id: "73799A0B7FCEC907"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Rock and Stone!!"
+			tasks: [{
+				id: "0D550753224BF6B2"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:pickaxes"
+					}
+				}
+				title: "Any #forge:pickaxes"
+				type: "item"
+			}]
+			title: "Mining"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3264A03FF0076BF9"]
+			description: ["You will need a lot of these when you start Create, so you should probably get some now"]
+			id: "24454E17EFA17EB6"
+			rewards: [{
+				count: 16
+				id: "6952A15E5C356E7A"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "369457D3A4B5E85A"
+					item: "minecraft:andesite"
+					type: "item"
+				}
+				{
+					id: "1F98865C8C361C44"
+					item: "create:raw_zinc"
+					type: "item"
+				}
+			]
+			title: "Create's Materials"
+			x: 1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["293281F3E13855C3"]
+			description: ["Strip the bark off a log by right clicking with an axe"]
+			id: "75B9D8DABDFB570D"
+			subtitle: "Bark B Gone"
+			tasks: [{
+				id: "370CFAAAB15A0E3F"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:stripped_logs"
+					}
+				}
+				title: "Any #forge:stripped_logs"
+				type: "item"
+			}]
+			title: "Strip a log"
+			x: -1.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["293281F3E13855C3"]
+			description: ["Chests are a good form of storage in the beginning but you are gonna need an upgrade later"]
+			id: "3644A6556A41E6E0"
+			tasks: [{
+				id: "4608538B578A30DC"
+				item: {
+					Count: 1b
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:chests/wooden"
+					}
+				}
+				title: "Any #forge:chests/wooden"
+				type: "item"
+			}]
+			title: "Basic Storage"
+			x: -2.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["63FF9DD51A530633"]
+			description: [
+				"Right click a crafting table with a Hammer to turn it into a Tetra workbench"
+				"&cThis workbench WILL NOT work as a regular crafting table&r"
+				"Instead it is used to make tetra tools"
+				"When you have a Tetra workstation, you can put the tool into it and click on parts to open their customization options. You need special tools for some parts, like a shortblade knife for wrapping handles."
+				"The tool required is indicated by a small graphic and number, showing type and level"
+			]
+			id: "7F426F5414E7A24C"
+			rewards: [{
+				count: 2
+				id: "7476F8B608F00EE0"
+				item: {
+					Count: 1b
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "cce288f8-e1ba-41ff-a6fc-0414e03fa001"
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "290D674D03B0A3A2"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6328A8A60B7DC2EF"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5E9E3A1A02EF6FBB"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7FAAF6C48FCF0B47"
+					item: {
+						Count: 1b
+						id: "minecraft:wooden_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "All the tools"
+			x: -3.0d
+			y: 2.0d
+		}
+	]
+	title: "Beginning"
+}
