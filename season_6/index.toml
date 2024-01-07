@@ -1,6 +1,50 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/admin_items.snbt"
+hash = "bbe797906e0215eba4ccd9a7fe9740b035fd770fcffe3b063132c7540c5f20a7"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/beginning.snbt"
+hash = "e803d067b0f341e880798bf2c6f5c43abbfd3cec3cabf06579399c6aa7b9fe90"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "9ecba31e7468bd9ce0b583337519810df43a08d8c3a38d08f9041683781e60a2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ender_shenanigans.snbt"
+hash = "2f0c386225c4460fd4e531e1f8b838e2e0a120bb93685acb908c057aa36fd1fa"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/hell.snbt"
+hash = "ed11fb2e6f5e048e9448b4133ff0f86e230846ecde34b0f69848f3e87840d591"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/introduction.snbt"
+hash = "c0c18b360cc75012196e89aa196961fa173acc51f30587f92bffa87bcda26309"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "acfb4740ce88359b8d957ff865cfb2c6dbbf3c462ab25237ac5ae09c48359a90"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/72712A52DA6FF3A6.snbt"
+hash = "b9b569951b2a302e24d0c13b18ea4e0f2945b1da6026be25e1fd07f13db6856f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/logs.snbt"
+hash = "89d83878a6dc52f0413554b75850bdf7581302b9872e249c619903a062833e30"
+
+[[files]]
+file = "config/gamestages/known_stages.json"
+hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8c8f8222d0a2c3e1f673b137637b17bd87535b0aad111d79e242f18af48d0169"
 metafile = true
@@ -246,6 +290,11 @@ hash = "7942da454d725373481664c245954c24764d26317968c8c4473743e5f54bbf1d"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-reports.pw.toml"
+hash = "ebe4f9026b88b5e526c15cfb5a00f78b3c7538970df343803fbcdf36ede37534"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
 metafile = true
@@ -304,3 +353,7 @@ metafile = true
 file = "mods/waystones.pw.toml"
 hash = "0136dbc530293d8074c4a128fd468acd6d0047e01ba717db9fce876e551cd6b0"
 metafile = true
+
+[[files]]
+file = "scripts/stages.zs"
+hash = "22e300b1fc1333bf51fef24fa723610498a71ed291739c13b48455340f9db62e"
