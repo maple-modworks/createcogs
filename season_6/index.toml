@@ -131,6 +131,11 @@ hash = "7178ff9343de304a0b6a46bb26469b82ae90051f17ea4e5e547bbc86cbf7982f"
 metafile = true
 
 [[files]]
+file = "mods/ferritecore.pw.toml"
+hash = "0d6d8d7beaca1ae779f2e734db30da2595b98587f0714a6b15721664acf8f946"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "15781aaeba7673898fdc7b29859886909748a520a22d382595717337186d1b56"
 metafile = true
@@ -211,8 +216,18 @@ hash = "94d853ec0def62adb527aee046f2c4a32127076c2995ea5c29553534544e1c35"
 metafile = true
 
 [[files]]
+file = "mods/lazy-dfu-forge.pw.toml"
+hash = "4197e21b90ffc991b42fb07a8e2c55824ba30f66185688a1e63ddbbecd10937e"
+metafile = true
+
+[[files]]
 file = "mods/mighty-mail.pw.toml"
 hash = "a8d361c26d196e6f6bda0005a189bfe4eed50338462e662ab26764f64c89905a"
+metafile = true
+
+[[files]]
+file = "mods/modernfix.pw.toml"
+hash = "710975d27cc68e448e010aa2c26a6b3294fc539cc74a7ff6ab5eba1c04f95ae0"
 metafile = true
 
 [[files]]
@@ -263,6 +278,16 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
+metafile = true
+
+[[files]]
+file = "mods/rubidium.pw.toml"
+hash = "3ff8c8b3282ec0c0a4ce16853acf5b7dd23297d4b557b280668b459739c709d0"
+metafile = true
+
+[[files]]
+file = "mods/starlight-forge.pw.toml"
+hash = "84b4303c211a5837819e5b88b8d131b659820c59dd8136fb8a69859c29922345"
 metafile = true
 
 [[files]]
