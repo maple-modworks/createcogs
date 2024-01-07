@@ -51,6 +51,11 @@ hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
 metafile = true
 
 [[files]]
+file = "mods/corn-delight.pw.toml"
+hash = "c37e733ff6748e3836e0a56290a51a6232375b8ec4b73bdc39d8c72fe39c17f1"
+metafile = true
+
+[[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "bb425e335adf19b8a6ff2f9f96e62e5121c9a4b732032394decf31d677c46c29"
 metafile = true
@@ -61,8 +66,18 @@ hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
 metafile = true
 
 [[files]]
+file = "mods/create-planetary-tweaks.pw.toml"
+hash = "e39217aca24cbb509bf6b6d5c7dfd8c90ec69a20d946fbc3cdbce774d99ac81d"
+metafile = true
+
+[[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "e84904ac0f90c6534790baba7e3b8d74905113732164bff5b2ce143df6336065"
+metafile = true
+
+[[files]]
+file = "mods/create-weaponry.pw.toml"
+hash = "b01bccb2dbbf80f2ed18c6addc6aecae0c4f7ebb750777d5f1026ab499e10b0a"
 metafile = true
 
 [[files]]
@@ -73,6 +88,11 @@ metafile = true
 [[files]]
 file = "mods/createaddition.pw.toml"
 hash = "c0237aeac864e47c8e55d4dad9f37cd3c81e2314f2af279337c3cb562800a158"
+metafile = true
+
+[[files]]
+file = "mods/cultural-delights.pw.toml"
+hash = "9120e28ad0ee2de4950467c9ca0508712eabae2b3ac74b39e994844b4b5355ea"
 metafile = true
 
 [[files]]
@@ -103,6 +123,16 @@ metafile = true
 [[files]]
 file = "mods/eureka.pw.toml"
 hash = "36de055c8653378b3d28c7e48bbc7f9d21404641d5b8ed06278fd4aac2ef1739"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "7178ff9343de304a0b6a46bb26469b82ae90051f17ea4e5e547bbc86cbf7982f"
+metafile = true
+
+[[files]]
+file = "mods/framedblocks.pw.toml"
+hash = "15781aaeba7673898fdc7b29859886909748a520a22d382595717337186d1b56"
 metafile = true
 
 [[files]]
@@ -193,6 +223,16 @@ metafile = true
 [[files]]
 file = "mods/mutil.pw.toml"
 hash = "5e2479056133260ff0d3f29f1378567eda68762007f090ceb1839e4a59742885"
+metafile = true
+
+[[files]]
+file = "mods/mysterious-mountain-lib.pw.toml"
+hash = "f65cfa2126b833d6ea9ee2264259e0cbae0d91eadbce4e3418c6d256ecdfa8b1"
+metafile = true
+
+[[files]]
+file = "mods/nethers-delight.pw.toml"
+hash = "7942da454d725373481664c245954c24764d26317968c8c4473743e5f54bbf1d"
 metafile = true
 
 [[files]]

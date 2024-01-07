@@ -1,0 +1,13 @@
+name = "Create Weaponry"
+filename = "create_weaponry-1.0.3-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "08cc12b4491ab892728a437aab21010bfc9e2916"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4575255
+project-id = 867626
