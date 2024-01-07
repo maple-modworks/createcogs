@@ -76,11 +76,6 @@ hash = "e84904ac0f90c6534790baba7e3b8d74905113732164bff5b2ce143df6336065"
 metafile = true
 
 [[files]]
-file = "mods/create-weaponry.pw.toml"
-hash = "b01bccb2dbbf80f2ed18c6addc6aecae0c4f7ebb750777d5f1026ab499e10b0a"
-metafile = true
-
-[[files]]
 file = "mods/create.pw.toml"
 hash = "9e8d09c69fad6e8d47179dacbefb0a0dd8fa69a829ec12ecf6834c6a3ae855d7"
 metafile = true
