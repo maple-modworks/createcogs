@@ -114,6 +114,11 @@ hash = "a94bec93c6e2f350d4bfd94d6f557fca51ef4358aa4a714e87816243537a6623"
 metafile = true
 
 [[files]]
+file = "mods/corgilib.pw.toml"
+hash = "97575aefd081117027b3ac2c24bf7a56b927b41c9f724d91b0eb42442236b4f6"
+metafile = true
+
+[[files]]
 file = "mods/corn-delight.pw.toml"
 hash = "c37e733ff6748e3836e0a56290a51a6232375b8ec4b73bdc39d8c72fe39c17f1"
 metafile = true
@@ -249,6 +254,11 @@ hash = "0e520e0110faa5b2c240a154021e060226275ab0cf8748493a4c85d1545a4adc"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "ab7bb11199e592a43542ec0ca68c0536b91b5045e070a77525ae1593ca722b90"
+metafile = true
+
+[[files]]
 file = "mods/item-filters.pw.toml"
 hash = "e00e666fc6f0726fcca0f74f9252ba4b1022326ee65433b5aaa08bcd14f4390b"
 metafile = true
@@ -319,6 +329,11 @@ hash = "ebe4f9026b88b5e526c15cfb5a00f78b3c7538970df343803fbcdf36ede37534"
 metafile = true
 
 [[files]]
+file = "mods/oh-the-biomes-youll-go.pw.toml"
+hash = "e4ba21dbe1ce82d46e5a5fe787c83f361da4bbdeed0746b1ed74fe8446318c95"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "e0cbe5dbdbece52f9471e318cabec09569b95c35ed72e568b015e2d9c5d3c9dc"
 metafile = true
@@ -366,6 +381,16 @@ metafile = true
 [[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "04f66b35c49ff70a68788345fb1fa99758bb79ee1b37ba42614d25964c5adb8a"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
+hash = "90724fbcb803a615a32cb4e30e147abae0c0eb91cec8870dc7cc635a90ffee32"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
 metafile = true
 
 [[files]]
