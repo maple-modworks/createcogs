@@ -94,8 +94,18 @@ hash = "6b32bfc0813e786528b1f136d7b02a0a9eb622a3eb0e9f1683814e14db9aabb8"
 metafile = true
 
 [[files]]
+file = "mods/carry-on.pw.toml"
+hash = "fccc6b3c690cda345c9b396b54993fc9f36b25cfe99f2219e96b6f77c7bc0e0c"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
+metafile = true
+
+[[files]]
+file = "mods/compressedcreativity.pw.toml"
+hash = "c7d25531b2276ff8fd96b346d85cbe6d93b9c41618ff3a7b9992e579b30bfdc6"
 metafile = true
 
 [[files]]
@@ -111,6 +121,11 @@ metafile = true
 [[files]]
 file = "mods/crafttweaker.pw.toml"
 hash = "bb425e335adf19b8a6ff2f9f96e62e5121c9a4b732032394decf31d677c46c29"
+metafile = true
+
+[[files]]
+file = "mods/create-big-cannons.pw.toml"
+hash = "19e4c6b3f4db5619c6d50b2b747a7f1e70fe5d736bd0f4169b59c31783a0beab"
 metafile = true
 
 [[files]]
@@ -339,8 +354,18 @@ hash = "3ff8c8b3282ec0c0a4ce16853acf5b7dd23297d4b557b280668b459739c709d0"
 metafile = true
 
 [[files]]
+file = "mods/selene.pw.toml"
+hash = "5ca3e837c2e605c07120ab4ae53c67a6693a79f256c87a5939d09b20a437b5c9"
+metafile = true
+
+[[files]]
 file = "mods/starlight-forge.pw.toml"
 hash = "84b4303c211a5837819e5b88b8d131b659820c59dd8136fb8a69859c29922345"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "04f66b35c49ff70a68788345fb1fa99758bb79ee1b37ba42614d25964c5adb8a"
 metafile = true
 
 [[files]]
