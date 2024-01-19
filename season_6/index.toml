@@ -104,6 +104,11 @@ hash = "d9a854dc615bafee94247c2ad9e9d794f291c37cd03b61b9323222ad4a4a96e5"
 metafile = true
 
 [[files]]
+file = "mods/cc-vs.pw.toml"
+hash = "4a28ca53dcec18ae5e51075e4428ead39ecc7f3f94e31ba064f0ec8cb34b0cd8"
+metafile = true
+
+[[files]]
 file = "mods/compressedcreativity.pw.toml"
 hash = "c7d25531b2276ff8fd96b346d85cbe6d93b9c41618ff3a7b9992e579b30bfdc6"
 metafile = true
@@ -171,6 +176,11 @@ metafile = true
 [[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "f06cf0f8275bb8a139b78c605c8d335f30b2b1709000a32ab8a6b7c735938920"
+metafile = true
+
+[[files]]
+file = "mods/dynamiclights-reforged.pw.toml"
+hash = "9f435fdc8b862cd244a13275db06531b340a031533aad1c5619744cac1222dfa"
 metafile = true
 
 [[files]]
@@ -294,6 +304,11 @@ hash = "4197e21b90ffc991b42fb07a8e2c55824ba30f66185688a1e63ddbbecd10937e"
 metafile = true
 
 [[files]]
+file = "mods/magnesium-extras.pw.toml"
+hash = "859cc315d908bb8090a878871484eb72ebf1c61e2cfaebf7a5916c9534f6e7b5"
+metafile = true
+
+[[files]]
 file = "mods/mighty-mail.pw.toml"
 hash = "a8d361c26d196e6f6bda0005a189bfe4eed50338462e662ab26764f64c89905a"
 metafile = true
@@ -329,6 +344,11 @@ hash = "ebe4f9026b88b5e526c15cfb5a00f78b3c7538970df343803fbcdf36ede37534"
 metafile = true
 
 [[files]]
+file = "mods/observable.pw.toml"
+hash = "7bc26cb7026d2ad04304e3802cbdd274be75c646cdccbdb469a5ed7d63f25547"
+metafile = true
+
+[[files]]
 file = "mods/oh-the-biomes-youll-go.pw.toml"
 hash = "e4ba21dbe1ce82d46e5a5fe787c83f361da4bbdeed0746b1ed74fe8446318c95"
 metafile = true
@@ -359,13 +379,18 @@ hash = "ae6d9d8911efa59aaa1cddfc8fae86fd7937bb898784c14c17e3dd60ed4b7283"
 metafile = true
 
 [[files]]
+file = "mods/polymorph.pw.toml"
+hash = "a31ad085cc2d7044c380ea5015c1b944554e3d4cc76d57e939cf70bcbeb4b5dc"
+metafile = true
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "d06f9962b29db69d2e8fb32940cf29471eb6230043dc5fb9d341af36148a09c3"
 metafile = true
 
 [[files]]
 file = "mods/rubidium.pw.toml"
-hash = "3ff8c8b3282ec0c0a4ce16853acf5b7dd23297d4b557b280668b459739c709d0"
+hash = "de594246e89c5043c26b3f6f89165d50ba4ea7b5cdca672d4ce6eb479f237721"
 metafile = true
 
 [[files]]
