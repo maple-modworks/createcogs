@@ -54,6 +54,11 @@ hash = "1c7b78cb6902d1ce14fcb5cb49fdaff5c09d75d846fe77d2c7b63a12703ab9a1"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "ca5ab66e55fd02c0ec3a9234d90b5a0f81a42cebabc80ccadc4a2cfd6e806cf5"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8c8f8222d0a2c3e1f673b137637b17bd87535b0aad111d79e242f18af48d0169"
 metafile = true
@@ -106,6 +111,11 @@ metafile = true
 [[files]]
 file = "mods/cc-vs.pw.toml"
 hash = "4a28ca53dcec18ae5e51075e4428ead39ecc7f3f94e31ba064f0ec8cb34b0cd8"
+metafile = true
+
+[[files]]
+file = "mods/cold-sweat.pw.toml"
+hash = "ce088172552c9a67e0cf7970e64f51c106c471a79f9ad4d451dc3e19ff9f8cd5"
 metafile = true
 
 [[files]]
@@ -179,6 +189,11 @@ hash = "f06cf0f8275bb8a139b78c605c8d335f30b2b1709000a32ab8a6b7c735938920"
 metafile = true
 
 [[files]]
+file = "mods/distant-horizons.pw.toml"
+hash = "51b905b26295cbf2313a011f914e2a5d8c8ed939c7f6714f56d3f8aa7944c794"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "9f435fdc8b862cd244a13275db06531b340a031533aad1c5619744cac1222dfa"
 metafile = true
@@ -186,6 +201,11 @@ metafile = true
 [[files]]
 file = "mods/dynamictrees.pw.toml"
 hash = "3c50915c521dfd8a1a4f3b4657a5f3cf4fad481c2616630f5253bcd4ea43a373"
+metafile = true
+
+[[files]]
+file = "mods/endremastered.pw.toml"
+hash = "2a78b217e2d77077007723f87eef6ca2508bfa6ef32e421482a7fed30aee7580"
 metafile = true
 
 [[files]]
@@ -294,6 +314,11 @@ hash = "aa19f1e147d97a697e4fb84f061db2ad6735ecca27d29ed6c233f8384449c9ee"
 metafile = true
 
 [[files]]
+file = "mods/joy-of-painting.pw.toml"
+hash = "52e48ec6907c9fba38819304325362bf532ceb904a838b75c29530480f11bc81"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "94d853ec0def62adb527aee046f2c4a32127076c2995ea5c29553534544e1c35"
 metafile = true
@@ -321,6 +346,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "6c5e1d646bee1575bd994996b4428e0fe16c6a0bfc0fbab5c6fa0c8c35547863"
+metafile = true
+
+[[files]]
+file = "mods/mrcrayfishs-gun-mod.pw.toml"
+hash = "9d25723296009a6495d0d9a75ee2bfc54e62dd43ea9ee113b391c629954637e8"
 metafile = true
 
 [[files]]
@@ -416,11 +446,6 @@ metafile = true
 [[files]]
 file = "mods/terrablender.pw.toml"
 hash = "354bbfa82fb4018eb6d6d4b9c5a4846161dcd073e85010c936d3d96e454ece5c"
-metafile = true
-
-[[files]]
-file = "mods/tetra.pw.toml"
-hash = "e4985d5bacaa77dba02140abe50a0c07e2fd31f877a4f23fb246c91dab02c7e9"
 metafile = true
 
 [[files]]
