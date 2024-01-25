@@ -11,6 +11,9 @@ assignees: ''
 Put those in the individual mod's repositories.
 However things like missing/broken recipes are fine to report here.
 
+# DO NOT REPORT EXPLOITS HERE
+Exploits include dupe bugs and bugs that can gain an unfair advantage or destroy someone's build
+
 
 **Describe the bug**
 A clear and concise description of what the bug is.
