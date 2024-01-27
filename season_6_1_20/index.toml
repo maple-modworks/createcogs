@@ -11,6 +11,11 @@ hash = "52614d4074179a2819bbb70aec41cf3dd181e6d4bf9763e181fb2fd2a539e189"
 metafile = true
 
 [[files]]
+file = "mods/athena.pw.toml"
+hash = "d923b6a71a0c4abe91cac75198a4874f9a3d51535d642512e9358747070380fa"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "9c2e49283d2f251717b890fdbf9b5f3e92ff64bec53dd00e099f969003833b16"
 metafile = true
@@ -38,6 +43,11 @@ metafile = true
 [[files]]
 file = "mods/cc-vs.pw.toml"
 hash = "5e062dd3f8bf0766fb22ccd87f2b8b055810a69d4cc9241248fdbedfdef9c540"
+metafile = true
+
+[[files]]
+file = "mods/chipped.pw.toml"
+hash = "6b2efdfea02bb82d8e1666971b0113940a6363ba93dd92f32b5ae2922e78fef3"
 metafile = true
 
 [[files]]
@@ -101,6 +111,11 @@ hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
 metafile = true
 
 [[files]]
+file = "mods/drippy-loading-screen.pw.toml"
+hash = "13fed640b5d95db4b60999ab9202aa64673d005640b1933372c5546c2a946565"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "fed21b68d9b7027beb483133d6da74661883a3bd1d4cbcb32d5ac686791d1034"
 metafile = true
@@ -128,6 +143,11 @@ metafile = true
 [[files]]
 file = "mods/eureka-ships.pw.toml"
 hash = "641fef33ade95f6094a13ff976205a6997d1d8c7e551b050acc8ef3aa67fad6d"
+metafile = true
+
+[[files]]
+file = "mods/fancymenu.pw.toml"
+hash = "930d5fd943779be6c80a29ca752e6d965391b777e4ae5e5790a3a3761aef35ad"
 metafile = true
 
 [[files]]
@@ -206,8 +226,18 @@ hash = "f5c50f31b81545cd87d1551b435ff2a52ad862e3a968889e0a4ab89c4599980a"
 metafile = true
 
 [[files]]
+file = "mods/konkrete.pw.toml"
+hash = "34f1fb2e7c9fc5fa9a646a8f59b4e6054a1c5de60072d194c421662365a1bfbf"
+metafile = true
+
+[[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "826c59a1e607641acb85f1e23a2bb7183a2f0a9ccd19ea4f01bbc9d94d480acf"
+metafile = true
+
+[[files]]
+file = "mods/melody.pw.toml"
+hash = "73cf59feb363aa2d966f94f26e985e00c28b429b2d7addcdbf152a140c9e038d"
 metafile = true
 
 [[files]]
@@ -263,6 +293,11 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "50579877561744484c4174f4ec196863cbba113e75f1b88023972d45dfa8fa8d"
+metafile = true
+
+[[files]]
+file = "mods/resourceful-lib.pw.toml"
+hash = "54980224a747a23832727baac223d407fd22f1a42d7fd50345429b3e13ef5252"
 metafile = true
 
 [[files]]
