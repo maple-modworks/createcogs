@@ -127,7 +127,7 @@ metafile = true
 
 [[files]]
 file = "mods/eureka-ships.pw.toml"
-hash = "4ebe2b0db37aa943f8e4f4a74133e46a23f1357c822dd05fdb6e9e3545c217ba"
+hash = "641fef33ade95f6094a13ff976205a6997d1d8c7e551b050acc8ef3aa67fad6d"
 metafile = true
 
 [[files]]
@@ -287,7 +287,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "b0f6861eb1ba13f2c6d2e418bc193d397b99f14df3307bcdc3e189c176fbf641"
+hash = "77e81edab2b5b139f5cc4d3c40003e6248233db5bb637f5f06e90dcf92c12142"
 metafile = true
 
 [[files]]
