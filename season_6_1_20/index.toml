@@ -71,18 +71,8 @@ hash = "e80b153bcef383c12fc7ca6b5b978644e70c453888204a079646ff317408262b"
 metafile = true
 
 [[files]]
-file = "mods/create-dreams-desires.pw.toml"
-hash = "2c4dc7f60fa4d3e5557639946406bf4fa3c4a45799cc828977d707ee4b671d58"
-metafile = true
-
-[[files]]
 file = "mods/create-framed.pw.toml"
 hash = "64be0c3ce36a35690fe294db91c62776293216a945ed168b38d7895c321d0d32"
-metafile = true
-
-[[files]]
-file = "mods/create-industry.pw.toml"
-hash = "9c389fdb5bd6354b006d7fc90f31061abe06c038fa078906d4735363ace05742"
 metafile = true
 
 [[files]]
@@ -111,8 +101,13 @@ hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
 metafile = true
 
 [[files]]
-file = "mods/detected-setblock-be-gone.pw.toml"
-hash = "3155502f39959b150a27893ef4005e430275b6d873012c719198306cabd6ba39"
+file = "mods/embeddium.pw.toml"
+hash = "fb529895a347a9ee0827999259eac9ab2aab28dab9a3045ecd17166787a4a742"
+metafile = true
+
+[[files]]
+file = "mods/embeddiumplus.pw.toml"
+hash = "2119dfdf057bfca3eef72de4754fe0e45ef28fbe77e5bd458da99aeef9c52d52"
 metafile = true
 
 [[files]]
@@ -283,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "5a1192528bb03cab00ab6d81bffd6f89faa653b5385b8e1c03963c4d78e287e3"
+metafile = true
+
+[[files]]
+file = "mods/textrues-embeddium-options.pw.toml"
+hash = "69c5e061e909cd434f23d2212ea6db6ab9d1cb7dbf3238948e1f871c3430f947"
 metafile = true
 
 [[files]]
