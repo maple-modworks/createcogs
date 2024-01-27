@@ -66,6 +66,31 @@ hash = "490db1846037f21a86d8ef9584160164af6ad7f5f3dc5a43effb6294e2907c4c"
 metafile = true
 
 [[files]]
+file = "mods/create-connected.pw.toml"
+hash = "e80b153bcef383c12fc7ca6b5b978644e70c453888204a079646ff317408262b"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-desires.pw.toml"
+hash = "2c4dc7f60fa4d3e5557639946406bf4fa3c4a45799cc828977d707ee4b671d58"
+metafile = true
+
+[[files]]
+file = "mods/create-framed.pw.toml"
+hash = "64be0c3ce36a35690fe294db91c62776293216a945ed168b38d7895c321d0d32"
+metafile = true
+
+[[files]]
+file = "mods/create-industry.pw.toml"
+hash = "9c389fdb5bd6354b006d7fc90f31061abe06c038fa078906d4735363ace05742"
+metafile = true
+
+[[files]]
+file = "mods/create-questing.pw.toml"
+hash = "873cece426de50cdb3a9bccb171a9946790eeceeb33354724e2347f9593b387a"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "6ecc31d75d379730df8fe950438b4ca26ed1daa8612406374552665f9222f9ea"
 metafile = true
@@ -83,6 +108,11 @@ metafile = true
 [[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
+metafile = true
+
+[[files]]
+file = "mods/detected-setblock-be-gone.pw.toml"
+hash = "3155502f39959b150a27893ef4005e430275b6d873012c719198306cabd6ba39"
 metafile = true
 
 [[files]]
@@ -151,6 +181,11 @@ hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
 
 [[files]]
+file = "mods/interiors.pw.toml"
+hash = "1382dc49c71197e487e57199ce8c18acf0b42c538580255058d19e2e226d1e56"
+metafile = true
+
+[[files]]
 file = "mods/item-stages.pw.toml"
 hash = "5f505dad8b36ed61b14908526beb332127cd2eb4a167e34c2180a40062c42752"
 metafile = true
@@ -188,6 +223,11 @@ metafile = true
 [[files]]
 file = "mods/mysterious-mountain-lib.pw.toml"
 hash = "faaf24072e93a038062bb7345cae69c563ab8ea85a2aa776efc9f36f99050f15"
+metafile = true
+
+[[files]]
+file = "mods/necronomicon.pw.toml"
+hash = "a9265238a1df9edb23afb485033b719409588acd9d6c613e1f98eea051dcc70c"
 metafile = true
 
 [[files]]

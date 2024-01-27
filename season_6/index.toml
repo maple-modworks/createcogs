@@ -144,11 +144,6 @@ hash = "887a27cb3196e1b2814181c0306ea9301bab8d82e1b4d4c83c3fa0c610c7c566"
 metafile = true
 
 [[files]]
-file = "mods/create-big-cannons.pw.toml"
-hash = "19e4c6b3f4db5619c6d50b2b747a7f1e70fe5d736bd0f4169b59c31783a0beab"
-metafile = true
-
-[[files]]
 file = "mods/create-deco.pw.toml"
 hash = "b0bb61105e0ac0c763edfa41ea5b0406f157bc17e421af1bf8b2cbb49325ced6"
 metafile = true
@@ -174,6 +169,11 @@ hash = "c0237aeac864e47c8e55d4dad9f37cd3c81e2314f2af279337c3cb562800a158"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "b2a8a34e87a5ffdbfcb35d1df344e630ac968aad359eced94aa58a184f2d3fa8"
+metafile = true
+
+[[files]]
 file = "mods/cultural-delights.pw.toml"
 hash = "00b2fabbd6e04cc30d094fa3664bcb91feb0b9def08d731aedd86ed8ee264960"
 metafile = true
@@ -196,11 +196,6 @@ metafile = true
 [[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "9f435fdc8b862cd244a13275db06531b340a031533aad1c5619744cac1222dfa"
-metafile = true
-
-[[files]]
-file = "mods/dynamictrees.pw.toml"
-hash = "3c50915c521dfd8a1a4f3b4657a5f3cf4fad481c2616630f5253bcd4ea43a373"
 metafile = true
 
 [[files]]
@@ -326,6 +321,11 @@ metafile = true
 [[files]]
 file = "mods/lazy-dfu-forge.pw.toml"
 hash = "4197e21b90ffc991b42fb07a8e2c55824ba30f66185688a1e63ddbbecd10937e"
+metafile = true
+
+[[files]]
+file = "mods/littletiles.pw.toml"
+hash = "9613a27a4579c56bee7019081a1b0c31f6803a22b498f12853a503b825f734c4"
 metafile = true
 
 [[files]]
