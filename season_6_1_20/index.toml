@@ -121,6 +121,11 @@ hash = "d3a4666ce920b1bc4df208452687a8e382bdd9cb7d1516edbaf6ed6c14f9af1f"
 metafile = true
 
 [[files]]
+file = "mods/essential-mod.pw.toml"
+hash = "5ced0522e837f0907d143c8ccc9bd4a05e83da80bd625ff5863eb61048c919ab"
+metafile = true
+
+[[files]]
 file = "mods/etched.pw.toml"
 hash = "da422e7e0ba962e815a84c948fb2fc5b6fb86561864025e0b973473f8778a819"
 metafile = true
