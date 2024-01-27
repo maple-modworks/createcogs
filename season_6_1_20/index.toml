@@ -21,6 +21,11 @@ hash = "9c2e49283d2f251717b890fdbf9b5f3e92ff64bec53dd00e099f969003833b16"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "fcbd8cf6af2362f0cf604439c36134dceb65794743e6ad54d0efc9f5f8a8cf92"
 metafile = true
@@ -33,6 +38,11 @@ metafile = true
 [[files]]
 file = "mods/botany-trees.pw.toml"
 hash = "7daba8e83e2dc39da2add302231a4dce54fd0f4059f13dfea4b80f60bce500f5"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
@@ -61,6 +71,11 @@ hash = "c7c7f995f0cc2958706f3bc966364e0155b3bee429f7234f604189f9bf591f50"
 metafile = true
 
 [[files]]
+file = "mods/compressedcreativity.pw.toml"
+hash = "39fc70ada6da75706190a552190ef37e0707d15c6126abdf48baecb3b7359c13"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -68,6 +83,11 @@ metafile = true
 [[files]]
 file = "mods/corn-delight.pw.toml"
 hash = "78f38ddc4c204f2a82062d532d98266546a168aeeddbd53fdaa8fb1af4ceb030"
+metafile = true
+
+[[files]]
+file = "mods/cpmpvc.pw.toml"
+hash = "9fd4bb8b01f528a58ae5a3af52887dda1ae7b34f78d54b0731a669e7ff8ad40d"
 metafile = true
 
 [[files]]
@@ -81,6 +101,11 @@ hash = "e80b153bcef383c12fc7ca6b5b978644e70c453888204a079646ff317408262b"
 metafile = true
 
 [[files]]
+file = "mods/create-encased.pw.toml"
+hash = "50655af569b9ddd6ca6526e7794251aef86c1bf6264473152db6402731614a65"
+metafile = true
+
+[[files]]
 file = "mods/create-framed.pw.toml"
 hash = "64be0c3ce36a35690fe294db91c62776293216a945ed168b38d7895c321d0d32"
 metafile = true
@@ -88,6 +113,11 @@ metafile = true
 [[files]]
 file = "mods/create-questing.pw.toml"
 hash = "873cece426de50cdb3a9bccb171a9946790eeceeb33354724e2347f9593b387a"
+metafile = true
+
+[[files]]
+file = "mods/create-steam-n-rails.pw.toml"
+hash = "f391d8786e495abf68c3ca8f8aec546c6a66b13a170e1b0378b95dfa3fba1f9d"
 metafile = true
 
 [[files]]
@@ -206,6 +236,11 @@ hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
 
 [[files]]
+file = "mods/geophilic.pw.toml"
+hash = "8aef49379849c5988efad45f8212a8995ab8e8a96021ce4e922e05027efac56b"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "1382dc49c71197e487e57199ce8c18acf0b42c538580255058d19e2e226d1e56"
 metafile = true
@@ -218,6 +253,11 @@ metafile = true
 [[files]]
 file = "mods/jade.pw.toml"
 hash = "4b798f5f1c59f9ff4eb657f6ee899c2b6210d05e5812abf75ef33a0e98ed5475"
+metafile = true
+
+[[files]]
+file = "mods/journeymap.pw.toml"
+hash = "add0e79881fb9c52ea46befe42c3194772f4f36dc50b5bd8b5c05f71a30095e9"
 metafile = true
 
 [[files]]
@@ -243,6 +283,11 @@ metafile = true
 [[files]]
 file = "mods/mighty-mail.pw.toml"
 hash = "62cbc36bcadc18478adcbd138ed6f976f9625ec75c687acdb83b26fbda8d08b2"
+metafile = true
+
+[[files]]
+file = "mods/miners-delight-plus.pw.toml"
+hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
 metafile = true
 
 [[files]]
@@ -286,6 +331,11 @@ hash = "512451d8184cc751dee27a76a5d279322939a4c977fdb2ce1195bd6e07111fe9"
 metafile = true
 
 [[files]]
+file = "mods/plasmo-voice.pw.toml"
+hash = "12a700ba2fdd97c989d7cf2d7dae374c4dba5933091e5c82f94cc0e4951c9a73"
+metafile = true
+
+[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "79d4d34c848aea93c2b21d661011ea366fb0d91ea3fa4a038148917904b1c595"
 metafile = true
@@ -313,6 +363,16 @@ metafile = true
 [[files]]
 file = "mods/searchables.pw.toml"
 hash = "5a1192528bb03cab00ab6d81bffd6f89faa653b5385b8e1c03963c4d78e287e3"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+hash = "019c0deacbb93409af392fa6bbf7f89737ad1d48cb9c22a0ed268e4d719f91ba"
 metafile = true
 
 [[files]]
