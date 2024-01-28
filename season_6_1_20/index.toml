@@ -131,6 +131,11 @@ hash = "5c8433adf9386789acbb00abbbe7c6279979d7c9095ca2e2723e864fa105b986"
 metafile = true
 
 [[files]]
+file = "mods/creativecore.pw.toml"
+hash = "bf84cc826c3211dde6bec9d04cd50c7531548242cf053b6ddc155cd9a7d2609d"
+metafile = true
+
+[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "7f12d635d294ad46611d7ee96139235f69a651cc9f105bf26521cd8be0797319"
 metafile = true
@@ -273,6 +278,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "826c59a1e607641acb85f1e23a2bb7183a2f0a9ccd19ea4f01bbc9d94d480acf"
+metafile = true
+
+[[files]]
+file = "mods/littletiles.pw.toml"
+hash = "9613a27a4579c56bee7019081a1b0c31f6803a22b498f12853a503b825f734c4"
 metafile = true
 
 [[files]]
