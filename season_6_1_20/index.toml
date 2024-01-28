@@ -52,7 +52,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "5e062dd3f8bf0766fb22ccd87f2b8b055810a69d4cc9241248fdbedfdef9c540"
+hash = "844440df4399ac57d64d7ea7695f1db1d7415de26b3f92c3476cc008e6dfb78a"
 metafile = true
 
 [[files]]
