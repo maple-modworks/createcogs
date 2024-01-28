@@ -1,13 +1,13 @@
-name = "Create-Ive Cogs Season 6"
-author = "Canada_LaVearn and Herr Katze"
-version = "0.0.11"
+name = "Season 6 1.20"
+author = "Maple Modworks"
+version = "0.0.2 HF 3"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "0c115caefce6f423314099e1662e0c51b49421ea8145118db4f8ce6de019f539"
+hash = "0ce472352c345cfec6b6e519d8deecbc4b61976eb838dcd7fd9dbb7bf5e272ba"
 
 [versions]
-forge = "43.3.7"
-minecraft = "1.19.2"
+forge = "47.2.20"
+minecraft = "1.20.1"

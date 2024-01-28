@@ -1,13 +1,17 @@
-name = "Valkyrien Skies"
-filename = "valkyrienskies-119-2.1.2-beta.1.jar"
+name = "Valkyrien Skies (Forge/Fabric)"
+filename = "valkyrienskies-120-2.1.3-beta.1.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/V5ujR2yw/versions/DAAedhhu/valkyrienskies-119-2.1.2-beta.1.jar"
 hash-format = "sha1"
-hash = "6cba2c58f8d20f91b1a5d5946a51939226d901b6"
+hash = "58c02fe1022a3daaba8a39ba980844a9a60164af"
+mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
 
 [update]
-[update.modrinth]
-mod-id = "V5ujR2yw"
-version = "DAAedhhu"
+[update.curseforge]
+file-id = 4998346
+project-id = 258371

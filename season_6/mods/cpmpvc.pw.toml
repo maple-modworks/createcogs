@@ -1,0 +1,13 @@
+name = "Customizable Player Models Plasmo Voice compat"
+filename = "cpm-pv-compat-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9dfa7e4e19a008c624cf51cdae328bb5e2c4cc3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5045384
+project-id = 963528

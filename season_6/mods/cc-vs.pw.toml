@@ -1,13 +1,17 @@
 name = "CC: VS"
-filename = "cc_vs-0.0.7-alpha+f68460ebe2.jar"
+filename = "cc_vs-0.0.7-alpha+2e07646d05.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "f9692d559c85be1663a066e16a7b0f6b5af48a35"
+hash = "aa3a6d629ee20a2f498ef148b809ce49fada3c33"
 mode = "metadata:curseforge"
+
+[option]
+optional = true
+default = false
 
 [update]
 [update.curseforge]
-file-id = 5029569
+file-id = 5027923
 project-id = 958065

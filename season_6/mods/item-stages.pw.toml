@@ -1,13 +1,13 @@
 name = "Item Stages"
-filename = "ItemStages-Forge-1.19.2-5.1.3.jar"
+filename = "ItemStages-Forge-1.20.1-8.0.2.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "d892df6ed86abc3f6a22dc52b94b59bb584e1648"
+hash = "98b5e0d2d99eed1edfc2a3a51c46cf92bd19f0ba"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 4657119
+file-id = 4957547
 project-id = 280316
