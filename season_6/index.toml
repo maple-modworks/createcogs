@@ -101,6 +101,11 @@ hash = "e80b153bcef383c12fc7ca6b5b978644e70c453888204a079646ff317408262b"
 metafile = true
 
 [[files]]
+file = "mods/create-deco.pw.toml"
+hash = "4bc5d111a9937302546ee8f831b4881f2085bfbac982b94bdf9aec3bd426a53a"
+metafile = true
+
+[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "50655af569b9ddd6ca6526e7794251aef86c1bf6264473152db6402731614a65"
 metafile = true
@@ -173,6 +178,11 @@ metafile = true
 [[files]]
 file = "mods/eureka-ships.pw.toml"
 hash = "641fef33ade95f6094a13ff976205a6997d1d8c7e551b050acc8ef3aa67fad6d"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "7cccca378aa68de604d7ea4ce58d1a9af3503d83f12dfd13ce38ee039cc9de7f"
 metafile = true
 
 [[files]]
@@ -301,6 +311,11 @@ hash = "fac74cc46a4424c4a235a6efbb7e8b3b62c200ad95564e230857eec26b33f216"
 metafile = true
 
 [[files]]
+file = "mods/mutil.pw.toml"
+hash = "4e0ebdb97b93b545a2ab458e7aea179a32564234a7828fe4ecbee415d68916a2"
+metafile = true
+
+[[files]]
 file = "mods/mysterious-mountain-lib.pw.toml"
 hash = "faaf24072e93a038062bb7345cae69c563ab8ea85a2aa776efc9f36f99050f15"
 metafile = true
@@ -361,8 +376,18 @@ hash = "3fce40c9060e26cbf4dab3dac2b14afe803641595e718f2c9935fd9aef93449f"
 metafile = true
 
 [[files]]
+file = "mods/sawmill.pw.toml"
+hash = "854364d704acfa0c05f679df4de23e3ba4035788544c5322ac82339931724db5"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
 hash = "5a1192528bb03cab00ab6d81bffd6f89faa653b5385b8e1c03963c4d78e287e3"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "1fddefa08fb21e2262210de0c36c7f9b19138c25c03dc282f511290a9ba9ce59"
 metafile = true
 
 [[files]]
@@ -371,8 +396,18 @@ hash = "d0e1a79dbcda8499e0f12f4adaa5503f9bbc84a6274ce07b3a3839476622e8e5"
 metafile = true
 
 [[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "b2acf88138a2cde631082f71bb3d99668bc4a1de7f886909f1614cb0b25ec0aa"
+metafile = true
+
+[[files]]
 file = "mods/terrablender.pw.toml"
 hash = "019c0deacbb93409af392fa6bbf7f89737ad1d48cb9c22a0ed268e4d719f91ba"
+metafile = true
+
+[[files]]
+file = "mods/tetra.pw.toml"
+hash = "cba2fe39dbb3e441a198731b5f215caa0798d3fe9ce7f2521a9343b9e04a2675"
 metafile = true
 
 [[files]]
