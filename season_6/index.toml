@@ -46,6 +46,11 @@ hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
 metafile = true
 
 [[files]]
+file = "mods/catalogue.pw.toml"
+hash = "0722da0022c3d9dcf6be08f561828222f61911b62aed7d8c75f71c126e12e1b8"
+metafile = true
+
+[[files]]
 file = "mods/cc-tweaked.pw.toml"
 hash = "3e09d4979cba7d00797aa3a855b2b7c0d4bd7353695f4e47d2c8099fbd2bb82b"
 metafile = true
