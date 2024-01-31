@@ -1,0 +1,170 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = drippy_loading_overlay
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1706725614590
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:bc8af515-3a8b-473f-8dbd-f0be87285f6a-1706725542653] = [groups:][instances:]
+}
+
+menu_background {
+  color = #242424
+  background_type = drippy_color_background
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+}
+
+element {
+  shape = rectangle
+  color = #242424
+  element_type = shape
+  instance_identifier = 1454d654-a05f-4bff-9a86-370c63331f6e-1706722928703
+  appearance_delay = every_time
+  appearance_delay_seconds = 4.0
+  fade_in = true
+  fade_in_speed = 1.5
+  anchor_point = mid-centered
+  x = -199
+  y = -50
+  width = 399
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 724085f1-1a5f-4965-a823-aa864b9aa8a7-1706722928703
+  [loading_requirement_container_meta:724085f1-1a5f-4965-a823-aa864b9aa8a7-1706722928703] = [groups:][instances:]
+}
+
+element {
+  source = [source:local]/config/fancymenu/assets/maplemodworks.png
+  element_type = image
+  instance_identifier = 46a11e08-631c-4679-8e05-ccf48ee73e63-1706721835126
+  appearance_delay = every_time
+  appearance_delay_seconds = 5.0
+  fade_in = true
+  fade_in_speed = 1.5
+  anchor_point = mid-centered
+  x = -136
+  y = -44
+  width = 272
+  height = 88
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = a1c8cec6-941c-478d-832c-17d5894fdbeb-1706721835126
+  [loading_requirement_container_meta:a1c8cec6-941c-478d-832c-17d5894fdbeb-1706721835126] = [groups:][instances:]
+}
+
+element {
+  shape = rectangle
+  color = #242424
+  element_type = shape
+  instance_identifier = 947d21df-bc00-40cb-b570-a99e90a88b09-1706723031546
+  appearance_delay = every_time
+  appearance_delay_seconds = 9.0
+  fade_in = true
+  fade_in_speed = 1.5
+  anchor_point = mid-centered
+  x = -199
+  y = -50
+  width = 399
+  height = 100
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 724085f1-1a5f-4965-a823-aa864b9aa8a7-1706722928703
+  [loading_requirement_container_meta:724085f1-1a5f-4965-a823-aa864b9aa8a7-1706722928703] = [groups:][instances:]
+}
+
+element {
+  bar_color = #00000000
+  bar_texture = [source:local]/config/fancymenu/assets/cogsnew.png
+  background_color = #ABC8F7FF
+  background_texture = [source:local]/config/fancymenu/assets/cogsdark.png
+  direction = right
+  progress_for_element_anchor = false
+  progress_source = 50
+  value_mode = percentage
+  element_type = progress_bar
+  instance_identifier = cad940ee-f57a-4f91-934d-0d768c8e3595-1706721495247
+  appearance_delay = every_time
+  appearance_delay_seconds = 10.0
+  fade_in = true
+  fade_in_speed = 1.0
+  anchor_point = mid-centered
+  x = -202
+  y = -20
+  width = 406
+  height = 40
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 06619fe2-f1f1-4cda-98a7-ffa5722d97bf-1706721495247
+  [loading_requirement_container_meta:06619fe2-f1f1-4cda-98a7-ffa5722d97bf-1706721495247] = [groups:][instances:]
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742
+  [executable_block:0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 140
+  y = 294
+  width = 360
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742
+  [loading_requirement_container_meta:dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 615d3732-2464-4b0c-a22f-0a1a080e91bc-1706720826742
+  [executable_block:615d3732-2464-4b0c-a22f-0a1a080e91bc-1706720826742][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  element_type = vanilla_button
+  instance_identifier = vanillabtn:mojang_logo
+  appearance_delay = every_time
+  appearance_delay_seconds = 0.0
+  fade_in = true
+  fade_in_speed = 1.5
+  anchor_point = mid-centered
+  x = -142
+  y = -35
+  width = 285
+  height = 70
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 3393f009-f8b5-46f1-ab18-58fd52e8fc38-1706720826742
+  [loading_requirement_container_meta:3393f009-f8b5-46f1-ab18-58fd52e8fc38-1706720826742] = [groups:][instances:]
+  is_hidden = false
+  automated_button_clicks = 0
+}
+
