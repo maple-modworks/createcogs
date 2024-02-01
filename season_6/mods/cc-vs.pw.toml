@@ -1,17 +1,16 @@
 name = "CC: VS"
-filename = "cc_vs-0.0.7-alpha+2e07646d05.jar"
+filename = "cc_vs-1.20.1-forge-0.0.8.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "aa3a6d629ee20a2f498ef148b809ce49fada3c33"
+hash = "f6c573cf9cff7093fc94d96e1bddf04c9c75f877"
 mode = "metadata:curseforge"
-
-[option]
-optional = true
-default = false
 
 [update]
 [update.curseforge]
-file-id = 5027923
+file-id = 5064161
 project-id = 958065
+
+[option]
+optional = true
