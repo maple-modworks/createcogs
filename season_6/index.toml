@@ -1,6 +1,142 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/fancymenu/assets/alpha.png"
+hash = "77b53a76bba8e28e452fba2b8622e2b283f15c831c5ed86ff3a1fa296cd6165e"
+
+[[files]]
+file = "config/fancymenu/assets/beta.png"
+hash = "4983a89dc510d5c3c2a7087ba65186609c4bb06d1b3976944238f0964ad320eb"
+
+[[files]]
+file = "config/fancymenu/assets/betasplash.txt"
+hash = "6a53a0468c032db2fd0fe41707d30369e96f2b1ec29e3dfc7396b9d72703c631"
+
+[[files]]
+file = "config/fancymenu/assets/cogsdark.png"
+hash = "abc8ee25b507e4d0db6531c367e2f27d7eb6d074184a12e4878eecdcc2502cf7"
+
+[[files]]
+file = "config/fancymenu/assets/cogsgray.png"
+hash = "77c67964fac17343b01c0633c24f3a854e546efc58c9e4733aacfe1b3b447903"
+
+[[files]]
+file = "config/fancymenu/assets/cogsnew.png"
+hash = "364ca9ec3ee6aaf539ed95099c3ba8e9a10e1ca26a580ebb91d3fdf33b467966"
+
+[[files]]
+file = "config/fancymenu/assets/maplemodworks.png"
+hash = "54225df181e59ab8e8ee8ae1b7026e26d02f266d92c3a7c150b451de273fddb0"
+
+[[files]]
+file = "config/fancymenu/assets/newsplash.txt"
+hash = "52b17e066ef460ba7cfa05be80c9c14f1aa45b3b7e13083500df1b0662d63d9d"
+
+[[files]]
+file = "config/fancymenu/assets/offline.png"
+hash = "97895e39af4e36b085beb453021f83c11ae8db56e84bda0c6abb40dc0585e70f"
+
+[[files]]
+file = "config/fancymenu/assets/offlineoff.png"
+hash = "a9e1ef7bb95de4ab9fce542826123faecdd9ee5841140fb8bb4c40e6be90fa42"
+
+[[files]]
+file = "config/fancymenu/assets/online.png"
+hash = "0a6881a1872ca70e06281f8ac4ddfa3f2af9a9fa2c1cc2cf6de07121f08ae4c7"
+
+[[files]]
+file = "config/fancymenu/assets/onlineoff.png"
+hash = "dbd32c8a70e1a4f0ecfaf0bd4408cdff736a749975e9831663b211adae0dfa74"
+
+[[files]]
+file = "config/fancymenu/custom_gui_screens.txt"
+hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+
+[[files]]
+file = "config/fancymenu/customizablemenus.txt"
+hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
+
+[[files]]
+file = "config/fancymenu/customization/cogsloadingscreen.txt"
+hash = "fee8b92e0c8a38df0eb88a91d04b182e6447ce9ce0151b9a027f9078913fbddd"
+
+[[files]]
+file = "config/fancymenu/customization/s6alpha.txt"
+hash = "6653e004907ae5c8e39f8982ffb702d8ae32799255a249c29670d1335236ff5a"
+
+[[files]]
+file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
+hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+
+[[files]]
+file = "config/fancymenu/legacy_checklist.txt"
+hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+
+[[files]]
+file = "config/fancymenu/options.txt"
+hash = "f587a6032eb66f758431158dc6bd54540bebb920ea65ac85996d06385b4740aa"
+
+[[files]]
+file = "config/fancymenu/ui_themes/dark.json"
+hash = "43ac9bee88f1a4c9b66fee0d4b6fcec14a52feab46bf803928aabed96f510cc9"
+
+[[files]]
+file = "config/fancymenu/ui_themes/light.json"
+hash = "6954379d658fdf496f162792a3244f0f08635858ed4b0553a718a7ef63b8a620"
+
+[[files]]
+file = "config/fancymenu/user_variables.db"
+hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+
+[[files]]
+file = "config/ftbquests/quests/chapter_groups.snbt"
+hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/admin_items.snbt"
+hash = "59ef338538684b665b48cb3da51d64d533834a1e9ac7e23255bcbc388707907c"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/beginning.snbt"
+hash = "f0a970dd434c7dfa90af0f79413eac42260a78412c932eb8969265ba691cbbf2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/create.snbt"
+hash = "e1e1a59237a86171090add89f5ed51e3c394a27b3df7824edb7976709e750b53"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ender_shenanigans.snbt"
+hash = "1741c46e059a2bb974c4431dc6030818ee7e728b022c79dedf346a48d8147ce6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/farming_simulator_69.snbt"
+hash = "d03fa6c79ca643269e4320818ffe26f0d1d722e07203174f9c93cabdf0efd44f"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/hell.snbt"
+hash = "5ecb0cf79b37af5b7dae0ae7accf745cee63b35a00b4f167438ca4e663f234d6"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/introduction.snbt"
+hash = "600622f95ac289c0978bdf1d16f0c232129304fbb7d95cf2b4fdf68fb422c726"
+
+[[files]]
+file = "config/ftbquests/quests/data.snbt"
+hash = "1e37987a43bb586203c5eda26d613100e079d02daa2a01667da0639eee20ee88"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/72712A52DA6FF3A6.snbt"
+hash = "b9b569951b2a302e24d0c13b18ea4e0f2945b1da6026be25e1fd07f13db6856f"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/logs.snbt"
+hash = "89d83878a6dc52f0413554b75850bdf7581302b9872e249c619903a062833e30"
+
+[[files]]
+file = "config/gamestages/known_stages.json"
+hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
+
+[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "c5342af3cb9d3620fd7c9e48f50b40669cefb7038788b0e183515cb87aed8e5a"
 metafile = true
@@ -449,3 +585,7 @@ metafile = true
 file = "mods/waystones.pw.toml"
 hash = "5f7c7bb29895141d57fdc32823a169e3a851176760f8ceed6c00bc109b4288df"
 metafile = true
+
+[[files]]
+file = "scripts/stages.zs"
+hash = "22e300b1fc1333bf51fef24fa723610498a71ed291739c13b48455340f9db62e"
