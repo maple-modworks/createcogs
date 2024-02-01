@@ -21,6 +21,11 @@ hash = "9c2e49283d2f251717b890fdbf9b5f3e92ff64bec53dd00e099f969003833b16"
 metafile = true
 
 [[files]]
+file = "mods/ban-hammer.pw.toml"
+hash = "e180838da12028ecc110e5d57d7ff5ad9e12162716580ba921c12ea0f2fc223f"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
 metafile = true
