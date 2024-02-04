@@ -1,0 +1,171 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2_precise_engineering"
+	group: ""
+	icon: "create:precision_mechanism"
+	id: "0D63FDDBEE26A400"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4D6A6077C20BCBC7"
+				"605C590A9C56E61C"
+				"06A2A567E0851D5F"
+				"1459630D668EA75C"
+			]
+			id: "57854839D31216FE"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "10F774F81E9C35E4"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6E387D2D5CD42E31"]
+			id: "4D6A6077C20BCBC7"
+			tasks: [{
+				id: "194FAA940B4F37CD"
+				item: "create:deployer"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			id: "6E387D2D5CD42E31"
+			tasks: [{
+				id: "2371AD1A4E749D28"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"144ED18ABCD8E55D"
+				"6357749919C66968"
+			]
+			id: "605C590A9C56E61C"
+			tasks: [{
+				id: "6E8E647748DFD07B"
+				item: "create:cogwheel"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["605C590A9C56E61C"]
+			id: "06A2A567E0851D5F"
+			tasks: [{
+				id: "6AB87368144D157F"
+				item: "create:large_cogwheel"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			id: "1459630D668EA75C"
+			tasks: [{
+				id: "3DB98BBF0BA0C630"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["245D95D4BFD89E0F"]
+			id: "144ED18ABCD8E55D"
+			tasks: [{
+				id: "266CEE08DFB57996"
+				item: "create:shaft"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"0A36050A62F29EFD"
+				"245D95D4BFD89E0F"
+			]
+			id: "6357749919C66968"
+			tasks: [{
+				id: "4435CDA825363F84"
+				item: "minecraft:oak_planks"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"0A2075195F30EAC5"
+				"245D95D4BFD89E0F"
+			]
+			id: "0A36050A62F29EFD"
+			tasks: [{
+				id: "1CB68A8AADD92AF7"
+				item: "minecraft:stripped_oak_log"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["245D95D4BFD89E0F"]
+			id: "0A2075195F30EAC5"
+			tasks: [{
+				id: "0C8F3829137DEFC3"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -5.0d
+		}
+		{
+			id: "245D95D4BFD89E0F"
+			tasks: [{
+				id: "244C92E856FEFD32"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"507B911842C5119C"
+				"245D95D4BFD89E0F"
+			]
+			id: "2F5E7469F2B62A3E"
+			tasks: [{
+				id: "4087178E3D9464D7"
+				item: "create:fluid_pipe"
+				type: "item"
+			}]
+			x: -6.0d
+			y: 2.0d
+		}
+		{
+			id: "507B911842C5119C"
+			tasks: [{
+				id: "3455CD64B168DBC1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			x: -9.0d
+			y: -0.5d
+		}
+	]
+	title: "2. Precise Engineering"
+}

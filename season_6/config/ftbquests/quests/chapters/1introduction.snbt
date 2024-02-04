@@ -1,0 +1,120 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1introduction"
+	group: ""
+	icon: "create:wrench"
+	id: "32425FCA6695C2F5"
+	images: [
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 6.0d
+			hover: [ ]
+			image: "createframed:block/brown_stained_framed_glass"
+			rotation: 0.0d
+			width: 10.0d
+			x: 1.5714285714285765d
+			y: 2.124999999999986d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "minecraft:item/stick"
+			rotation: -45.0d
+			width: 3.0d
+			x: -2.3214285714285694d
+			y: 5.839285714285722d
+		}
+		{
+			click: ""
+			corner: false
+			dev: false
+			height: 3.0d
+			hover: [ ]
+			image: "minecraft:item/stick"
+			rotation: -45.0d
+			width: 3.0d
+			x: 5.107142857142854d
+			y: 5.839285714285722d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&n&lWelcome to Create-ive Cogs Season 6!&r&r"
+				"Start by gathering simple resources like wood, cobblestone, food."
+				"By mining &b1 Cobblestone&r and reading this , you will "
+				"unlock new quest lines."
+			]
+			id: "1FC9F3F14CA42B63"
+			rewards: [{
+				count: 8
+				icon: "minecraft:oak_log"
+				id: "4175C3265B252A08"
+				item: "minecraft:oak_log"
+				random_bonus: 4
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			tasks: [{
+				id: "5D5C40082C7AD90E"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			title: "And so it begins..."
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FC9F3F14CA42B63"]
+			description: [
+				"The &bCreate&r mod opens a lot of new options for item processing and transportation."
+				"Start by obtaining &l20 Andesite Alloy&r and click on the checkmark"
+				"to unlock Chapter 1"
+			]
+			hide: true
+			icon: "create:andesite_alloy"
+			id: "2B4033336F26AEF0"
+			tasks: [
+				{
+					count: 20L
+					icon: "create:andesite_alloy"
+					id: "4575A169899DE5F7"
+					item: "create:andesite_alloy"
+					title: "Industrial Revolution"
+					type: "item"
+				}
+				{
+					id: "72D9A392F794AA4F"
+					title: "Click me!"
+					type: "checkmark"
+				}
+			]
+			title: "The most useful rock"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1FC9F3F14CA42B63"]
+			hide: true
+			icon: "cold_sweat:thermometer"
+			id: "3446DFBEBFC35ABA"
+			tasks: [{
+				id: "2526EF502D95E693"
+				title: "Temperature"
+				type: "checkmark"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+	]
+	title: "0. Blossoms of Beginning"
+}

@@ -62,7 +62,7 @@ hash = "fee8b92e0c8a38df0eb88a91d04b182e6447ce9ce0151b9a027f9078913fbddd"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
-hash = "6653e004907ae5c8e39f8982ffb702d8ae32799255a249c29670d1335236ff5a"
+hash = "b4738e1486a805d747e7a6a9c9e8c356739cd9f6d049a98bd154bccba872dd94"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -90,51 +90,147 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "e57d8311aec9f524911ed1313cabf138bb7fa5a2d3ba985a00a2a267ff35ef78"
+hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/admin_items.snbt"
-hash = "59ef338538684b665b48cb3da51d64d533834a1e9ac7e23255bcbc388707907c"
+file = "config/ftbquests/quests/chapters/1introduction.snbt"
+hash = "492f354045de81eaca44b8c6e966e83fae5767f1d3e2b50456cd1d2a39191c65"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/beginning.snbt"
-hash = "f0a970dd434c7dfa90af0f79413eac42260a78412c932eb8969265ba691cbbf2"
+file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
+hash = "96b0a90b40c85bbdb6c9d3264125f04f496f588e68dd913e668de3b0b6db8bcd"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/create.snbt"
-hash = "e1e1a59237a86171090add89f5ed51e3c394a27b3df7824edb7976709e750b53"
+file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
+hash = "1d5a9018404a61f1ebc640d6e73e45c1bbf5ec49a2f69196d5365a311bfb59d9"
 
 [[files]]
-file = "config/ftbquests/quests/chapters/ender_shenanigans.snbt"
-hash = "1741c46e059a2bb974c4431dc6030818ee7e728b022c79dedf346a48d8147ce6"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/farming_simulator_69.snbt"
-hash = "d03fa6c79ca643269e4320818ffe26f0d1d722e07203174f9c93cabdf0efd44f"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/hell.snbt"
-hash = "5ecb0cf79b37af5b7dae0ae7accf745cee63b35a00b4f167438ca4e663f234d6"
-
-[[files]]
-file = "config/ftbquests/quests/chapters/introduction.snbt"
-hash = "600622f95ac289c0978bdf1d16f0c232129304fbb7d95cf2b4fdf68fb422c726"
+file = "config/ftbquests/quests/chapters/3_compression_expanison.snbt"
+hash = "efdf418c8c5b31bda428a470552da9de6544ba29a21fddcd408eaf28a326d839"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "1e37987a43bb586203c5eda26d613100e079d02daa2a01667da0639eee20ee88"
+hash = "c925746059c2848b3fdeb74f8240a378bf6059eaf254fe0a8e152eb8e3e58f23"
 
 [[files]]
-file = "config/ftbquests/quests/reward_tables/72712A52DA6FF3A6.snbt"
-hash = "b9b569951b2a302e24d0c13b18ea4e0f2945b1da6026be25e1fd07f13db6856f"
-
-[[files]]
-file = "config/ftbquests/quests/reward_tables/logs.snbt"
-hash = "89d83878a6dc52f0413554b75850bdf7581302b9872e249c619903a062833e30"
+file = "config/ftbquests/quests/reward_tables/cogwheel_reward.snbt"
+hash = "526d1af9106c089f9f9dade92ebdefd0a8bd7b2bd198b5684e8aa56f9584c03b"
 
 [[files]]
 file = "config/gamestages/known_stages.json"
 hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
+
+[[files]]
+file = "kubejs/README.txt"
+hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/destabilized_redstone_bucket.png"
+hash = "88bbd133302a6bc7fe71154e8924e251107a40480b2bac508548e36caee54a7e"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/destabilized_redstone_flow.png"
+hash = "14f79e589d5e84a555da8892c9eb621f17033c156c7a2d6c9c565146cb9b6ec1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/destabilized_redstone_flow.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/destabilized_redstone_still.png"
+hash = "898b4f16e549abb762ce1f0a819a148890e95c3a97646130609bac8f8428f280"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/example_block.png"
+hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/compressed_mechanism.png"
+hash = "f3f7d7c24fc4b92848b5e22313bb205b82dfe7f035af43206a0c4c0e0ce78de1"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_dust.png"
+hash = "8fec6f30e4eb4a0dfb83c4401ba53f54690edcc23bdef25922a1799e00ff92ee"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_electrode.png"
+hash = "48abb30d5ad6f44c11edc048675d72c43b6a670c09b75b70f1186daa68888fa0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/graphite_ingot.png"
+hash = "1b2e40486228ebba246bbcc0736fc4e7a56707513f6b518eb652d1a395fb6fc8"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_compressed_mechanism.png"
+hash = "fad2474c12a1ca4beabc99c6e4d8cd990623e39fa72bbe507c7c501bfb7f3a98"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_electron_tube.png"
+hash = "04831535a8d537e0dbb754ca7314f2fb55fcbe0bcd11ad2b5f01e5ab9d59b2b2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_graphite_electrode.png"
+hash = "0488ad6c7ef1c0442c6af2cde98cedd58b27da36efc8f42e296b19f5557b5ed5"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_light_bulb.png"
+hash = "68a19a4a6076b7a04da023795d43afdfc6762305c3b8f9ff943f294abf4d89c3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/light_bulb.png"
+hash = "5375e29499940bb1141cd7948065c8c880e442800756cf55051ef657cf519588"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/sawdust.png"
+hash = "12b93921bbe788c123ff0f35c49d7b67c7b92f409489714d17cc119c0e2ff7bb"
+
+[[files]]
+file = "kubejs/client_scripts/example.js"
+hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+
+[[files]]
+file = "kubejs/config/client.properties"
+hash = "600fd0260302c854a17699f0c91a2de2a91b4f35e4a1fe8a991416c01b01582e"
+
+[[files]]
+file = "kubejs/config/common.properties"
+hash = "d673a310e2fd0703cad032b1da2ce6f83a3c0f297a1f506bcd69d594d987390b"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
+hash = "e4a6b161c8750ece0095bd1e5840a58029216191debf5b65953fd7983050865e"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
+hash = "bd948c662f04af8445880ca98a47ec55e1239a9552afa3aa4acb1427d2007936"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
+hash = "480f8c3015bf1a2b0111dc149aabe1bcc3e12cafa1c2d1fcb7b829c5e3cf83b9"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
+hash = "7eb70257593da06f682a3ddda54a9d260d4fc514f645237f5ca74b08f8da61a6"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
+hash = "9ba95517afa6ec0a3949b999151f9ffeda286b2912c2b2f040d720fd684abc58"
+
+[[files]]
+file = "kubejs/startup_scripts/block_registry.js"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "kubejs/startup_scripts/fluid_registry.js"
+hash = "57365b37e4af7842a23601ef32027c2985fe1054a08c2593e09117575cb94a26"
+
+[[files]]
+file = "kubejs/startup_scripts/item_registry.js"
+hash = "87f77a5d637a5d6447e5b62a9e7994bf21f4e1b76bb09afc2820c727b1b17080"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -517,6 +613,11 @@ hash = "50579877561744484c4174f4ec196863cbba113e75f1b88023972d45dfa8fa8d"
 metafile = true
 
 [[files]]
+file = "mods/quark.pw.toml"
+hash = "afcdf5bc3a95f3a74998e4193811319b8c580a16bc901ef320a7b7170daeb0da"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "bff9cc0cbaa4124fd517514353e4fd2bb00942197bc637ae91fd8692f73d0cae"
 metafile = true
@@ -584,6 +685,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "5f7c7bb29895141d57fdc32823a169e3a851176760f8ceed6c00bc109b4288df"
+metafile = true
+
+[[files]]
+file = "mods/zeta.pw.toml"
+hash = "6611c32a98137701dfea957d5a94b7ba584fc91f93c83419eb0c7d741f4410aa"
 metafile = true
 
 [[files]]

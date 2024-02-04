@@ -1,0 +1,11 @@
+{
+	id: "70D34A286EE53FC0"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{ item: "create:cogwheel", random_bonus: 7 }
+		{ item: "create:large_cogwheel", random_bonus: 7 }
+		{ item: "create:gearbox", random_bonus: 1, weight: 0.5f }
+	]
+	title: "Cogwheel reward"
+}

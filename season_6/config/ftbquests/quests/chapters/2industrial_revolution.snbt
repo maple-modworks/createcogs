@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "2industrial_revolution"
+	group: ""
+	hide_quest_until_deps_visible: true
+	icon: "create:steam_engine"
+	id: "7C743FD7243A501C"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 1.5d
+		hover: [ ]
+		image: "railways:textures/gui/journeymap_train.png"
+		rotation: 0.0d
+		width: 1.5d
+		x: -1.5d
+		y: -1.5d
+	}]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B4033336F26AEF0"]
+			description: [
+				"&lWater wheels&r are a decent early-game power supply - they have a decent power output at the cost of speed."
+				"Power a water wheel by placing a flowing water block next to it."
+			]
+			id: "543891AFE583647E"
+			rewards: [{
+				count: 10
+				icon: "create:shaft"
+				id: "4530A2B5D46EAED9"
+				item: "create:shaft"
+				random_bonus: 2
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "20871C0D296AE0EE"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+				{
+					id: "7DC308B6E2B9B0DF"
+					item: "create:water_wheel"
+					type: "item"
+				}
+			]
+			title: "Powah!"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["543891AFE583647E"]
+			id: "744869941BF46D2F"
+			optional: true
+			size: 0.8d
+			tasks: [{
+				id: "08B8AA89A02B58A9"
+				title: "Water wheel info "
+				type: "checkmark"
+			}]
+			x: -1.2d
+			y: 0.8d
+		}
+		{
+			dependencies: ["543891AFE583647E"]
+			description: ["Use a large cogwheel to change the speed output of your new water wheels "]
+			hide: true
+			id: "0247253239B2D009"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "540A4F399CC694C2"
+				table_id: 8129923289853542336L
+				type: "loot"
+			}]
+			tasks: [{
+				advancement: "create:shifting_gears"
+				criterion: ""
+				icon: "create:large_cogwheel"
+				id: "577EFF271593C949"
+				title: "Speed and Powah!"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0247253239B2D009"]
+			description: ["The &bMechanical Press&r allows you to turn some materials into their flatter counterparts - use a mechanical press to craft a few &liron sheets&r."]
+			hide: true
+			icon: "create:mechanical_press"
+			id: "15952C0D4433CB6E"
+			rewards: [{
+				icon: "create:andesite_casing"
+				id: "01BADCCB37C44B01"
+				item: "create:andesite_casing"
+				random_bonus: 3
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7412BEA1F5F4886C"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					advancement: "create:mechanical_press"
+					criterion: ""
+					id: "6599863DF7F4776F"
+					type: "advancement"
+				}
+				{
+					count: 5L
+					id: "47BBFB6E7EF5371C"
+					item: "create:iron_sheet"
+					type: "item"
+				}
+			]
+			title: "2D Engineering"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["15952C0D4433CB6E"]
+			description: [
+				"&bMechanical Mixers&r offer a new way of crafting - without the use of crafting tables."
+				"They also come with a useful bonus - &lAndesite alloy is 2x cheaper to make.&r"
+				""
+				"{@pagebreak}"
+			]
+			hide: true
+			icon: "create:mechanical_mixer"
+			id: "2796AE35AE33B6B0"
+			rewards: [{
+				id: "0F6B5F821BEF7519"
+				item: "create:builders_tea"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "7958AA1DA6950740"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "52230811215041FE"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					count: 20L
+					icon: "create:andesite_alloy"
+					id: "1499AB4B8DDD4FD1"
+					item: "create:andesite_alloy"
+					type: "item"
+				}
+			]
+			title: "The Andesite Mixer"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "1.Industrial Revolution"
+}
