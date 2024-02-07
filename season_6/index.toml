@@ -483,6 +483,11 @@ hash = "f9923d413d98e0fdb3a15dccd597b389a77cab6546b94db46817d697814df00c"
 metafile = true
 
 [[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "8c2b539bae8ae10e601470f25b035df340e9ed64fbd19c4d583a0737f176a747"
+metafile = true
+
+[[files]]
 file = "mods/game-stages.pw.toml"
 hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
@@ -675,6 +680,11 @@ metafile = true
 [[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
 hash = "255b92e33d93acb91987b5362b1fa60681469e74c5a856ca5f740fc12c0f7f42"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "0a7ad44e0dce8b76f6a8be708fc7d9e0a41ab3b02c7c3891eb3b720cc39bc573"
 metafile = true
 
 [[files]]
