@@ -2,5 +2,9 @@
 
 // Visit the wiki for more info - https://kubejs.com/
 
-console.info('Hello, World! (Loaded client scripts)')
+console.info('Loaded client scripts')
+
+JEIEvents.addItems(e => {
+    e.add(Ingredient.of('@create').getItemIds().toArray());
+});
 

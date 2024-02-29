@@ -86,6 +86,18 @@ event.recipes.createSequencedAssembly([ // start the recipe
 		event.recipes.createPressing('kubejs:incomplete_fluid_pipe', 'kubejs:incomplete_fluid_pipe'),
 		event.recipes.createPressing('kubejs:incomplete_fluid_pipe', 'kubejs:incomplete_fluid_pipe')
 	]).transitionalItem('kubejs:incomplete_fluid_pipe').loops(1)
+event.recipes.createSequencedAssembly([ // start the recipe
+		Item.of('kubejs:radiant_mechanism').withChance(130.0), // this is the item that will appear in JEI as the result
+		Item.of('create:refined_radiance').withChance(8.0), // the rest of these items will part of the scrap
+		Item.of('kubejs:compressed_mechanism').withChance(8.0),
+	],'kubejs:compressed_mechanism',[ // 'create:golden_sheet' is the input
+		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
+		event.recipes.createCutting('kubejs:incomplete_radiant_mechanism', 'kubejs:incomplete_radiant_mechanism'),
+		event.recipes.createDeploying('kubejs:incomplete_radiant_mechanism',['kubejs:incomplete_radiant_mechanism', 'create:refined_radiance']),
+		event.custom({type: "create_new_age:energising", energy_needed: 10000, ingredients: [{item: "kubejs:incomplete_radiant_mechanism"}],results: [{item: "kubejs:incomplete_radiant_mechanism"}]}),
+		event.recipes.createPressing('kubejs:incomplete_radiant_mechanism', 'kubejs:incomplete_radiant_mechanism')
+		
+	]).transitionalItem('kubejs:incomplete_radiant_mechanism').loops(1)
 
 
 })

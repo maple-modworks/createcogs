@@ -125,6 +125,18 @@ file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
 [[files]]
+file = "kubejs/assets/kubejs/models/block/andesite_trophy.json"
+hash = "1b898f19151478ef75824e2b64005e094923d519da82b9ab5434279d36008dda"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/andesite_trophy.png"
+hash = "0071baf6e76ffc03b3ef7fae318b8583df79c74ab117e60580b0da855dba5091"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/andesite_trophy.png"
+hash = "0071baf6e76ffc03b3ef7fae318b8583df79c74ab117e60580b0da855dba5091"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/destabilized_redstone_bucket.png"
 hash = "88bbd133302a6bc7fe71154e8924e251107a40480b2bac508548e36caee54a7e"
 
@@ -181,12 +193,16 @@ file = "kubejs/assets/kubejs/textures/item/light_bulb.png"
 hash = "5375e29499940bb1141cd7948065c8c880e442800756cf55051ef657cf519588"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/radiant_mechanism.png"
+hash = "a5b94cd9f16771ad297b9c0cd2ec132738373025eee568b971875af8044e78a7"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/sawdust.png"
 hash = "12b93921bbe788c123ff0f35c49d7b67c7b92f409489714d17cc119c0e2ff7bb"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
-hash = "152019ed6e0410a82805a95ea10f1ad1a17beaf2b50864d89b8fa9d172129ac7"
+hash = "ac77464118ab9ee4989602c2120ec36dee702d2ca397ed7242892f9732d4321b"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -202,11 +218,15 @@ hash = "e4a6b161c8750ece0095bd1e5840a58029216191debf5b65953fd7983050865e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "bd948c662f04af8445880ca98a47ec55e1239a9552afa3aa4acb1427d2007936"
+hash = "2fb62a50d3b06081dff5187126b3679b3e1c3c306ca83adec010db0fffc106e5"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
-hash = "480f8c3015bf1a2b0111dc149aabe1bcc3e12cafa1c2d1fcb7b829c5e3cf83b9"
+hash = "0617e9f2efa4e3e5f9e580db844a82a2dfda03ef0de1b258e0bae70e76de051b"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create_new_age/energising.js"
+hash = "3436a8996a5c8bfda04e1f360b528039d39a3d34aede16d5974458d74aab8d9c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
@@ -222,7 +242,7 @@ hash = "9ba95517afa6ec0a3949b999151f9ffeda286b2912c2b2f040d720fd684abc58"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"
-hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+hash = "7c068837289d778f98df5f4721ad13e969bc1ed6d57e62c9a57791fd74098297"
 
 [[files]]
 file = "kubejs/startup_scripts/fluid_registry.js"
@@ -230,7 +250,7 @@ hash = "57365b37e4af7842a23601ef32027c2985fe1054a08c2593e09117575cb94a26"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "87f77a5d637a5d6447e5b62a9e7994bf21f4e1b76bb09afc2820c727b1b17080"
+hash = "0bf4b31441350f84d6d898c54dc86ef1b710c8509497056de08245998535989b"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -355,6 +375,11 @@ metafile = true
 [[files]]
 file = "mods/create-deco.pw.toml"
 hash = "4bc5d111a9937302546ee8f831b4881f2085bfbac982b94bdf9aec3bd426a53a"
+metafile = true
+
+[[files]]
+file = "mods/create-diesel-generators.pw.toml"
+hash = "8f7276811d29b0163676111f2b1e486b0b335fea6820b8c6e5b6d7375a9589ed"
 metafile = true
 
 [[files]]
