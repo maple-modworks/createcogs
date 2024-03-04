@@ -94,19 +94,23 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1introduction.snbt"
-hash = "492f354045de81eaca44b8c6e966e83fae5767f1d3e2b50456cd1d2a39191c65"
+hash = "aa12f8293cd3613468398803ced9ad5730243b9c1b4716627cf941554a612290"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
-hash = "96b0a90b40c85bbdb6c9d3264125f04f496f588e68dd913e668de3b0b6db8bcd"
+hash = "c104cd235636dc52ef77b65ae8549aa6d3101451dcf9a69b124a4b2df944325d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
-hash = "1d5a9018404a61f1ebc640d6e73e45c1bbf5ec49a2f69196d5365a311bfb59d9"
+hash = "2b0f017f61b74c9d382351eb5c4e771fbc3892e946f7fed6cd7d27683a0aa431"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/3_compression_expanison.snbt"
-hash = "efdf418c8c5b31bda428a470552da9de6544ba29a21fddcd408eaf28a326d839"
+hash = "6f9edee8a89714a69c8c0c2aefab043b02ddec9106501a602dac42c7e9e98bbb"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/4_glowing_automation.snbt"
+hash = "79516063b74ac075f3f9b9f172c71e0940c3d1f1d14b9a9183349fbcfd54a1f7"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -211,6 +215,10 @@ hash = "600fd0260302c854a17699f0c91a2de2a91b4f35e4a1fe8a991416c01b01582e"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "d673a310e2fd0703cad032b1da2ce6f83a3c0f297a1f506bcd69d594d987390b"
+
+[[files]]
+file = "kubejs/server_scripts/base/loot_tables/loottables.js"
+hash = "58f2f8a5edcbec119709cab13b9a0651822ef5202f8dbb20376f0c92503b4982"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
@@ -558,6 +566,11 @@ hash = "33466bb8e4a189bc2fc7e456f0f06c94979b87141fb064706f96b1ff7ead74d3"
 metafile = true
 
 [[files]]
+file = "mods/jei.pw.toml"
+hash = "735a49bac23bc06a8a5c46c8fdfd4b193830fa2c3e17e5ab56db96c2a08d62bd"
+metafile = true
+
+[[files]]
 file = "mods/journeymap.pw.toml"
 hash = "add0e79881fb9c52ea46befe42c3194772f4f36dc50b5bd8b5c05f71a30095e9"
 metafile = true
@@ -679,12 +692,12 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items-hacks.pw.toml"
-hash = "7a39d6d8faddf9ac5f10aa1b3c271b8dc27b1f79531bdbeefb8d268b68e9eef5"
+hash = "aa9872a9780e866125c7b5cc264752e509d27ebad729574a7f4082a0d8d465ac"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "3fce40c9060e26cbf4dab3dac2b14afe803641595e718f2c9935fd9aef93449f"
+hash = "f4f87ca32d950df683ddfe294671d7a2729e238ace3312a46f59c8bb31eee1f5"
 metafile = true
 
 [[files]]
