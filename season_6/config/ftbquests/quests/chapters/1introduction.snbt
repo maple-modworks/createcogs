@@ -74,7 +74,7 @@
 			y: 2.0d
 		}
 		{
-			dependencies: ["1FC9F3F14CA42B63"]
+			dependencies: ["6EA1BCD1AE124BF0"]
 			description: [
 				"The &bCreate&r mod opens a lot of new options for item processing and transportation."
 				"Start by obtaining &l20 Andesite Alloy&r and click on the checkmark"
@@ -99,11 +99,12 @@
 				}
 			]
 			title: "The most useful rock"
-			x: 3.0d
+			x: 4.0d
 			y: 2.0d
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
+			description: ["Minecraft has temperature system now! So be careful and don't spend too long on the deserts or in icy biomes or it would be harmful for your health. But you can prevent that with some new clothes or blocks added bz the mod."]
 			hide: true
 			icon: "cold_sweat:thermometer"
 			id: "3446DFBEBFC35ABA"
@@ -112,8 +113,93 @@
 				title: "Temperature"
 				type: "checkmark"
 			}]
-			x: 1.5d
+			x: 2.1428571428571317d
+			y: 3.25d
+		}
+		{
+			dependencies: ["3446DFBEBFC35ABA"]
+			hide: true
+			icon: "chipped:chipped_emerald_block"
+			id: "6D7556EC864EC556"
+			rewards: [{
+				command: "/gamestage add @p chipped"
+				id: "5CCB16225112AC12"
+				type: "command"
+			}]
+			subtitle: "This modpack includes some really interesting decoration mods like Chipped, Dave's BE or Create Deco. To continue and unlock mod chipped, use Stonecutter at least 30 times. "
+			tasks: [{
+				icon: "supplementaries:hourglass"
+				id: "3A6562883B40840C"
+				stat: "minecraft:interact_with_stonecutter"
+				title: "Stone cutting"
+				type: "stat"
+				value: 30
+			}]
+			title: "New Decoration Options!"
+			x: 4.0d
 			y: 3.0d
+		}
+		{
+			dependencies: ["1FC9F3F14CA42B63"]
+			description: [
+				"Want better tools? The mod &l&bTetra&r&r adds new interesting and useful variants of vanilla-styled tools and weapons that you can combine together"
+				"with the &nTetra workbench&r, that can be created by right-clicking using the &nhammer&r (main hand) on the crafting table."
+			]
+			icon: {
+				Count: 1b
+				id: "tetra:scroll_rolled"
+				tag: {
+					BlockEntityTag: {
+						data: [{
+							glyphs: [I;
+								3
+								2
+								2
+								1
+							]
+							intricate: 0b
+							key: "sword/sturdy_guard"
+							material: 1
+							ribbon: "bcb8b5"
+							schematics: ["tetra:sword/sturdy_guard"]
+						}]
+					}
+				}
+			}
+			id: "6EA1BCD1AE124BF0"
+			rewards: [{
+				count: 8
+				id: "2E086789FC12096C"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A47E3C20F72BF54"
+					title: "TETRA!"
+					type: "checkmark"
+				}
+				{
+					id: "79DE02B3A50B819B"
+					item: {
+						Count: 1b
+						id: "tetra:modular_double"
+						tag: {
+							Damage: 0
+							"double/basic_hammer_left_material": "basic_hammer/oak"
+							"double/basic_hammer_right_material": "basic_hammer/oak"
+							"double/basic_handle_material": "basic_handle/stick"
+							"double/handle": "double/basic_handle"
+							"double/head_left": "double/basic_hammer_left"
+							"double/head_right": "double/basic_hammer_right"
+							id: "1ffb30ff-b0c0-4438-96b9-8e5165052dc4"
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 2.2857142857142847d
+			y: 1.1071428571428683d
 		}
 	]
 	title: "0. Blossoms of Beginning"

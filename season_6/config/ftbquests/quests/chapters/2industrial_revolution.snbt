@@ -3,7 +3,6 @@
 	default_quest_shape: ""
 	filename: "2industrial_revolution"
 	group: ""
-	hide_quest_until_deps_visible: true
 	icon: "create:steam_engine"
 	id: "7C743FD7243A501C"
 	images: [{
@@ -15,8 +14,8 @@
 		image: "railways:textures/gui/journeymap_train.png"
 		rotation: 0.0d
 		width: 1.5d
-		x: -1.5d
-		y: -1.5d
+		x: -3.0d
+		y: -7.0d
 	}]
 	order_index: 1
 	quest_links: [ ]
@@ -24,8 +23,8 @@
 		{
 			dependencies: ["2B4033336F26AEF0"]
 			description: [
-				"&lWater wheels&r are a decent early-game power supply - they have a decent power output at the cost of speed."
-				"Power a water wheel by placing a flowing water block next to it."
+				"The &bWater wheel&r and the &bLarge Water Wheel&r are a decent early-game power supply - they have a decent stress capacity at the cost of speed."
+				"&lPower a water wheel by getting water to flow around it&r."
 			]
 			id: "543891AFE583647E"
 			rewards: [{
@@ -36,6 +35,8 @@
 				random_bonus: 2
 				type: "item"
 			}]
+			shape: "gear"
+			size: 1.2d
 			tasks: [
 				{
 					id: "20871C0D296AE0EE"
@@ -49,8 +50,8 @@
 				}
 			]
 			title: "Powah!"
-			x: 0.0d
-			y: 0.0d
+			x: 4.2d
+			y: -7.8d
 		}
 		{
 			dependencies: ["543891AFE583647E"]
@@ -62,12 +63,12 @@
 				title: "Water wheel info "
 				type: "checkmark"
 			}]
-			x: -1.2d
-			y: 0.8d
+			x: 6.8d
+			y: -8.0d
 		}
 		{
 			dependencies: ["543891AFE583647E"]
-			description: ["Use a large cogwheel to change the speed output of your new water wheels "]
+			description: ["Connect a &bLarge Cogwheel&r to a &bCogwheel&r to change the speed output of your new water wheels. "]
 			hide: true
 			id: "0247253239B2D009"
 			rewards: [{
@@ -84,13 +85,14 @@
 				title: "Speed and Powah!"
 				type: "advancement"
 			}]
-			x: 2.5d
-			y: 0.0d
+			x: 1.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["0247253239B2D009"]
 			description: ["The &bMechanical Press&r allows you to turn some materials into their flatter counterparts - use a mechanical press to craft a few &liron sheets&r."]
 			hide: true
+			hide_details_until_startable: true
 			icon: "create:mechanical_press"
 			id: "15952C0D4433CB6E"
 			rewards: [{
@@ -120,8 +122,8 @@
 				}
 			]
 			title: "2D Engineering"
-			x: 5.0d
-			y: 0.0d
+			x: -0.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["15952C0D4433CB6E"]
@@ -132,6 +134,7 @@
 				"{@pagebreak}"
 			]
 			hide: true
+			hide_details_until_startable: true
 			icon: "create:mechanical_mixer"
 			id: "2796AE35AE33B6B0"
 			rewards: [{
@@ -139,6 +142,7 @@
 				item: "create:builders_tea"
 				type: "item"
 			}]
+			size: 1.2d
 			tasks: [
 				{
 					id: "7958AA1DA6950740"
@@ -159,8 +163,737 @@
 				}
 			]
 			title: "The Andesite Mixer"
+			x: -1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["740CFB4663063114"]
+			hide: true
+			id: "28CAC5EAA8DFC8D3"
+			tasks: [
+				{
+					id: "62A0E0663E01D3ED"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+				{
+					id: "59E91F85C73AD04B"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
+			x: -12.5d
+			y: -3.0d
+		}
+		{
+			hide: true
+			id: "740CFB4663063114"
+			rewards: [{
+				command: "/gamestage add @p botanypots"
+				id: "493250206DD61386"
+				type: "command"
+			}]
+			shape: "rsquare"
+			subtitle: "Try to build your own fully automatic crop processing farm using aesthetic windmill building! Use min. those items shown in the quests! Addidtionaly try to use Farmer's Delight as decoration inside. More in part. 2!"
+			tasks: [
+				{
+					id: "70CAC44DA866E783"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					count: 16L
+					icon: "create:white_sail"
+					id: "2700DD3355F2113C"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "2E21F8A76BA46295"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "281678AF46D52625"
+					title: "CHALLANGE COMPLETE!"
+					type: "checkmark"
+				}
+			]
+			title: "CHALLANGE 1.1"
+			x: -11.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["740CFB4663063114"]
+			description: ["Now you can complete your starter kitchen using automatized encased fans with lava that will cook the food. the order in which you bake or mix the ingredients is up to you. But mainly, let your kitchen smell good!"]
+			hide: true
+			id: "0AA2CA4ED115730E"
+			shape: "rsquare"
+			tasks: [
+				{
+					id: "14616ED723F6B936"
+					title: "CHALLANGE COMPLETE!"
+					type: "checkmark"
+				}
+				{
+					id: "7F465F25D03F6702"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "CHALLANGE 1.2"
+			x: -13.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["678990EBD140B618"]
+			description: [
+				"The &lmain components for Fluid Transfer&r are &bFluid Pipes&r, &bMechanical Pumps&r and &bFluid Tanks&r."
+				"&bFluid Pipes&r are the main block used to &lconnect two fluid inventories&r - they &ldon't do much&r on their own."
+				"&bMechanical Pumps&r are used to (when placed in a pipeline) &lpump fluids from one place to the other&r - they require rotational power, changing the rotation direction &ldoes not change pumping direction&r - use a &bWrench&r to do that. "
+				"&bFluid Tanks&r are used to store liquids in-world - &bFluid Pipes&r and &bMechanical Pumps&r can interact with them."
+			]
+			id: "2D98BE1C527EDDE4"
+			tasks: [
+				{
+					count: 32L
+					id: "3B4C4403E32C1771"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					count: 6L
+					id: "07D7A780275D18AD"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					count: 12L
+					id: "3A66C019CDB35AEE"
+					item: "create:fluid_tank"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Fluid Logistics 1"
+			x: 17.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["2D98BE1C527EDDE4"]
+			description: ["The &bSpout&r and the &bItem Drain&r are used for interactions between &lItems&r and &lFluids&r - The &bSpout&r is used to &lfill an Item with a Fluid&r and the &bItem Drain&r is used to &ldrain/pump out&r &lFluids&r out of an &lItem&r (e.g. Bucket)."]
+			id: "500F5EE1A14AD822"
+			tasks: [
+				{
+					id: "7FB9B2AF010CA54D"
+					item: "create:spout"
+					type: "item"
+				}
+				{
+					id: "17DA0AE498C49EB4"
+					item: "create:item_drain"
+					type: "item"
+				}
+			]
+			title: "Fluid Logistics 2"
+			x: 18.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["2796AE35AE33B6B0"]
+			description: ["When more than 8 sail-like blocks (e.g. &bWool&r or &bSails&r) are attached to a &bMechanical Bearing&r, it will start to produce &lrotational power proportional to the amount of sails placed on it&r - &bWindmills&r are &la lot stronger than&r &bWater wheels&r, however, they do this &lat the cost of versatility&r"]
+			id: "45B72B400471F8E5"
+			tasks: [{
+				id: "6F85055DC9064D72"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "The Land of Windmills"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2796AE35AE33B6B0"
+				"45B72B400471F8E5"
+			]
+			description: ["The &bMechanical Harvester&r can be used to &lautomaticaly harvest and replant&r any fully grown crops it goes over - to do so it &lrequires to be moving&r on a contraption - perhaps you could &ltry placing it on your Windmill&r"]
+			id: "7924C64FA78DAE66"
+			tasks: [{
+				id: "3EEE079383B0C972"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7924C64FA78DAE66"]
+			description: ["The &bMechanical Harvester&r &lwon't collect the harvested crops&r unless there is an inventory (e.g. a &bChest&r or a &bBarrel&r) present on the contraption it's attached to - this introduces another issue, where you &lcannot pull items out of this inventory&r - use a &bPortable Storage Interface&r to do just that (for more info see &lPonder Index&r)."]
+			id: "090394221B44DE5C"
+			tasks: [{
+				id: "7F8B244AF41D84BA"
+				item: "create:portable_storage_interface"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.5d
+		}
+		{
+			dependencies: [
+				"090394221B44DE5C"
+				"7924C64FA78DAE66"
+			]
+			description: ["Using &bMechanical Harvesters&r and &bPortable Storage Interfaces&r you have everything needed to make a simple &lWheat Farm&r - you don't have to go overboard with it, as it is just &lused as a passive food supply&r (unless you want to use &bPacked Mud&r)"]
+			id: "66133FF78AFA772C"
+			tasks: [
+				{
+					id: "661EF109719D1F38"
+					title: "Wheat Farm"
+					type: "checkmark"
+				}
+				{
+					count: 32L
+					id: "0B95425800964D9E"
+					item: "minecraft:wheat"
+					type: "item"
+				}
+			]
+			title: "Wheat Farm"
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"3FD364058FD12A0C"
+				"66133FF78AFA772C"
+				"2D98BE1C527EDDE4"
+			]
+			description: ["You can turn &bWheat&r into &bWheat Flour&r using &bMillstones&r - by then mixing &bWheat Flour&r with &bWater&r you can make &bDough&r."]
+			hide_dependency_lines: false
+			hide_details_until_startable: true
+			id: "6A23E7BC3520CB4E"
+			tasks: [
+				{
+					id: "09A06DFA55779876"
+					item: "create:dough"
+					type: "item"
+				}
+				{
+					id: "7DD8A1DAF156A731"
+					item: "create:wheat_flour"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: 4.0d
+		}
+		{
+			dependencies: [
+				"6A23E7BC3520CB4E"
+				"3EF9C5DCBC5DA3CC"
+			]
+			description: ["By smoking &bDough&r using a &bMechanical Fan&r, you can make &bBread&r &l3x cheaper than by crafting it&r."]
+			id: "0C70A658BB1462E9"
+			size: 1.5d
+			tasks: [{
+				id: "032AD608B5876AD9"
+				item: "minecraft:bread"
+				type: "item"
+			}]
 			x: 7.5d
+			y: 6.75d
+		}
+		{
+			dependencies: ["2796AE35AE33B6B0"]
+			description: [
+				"The &bMechanical Drill&r has (as its name implies) the &lability to break blocks in front of it&r when powered, making it very useful for automation."
+				"&8Disclaimer: Mining at high speeds may cause the mined blocks to behave unexpectedly, it is recommended to mine at 96 rpm and lower&r"
+			]
+			id: "6E62C342CACA51BD"
+			rewards: [{
+				id: "5F221330DF1C7A60"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7B5C97904336F45D"
+				item: "create:mechanical_drill"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6E62C342CACA51BD"]
+			description: [
+				"By placing a mechanical drill next to a lava generator, you can make an automatic cobblestone generator. However, the &4drill does not automaticaly collect&r the mined blocks - use a &bChute&r to do just that."
+				"&bChutes&r are a neat way of &ltransporting items verticaly&r - similar to hoppers, they take items from above and move them downwards, but they are &lmuch faster than hoppers&r."
+			]
+			id: "3CC473BADD28A393"
+			tasks: [
+				{
+					count: 32L
+					id: "00660964FADA90F8"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "09735FD886E569EA"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			title: "Cobblestone Generator"
+			x: 4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["3FD364058FD12A0C"]
+			description: ["&bCobblestone&r isn't very easy to extract materials from, &bGravel&r, on the other hand, is &lmuch easier to work with&r - &lset up a cobblestone crusher&r using &bMillstones&r"]
+			id: "2BE3DFF9899007C9"
+			tasks: [{
+				id: "47FBCFB2638795CA"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0D7983C57E7E247A"]
+			description: [
+				"Using a simple washing setup, you can turn &bGravel&r into &bFlint&r and &bIron Nuggets&r, effectively creating an iron farm."
+				"However, in order to wash gravel automaticaly, you need to &lget creative with how you filter out the outputs&r - by getting the &bGravel&r on a slow moving &bMechanical Belt&r, you can place &bEncased Fans&r with &bWater&r around it, making it so &lonly the outputs come out&r, if timed properly - you still need to figure out a way to split apart &bFlint&r and &bIron Nuggets&r"
+			]
+			id: "2B22430A1CE9316D"
+			size: 1.5d
+			tasks: [
+				{
+					id: "7366AE0405AF0D11"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "604619041FDA3467"
+					item: "minecraft:iron_nugget"
+					type: "item"
+				}
+			]
+			x: 15.0d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2B22430A1CE9316D"]
+			description: ["With your newly built &bIron farm&r, making a &bLava farm&r with at least &b18 Cauldrons&r should be a walk in the park - &lIt is not required to progress&r, but is highly recommended to make, especially in earlier chapters."]
+			id: "52C9DA79D9B52669"
+			optional: true
+			tasks: [
+				{
+					count: 18L
+					id: "00D8D817184231E0"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+				{
+					count: 18L
+					id: "1455E6BADFFDB30A"
+					item: "minecraft:pointed_dripstone"
+					type: "item"
+				}
+			]
+			title: "Lava Farm"
+			x: 13.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2B22430A1CE9316D"
+				"2BE3DFF9899007C9"
+				"2D98BE1C527EDDE4"
+				"7966DA7B783363BC"
+			]
+			description: ["By combining some of your now automated &bFlint&r, &bGravel&r and &bLava&r, you can automate the production of a vital resource &lrequired to make Andesite Alloy&r - &bAndesite&r"]
+			id: "5F421C342EB5CF76"
+			size: 1.5d
+			tasks: [{
+				id: "34A4F5E36D8DDE37"
+				item: "minecraft:andesite"
+				type: "item"
+			}]
+			x: 11.25d
 			y: 0.0d
+		}
+		{
+			dependencies: [
+				"2B22430A1CE9316D"
+				"5F421C342EB5CF76"
+			]
+			description: ["Combining all your farms' outputs, you can &lautomate perhaps the most useful resource&r - &bAndesite alloy&r"]
+			id: "50EDF006D42CA248"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "5361EF80D12C3BF5"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"50EDF006D42CA248"
+				"0C70A658BB1462E9"
+			]
+			description: ["Craft the &bAndesite Trophy&r to &lprove that you are worthy to progress&r in this this pack, before clicking the checkmark above, it is recommended to &lcheck back through your factory&r and &llook for any major bottlenecks&r - it will only &lslow you down later on&r"]
+			hide: false
+			hide_dependency_lines: true
+			icon: "kubejs:andesite_trophy"
+			id: "10C69EB3EFC3A768"
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "677D5DBBB1AD1DD0"
+					item: "kubejs:andesite_trophy"
+					type: "item"
+				}
+				{
+					id: "1C682C37AD5EBD0C"
+					title: "Finished"
+					type: "checkmark"
+				}
+			]
+			x: 6.0d
+			y: -4.2d
+		}
+		{
+			dependencies: ["2B22430A1CE9316D"]
+			description: [
+				"If you haven't built a Lava farm yet, your best option is to &lbuild a Large &bFluid Tank&r&r and fill it with &bLava&r &lfrom a nearby Lava Pool&r - Shouldn't be hard using an &bItem Drain&r."
+				"This is a very &ltemporary solution&r, and it is highly recommended that you &lbuild a Lava farm before progressing further&r into the pack."
+			]
+			hide_dependency_lines: true
+			id: "7966DA7B783363BC"
+			tasks: [{
+				id: "4B3BB5404BC4206F"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"3CC473BADD28A393"
+				"6AEEBD9A8B16E2AC"
+			]
+			description: ["The &bMillstone&r can &lturn some items into their powder versions&r - when powered, the &bMillstone&r &ltakes items from the top and processes them&r, however &4it does not have an output&r - use a &bChute&r or a &bFunnel&r to take the product out."]
+			id: "3FD364058FD12A0C"
+			tasks: [{
+				id: "6D0DA1FF74CE1949"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 6.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2796AE35AE33B6B0"]
+			description: [
+				"The &bMechanical Belt&r can be used to &lmove items and entities horizontaly&r when powered. Changing the rotation direction also changes the direction the belt moves."
+				"To place items on the belt, you can use the &bAndesite Funnel&r - funnels &ltake items from whatever inventory they're attached to and spit them out&r - when a funnel is placed &oabove&r a belt, the items it takes out of the inventory it's attached to will be placed on the belt automaticaly."
+			]
+			id: "6AEEBD9A8B16E2AC"
+			tasks: [
+				{
+					count: 2L
+					id: "15A72AA22A18F0B4"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "699F3DDB7841D09F"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+			]
+			title: "Belt Spaghetti"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"3CC473BADD28A393"
+				"1CFDB0C55ACA65FF"
+			]
+			description: ["The &bEncased Fan&r can also be used to alter the way &bChutes&r work - when a fan is &lfacing the top or bottom&r of a chute line, the direction it's blowing also &lchanges the direction items move inside the connected chutes&r. "]
+			hide: true
+			hide_dependency_lines: true
+			hide_details_until_startable: true
+			icon: "create:encased_fan"
+			id: "3F2D35EC03884A5D"
+			optional: true
+			tasks: [{
+				id: "43DE9E3A0812E4C2"
+				title: "Acknowledged"
+				type: "checkmark"
+			}]
+			title: "Wind Tunnel"
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BE3DFF9899007C9"]
+			description: ["The &bEncased Fan&r also has an interesting ability - when powered, it &lmoves air&r depending on the rotation direction - air currents created by &bEncased Fans&r can be used to &lmove entities and items&r, as well as to &lprocess certain items&r when the correct catalyst is present."]
+			id: "1CFDB0C55ACA65FF"
+			tasks: [{
+				id: "67420F3E74592DF6"
+				item: "create:encased_fan"
+				type: "item"
+			}]
+			x: 11.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1CFDB0C55ACA65FF"]
+			description: [
+				"If you place &bWater&r into an air current created by an &bEncased Fan&r, the air current will &ltake some of the water with it&r in the form of a &lfine mist&r - this can be used to &lprocess some powdery blocks&r such as gravel or sand."
+				"Be careful which way the air is flowing, it &lonly washes downstream&r."
+			]
+			id: "0D7983C57E7E247A"
+			tasks: [{
+				id: "04DDF1320EF54136"
+				item: "minecraft:water_bucket"
+				type: "item"
+			}]
+			title: "Washing Machine"
+			x: 13.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["1CFDB0C55ACA65FF"]
+			description: [
+				"Placing Lava into an air current created by an &bEncased Fan&r causes the air to get exteremly hot - in fact, it gets &lhot enough to smelt ores&r and other blocks."
+				"Be careful which way the air is flowing, it &lonly gets heated downstream&r."
+			]
+			id: "049F248EF729BD9E"
+			tasks: [{
+				id: "03737B81598C2E5A"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			title: "Really Hot Air"
+			x: 11.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["049F248EF729BD9E"]
+			description: ["Although not particularly rare, &bCopper&r is an &lincredibly valuable material&r in the Create mod - It's used for &lFluid transfer and processing&r. It also makes for a &lcolorful Building Block&r."]
+			id: "678990EBD140B618"
+			tasks: [{
+				count: 32L
+				id: "7E7A0762ED778DC1"
+				item: "minecraft:copper_ingot"
+				type: "item"
+			}]
+			title: "Aging Color Palette"
+			x: 14.0d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"0C70A658BB1462E9"
+				"500F5EE1A14AD822"
+			]
+			description: [
+				"By spouting &bMilk&r onto &bBread&r you can make a slightly better alternative to &bBread&r - the &bSweet Roll&r."
+				""
+				"By completing this quest you will &lunlock &bBotany Pots&r&r - these can &lgreatly increase the efficiency of your farms&r, if you don't mind having to work for it."
+			]
+			id: "538901FE7E3B4CA8"
+			optional: true
+			rewards: [{
+				command: "/gamestage add @p botanypots"
+				icon: "botanypots:terracotta_botany_pot"
+				id: "5735A561A924DAD8"
+				title: "Unlock Botany Pots"
+				type: "command"
+			}]
+			tasks: [{
+				count: 64L
+				id: "37824B7FA3F5D211"
+				item: "create:sweet_roll"
+				type: "item"
+			}]
+			x: 12.0d
+			y: 9.5d
+		}
+		{
+			dependencies: ["1CFDB0C55ACA65FF"]
+			description: [
+				"Placing a &bCampfire&r into an air current created by an &bEncased Fan&r causes the air to &lwarm up, and carry some smoke particles with it&r - this can be used to &lcook food&r, giving it a nice smoked aroma."
+				"Be careful which way the air is flowing, it &lonly works downstream&r."
+			]
+			id: "3EF9C5DCBC5DA3CC"
+			tasks: [{
+				id: "67B960703C3F4011"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Industrial Smoker"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["466F191A3E0BA4FA"]
+			description: ["By placing any &b1x1 Drawer&r with an &bAndesite Funnel&r attached to it next to a &bMechanical Belt&r or a &bDepot&r, you &lcan create a simple item filte&rr - first place the item to match inside the drawer, then lock it using the &bConfiguration Tool&r - you can then &lfreely pull items out&r of the &b1x1 Drawer&r without losing the filter."]
+			hide: true
+			id: "706777A257A7EA89"
+			optional: true
+			tasks: [
+				{
+					id: "28B414F104BBE04C"
+					item: "functionalstorage:oak_1"
+					match_nbt: true
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "368C70B39C1F1D47"
+					item: "functionalstorage:spruce_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1120541D286AF34F"
+					item: "functionalstorage:birch_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2079D86481B006E2"
+					item: "functionalstorage:jungle_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6BD7AC28F8176F48"
+					item: "functionalstorage:acacia_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "32CF151919F294C4"
+					item: "functionalstorage:dark_oak_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4388C7C94131C424"
+					item: "functionalstorage:mangrove_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "185CAE26F6AB8964"
+					item: "functionalstorage:cherry_1"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "11C6E3203C2EC71A"
+					item: "functionalstorage:configuration_tool"
+					type: "item"
+				}
+			]
+			title: "Makeshift Filters"
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2B22430A1CE9316D"]
+			description: [
+				"By clicking the checkmark above, new quests will appear - they contain the &lsolution to item filtering&r."
+				"&4&lDo not complete this quest if you want to take the challenge. It is optional and is &lnot required to progress further&r&r&r"
+			]
+			id: "466F191A3E0BA4FA"
+			optional: true
+			tasks: [{
+				id: "7B917437B4E52B63"
+				title: "Show Solution"
+				type: "checkmark"
+			}]
+			x: 17.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["466F191A3E0BA4FA"]
+			description: ["Another solution could be the use of &lvanila Hopper filters&r - however, it is not recommended, as these are a lot slower than using &bChutes&r and &bFunnels&r"]
+			hide: true
+			id: "7834FAF9C9764446"
+			optional: true
+			tasks: [{
+				id: "6D0EC0FA3485E6E3"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: 19.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45B72B400471F8E5"]
+			description: ["Every contraption &lneeds to be glued together&r in order to work properly - use a &bSuper Glue&r, &bChasis Blocks&r or &bSlime Blocks&r to &ldo just that&r."]
+			id: "6247C12BAC72C6E2"
+			optional: true
+			rewards: [{
+				id: "3165414172D2B45A"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 67
+					}
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "36CF8935FD21D90B"
+				title: "Not Working?"
+				type: "checkmark"
+			}]
+			x: -6.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["538901FE7E3B4CA8"]
+			description: ["The &bBotany Pot&r acts as a &lmini farm&r - put a &bSoil block&r (e.g. Dirt, Sand or Stone) into the bottom slot and a &bSeed item&r (e.g. Seeds, Pumpkin Seeds or Sugarcane) into the top slot - the Botany pot should then &lstart growing&r - &lright click&r on the &bBotany Pot&r once fully grown to harvest and automaticaly replant the Pot."]
+			hide: true
+			id: "1AB33EC6F11C4190"
+			optional: true
+			tasks: [{
+				id: "35B32903649ECA38"
+				item: "botanypots:terracotta_botany_pot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["1AB33EC6F11C4190"]
+			description: ["&bHopper Botany Pots&r act the same as normal &bBotany Pots&r, except they &lautomaticaly harvest&r and if possible, &lpush the output downwards&r (similarly to normal Hoppers)."]
+			hide: true
+			id: "365E598FFE7CA7B1"
+			optional: true
+			tasks: [{
+				id: "7705FC5EBAD3BA47"
+				item: "botanypots:terracotta_hopper_botany_pot"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 12.0d
 		}
 	]
 	title: "1.Industrial Revolution"

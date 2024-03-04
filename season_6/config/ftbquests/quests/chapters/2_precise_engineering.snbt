@@ -166,6 +166,39 @@
 			x: -9.0d
 			y: -0.5d
 		}
+		{
+			id: "477DA67DA242BCBC"
+			tasks: [
+				{
+					count: 3L
+					icon: "create:mechanical_saw"
+					id: "103056E34BEC068C"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "0F2B27A0794D4CF8"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					count: 2L
+					icon: "create:portable_storage_interface"
+					id: "1F1AE99DC9363101"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+				{
+					count: 3L
+					id: "77EF5886C6BE9837"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			title: "First Farm"
+			x: 4.5d
+			y: -1.0d
+		}
 	]
 	title: "2. Precise Engineering"
 }

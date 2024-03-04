@@ -263,21 +263,41 @@
 		{
 			dependencies: ["02CF94DED330D1FC"]
 			id: "62D75432BE7F074A"
-			tasks: [{
-				id: "06935997CA2ECF8C"
-				item: "kubejs:graphite_dust"
-				type: "item"
-			}]
+			subtitle: "Sawdust can be used for crafting planks."
+			tasks: [
+				{
+					count: 32L
+					id: "06935997CA2ECF8C"
+					item: "kubejs:graphite_dust"
+					type: "item"
+				}
+				{
+					count: 64L
+					id: "618FAF3DD80363E3"
+					item: "kubejs:sawdust"
+					type: "item"
+				}
+			]
+			title: "Grinding ashes"
 			x: -10.0d
 			y: -5.0d
 		}
 		{
 			id: "02CF94DED330D1FC"
-			tasks: [{
-				id: "7BADD86A15D2E16A"
+			rewards: [{
+				count: 10
+				id: "1DEA5ED951C2965E"
 				item: "minecraft:oak_log"
+				random_bonus: 10
 				type: "item"
 			}]
+			tasks: [{
+				count: 64L
+				id: "7BADD86A15D2E16A"
+				item: "minecraft:charcoal"
+				type: "item"
+			}]
+			title: "It's still burning"
 			x: -12.5d
 			y: -6.0d
 		}
@@ -298,23 +318,6 @@
 			]
 			x: -1.5d
 			y: -10.5d
-		}
-		{
-			id: "28CAC5EAA8DFC8D3"
-			tasks: [
-				{
-					id: "62A0E0663E01D3ED"
-					item: "botanypots:terracotta_botany_pot"
-					type: "item"
-				}
-				{
-					id: "59E91F85C73AD04B"
-					item: "botanypots:terracotta_hopper_botany_pot"
-					type: "item"
-				}
-			]
-			x: -15.0d
-			y: -8.0d
 		}
 		{
 			dependencies: ["0F0335C2D5189F3D"]
