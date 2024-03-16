@@ -266,6 +266,11 @@ hash = "ebb09834d83d8e413c0da20f2fd9665ad3fec85874260f5822dff2c37898a2b4"
 metafile = true
 
 [[files]]
+file = "mods/amendments.pw.toml"
+hash = "d8b20f6eef28a47367380fc710ae9340185a014b50452a54c8c54a99286c8618"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
