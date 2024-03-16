@@ -1,12 +1,12 @@
 name = "Season 6 1.20"
 author = "Maple Modworks"
-version = "0.0.7 HF 1"
+version = "0.0.8"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "91962ba68df0b2f635a12310eed0fc6e738a529620a34938507aef8e25988087"
+hash = "e9478d68394c2f5b69879dd0fcbcb8d9706ece1694ee9fd8951299e59d5e2e79"
 
 [versions]
 forge = "47.2.20"

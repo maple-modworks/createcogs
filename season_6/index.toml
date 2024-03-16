@@ -271,6 +271,11 @@ hash = "960890be34fda21cd78de480ca9dc367b518500efde04fc7fc34bc94ac383d89"
 metafile = true
 
 [[files]]
+file = "mods/armourers-workshop.pw.toml"
+hash = "4ef5112243365b1b51f168a0fd576582a0f7e24a3b5c8e22ead7246f5ea69ca7"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "d923b6a71a0c4abe91cac75198a4874f9a3d51535d642512e9358747070380fa"
 metafile = true
@@ -353,6 +358,11 @@ metafile = true
 [[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+metafile = true
+
+[[files]]
+file = "mods/copycats.pw.toml"
+hash = "9691904022fdda8474c6e500cbabc39d0eed0be7a0a003e278161330ba02b108"
 metafile = true
 
 [[files]]
