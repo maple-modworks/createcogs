@@ -367,7 +367,7 @@ metafile = true
 
 [[files]]
 file = "mods/copycats.pw.toml"
-hash = "9691904022fdda8474c6e500cbabc39d0eed0be7a0a003e278161330ba02b108"
+hash = "5043186ba50ba40bac6f669097b081c7aba85e6350c58a13a6c931e3138e4a31"
 metafile = true
 
 [[files]]
@@ -392,7 +392,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-connected.pw.toml"
-hash = "d122f4c575487303d4b2566e366bbb3b6d366493bcfb35effad89ff40b3ce816"
+hash = "ec3f886fdcd7034a6b1ac15792ac85fca2ac1e5fa47cdc1adb3ee4f4d7fbd698"
 metafile = true
 
 [[files]]
@@ -403,6 +403,11 @@ metafile = true
 [[files]]
 file = "mods/create-diesel-generators.pw.toml"
 hash = "8f7276811d29b0163676111f2b1e486b0b335fea6820b8c6e5b6d7375a9589ed"
+metafile = true
+
+[[files]]
+file = "mods/create-dreams-desires.pw.toml"
+hash = "2c4dc7f60fa4d3e5557639946406bf4fa3c4a45799cc828977d707ee4b671d58"
 metafile = true
 
 [[files]]
@@ -451,6 +456,11 @@ hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
 metafile = true
 
 [[files]]
+file = "mods/detected-setblock-be-gone.pw.toml"
+hash = "3155502f39959b150a27893ef4005e430275b6d873012c719198306cabd6ba39"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "4f04ba49bfba967c335d14c9c61f92e0fb9299cc7665dc76cb87a95bad00bf7c"
 metafile = true
@@ -467,7 +477,7 @@ metafile = true
 
 [[files]]
 file = "mods/endremastered.pw.toml"
-hash = "d3a4666ce920b1bc4df208452687a8e382bdd9cb7d1516edbaf6ed6c14f9af1f"
+hash = "48c89e386fe1dc47dedfce02ccbc9a55ca899e94348ae470a77b3b7022496a58"
 metafile = true
 
 [[files]]
@@ -487,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "7820f5cbe2d4f3eca8968fe658482798f5e8f3ae203816188acaec94a133dd63"
+hash = "dd83c67f124f8dbb3be0db068d2873e4afe7a703d95e9081279ff81bc74415f0"
 metafile = true
 
 [[files]]
