@@ -1,6 +1,6 @@
 name = "REI Plugin Compatibilities (REIPC)"
 filename = "REIPluginCompatibilities-forge-12.0.93.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
