@@ -446,6 +446,11 @@ hash = "e3675974e82fcae3aa0c612c5a7709739e6c83710ee4d0ccef890afcecc40c87"
 metafile = true
 
 [[files]]
+file = "mods/curios.pw.toml"
+hash = "ead7066d6c446bdfed73aca9617f070b8a034545f8d30125228cd4fc42e44e70"
+metafile = true
+
+[[files]]
 file = "mods/custom-player-models.pw.toml"
 hash = "96c050cca48df63abea4ecc7851e90d26aab6063d91a41676734894b848fe400"
 metafile = true
@@ -518,6 +523,11 @@ metafile = true
 [[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "e5264eb103970e9148e18d2b6ed50584d1d897e679db8c74be7b34b940574867"
+metafile = true
+
+[[files]]
+file = "mods/flapjacks-economy.pw.toml"
+hash = "204d267e82b5bfb83c012d5c84d7da1ac9d9c19367ab0aa70c36fab46e7c374a"
 metafile = true
 
 [[files]]
