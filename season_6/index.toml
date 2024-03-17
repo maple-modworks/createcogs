@@ -482,7 +482,7 @@ metafile = true
 
 [[files]]
 file = "mods/essential-mod.pw.toml"
-hash = "852386d4711d11bd328238b298ca1dc31e7f8fe84811536a7d58d6e4b027fbb7"
+hash = "6d58db2c106d38a7bf421af81d90b1864729eae916a573b527ae480162c7aaaa"
 metafile = true
 
 [[files]]
@@ -717,12 +717,12 @@ metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items-hacks.pw.toml"
-hash = "aa9872a9780e866125c7b5cc264752e509d27ebad729574a7f4082a0d8d465ac"
+hash = "9e0c238544426b6a83278da4c2c4656d72674461b278dcfd62884e7ff9667f7c"
 metafile = true
 
 [[files]]
 file = "mods/roughly-enough-items.pw.toml"
-hash = "f4f87ca32d950df683ddfe294671d7a2729e238ace3312a46f59c8bb31eee1f5"
+hash = "352e46db632ee2ed978e261eaf63636b5948978a8708e1da38cd9d967837a5b7"
 metafile = true
 
 [[files]]
@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/textrues-embeddium-options.pw.toml"
-hash = "298bb13455a749908d657f8d27c002bd071bc931f6c87298bfa5433d92fc3162"
+hash = "d7fd526f95186d001716a9909865ee810fb2f382e59dd2764b1e9247f505be4d"
 metafile = true
 
 [[files]]
