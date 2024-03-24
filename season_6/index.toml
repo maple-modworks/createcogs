@@ -271,6 +271,11 @@ hash = "d8b20f6eef28a47367380fc710ae9340185a014b50452a54c8c54a99286c8618"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2.pw.toml"
+hash = "c3bc7548b0d066bea1d23964297174231607bf3032264aa2a2ab2bbf80925f97"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "8a27a482bf7dbf9b8a96fe9a3e8bf8e08ca1d376c6cf13bccf49f0d5191d56fa"
 metafile = true
@@ -406,11 +411,6 @@ hash = "8f7276811d29b0163676111f2b1e486b0b335fea6820b8c6e5b6d7375a9589ed"
 metafile = true
 
 [[files]]
-file = "mods/create-dreams-desires.pw.toml"
-hash = "2c4dc7f60fa4d3e5557639946406bf4fa3c4a45799cc828977d707ee4b671d58"
-metafile = true
-
-[[files]]
 file = "mods/create-encased.pw.toml"
 hash = "3f68f912d9fc1a04a6cc81c4eeb8c0ba56aa9d91101b28e09937b9d2c226f174"
 metafile = true
@@ -458,11 +458,6 @@ metafile = true
 [[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
-metafile = true
-
-[[files]]
-file = "mods/detected-setblock-be-gone.pw.toml"
-hash = "3155502f39959b150a27893ef4005e430275b6d873012c719198306cabd6ba39"
 metafile = true
 
 [[files]]
@@ -633,6 +628,11 @@ metafile = true
 [[files]]
 file = "mods/kubejs.pw.toml"
 hash = "1c579abc5087a9fefa92484a76a2c9a7bef46ba14fb431d452aad806be15fd3a"
+metafile = true
+
+[[files]]
+file = "mods/lootjs.pw.toml"
+hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
 metafile = true
 
 [[files]]
