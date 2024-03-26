@@ -301,6 +301,11 @@ hash = "2eec5e5238d0d83715524ee6c70881400a549fd2d12fbfe083e351247255d350"
 metafile = true
 
 [[files]]
+file = "mods/better-ping-display.pw.toml"
+hash = "9d1b7461e30b45be9b85a401c211ba298012c2cd01950e55ff2daeca30ba4c3f"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
 metafile = true
@@ -342,7 +347,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-vs.pw.toml"
-hash = "d38b415c3d0391832359a3be8f6309e6b6261c2a1a888259bdabb7195aa2de06"
+hash = "9865ebb9d1f448f516028167354a4ccf25038bdf263253f49bf8da6d4dd44c00"
 metafile = true
 
 [[files]]
@@ -492,7 +497,7 @@ metafile = true
 
 [[files]]
 file = "mods/eureka-ships.pw.toml"
-hash = "641fef33ade95f6094a13ff976205a6997d1d8c7e551b050acc8ef3aa67fad6d"
+hash = "ec18d74e804ff7ee414ad1e45fdb823ef0f813448428bc1795e20c97a67e63ce"
 metafile = true
 
 [[files]]
@@ -581,6 +586,11 @@ hash = "384890bbfa7253871daf0784a331f725b998d2c049c86daf7a238ea358e80af0"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+hash = "31a8242e36b473760314a61d026f68e68ebe4151d100623d4f3467af69064c6e"
+metafile = true
+
+[[files]]
 file = "mods/interiors.pw.toml"
 hash = "1382dc49c71197e487e57199ce8c18acf0b42c538580255058d19e2e226d1e56"
 metafile = true
@@ -638,6 +648,11 @@ metafile = true
 [[files]]
 file = "mods/melody.pw.toml"
 hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
+metafile = true
+
+[[files]]
+file = "mods/memoryleakfix.pw.toml"
+hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
@@ -782,7 +797,7 @@ metafile = true
 
 [[files]]
 file = "mods/valkyrien-skies.pw.toml"
-hash = "77e81edab2b5b139f5cc4d3c40003e6248233db5bb637f5f06e90dcf92c12142"
+hash = "921ad2b17b091304faa03997b97152a9c15e24d46e4dca06e8159097b3f7ae2a"
 metafile = true
 
 [[files]]
