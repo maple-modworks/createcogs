@@ -471,6 +471,11 @@ hash = "4f04ba49bfba967c335d14c9c61f92e0fb9299cc7665dc76cb87a95bad00bf7c"
 metafile = true
 
 [[files]]
+file = "mods/dye-depot.pw.toml"
+hash = "c39b447c10dbf2f1bb661b3cd70da86efa182324009a0d57d58e8ed521e0b9a7"
+metafile = true
+
+[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "572651e7dc9ce46ad95b1db010050c2fcca64c7b9f87dc097cd90fb160e69975"
 metafile = true
