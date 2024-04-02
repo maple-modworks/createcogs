@@ -362,7 +362,7 @@ metafile = true
 
 [[files]]
 file = "mods/collective.pw.toml"
-hash = "cac734d930b38ce4b9519d73159f9cbede99476fdfce6160de6a186b6f81b402"
+hash = "8886ef4a1cb1bc56dae4e0091b494a2565ab95f520566402edd9901c11875994"
 metafile = true
 
 [[files]]
@@ -552,7 +552,7 @@ metafile = true
 
 [[files]]
 file = "mods/free-cam.pw.toml"
-hash = "5a57417b90e803036e07b860a1c31de185dd4bd960856d3504c73352af42f865"
+hash = "e52a5f654d1b1978ecdc9328950cecf22254c773f9c11d22440b8834bb92db2a"
 metafile = true
 
 [[files]]
@@ -587,7 +587,7 @@ metafile = true
 
 [[files]]
 file = "mods/full-brightness-toggle.pw.toml"
-hash = "99b1bb059e00449231b63a4ea8c00fa53b346a7ca72deb82a91ebcb6d75bf1bf"
+hash = "dd6c450552ac45ea52cee22f6b7ecb86bff1ea9a1694a08ff0e5d2cd971baf1f"
 metafile = true
 
 [[files]]
@@ -667,12 +667,12 @@ metafile = true
 
 [[files]]
 file = "mods/macrokeybinds.pw.toml"
-hash = "be39eecc6a36cc1494c910c35b92c2c42dc91d0c92a2103801e1823568b3113c"
+hash = "a6ac69c25bc33364e900be36199e61f7f97ff60adda72caee3f8846830299a0c"
 metafile = true
 
 [[files]]
 file = "mods/mc2discord.pw.toml"
-hash = "46d1a275c2208be86bdb025a891c0e73137eb0905f808ddd9e1402576ac9569d"
+hash = "b228d39e0673b85f3cea8ede2892681853201bb073a08433bfb92c34deef2fcc"
 metafile = true
 
 [[files]]
