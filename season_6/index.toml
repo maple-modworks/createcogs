@@ -666,11 +666,6 @@ hash = "e529665cfda65f7532a0cf52feac55eda02040f26f9ddaf2dfb4cdabe51332f4"
 metafile = true
 
 [[files]]
-file = "mods/macrokeybinds.pw.toml"
-hash = "ccb5765f1cd4b399328ef1ff2aec5433f87e0136eca610ad8ce9702eb9e50637"
-metafile = true
-
-[[files]]
 file = "mods/mc2discord.pw.toml"
 hash = "b228d39e0673b85f3cea8ede2892681853201bb073a08433bfb92c34deef2fcc"
 metafile = true
