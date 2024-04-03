@@ -667,7 +667,7 @@ metafile = true
 
 [[files]]
 file = "mods/macrokeybinds.pw.toml"
-hash = "a6ac69c25bc33364e900be36199e61f7f97ff60adda72caee3f8846830299a0c"
+hash = "ccb5765f1cd4b399328ef1ff2aec5433f87e0136eca610ad8ce9702eb9e50637"
 metafile = true
 
 [[files]]
