@@ -486,6 +486,11 @@ hash = "ff904d4fe59fdad3afe05c505660b3f6039757c00f5da9a1eb6b277df9d32aa4"
 metafile = true
 
 [[files]]
+file = "mods/emi.pw.toml"
+hash = "312b98a053300c19b9936f858596e9c3b1af9943d43c944e9fc85865dd9c02ad"
+metafile = true
+
+[[files]]
 file = "mods/endremastered.pw.toml"
 hash = "48c89e386fe1dc47dedfce02ccbc9a55ca899e94348ae470a77b3b7022496a58"
 metafile = true
@@ -627,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/jei.pw.toml"
-hash = "735a49bac23bc06a8a5c46c8fdfd4b193830fa2c3e17e5ab56db96c2a08d62bd"
+hash = "2b93d222bdea83fe0b92d33c3911ff7a9c631bf6f71cfe9624fcc3750d9e590a"
 metafile = true
 
 [[files]]
@@ -763,16 +768,6 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items-hacks.pw.toml"
-hash = "9e0c238544426b6a83278da4c2c4656d72674461b278dcfd62884e7ff9667f7c"
-metafile = true
-
-[[files]]
-file = "mods/roughly-enough-items.pw.toml"
-hash = "352e46db632ee2ed978e261eaf63636b5948978a8708e1da38cd9d967837a5b7"
 metafile = true
 
 [[files]]
