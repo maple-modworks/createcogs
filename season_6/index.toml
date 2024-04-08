@@ -267,7 +267,7 @@ metafile = true
 
 [[files]]
 file = "mods/amendments.pw.toml"
-hash = "562809e6f36276e13e16656f2c432792ec2be4377158909ff91c8099e3d86b2e"
+hash = "6ad1b033b95c336133879b3fc1098cf96d34ef52ca1f17ca14de7b2c0fae8aa1"
 metafile = true
 
 [[files]]
@@ -282,7 +282,7 @@ metafile = true
 
 [[files]]
 file = "mods/armourers-workshop.pw.toml"
-hash = "cc8658a899c15a4d44193f22b539be189cb0505309bb0985ef6d562befbdf961"
+hash = "087172434f9404ed1bc86a56824b35548e6d0e95db05dda79d44bbd753368a77"
 metafile = true
 
 [[files]]
@@ -342,7 +342,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "635271acddf921de9cfcf32c6e8cf48dcfeea2dd50166d6439477177689e2c1d"
+hash = "67faeaf204fed97e6983386f5ba1c0bcc87d22bec38e5940bb605cf6fac56d52"
 metafile = true
 
 [[files]]
@@ -437,7 +437,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
-hash = "f391d8786e495abf68c3ca8f8aec546c6a66b13a170e1b0378b95dfa3fba1f9d"
+hash = "7346bb2b446c0bc308577952dd66695f663e085b51b3105ae1192d0e71e98c29"
 metafile = true
 
 [[files]]
@@ -452,12 +452,12 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "ead7066d6c446bdfed73aca9617f070b8a034545f8d30125228cd4fc42e44e70"
+hash = "daa66b29e6634b2993fb34cc5075b031e58da3b8a7bc39b672638b72a21ae9ba"
 metafile = true
 
 [[files]]
 file = "mods/custom-player-models.pw.toml"
-hash = "96c050cca48df63abea4ecc7851e90d26aab6063d91a41676734894b848fe400"
+hash = "4c69c036d0c2bb640a2c857fd9e7794fcd3fe4c174ee8a299f1d00a3b055a0e7"
 metafile = true
 
 [[files]]
@@ -512,7 +512,7 @@ metafile = true
 
 [[files]]
 file = "mods/every-compat.pw.toml"
-hash = "de63f566b6a4592eb3ac83140338bd703cfef2c67bbf7f2c928c906373c0a0af"
+hash = "1a4f3657280ce863efd489f9cf99e48e56312df7ba126b4798f409a3caf4c366"
 metafile = true
 
 [[files]]
@@ -522,7 +522,7 @@ metafile = true
 
 [[files]]
 file = "mods/fancymenu.pw.toml"
-hash = "d3274c470c3453c5eaf928acf6d5138a27d0ee874fabc1f8c269e15c7d98fc46"
+hash = "d757916e8976aba10a779bc1a42a48d2964c40653032b46b5cffaca53a5013b8"
 metafile = true
 
 [[files]]
@@ -802,7 +802,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "af6d9bf3859abc6a3b9f61067325c3b1a6c5c20b97c462bbfcb8ca64449bb683"
+hash = "7cd5ba3f6e15a5bb367a6e7e3549f2f89b86e8936fc1e3de959ce47068abd991"
 metafile = true
 
 [[files]]
