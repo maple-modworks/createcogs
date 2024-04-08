@@ -1,0 +1,7 @@
+name = "oozing-backport"
+filename = "oozing_backport-1.0.jar"
+
+[download]
+url = "https://github.com/scmcgowen/OozingBackport/releases/download/mod/oozing_backport-1.0.jar"
+hash-format = "sha256"
+hash = "a579f13b3ef8f286ac71193fca9c619df916dba4839bf4004281a693dbf4e82c"
