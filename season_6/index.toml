@@ -471,11 +471,6 @@ hash = "4f04ba49bfba967c335d14c9c61f92e0fb9299cc7665dc76cb87a95bad00bf7c"
 metafile = true
 
 [[files]]
-file = "mods/dye-depot.pw.toml"
-hash = "045568ba7aefa65b222bd29489696875d9398161d9512a0bf04676a3ad43b46d"
-metafile = true
-
-[[files]]
 file = "mods/embeddium.pw.toml"
 hash = "572651e7dc9ce46ad95b1db010050c2fcca64c7b9f87dc097cd90fb160e69975"
 metafile = true
@@ -508,11 +503,6 @@ metafile = true
 [[files]]
 file = "mods/eureka-ships.pw.toml"
 hash = "ec18d74e804ff7ee414ad1e45fdb823ef0f813448428bc1795e20c97a67e63ce"
-metafile = true
-
-[[files]]
-file = "mods/every-compat.pw.toml"
-hash = "1a4f3657280ce863efd489f9cf99e48e56312df7ba126b4798f409a3caf4c366"
 metafile = true
 
 [[files]]
