@@ -1,7 +1,13 @@
-name = "oozing-backport"
+name = "Oozing Backport"
 filename = "oozing_backport-1.0.jar"
+side = "both"
 
 [download]
-url = "https://github.com/scmcgowen/OozingBackport/releases/download/mod/oozing_backport-1.0.jar"
-hash-format = "sha256"
-hash = "a579f13b3ef8f286ac71193fca9c619df916dba4839bf4004281a693dbf4e82c"
+url = "https://cdn.modrinth.com/data/KT8Sql0M/versions/aKoB1m2v/oozing_backport-1.0.jar"
+hash-format = "sha1"
+hash = "5d945cad9cde5a9f004ad914e8370c39f80c30d0"
+
+[update]
+[update.modrinth]
+mod-id = "KT8Sql0M"
+version = "aKoB1m2v"
