@@ -762,7 +762,7 @@ metafile = true
 
 [[files]]
 file = "mods/retro-damage-indicators.pw.toml"
-hash = "10e05d77b14f4b3b7bceeb855fe9d21974b51af62720b9b33922d0eb940f211d"
+hash = "1707f2ad53cb4fe72a23e1daba70765f7c7e64ff7163140659b8d252cbe35fd2"
 metafile = true
 
 [[files]]
