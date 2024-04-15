@@ -761,6 +761,11 @@ hash = "d64f9f2bec28a62c595d5be6c34bc11bd77970ddbcfc81cdafe6a4b4eabbc731"
 metafile = true
 
 [[files]]
+file = "mods/retro-damage-indicators.pw.toml"
+hash = "10e05d77b14f4b3b7bceeb855fe9d21974b51af62720b9b33922d0eb940f211d"
+metafile = true
+
+[[files]]
 file = "mods/rhino.pw.toml"
 hash = "6be79c8aeb5bddbe5957a1292a7977d8e03926c3126472edeaa906ef54f51b58"
 metafile = true
