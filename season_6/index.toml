@@ -831,5 +831,10 @@ hash = "9ba4edf5fcf5fcb861bdd9de94e01dfa0c9640f2ae1a82db284a0c47ddded987"
 metafile = true
 
 [[files]]
+file = "resourcepacks/create_applied_energistics-2.pw.toml"
+hash = "a3952558cb4439969012be6096d5ccc35b8dda8c0ed773f7b1e65139116e2c52"
+metafile = true
+
+[[files]]
 file = "scripts/stages.zs"
 hash = "22e300b1fc1333bf51fef24fa723610498a71ed291739c13b48455340f9db62e"
