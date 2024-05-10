@@ -1,17 +1,16 @@
 name = "Retro Damage Indicators"
-filename = "retrodamageindicators-1.0.0.jar"
+filename = "retrodamageindicators-1.0.1.jar"
 side = "client"
 
 [download]
 hash-format = "sha1"
-hash = "8dc2ef94b1d84d4dc135815106b7da8f521cad17"
+hash = "a63e8e355a866b285269e8bc654f854b488278c8"
 mode = "metadata:curseforge"
-
-[option]
-optional=true
-default=false
 
 [update]
 [update.curseforge]
-file-id = 5263028
+file-id = 5268035
 project-id = 1003431
+
+[option]
+optional = true
