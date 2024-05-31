@@ -596,6 +596,11 @@ hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
 
 [[files]]
+file = "mods/geoactive.pw.toml"
+hash = "27db38bec68ab554c74565bfd70464b2d0ae12f0ada1c4b1a07a57abc4466402"
+metafile = true
+
+[[files]]
 file = "mods/geophilic.pw.toml"
 hash = "384890bbfa7253871daf0784a331f725b998d2c049c86daf7a238ea358e80af0"
 metafile = true
