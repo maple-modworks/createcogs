@@ -816,11 +816,6 @@ hash = "7cd5ba3f6e15a5bb367a6e7e3549f2f89b86e8936fc1e3de959ce47068abd991"
 metafile = true
 
 [[files]]
-file = "mods/textrues-embeddium-options.pw.toml"
-hash = "d7fd526f95186d001716a9909865ee810fb2f382e59dd2764b1e9247f505be4d"
-metafile = true
-
-[[files]]
 file = "mods/titanium.pw.toml"
 hash = "560d876a490dde8bdc9851077e3b6e02809c76d472f312c05fdfcc4fe43c23cd"
 metafile = true
