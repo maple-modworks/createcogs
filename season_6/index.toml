@@ -597,7 +597,7 @@ metafile = true
 
 [[files]]
 file = "mods/geoactive.pw.toml"
-hash = "1dcaa9f23b3fd8a7003bba733c85df26bf0cd800a07e952f3ff6aa70843e70f4"
+hash = "46bfa7de47cd3e2e4968eeea81bbea572daa88ffc774c6f8e4614ea27162a72e"
 metafile = true
 
 [[files]]
