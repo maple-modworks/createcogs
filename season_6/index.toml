@@ -761,6 +761,16 @@ hash = "7c06fb40a6113c0c483726efb30a817d56683c1abf39d751d637f3e53291a21f"
 metafile = true
 
 [[files]]
+file = "mods/pv-addon-broadcast.pw.toml"
+hash = "99dc10c737cff18f2f08d076f3c6ba1f54a714fddd4d690cfb9631e1d25136f7"
+metafile = true
+
+[[files]]
+file = "mods/pv-addon-groups.pw.toml"
+hash = "98ec355436257a68b2b6a9066ade873e0675ca2b74aea0a3b3f9ef38ac6aadf1"
+metafile = true
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "a19e00d52a5bca57e6b4b3b026094cffedd494b2e1b69149587c4049ccacead0"
 metafile = true
