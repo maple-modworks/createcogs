@@ -1,13 +1,13 @@
 name = "Create: Framed"
-filename = "createframed-1.20.1-1.4.2.jar"
+filename = "createframed-1.20.1-1.4.4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "130c9fa81bd391d31ea80ccd7188d81c2956d1eb"
+hash = "4abdac04e8a144fd1bcc285eacf82a9b48f8d218"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5227213
+file-id = 5365584
 project-id = 953126
