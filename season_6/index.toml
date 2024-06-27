@@ -286,6 +286,11 @@ hash = "28d797f68e3489bbd6f27c930ba37554e71c75b8ab34d5d9f17432d18df30239"
 metafile = true
 
 [[files]]
+file = "mods/artsandcrafts.pw.toml"
+hash = "1fb488deb0430a5573757d7c81772590fcce34abb819033adb0c30c51f1c07b3"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
@@ -573,6 +578,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-teams-forge.pw.toml"
 hash = "76c3828b4e7288b79d6b0ca1418410539082a749650f9c85c6b03cf53ed1221e"
+metafile = true
+
+[[files]]
+file = "mods/ftb-xmod-compat.pw.toml"
+hash = "1e17d92e2843cdb01a229d4987b0ef456c8a759d1e02e18f5265fd8179cbf7c2"
 metafile = true
 
 [[files]]
