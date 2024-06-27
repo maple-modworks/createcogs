@@ -621,6 +621,11 @@ hash = "d925d89ab420bc00b3c3c2b5db81a00b94ba309759f5c34fa308f681e5d02496"
 metafile = true
 
 [[files]]
+file = "mods/item-filters.pw.toml"
+hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
+metafile = true
+
+[[files]]
 file = "mods/item-stages.pw.toml"
 hash = "e7088f7c568d00cc695b8556a13976d16455ab6dba683eccf3fca67355c5d05a"
 metafile = true
