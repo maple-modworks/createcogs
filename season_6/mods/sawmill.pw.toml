@@ -1,13 +1,13 @@
 name = "Sawmill"
-filename = "sawmill-1.20-1.4.3.jar"
+filename = "sawmill-1.20-1.4.1.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "dc0f804c9ac075db515c6717a05f49a0c2081aa5"
+hash = "c008fdfea2c7f60d1060eb9f8ced1b68482becf2"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5477977
+file-id = 5385260
 project-id = 964817
