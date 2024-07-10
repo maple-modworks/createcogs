@@ -28,24 +28,41 @@
 		}
 		{
 			dependencies: ["6E387D2D5CD42E31"]
+			description: [
+				"While the &bDeployer&r may not seem too advanced at first, it is incredibly powerful when used properly. Because it is not operated in any biological manner, it can achieve &lfar greater accuracy than any human ever could&r - making it a vital part of your assembly lines."
+				""
+				"When powered, the &bDeployer&r will either perform a right-click or a left-click action in the direction it is facing, making it a viable way of &lautomating the previously impossible&r."
+				"When powered while being placed over a &bMechanical Belt&r or a &bDepot&r, it will try to merge the item it is holding with the item underneath &lwith incredible precision&r - perhaps you could use this to your advantage?"
+			]
 			id: "4D6A6077C20BCBC7"
+			subtitle: "Can you arm this arm? It could harm you..."
 			tasks: [{
 				id: "194FAA940B4F37CD"
 				item: "create:deployer"
 				type: "item"
 			}]
-			x: 1.0d
+			title: "The Deployer"
+			x: -5.0d
 			y: -3.5d
 		}
 		{
+			description: ["In order to create more advanced machinery, you need to obtain a couple of &bElectron Tubes&r and &bBrass Hands&r. However, in order to create these items, you would need more advanced machinery than you currently have, so your only option is finding them in &lVillages and Blacksmiths&r as artifacts."]
 			id: "6E387D2D5CD42E31"
-			tasks: [{
-				id: "2371AD1A4E749D28"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -5.0d
+			tasks: [
+				{
+					id: "2371AD1A4E749D28"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "581047461129E5CA"
+					item: "create:brass_hand"
+					type: "item"
+				}
+			]
+			title: "Rare artifacts of the past"
+			x: -6.5d
+			y: -5.5d
 		}
 		{
 			dependencies: [
@@ -59,7 +76,7 @@
 				type: "item"
 			}]
 			x: -1.5d
-			y: -2.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["605C590A9C56E61C"]
@@ -69,35 +86,32 @@
 				item: "create:large_cogwheel"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 0.5d
+			x: 1.0d
+			y: 1.0d
 		}
 		{
+			dependencies: ["1C48A4C8FBD47B22"]
 			id: "1459630D668EA75C"
 			tasks: [{
 				id: "3DB98BBF0BA0C630"
 				item: "minecraft:iron_nugget"
 				type: "item"
 			}]
-			x: 0.5d
-			y: 3.0d
+			x: 4.0d
+			y: 1.0d
 		}
 		{
-			dependencies: ["245D95D4BFD89E0F"]
 			id: "144ED18ABCD8E55D"
 			tasks: [{
 				id: "266CEE08DFB57996"
 				item: "create:shaft"
 				type: "item"
 			}]
-			x: -3.0d
-			y: -1.0d
+			x: -1.0d
+			y: 3.0d
 		}
 		{
-			dependencies: [
-				"0A36050A62F29EFD"
-				"245D95D4BFD89E0F"
-			]
+			dependencies: ["0A36050A62F29EFD"]
 			id: "6357749919C66968"
 			tasks: [{
 				id: "4435CDA825363F84"
@@ -105,66 +119,29 @@
 				type: "item"
 			}]
 			x: -3.0d
-			y: -3.5d
+			y: 1.0d
 		}
 		{
-			dependencies: [
-				"0A2075195F30EAC5"
-				"245D95D4BFD89E0F"
-			]
+			dependencies: ["0A2075195F30EAC5"]
 			id: "0A36050A62F29EFD"
 			tasks: [{
 				id: "1CB68A8AADD92AF7"
 				item: "minecraft:stripped_oak_log"
 				type: "item"
 			}]
-			x: -5.0d
-			y: -4.5d
+			x: -4.5d
+			y: 0.5d
 		}
 		{
-			dependencies: ["245D95D4BFD89E0F"]
+			dependencies: ["5B923E9561870771"]
 			id: "0A2075195F30EAC5"
 			tasks: [{
 				id: "0C8F3829137DEFC3"
 				item: "minecraft:oak_log"
 				type: "item"
 			}]
-			x: -7.0d
-			y: -5.0d
-		}
-		{
-			id: "245D95D4BFD89E0F"
-			tasks: [{
-				id: "244C92E856FEFD32"
-				item: "create:mechanical_saw"
-				type: "item"
-			}]
-			x: -8.0d
-			y: -2.5d
-		}
-		{
-			dependencies: [
-				"507B911842C5119C"
-				"245D95D4BFD89E0F"
-			]
-			id: "2F5E7469F2B62A3E"
-			tasks: [{
-				id: "4087178E3D9464D7"
-				item: "create:fluid_pipe"
-				type: "item"
-			}]
 			x: -6.0d
-			y: 2.0d
-		}
-		{
-			id: "507B911842C5119C"
-			tasks: [{
-				id: "3455CD64B168DBC1"
-				item: "minecraft:copper_ingot"
-				type: "item"
-			}]
-			x: -9.0d
-			y: -0.5d
+			y: 0.0d
 		}
 		{
 			id: "477DA67DA242BCBC"
@@ -196,8 +173,321 @@
 				}
 			]
 			title: "First Farm"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"2B377B8CA8562B78"
+				"48151A301D641F9C"
+			]
+			hide: true
+			hide_details_until_startable: true
+			id: "301A901C93EF849F"
+			shape: "hexagon"
+			size: 2.0d
+			tasks: [{
+				id: "020989C0A3103F89"
+				item: "kubejs:silicon_template"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"1A2CF1ED4B51544B"
+				"1D95AE1918967AA2"
+				"0A71B477740D764C"
+			]
+			id: "2B377B8CA8562B78"
+			tasks: [{
+				id: "08007B91F41FF59E"
+				item: "kubejs:silicon_compound"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["1A2CF1ED4B51544B"]
+			id: "1D95AE1918967AA2"
+			tasks: [{
+				id: "424A7A6DFE9988E5"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"1C48A4C8FBD47B22"
+				"48151A301D641F9C"
+			]
+			hide: true
+			hide_details_until_startable: true
+			id: "1A2CF1ED4B51544B"
+			tasks: [{
+				id: "309B0A5C4EFE77FA"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1A2CF1ED4B51544B"]
+			id: "0A71B477740D764C"
+			tasks: [{
+				id: "430839E70AF0D7ED"
+				item: "ae2:certus_quartz_dust"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -2.5d
+		}
+		{
+			id: "5C75853B51176C1E"
+			tasks: [
+				{
+					id: "51050199BB631E04"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "58B013A32CEEFF27"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+			]
 			x: 4.5d
-			y: -1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["5C75853B51176C1E"]
+			id: "1C48A4C8FBD47B22"
+			tasks: [{
+				id: "7F484050989DFFF6"
+				item: "create:millstone"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"4D6A6077C20BCBC7"
+				"263D2B85CB29DEF7"
+			]
+			description: ["With your new &bDeployer&r, you can create a &lsimple tree farm&r - simply rebuild your wheat farm but replace the &bHarvesters&r with &bMechanical Saws&r (mind the orientation and the rotation direction). Despite them having an input, the mechanical saws &bdo not need to be powered&r yet, as they get powered by the Windmill/Mechancial Bearing. However it is not that simple, as &bMechanical Saws&r can only cut trees and &lnot plant them&r, that's where the &bDeployer&r comes into play - place them 2 blocks above the ground level facing downwards, set their filter to be a sapling of your choosing and add a &bChest&r or other container on the contraption - this is where the deployers will take the saplings from. Keep in mind the tree farm produces &lother byproducts&r as well, mainly &bSticks and Saplings&r - shouldn't be a problem when utilizing the &lfiltering methods from the previous chapter&r"]
+			id: "5B923E9561870771"
+			tasks: [
+				{
+					id: "62C91B3E79C43DF7"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 20L
+					id: "54A004D44F61C2ED"
+					item: { Count: 20, id: "minecraft:oak_sapling" }
+					type: "item"
+				}
+				{
+					id: "294B6975A8BC607E"
+					item: "create:windmill_bearing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "16A025F425B843A6"
+					item: "create:mechanical_bearing"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "17BE4C49007AB8DD"
+					item: "create:portable_storage_interface"
+					type: "item"
+				}
+			]
+			title: "The TreeMill™"
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["57854839D31216FE"]
+			id: "16D7B56900563B6D"
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: "minecraft:netherrack"
+				id: "6615F210885576F8"
+				title: "Visit the nether"
+				type: "dimension"
+			}]
+			title: "Go to hell... Literaly"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["16D7B56900563B6D"]
+			id: "318F3A0772C2EB80"
+			subtitle: "Find a Nether Fortress"
+			tasks: [{
+				icon: "minecraft:nether_bricks"
+				id: "37EB8CAC47CC2C70"
+				structure: "minecraft:fortress"
+				title: "Find a Nether Fortress"
+				type: "structure"
+			}]
+			title: "Why is it even called a fortress?"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["318F3A0772C2EB80"]
+			id: "1EBE98079FA739E5"
+			tasks: [
+				{
+					id: "47A8815BC04A78FD"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "5E58261CDB53E8D3"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1EBE98079FA739E5"]
+			id: "45FC2437B5DF1F45"
+			tasks: [{
+				id: "011BE42899E5747D"
+				item: "create:brass_ingot"
+				type: "item"
+			}]
+			title: "Time for an upgrade"
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45FC2437B5DF1F45"]
+			id: "63A0AF5DF93D033E"
+			tasks: [
+				{
+					id: "02B307F3B345C024"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "4DBB3A45FDD068FE"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					id: "7834A50A1C0BB8AA"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			x: 5.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["6203241AD5AEA2F7"]
+			id: "30972DEB9DDB8DF2"
+			tasks: [
+				{
+					id: "1D8A86C667F05904"
+					item: "create:mechanical_arm"
+					type: "item"
+				}
+				{
+					id: "608D00B6895DF2E7"
+					item: "create:deployer"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["45FC2437B5DF1F45"]
+			id: "6203241AD5AEA2F7"
+			tasks: [{
+				id: "43688ED523F87BD9"
+				item: "create:brass_hand"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["45FC2437B5DF1F45"]
+			id: "2495F5817B4F1A80"
+			tasks: [{
+				id: "31A939E3329005BE"
+				item: "create:rotation_speed_controller"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -7.0d
+		}
+		{
+			dependencies: [
+				"57854839D31216FE"
+				"45FC2437B5DF1F45"
+			]
+			icon: "ae2:silicon"
+			id: "48151A301D641F9C"
+			tasks: [{
+				id: "7FFE602214375978"
+				title: "But whyy stop thereee???"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -2.0d
+		}
+		{
+			id: "263D2B85CB29DEF7"
+			tasks: [{
+				id: "2E09D8F322D288A9"
+				item: "create:mechanical_saw"
+				type: "item"
+			}]
+			title: "I Saw You!"
+			x: -8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5B923E9561870771"]
+			description: ["Depending on the tree type you chose to build your tree farm with, you might get different buproducts, however they all have their own uses - with all tree types you receive additional saplings which are not needed, and with oak trees you receive apples as well - these can be composted into bonemeal which can be used in the wheat farm from the previous chapter to speed it up a little. Sticks can be used as a cheap and inefficient fuel, which is not recommended, or they might get utilized in the following chapters."]
+			id: "3F0668E4037B8B07"
+			tasks: [
+				{
+					id: "44E9F0C0258794EF"
+					item: "minecraft:oak_sapling"
+					type: "item"
+				}
+				{
+					id: "0D463EA11CB41E99"
+					item: "minecraft:apple"
+					type: "item"
+				}
+				{
+					id: "2A006B7A8186580E"
+					item: "minecraft:stick"
+					type: "item"
+				}
+			]
+			title: "The Byproducts"
+			x: -8.5d
+			y: -0.5d
 		}
 	]
 	title: "2. Precise Engineering"

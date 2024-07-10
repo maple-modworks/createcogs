@@ -1,0 +1,53 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "quest_lines"
+	group: ""
+	icon: "kubejs:mod_token"
+	id: "0408E857F2DF865E"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["301A901C93EF849F"]
+			icon: "kubejs:mod_token"
+			id: "20CF0E1AEE75EF62"
+			tasks: [{
+				id: "1294BE851772E722"
+				title: "Quest Lines"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["20CF0E1AEE75EF62"]
+			icon: "ae2:controller"
+			id: "50F6B8909F006B76"
+			tasks: [{
+				consume_items: true
+				id: "1A5FC87186482B44"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
+			title: "Applied Energestics 2"
+			x: 2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20CF0E1AEE75EF62"]
+			icon: "pneumaticcraft:pressure_gauge"
+			id: "71272D7758646096"
+			tasks: [{
+				consume_items: true
+				id: "310BB9C3B4CD6549"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
+			title: "Pneumaticcraft"
+			x: 2.5d
+			y: 0.0d
+		}
+	]
+	title: "Quest Lines"
+}

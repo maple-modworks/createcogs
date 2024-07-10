@@ -5,18 +5,472 @@
 	group: ""
 	icon: "create:steam_engine"
 	id: "7C743FD7243A501C"
-	images: [{
-		click: ""
-		corner: false
-		dev: false
-		height: 1.5d
-		hover: [ ]
-		image: "railways:textures/gui/journeymap_train.png"
-		rotation: 0.0d
-		width: 1.5d
-		x: -3.0d
-		y: -7.0d
-	}]
+	images: [
+		{
+			height: 3.0d
+			image: "chipped:block/barrel/birch_barrel_top"
+			rotation: 0.0d
+			width: 3.0d
+			x: 6.0d
+			y: -4.0d
+		}
+		{
+			height: 1.0d
+			image: "davebuildingmod:block/arrow_down_sign"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.0d
+			y: -6.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cave_vines_plant_lit"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: 1.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cave_vines_plant"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cave_vines_lit"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: -8.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.7619047619047663d
+			y: -13.288095238095217d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.3809523809523725d
+			y: -18.430952380952363d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.7619047619047663d
+			y: -18.430952380952363d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.904761904761912d
+			y: -18.430952380952363d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: -13.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.5d
+			y: -18.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cave_vines"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.2380952380952408d
+			y: -13.288095238095217d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: -18.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: -8.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: -13.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: -3.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: 1.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: 6.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.5d
+			y: -18.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/copper_ore"
+			rotation: 0.0d
+			width: 6.0d
+			x: 16.5d
+			y: -13.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: 16.5d
+			y: -18.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.5d
+			y: -13.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.5d
+			y: -18.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: -13.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/dark_oak_log/edge_cut_dark_oak_log"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: -8.323809523809501d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/dark_oak_log/edge_cut_dark_oak_log"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: -3.1809523809523554d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/dark_oak_log/edge_cut_dark_oak_log"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: 2.0d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/dark_oak_log/edge_cut_dark_oak_log"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: 7.0d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/dark_oak_log/edge_cut_dark_oak_log"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.5d
+			y: 12.0d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: 11.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -3.5d
+			y: -23.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/common_textures/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.5d
+			y: -23.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.5d
+			y: -23.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/mossy_cobblestone/ctm/overlapping_mossy_cobblestone_tiles_ctm/3"
+			rotation: 0.0d
+			width: 6.0d
+			x: -8.5d
+			y: -23.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.5d
+			y: -23.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: -3.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 6.0d
+			x: -19.0d
+			y: 11.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/cobblestone"
+			rotation: 0.0d
+			width: 6.0d
+			x: -19.0d
+			y: 6.5d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/mossy_cobblestone"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.5d
+			y: 12.0d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:block/potted_flowering_azalea_bush_plant"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.500000000000014d
+			y: 6.819047619047652d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -19.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -14.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -9.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: -4.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 1.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 6.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 11.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 16.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 26.0d
+			y: 16.5d
+		}
+		{
+			height: 6.0d
+			image: "chipped:block/cobblestone/ctm/massive_cobblestone_bricks/0"
+			rotation: 0.0d
+			width: 6.0d
+			x: 31.0d
+			y: 16.5d
+		}
+		{
+			height: 3.0d
+			image: "ftblibrary:icons/bug"
+			rotation: 0.0d
+			width: 3.0d
+			x: 26.5d
+			y: -2.0d
+		}
+		{
+			height: 6.0d
+			image: "biomesoplenty:block/desert_grass"
+			rotation: 0.0d
+			width: 6.0d
+			x: -0.7857142857142563d
+			y: 11.390476190476221d
+		}
+		{
+			height: 8.0d
+			image: "biomesoplenty:block/desert_grass"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.64285714285718d
+			y: 10.533333333333374d
+		}
+		{
+			height: 6.0d
+			image: "minecraft:item/chain"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.50000000000003d
+			y: -8.609523809523765d
+		}
+		{
+			height: 6.0d
+			image: "chipped:item/lantern/iron_bowl_lantern"
+			rotation: 0.0d
+			width: 6.0d
+			x: 21.35714285714289d
+			y: -4.895238095238049d
+		}
+		{
+			height: 6.0d
+			image: "miners_delight:item/copper_pot"
+			rotation: 0.0d
+			width: 6.0d
+			x: -19.0d
+			y: 2.0d
+		}
+	]
 	order_index: 1
 	quest_links: [ ]
 	quests: [
@@ -57,7 +511,7 @@
 			dependencies: ["543891AFE583647E"]
 			id: "744869941BF46D2F"
 			optional: true
-			size: 0.8d
+			size: 1.5d
 			tasks: [{
 				id: "08B8AA89A02B58A9"
 				title: "Water wheel info "
@@ -167,29 +621,12 @@
 			y: -2.5d
 		}
 		{
-			dependencies: ["740CFB4663063114"]
-			hide: true
-			id: "28CAC5EAA8DFC8D3"
-			tasks: [
-				{
-					id: "62A0E0663E01D3ED"
-					item: "botanypots:terracotta_botany_pot"
-					type: "item"
-				}
-				{
-					id: "59E91F85C73AD04B"
-					item: "botanypots:terracotta_hopper_botany_pot"
-					type: "item"
-				}
-			]
-			x: -12.5d
-			y: -3.0d
-		}
-		{
+			dependencies: ["50EDF006D42CA248"]
 			hide: true
 			id: "740CFB4663063114"
 			rewards: [{
 				command: "/gamestage add @p botanypots"
+				icon: "minecraft:wheat"
 				id: "493250206DD61386"
 				type: "command"
 			}]
@@ -220,8 +657,8 @@
 				}
 			]
 			title: "CHALLANGE 1.1"
-			x: -11.0d
-			y: -2.5d
+			x: 13.0d
+			y: -8.0d
 		}
 		{
 			dependencies: ["740CFB4663063114"]
@@ -242,8 +679,8 @@
 				}
 			]
 			title: "CHALLANGE 1.2"
-			x: -13.0d
-			y: -1.0d
+			x: 15.0d
+			y: -9.5d
 		}
 		{
 			dependencies: ["678990EBD140B618"]
@@ -276,8 +713,8 @@
 				}
 			]
 			title: "Fluid Logistics 1"
-			x: 17.5d
-			y: 6.0d
+			x: 14.0d
+			y: 7.0d
 		}
 		{
 			dependencies: ["2D98BE1C527EDDE4"]
@@ -296,8 +733,8 @@
 				}
 			]
 			title: "Fluid Logistics 2"
-			x: 18.0d
-			y: 7.5d
+			x: 13.5d
+			y: 9.0d
 		}
 		{
 			dependencies: ["2796AE35AE33B6B0"]
@@ -309,14 +746,11 @@
 				type: "item"
 			}]
 			title: "The Land of Windmills"
-			x: -4.0d
+			x: -2.5d
 			y: -3.0d
 		}
 		{
-			dependencies: [
-				"2796AE35AE33B6B0"
-				"45B72B400471F8E5"
-			]
+			dependencies: ["2796AE35AE33B6B0"]
 			description: ["The &bMechanical Harvester&r can be used to &lautomaticaly harvest and replant&r any fully grown crops it goes over - to do so it &lrequires to be moving&r on a contraption - perhaps you could &ltry placing it on your Windmill&r"]
 			id: "7924C64FA78DAE66"
 			tasks: [{
@@ -324,7 +758,7 @@
 				item: "create:mechanical_harvester"
 				type: "item"
 			}]
-			x: -2.5d
+			x: -1.5d
 			y: -0.5d
 		}
 		{
@@ -336,14 +770,11 @@
 				item: "create:portable_storage_interface"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 2.5d
+			x: -1.5d
+			y: 1.5d
 		}
 		{
-			dependencies: [
-				"090394221B44DE5C"
-				"7924C64FA78DAE66"
-			]
+			dependencies: ["090394221B44DE5C"]
 			description: ["Using &bMechanical Harvesters&r and &bPortable Storage Interfaces&r you have everything needed to make a simple &lWheat Farm&r - you don't have to go overboard with it, as it is just &lused as a passive food supply&r (unless you want to use &bPacked Mud&r)"]
 			id: "66133FF78AFA772C"
 			tasks: [
@@ -367,7 +798,6 @@
 			dependencies: [
 				"3FD364058FD12A0C"
 				"66133FF78AFA772C"
-				"2D98BE1C527EDDE4"
 			]
 			description: ["You can turn &bWheat&r into &bWheat Flour&r using &bMillstones&r - by then mixing &bWheat Flour&r with &bWater&r you can make &bDough&r."]
 			hide_dependency_lines: false
@@ -386,7 +816,7 @@
 				}
 			]
 			x: 5.0d
-			y: 4.0d
+			y: 4.5d
 		}
 		{
 			dependencies: [
@@ -401,7 +831,7 @@
 				item: "minecraft:bread"
 				type: "item"
 			}]
-			x: 7.5d
+			x: 9.0d
 			y: 6.75d
 		}
 		{
@@ -457,8 +887,8 @@
 				item: "minecraft:gravel"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 1.5d
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["0D7983C57E7E247A"]
@@ -480,8 +910,8 @@
 					type: "item"
 				}
 			]
-			x: 15.0d
-			y: 0.75d
+			x: 14.25d
+			y: -1.5d
 		}
 		{
 			dependencies: ["2B22430A1CE9316D"]
@@ -503,14 +933,13 @@
 				}
 			]
 			title: "Lava Farm"
-			x: 13.5d
-			y: -1.0d
+			x: 15.0d
+			y: -3.5d
 		}
 		{
 			dependencies: [
 				"2B22430A1CE9316D"
 				"2BE3DFF9899007C9"
-				"2D98BE1C527EDDE4"
 				"7966DA7B783363BC"
 			]
 			description: ["By combining some of your now automated &bFlint&r, &bGravel&r and &bLava&r, you can automate the production of a vital resource &lrequired to make Andesite Alloy&r - &bAndesite&r"]
@@ -521,8 +950,8 @@
 				item: "minecraft:andesite"
 				type: "item"
 			}]
-			x: 11.25d
-			y: 0.0d
+			x: 10.5d
+			y: -3.75d
 		}
 		{
 			dependencies: [
@@ -531,15 +960,15 @@
 			]
 			description: ["Combining all your farms' outputs, you can &lautomate perhaps the most useful resource&r - &bAndesite alloy&r"]
 			id: "50EDF006D42CA248"
-			shape: "hexagon"
-			size: 1.5d
+			shape: "gear"
+			size: 2.0d
 			tasks: [{
 				id: "5361EF80D12C3BF5"
 				item: "create:andesite_alloy"
 				type: "item"
 			}]
-			x: 13.5d
-			y: -6.0d
+			x: 11.0d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -566,7 +995,7 @@
 				}
 			]
 			x: 6.0d
-			y: -4.2d
+			y: -4.0d
 		}
 		{
 			dependencies: ["2B22430A1CE9316D"]
@@ -581,8 +1010,8 @@
 				item: "minecraft:lava_bucket"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.0d
+			x: 9.0d
+			y: -3.0d
 		}
 		{
 			dependencies: [
@@ -596,8 +1025,8 @@
 				item: "create:millstone"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 6.5d
+			y: 1.0d
 		}
 		{
 			dependencies: ["2796AE35AE33B6B0"]
@@ -625,29 +1054,14 @@
 			y: -1.5d
 		}
 		{
-			dependencies: [
-				"3CC473BADD28A393"
-				"1CFDB0C55ACA65FF"
-			]
-			description: ["The &bEncased Fan&r can also be used to alter the way &bChutes&r work - when a fan is &lfacing the top or bottom&r of a chute line, the direction it's blowing also &lchanges the direction items move inside the connected chutes&r. "]
-			hide: true
-			hide_dependency_lines: true
-			hide_details_until_startable: true
-			icon: "create:encased_fan"
-			id: "3F2D35EC03884A5D"
-			optional: true
-			tasks: [{
-				id: "43DE9E3A0812E4C2"
-				title: "Acknowledged"
-				type: "checkmark"
-			}]
-			title: "Wind Tunnel"
-			x: 2.5d
-			y: 2.0d
-		}
-		{
 			dependencies: ["2BE3DFF9899007C9"]
-			description: ["The &bEncased Fan&r also has an interesting ability - when powered, it &lmoves air&r depending on the rotation direction - air currents created by &bEncased Fans&r can be used to &lmove entities and items&r, as well as to &lprocess certain items&r when the correct catalyst is present."]
+			description: [
+				"The &bEncased Fan&r also has an interesting ability - when powered, it &lmoves air&r depending on the rotation direction - air currents created by &bEncased Fans&r can be used to &lmove entities and items&r, as well as to &lprocess certain items&r when the correct catalyst is present."
+				""
+				"{@pagebreak}"
+				""
+				"The &bEncased Fan&r can also be used to alter the way &bChutes&r work - when a fan is &lfacing the top or bottom&r of a chute line, the direction it's blowing also &lchanges the direction items move inside the connected chutes&r. "
+			]
 			id: "1CFDB0C55ACA65FF"
 			tasks: [{
 				id: "67420F3E74592DF6"
@@ -671,7 +1085,7 @@
 			}]
 			title: "Washing Machine"
 			x: 13.0d
-			y: 3.0d
+			y: 1.0d
 		}
 		{
 			dependencies: ["1CFDB0C55ACA65FF"]
@@ -686,7 +1100,7 @@
 				type: "item"
 			}]
 			title: "Really Hot Air"
-			x: 11.5d
+			x: 13.0d
 			y: 4.0d
 		}
 		{
@@ -701,7 +1115,7 @@
 			}]
 			title: "Aging Color Palette"
 			x: 14.0d
-			y: 4.5d
+			y: 5.5d
 		}
 		{
 			dependencies: [
@@ -729,7 +1143,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: 9.5d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1CFDB0C55ACA65FF"]
@@ -744,8 +1158,8 @@
 				type: "item"
 			}]
 			title: "Industrial Smoker"
-			x: 9.5d
-			y: 3.5d
+			x: 10.0d
+			y: 4.0d
 		}
 		{
 			dependencies: ["466F191A3E0BA4FA"]
@@ -810,8 +1224,8 @@
 				}
 			]
 			title: "Makeshift Filters"
-			x: 19.0d
-			y: -1.0d
+			x: 18.0d
+			y: -4.5d
 		}
 		{
 			dependencies: ["2B22430A1CE9316D"]
@@ -827,7 +1241,7 @@
 				type: "checkmark"
 			}]
 			x: 17.5d
-			y: 0.5d
+			y: -2.5d
 		}
 		{
 			dependencies: ["466F191A3E0BA4FA"]
@@ -841,7 +1255,7 @@
 				type: "item"
 			}]
 			x: 19.5d
-			y: 1.0d
+			y: -2.5d
 		}
 		{
 			dependencies: ["45B72B400471F8E5"]
@@ -851,7 +1265,7 @@
 			rewards: [{
 				id: "3165414172D2B45A"
 				item: {
-					Count: 1b
+					Count: 1
 					id: "create:super_glue"
 					tag: {
 						Damage: 67
@@ -864,8 +1278,8 @@
 				title: "Not Working?"
 				type: "checkmark"
 			}]
-			x: -6.0d
-			y: -2.0d
+			x: -3.5d
+			y: -5.0d
 		}
 		{
 			dependencies: ["538901FE7E3B4CA8"]
@@ -878,8 +1292,8 @@
 				item: "botanypots:terracotta_botany_pot"
 				type: "item"
 			}]
-			x: 10.5d
-			y: 10.5d
+			x: 12.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["1AB33EC6F11C4190"]
@@ -892,8 +1306,8 @@
 				item: "botanypots:terracotta_hopper_botany_pot"
 				type: "item"
 			}]
-			x: 11.5d
-			y: 12.0d
+			x: 12.0d
+			y: 13.0d
 		}
 	]
 	title: "1.Industrial Revolution"

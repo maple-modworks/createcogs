@@ -1,0 +1,582 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "applied_energistics_2"
+	group: ""
+	id: "00CCBE898FF70661"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["To start in AE2, you will need Certus Quartz. You can find this in ores down underground or you can find it as budding certus quartz in meteors which are scattered around the Overworld. Either way, You'll need a lot of this stuff."]
+			id: "5A7647E8902EEE86"
+			rewards: [{
+				id: "0B6296C697D247AD"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "A first for Cogs!!"
+			tasks: [{
+				id: "4D7926B9892A3FD3"
+				item: "ae2:certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["5A7647E8902EEE86"]
+			description: [
+				"Unlike older versions of AE2, charged certus quartz can no longer be found naturally and must be made in the charger."
+				"The charger however comes at an electricity cost, consider this when choosing to use it."
+			]
+			id: "001463DCF7F7F351"
+			optional: true
+			rewards: [{
+				id: "20133BDB8A79EE1C"
+				item: "numismatics:bevel"
+				type: "item"
+			}]
+			subtitle: "ZAP!"
+			tasks: [{
+				id: "270FA7A4BDB2A511"
+				item: "ae2:charger"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"657A4F38C3D3A3F0"
+				"32514DD0E381757D"
+			]
+			description: [
+				"One of the base materials in AE2, Fluix is required for almost everything in the mod. In order for a Fluix crystal to be created, one must overload it with energy - the most suitable way of doing so is by submerging Charged Certus Quartz Crystals and Refined Radiance in a conductive liquid."
+				""
+				""
+				"It is recommended to automate this as soon as possible."
+			]
+			id: "7FF7B4B969091132"
+			rewards: [{
+				count: 4
+				id: "794D3DDF60F32D51"
+				item: "numismatics:spur"
+				type: "item"
+			}]
+			subtitle: "Artificial Crystals"
+			tasks: [{
+				id: "63C0AFDC99B69F95"
+				item: "ae2:fluix_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			description: ["These meteorites are scattered around the world and contain valuable resources such as Inscriber Presses and sky stone. Both of which are required for getting farther into AE2."]
+			icon: "ae2:sky_stone_block"
+			id: "5FC39877CFA6BA98"
+			rewards: [{
+				count: 2
+				id: "4F1FE8B4008AE2E5"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "5C79173B4C7E8BE2"
+					structure: "ae2:meteorite"
+					title: "Find an AE2 Meteorite"
+					type: "structure"
+				}
+				{
+					id: "424CE966F7789E4F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:inscriber_presses"
+						}
+					}
+					title: "Inscriber Presses"
+					type: "item"
+				}
+				{
+					id: "6A63EBA9714CF775"
+					item: "ae2:sky_stone_block"
+					type: "item"
+				}
+			]
+			title: "Meteorites"
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["5FC39877CFA6BA98"]
+			description: ["These processors are needed to make most components of an AE2 network."]
+			id: "0A20FD9FFC2E15D1"
+			rewards: [{
+				id: "37090B6C90A57E25"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "0D5DF5A889B7A85A"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+				{
+					id: "0090A0E88393B59D"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+				{
+					id: "51105DEACCD67775"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
+			title: "Processors"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"7FF7B4B969091132"
+				"0A20FD9FFC2E15D1"
+				"1203745943075FAA"
+			]
+			id: "45EB7862C0340FEF"
+			rewards: [{
+				id: "159D36727FAD16E0"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			tasks: [{
+				id: "73FBCAB276A20A83"
+				item: "ae2:controller"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7FF7B4B969091132"
+				"0A20FD9FFC2E15D1"
+			]
+			id: "09073DB30C52EE60"
+			rewards: [{
+				id: "0F1416F5260BC86E"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "42598FC65121C549"
+					item: "ae2:crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "2B90BE1AA301AC3F"
+					item: "ae2:drive"
+					type: "item"
+				}
+				{
+					id: "5A028140FFAD8B1D"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "ae2:glass_cable"
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Basic Networking"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["167BC3F5498EBF11"]
+			description: ["The ME p2p Tunnel can transfer channels across the network while only taking one itself. They can handle up to 32 channels just like a dense cable. Shift Right Click on one with a memory card to grab its ID then right click on any others you would like to recieve the channels."]
+			icon: "ae2:me_p2p_tunnel"
+			id: "7C7A8AB975951D96"
+			rewards: [{
+				id: "479E624CC7B25F97"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "2A990FF74BBB2E3C"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "2EE0D55CF54C301F"
+					item: {
+						Count: 1
+						id: "ae2:memory_card"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Channel Transportation"
+			x: -6.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["09073DB30C52EE60"]
+			id: "46AFB565F6A193E1"
+			rewards: [{
+				id: "6ED0C96125B5AB08"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2E0FD50CFDA35EFB"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_1k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_4k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_16k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_64k"
+								tag: { }
+							}
+							{
+								Count: 1b
+								id: "ae2:item_storage_cell_256k"
+								tag: { }
+							}
+						]
+					}
+				}
+				title: "Any AE2 Item Cell"
+				type: "item"
+			}]
+			title: "Digital Storage"
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["09073DB30C52EE60"]
+			description: ["With the ME Storage Bus, you can connect AE2 with any other storage container such as vaults or drawers"]
+			id: "5FED740D6E54FE61"
+			rewards: [{
+				count: 2
+				id: "18E7A0E5138BD455"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Store it all!"
+			tasks: [{
+				id: "74FDA1B488231D16"
+				item: "ae2:storage_bus"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["45EB7862C0340FEF"]
+			description: ["An ME Controller lets you get 32 channels per side, however normal cable can only handle 8 channels. To solve this, you need Dense Cable. Dense Cables can transfer 32 channels but most cable attached peripherals such as terminals can't directly attach to these fat cables"]
+			id: "167BC3F5498EBF11"
+			rewards: [{
+				id: "5DD29F8392737C73"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "Need more channels?"
+			tasks: [{
+				id: "48BBF35BB674E809"
+				item: {
+					Count: 1
+					id: "itemfilters:or"
+					tag: {
+						items: [
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "ae2:covered_dense_cable"
+								}
+							}
+							{
+								Count: 1b
+								id: "itemfilters:tag"
+								tag: {
+									value: "ae2:smart_dense_cable"
+								}
+							}
+						]
+					}
+				}
+				title: "Any Dense Cables"
+				type: "item"
+			}]
+			title: "Dense Cable"
+			x: -3.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7C7A8AB975951D96"]
+			description: ["Not just ME channels can be transported via p2p tunnels, so can items, Forge Energy and fluids, Remember that these are one-way transfers, all but the first one on a channel will be a reciever"]
+			icon: "ae2:fe_p2p_tunnel"
+			id: "0AC12793B90FBDB7"
+			subtitle: "Transport other things"
+			tasks: [{
+				id: "79783BE61AF1FB1E"
+				title: "Other p2p tunnels"
+				type: "checkmark"
+			}]
+			x: -7.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["167BC3F5498EBF11"]
+			id: "4F97AFDE9B8AD3D1"
+			rewards: [{
+				count: 2
+				id: "09A47263A26E90C2"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "63E5DCD8FEC45BA5"
+					item: "ae2:wireless_crafting_terminal"
+					type: "item"
+				}
+				{
+					id: "061B7EAD1E4EB25C"
+					item: "ae2:wireless_access_point"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["167BC3F5498EBF11"]
+			description: ["The ME Quantum Ring allows you to wirelessly and cross-dimensionally expand your ME network, however at great cost, both in terms of items, and power. Once such a link is made, it can transfer 32 channels per side on the larger quantum ring blocks. The corner blocks and the center link chamber can't connect to cables."]
+			id: "3126C6C9EB7C0C2C"
+			rewards: [{
+				id: "7D18E6C816F32DFF"
+				item: "numismatics:sun"
+				type: "item"
+			}]
+			subtitle: "Wireless Transfer"
+			tasks: [
+				{
+					count: 16L
+					id: "428A3DA6FB50D0FE"
+					item: { Count: 8, id: "ae2:quantum_ring" }
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "61FBA9F1DAAC87BE"
+					item: "ae2:quantum_link"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "448A51D504688734"
+					item: { Count: 2, id: "ae2:quantum_entangled_singularity" }
+					type: "item"
+				}
+			]
+			title: "ME Quantum Ring"
+			x: -1.5d
+			y: 8.0d
+		}
+		{
+			dependencies: [
+				"7A68ADF27D8140EB"
+				"5A7647E8902EEE86"
+				"77443A910CADFE06"
+				"4AD3CB9ED63C4EDE"
+			]
+			description: ["The Refined Radiance is a material that contains large amounts of energy, most commonly used as a catalyst in other crafting recipes. Because of its high energy concentration, its capable of ignoring gravity and floating upwards and should be handled with caution."]
+			id: "32514DD0E381757D"
+			min_required_dependencies: 3
+			rewards: [{
+				id: "6261DDD9E4947968"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4BFC763282F1651C"
+				item: "create:refined_radiance"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			description: ["The chromatic compound is a very versatile material - when exposed to certain environments such as light or the darkness of the void, it can take on some of the environment's properties. It is recommended to automate it's creation as it is required in larger quantities."]
+			id: "7A68ADF27D8140EB"
+			rewards: [{
+				count: 4
+				id: "6AE1CF16EB945947"
+				item: "numismatics:cog"
+				type: "item"
+			}]
+			subtitle: "The Morphing  Rocks"
+			tasks: [{
+				id: "7AAFAAF7E7614735"
+				item: {
+					Count: 1
+					id: "create:chromatic_compound"
+					tag: { }
+				}
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"To create the first variant of Chromatic compound, it is required to surround the item with at least 8 light sources."
+				"This can either be done by throwing the item on the ground near light sources or by placing it on a depot."
+			]
+			icon: "minecraft:glowstone"
+			id: "263CCC82081FCC06"
+			tasks: [{
+				id: "4C71852242F526CD"
+				title: "Light Source"
+				type: "checkmark"
+			}]
+			x: 10.0d
+			y: -2.0d
+		}
+		{
+			description: [
+				"&l[this is a dev-only note, will be removed before final release]&r"
+				"There are going to be two different paths to obtaining charged quartz, first (and probably hte best) one requiring refined radiance and certus quartz, creating 2-3 charged quartz (requires more infrastructure => more efficient), the second one using a charger (1 quartz : 1 charged quartz) and requiring less infrastructure (therefore less efficient). The first option requires refined radiance which can only be obtained via the vanilla create recipe (light sources around chromatic compound) - to achieve maximum efficiency a beacon is required, threfore forcing the player to explore and innteract with others, this can be further enforced by making refined radiance required for other higher-level or high demand items (within AE2, to make it worth unlocking this quest line)."
+			]
+			icon: "numismatics:cog"
+			id: "4005F378A3279ACC"
+			tasks: [{
+				id: "09896878DEEA2360"
+				title: "[note] 1"
+				type: "checkmark"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["263CCC82081FCC06"]
+			description: ["The most efficient early-game method of creating Refined Radiance is the automation of torches and their placement. However be careful when building your assembly line, as one log turns into only one charcoal but one log also turns into 8 sticks - a powerful blasing setup is required for maximum efficiency."]
+			id: "77443A910CADFE06"
+			subtitle: "Light 'em up!"
+			tasks: [{
+				count: 64L
+				id: "4B36DAA4A9232434"
+				item: { Count: 64, id: "minecraft:torch" }
+				type: "item"
+			}]
+			x: 8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["263CCC82081FCC06"]
+			description: ["The most efficient way of creating Refined Radiance is by using the Beacon -  obtaining one is a challenging task, so it is recommended as a late-game upgrade. To create said Refined Radiance, simply throw a Chromatic Compound into the Beacon's beam, however keep in mind that Refined Radiance naturaly floats upwards, so building a roof is recommended. Because the Beacon contains very large amounts of energy, it does not come at any conversion cost, therefore being only limited by the speed at which items can be thrown and collected into the beam."]
+			id: "4AD3CB9ED63C4EDE"
+			optional: true
+			tasks: [{
+				id: "416537D007E92ABB"
+				item: "minecraft:beacon"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -1.0d
+		}
+		{
+			description: [
+				"&l[this is a dev-only note, will be removed before release]&r"
+				"Chromatic compound is created by mixing Graphite ingots with powdered obsidian and cinder flour (recipes have been changed, but are not implemented on the live server yet)"
+			]
+			icon: "numismatics:cog"
+			id: "7A5915C9644DB371"
+			tasks: [{
+				id: "2C174DEA9DF98360"
+				title: "[note] 2"
+				type: "checkmark"
+			}]
+			x: 6.0d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"7FF7B4B969091132"
+				"32514DD0E381757D"
+			]
+			id: "1203745943075FAA"
+			rewards: [{
+				count: 2
+				id: "5F229377EFAD156E"
+				item: "numismatics:crown"
+				type: "item"
+			}]
+			tasks: [{
+				id: "75E59304B659B10A"
+				item: "kubejs:radiant_mechanism"
+				type: "item"
+			}]
+			title: "The Core Ingredient"
+			x: 3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["001463DCF7F7F351"]
+			description: ["The Charged Certus Quartz Crystal holds some amount of energy, similarly to Refined Radiance, however this one does not have such great energy transfer capabilities and keeps its quartz core even after its energy levels drasticaly change."]
+			id: "657A4F38C3D3A3F0"
+			tasks: [{
+				id: "6C27182E48BB00E3"
+				item: "ae2:charged_certus_quartz_crystal"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"The radiant core (name is going to change as AE2 is mostly energy based and has little to no mechanical components) is considered the high tier ingerdient fo AE2, as it is quite expensive to create, it is only used in the more powerful block/items recipes, such as the ME controller"
+				"[recipes not on live server yet]"
+			]
+			icon: "numismatics:cog"
+			id: "5ADC68416EF3F991"
+			tasks: [{
+				id: "5EA108610A8BA0FB"
+				title: "[note] 3"
+				type: "checkmark"
+			}]
+			x: 4.0d
+			y: 4.0d
+		}
+	]
+	title: "Applied Energistics 2"
+}

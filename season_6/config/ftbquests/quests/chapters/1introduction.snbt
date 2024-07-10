@@ -7,11 +7,7 @@
 	id: "32425FCA6695C2F5"
 	images: [
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 6.0d
-			hover: [ ]
 			image: "createframed:block/brown_stained_framed_glass"
 			rotation: 0.0d
 			width: 10.0d
@@ -19,23 +15,15 @@
 			y: 2.124999999999986d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "minecraft:item/stick"
 			rotation: -45.0d
 			width: 3.0d
-			x: -2.3214285714285694d
+			x: -2.142857142857167d
 			y: 5.839285714285722d
 		}
 		{
-			click: ""
-			corner: false
-			dev: false
 			height: 3.0d
-			hover: [ ]
 			image: "minecraft:item/stick"
 			rotation: -45.0d
 			width: 3.0d
@@ -104,15 +92,16 @@
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
-			description: ["Minecraft has temperature system now! So be careful and don't spend too long on the deserts or in icy biomes or it would be harmful for your health. But you can prevent that with some new clothes or blocks added bz the mod."]
+			description: ["Mailbox system "]
 			hide: true
-			icon: "cold_sweat:thermometer"
+			icon: "mighty_mail:oak_mail_box"
 			id: "3446DFBEBFC35ABA"
 			tasks: [{
 				id: "2526EF502D95E693"
 				title: "Temperature"
 				type: "checkmark"
 			}]
+			title: "Mail spam"
 			x: 2.1428571428571317d
 			y: 3.25d
 		}
@@ -146,7 +135,7 @@
 				"with the &nTetra workbench&r, that can be created by right-clicking using the &nhammer&r (main hand) on the crafting table."
 			]
 			icon: {
-				Count: 1b
+				Count: 1
 				id: "tetra:scroll_rolled"
 				tag: {
 					BlockEntityTag: {
@@ -182,7 +171,7 @@
 				{
 					id: "79DE02B3A50B819B"
 					item: {
-						Count: 1b
+						Count: 1
 						id: "tetra:modular_double"
 						tag: {
 							Damage: 0
