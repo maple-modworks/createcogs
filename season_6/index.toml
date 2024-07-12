@@ -26,7 +26,7 @@ hash = "364ca9ec3ee6aaf539ed95099c3ba8e9a10e1ca26a580ebb91d3fdf33b467966"
 
 [[files]]
 file = "config/fancymenu/assets/maplemodworks.png"
-hash = "54225df181e59ab8e8ee8ae1b7026e26d02f266d92c3a7c150b451de273fddb0"
+hash = "63a2f345267ee50968daf644609b38c61fcdc69391a5de51f0cbf402d877b2f0"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
@@ -58,11 +58,15 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/cogsloadingscreen.txt"
-hash = "fee8b92e0c8a38df0eb88a91d04b182e6447ce9ce0151b9a027f9078913fbddd"
+hash = "daba983858bd734af6a7b73077484f86781c5f57dc463459d4be3ba692d9d9bf"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
-hash = "b4738e1486a805d747e7a6a9c9e8c356739cd9f6d049a98bd154bccba872dd94"
+hash = "41f248ba6f872b44d7af69f6963d4b206620232c11da5d940bd576cb4cd9ba7a"
+
+[[files]]
+file = "config/fancymenu/customization/s6beta.txt"
+hash = "4a25e323f333df0618f55f4eaa6823b08b2acdd22f9e4a1e2a8b97f139c6dd29"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -74,7 +78,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "f587a6032eb66f758431158dc6bd54540bebb920ea65ac85996d06385b4740aa"
+hash = "fe1398a779801dbe9140c4be2698ae0e8bb02eda8a00a47005139a376e80bfa1"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
