@@ -1,0 +1,8 @@
+#!/bin/bash
+if [ -e .commit ]
+    then
+    rm .commit
+    python3 .scripts/version.py ./season_6/pack.toml $(git rev-parse --short HEAD)
+    git add ./season_6/pack.toml
+    git commit -m "Auto: update version" --no-verify
+fi
