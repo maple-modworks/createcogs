@@ -3,13 +3,19 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1706725614590
+  last_edited_time = 1720806198566
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:bc8af515-3a8b-473f-8dbd-f0be87285f6a-1706725542653] = [groups:][instances:]
+  custom_menu_title = Create-ive Cogs Season 6
+  [loading_requirement_container_meta:78b49255-7aee-46fd-95d4-13ac397314fc-1720806118599] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
 }
 
 menu_background {
@@ -27,6 +33,8 @@ scroll_list_customization {
   render_scroll_list_header_shadow = true
   render_scroll_list_footer_shadow = true
   show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
 }
 
 element {
@@ -52,6 +60,10 @@ element {
 
 element {
   source = [source:local]/config/fancymenu/assets/maplemodworks.png
+  repeat_texture = false
+  nine_slice_texture = false
+  nine_slice_texture_border_x = 5
+  nine_slice_texture_border_y = 5
   element_type = image
   instance_identifier = 46a11e08-631c-4679-8e05-ccf48ee73e63-1706721835126
   appearance_delay = every_time
@@ -119,37 +131,16 @@ element {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = 0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742
-  [executable_block:0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742][type:generic] = [executables:]
-  restartbackgroundanimations = true
-  loopbackgroundanimations = true
-  element_type = vanilla_button
-  instance_identifier = vanillabtn:progress_bar
-  appearance_delay = no_delay
-  appearance_delay_seconds = 1.0
-  fade_in = false
-  fade_in_speed = 1.0
-  anchor_point = vanilla
-  x = 140
-  y = 294
-  width = 360
-  height = 10
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742
-  [loading_requirement_container_meta:dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742] = [groups:][instances:]
-  is_hidden = true
-  automated_button_clicks = 0
-}
-
-vanilla_button {
   button_element_executable_block_identifier = 615d3732-2464-4b0c-a22f-0a1a080e91bc-1706720826742
   [executable_block:615d3732-2464-4b0c-a22f-0a1a080e91bc-1706720826742][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
   element_type = vanilla_button
-  instance_identifier = vanillabtn:mojang_logo
+  instance_identifier = mojang_logo
   appearance_delay = every_time
   appearance_delay_seconds = 0.0
   fade_in = true
@@ -166,5 +157,40 @@ vanilla_button {
   [loading_requirement_container_meta:3393f009-f8b5-46f1-ab18-58fd52e8fc38-1706720826742] = [groups:][instances:]
   is_hidden = false
   automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
+}
+
+vanilla_button {
+  button_element_executable_block_identifier = 0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742
+  [executable_block:0ff60eb7-7c41-4424-8f87-364ce6e3c407-1706720826742][type:generic] = [executables:]
+  restartbackgroundanimations = true
+  loopbackgroundanimations = true
+  nine_slice_custom_background = false
+  nine_slice_border_x = 5
+  nine_slice_border_y = 5
+  navigatable = true
+  element_type = vanilla_button
+  instance_identifier = progress_bar
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in = false
+  fade_in_speed = 1.0
+  anchor_point = vanilla
+  x = 140
+  y = 294
+  width = 360
+  height = 10
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742
+  [loading_requirement_container_meta:dfad7cf3-dc8a-4dca-8e31-68a6f09bd6a4-1706720826742] = [groups:][instances:]
+  is_hidden = true
+  automated_button_clicks = 0
+  nine_slice_slider_handle = false
+  nine_slice_slider_handle_border_x = 5
+  nine_slice_slider_handle_border_y = 5
 }
 
