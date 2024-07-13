@@ -464,6 +464,11 @@ hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
 metafile = true
 
 [[files]]
+file = "mods/cosmetic-armor-reworked.pw.toml"
+hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
+metafile = true
+
+[[files]]
 file = "mods/cpmpvc.pw.toml"
 hash = "9fd4bb8b01f528a58ae5a3af52887dda1ae7b34f78d54b0731a669e7ff8ad40d"
 metafile = true
