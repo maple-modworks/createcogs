@@ -774,11 +774,6 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
-file = "mods/mighty-mail.pw.toml"
-hash = "62cbc36bcadc18478adcbd138ed6f976f9625ec75c687acdb83b26fbda8d08b2"
-metafile = true
-
-[[files]]
 file = "mods/miners-delight-plus.pw.toml"
 hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
 metafile = true
@@ -866,6 +861,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "d25a4cd8f8df0f8fa2a8d91841b8e8f2b557cfe57d30368d376d508188a8864b"
+metafile = true
+
+[[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "7cf93b8501b4b286b6be7dd58298eb4d4f2293f946b3da297d3a0718c8816336"
 metafile = true
 
 [[files]]
