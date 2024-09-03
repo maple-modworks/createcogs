@@ -1,13 +1,13 @@
 name = "Plasmo Voice"
-filename = "plasmovoice-forge-1.20.1-2.0.9.jar"
+filename = "plasmovoice-forge-1.20.1-2.0.10.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "7459a25272c290c97a0ba783f77419f9ce6b1b44"
+hash = "25f0139cbd43c5e55084e2f10ee284dd91b83a91"
 mode = "metadata:curseforge"
 
 [update]
 [update.curseforge]
-file-id = 5303017
+file-id = 5424406
 project-id = 467028

@@ -1,0 +1,13 @@
+name = "Create Energistics"
+filename = "Create-Energistics-1.1.1-mc1.20.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "586fd110e9eede308cfe667dff83ec6d4dd25b3b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5473601
+project-id = 1019297
