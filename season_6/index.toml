@@ -415,7 +415,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-tweaked.pw.toml"
-hash = "2ad2dd713650ffbbd25add29d5da4d0d07532eb31122236bae471eff582229ae"
+hash = "b5b9fb98a3c556205fec1e4a502b2065c596b86e13d6fdace4b2f209ca496257"
 metafile = true
 
 [[files]]
@@ -500,7 +500,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-encased.pw.toml"
-hash = "c11c3080331ef9501766f416c2547607b8560c6914439a33819460cd7d66ee88"
+hash = "a25e604a0f6495b25bdf44562cea7227e9d6757f9ccef2d53d4f53c3cb942a9a"
 metafile = true
 
 [[files]]
