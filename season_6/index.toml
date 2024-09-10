@@ -129,6 +129,10 @@ file = "config/gamestages/known_stages.json"
 hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
 
 [[files]]
+file = "defaultconfig/computercraft-server.toml"
+hash = "0997db08b9152b7ea292f86d54eed2e3e040c1d775d54174c75738d1cc8838c9"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
