@@ -11,8 +11,8 @@
 			image: "createframed:block/brown_stained_framed_glass"
 			rotation: 0.0d
 			width: 10.0d
-			x: 1.5714285714285765d
-			y: 2.124999999999986d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			height: 3.0d
@@ -29,6 +29,454 @@
 			width: 3.0d
 			x: 5.107142857142854d
 			y: 5.839285714285722d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -4.48214285714284d
+			y: 11.05357142857143d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: 13.5d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/potted_flowering_azalea_bush_plant"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.8035714285714164d
+			y: 6.339285714285715d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: -7.0d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/rooted_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: -2.0d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/coarse_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 16.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/rooted_dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 13.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/hanging_roots"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 16.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/hanging_roots"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: 18.5d
+		}
+		{
+			height: 3.0d
+			image: "davebuildingmod:block/dirt"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: 11.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/grass_block_side"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.51190476190476d
+			y: 5.977976190476177d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.5d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 8.0d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.5d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -3.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.5d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 15.0d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 12.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 10.0d
+			y: -11.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 0.0d
+			width: 3.0d
+			x: 13.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_log"
+			rotation: 90.0d
+			width: 3.0d
+			x: 8.0d
+			y: 1.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 5.5d
+			y: -6.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 17.5d
+			y: -6.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 14.5d
+			y: -8.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 7.5d
+			y: -11.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 20.0d
+			y: -4.0d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: -1.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: 0.5d
+		}
+		{
+			height: 3.0d
+			image: "minecraft:block/cherry_leaves"
+			rotation: 0.0d
+			width: 3.0d
+			x: 18.0d
+			y: 3.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_petals"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -3.5d
 		}
 	]
 	order_index: 0
@@ -94,12 +542,17 @@
 			dependencies: ["1FC9F3F14CA42B63"]
 			description: ["Mailbox system "]
 			hide: true
-			icon: "mighty_mail:oak_mail_box"
+			icon: "refurbished_furniture:oak_mail_box"
 			id: "3446DFBEBFC35ABA"
+			rewards: [{
+				id: "2069AE6889E1972F"
+				type: "xp"
+				xp: 15
+			}]
 			tasks: [{
-				id: "2526EF502D95E693"
-				title: "Temperature"
-				type: "checkmark"
+				id: "4AD212E80C856AFF"
+				item: "refurbished_furniture:oak_mail_box"
+				type: "item"
 			}]
 			title: "Mail spam"
 			x: 2.1428571428571317d
@@ -189,6 +642,33 @@
 			]
 			x: 2.2857142857142847d
 			y: 1.1071428571428683d
+		}
+		{
+			id: "720104B03D5BEDC1"
+			rewards: [{
+				count: 256
+				id: "18E7116A3A343234"
+				item: "minecraft:netherite_block"
+				type: "item"
+			}]
+			size: 5.0d
+			subtitle: "sex"
+			tasks: [
+				{
+					id: "7DFD1471787E685E"
+					title: "sex"
+					type: "checkmark"
+				}
+				{
+					entity: "minecraft:player"
+					id: "6E770FBAC2BEAE5A"
+					title: "sex"
+					type: "kill"
+					value: 100L
+				}
+			]
+			x: 52.5d
+			y: 30.0d
 		}
 	]
 	title: "0. Blossoms of Beginning"

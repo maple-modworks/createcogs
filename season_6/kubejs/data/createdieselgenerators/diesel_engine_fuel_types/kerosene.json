@@ -1,0 +1,19 @@
+{
+  "fluid": "pneumaticcraft:kerosene",
+  "sound_speed": 3,
+  "normal": {
+    "speed": 128.0,
+    "strength": 1024.0,
+    "burn_rate": 1
+  },
+  "modular": {
+    "speed": 160.0,
+    "strength": 1536.0,
+    "burn_rate": 1
+  },
+  "huge": {
+    "speed": 192.0,
+    "strength": 2048.0,
+    "burn_rate": 1
+  }
+}

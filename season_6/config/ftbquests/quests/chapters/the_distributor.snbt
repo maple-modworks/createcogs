@@ -1,0 +1,314 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_distributor"
+	group: ""
+	icon: "createdieselgenerators:diesel_engine"
+	id: "5254536DCB34C5CB"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["19C3E3ADF7132671"]
+			description: [
+				"The first real use of &bSteel&r is the creation of &bPumpjacks&r - these large machines are &ocapable of mining oil deposits deep underground&r, however they do so at a &ohigh stress unit cost&r, so setting up a mobile generator is recommended."
+				""
+				"You might need to take a look at the ponder scene about building Pumpjacks."
+				"&lNote: Building a pumpjack requires 2 pumpjack bearings, a main one and a secondary one in the back (the secondary one needs to be right-clicked with a wrench to be created)&r"
+			]
+			id: "7612C6AF76564F02"
+			subtitle: "The Business really pumps me up!"
+			tasks: [
+				{
+					id: "24646CE9FED7A410"
+					item: "createdieselgenerators:pumpjack_crank"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "149F1B78AE752941"
+					item: "createdieselgenerators:pumpjack_bearing"
+					type: "item"
+				}
+				{
+					id: "717291A297C97B14"
+					item: "createdieselgenerators:pumpjack_head"
+					type: "item"
+				}
+			]
+			title: "Pumpjacks"
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7612C6AF76564F02"]
+			description: ["While having lots of &bCrude Oil&r is handy, as its name implies, it is &onot the most useful&r at the moment - it &oneeds  to be refined&r into its fractions - this can be done by using your trusty &bDistilation Tower&r, however this time it requires &l4 output slots&r."]
+			id: "694688D921B4A4BE"
+			subtitle: "I have an Idea, but it might need Refining"
+			tasks: [{
+				id: "13F8C545F35A8D31"
+				item: "createdieselgenerators:crude_oil_bucket"
+				type: "item"
+			}]
+			title: "Crude Oil"
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["694688D921B4A4BE"]
+			id: "571D92EDEC9605ED"
+			tasks: [{
+				id: "1524D061D0D6FB64"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["571D92EDEC9605ED"]
+			description: ["As mentioned above in the Gasoline quest, &bDiesel&r is the &omost efficient fuel&r, so it is recommended to &onot use it for Ochrum production&r, instead it is recommended to &ostore it for later&r."]
+			id: "64248E9B313C2902"
+			tasks: [{
+				id: "6EFC4A5931C981C9"
+				item: "createdieselgenerators:diesel_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["571D92EDEC9605ED"]
+			description: ["&bKerosene&r is &ogeneraly used as Aircraft fuel&r because of its high combustion rpm, it is &onot nearly as efficient&r as its counterparts though, however it can also be used to create &bAsurine&r."]
+			id: "54A14C0EF035039B"
+			tasks: [{
+				id: "7E7ECD6EEE869BA3"
+				item: "pneumaticcraft:kerosene_bucket"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["571D92EDEC9605ED"]
+			description: ["One of the most common Oil Distilation products is &bGasoline&r - this liquid can be used as a &ocheaper and less efficient fuel alternative&r to Diesel, but similarly to Diesel it &ocan be used to create&r &bOchrum&r - &bDiesel&r and &bGasoline&r have the same input requirement, and since &bGasoline&r is &omore common&r, using &bGasoline&r &oto generate Ochrum&r is recommended."]
+			id: "1FCE6E9F860FBCDE"
+			tasks: [{
+				id: "55187BC791811BA3"
+				item: "createdieselgenerators:gasoline_bucket"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["571D92EDEC9605ED"]
+			description: ["&bLPG&r is considered a &oslightly less efficient&r version of &bDiesel&r, it is also &lhighly demanded by Airsmiths&r as they can turn it into &oMolten Plastic&r. It still has one major use for you though - it can (along with all other Oil fractions) be &oused to create &bTuff&r&r."]
+			id: "109E9E57E1B404BE"
+			tasks: [{
+				id: "410BA82E16CDFCCC"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"1FCE6E9F860FBCDE"
+				"64248E9B313C2902"
+			]
+			description: ["While &bOchrum&r is a high-demand building block, it &ocan also be processed to create highly conductive materials&r - making it highly profitable to sell to &oAirsmiths&r and &oNuclear Engineers&r."]
+			id: "129200E257D321CF"
+			subtitle: "Electric Rocks"
+			tasks: [
+				{
+					id: "700BDFF34C180182"
+					item: "create:ochrum"
+					type: "item"
+				}
+				{
+					id: "46C246FF008529A8"
+					item: "create:crushed_raw_gold"
+					type: "item"
+				}
+				{
+					id: "2832C422F96097F1"
+					item: "createaddition:electrum_nugget"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["54A14C0EF035039B"]
+			id: "1999A1FBF9575DFD"
+			tasks: [{
+				id: "50C3E27B9B7CE5AA"
+				item: "create:asurine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["109E9E57E1B404BE"]
+			id: "7D24ECF8FCB3A6C1"
+			tasks: [{
+				id: "03EB09954BA35F1A"
+				item: "minecraft:tuff"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["64248E9B313C2902"]
+			description: [
+				"The &bDiesel Engine&r as its name implies, can be used to burn compatible fuels to generate RPM."
+				"Each fuel type has its specific rpm and su values, keep this in mind when using diesel engines for specific purposes."
+				"The &oSmall variant&r (or the one called &bDiesel Engine&r) is the &oleast efficient&r of all the different types, but it is &lmore compact&r to set up."
+			]
+			id: "7D3443EB7D1740AF"
+			tasks: [{
+				id: "3362C869045C1258"
+				item: "createdieselgenerators:diesel_engine"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["54F7D9BAEAAA8459"]
+			description: ["After creating &bMolten Steel&r, it &oneeds to be cooled down&r in order to be useful. This can be done by simply &opumping it into a Mechanical Mixer&r."]
+			id: "19C3E3ADF7132671"
+			subtitle: "I do what he does, but better"
+			tasks: [{
+				id: "154005C18E7CBF36"
+				item: "davebuildingmod:steel_ingot"
+				type: "item"
+			}]
+			x: -5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["54F7D9BAEAAA8459"]
+			description: ["&bAsphalt Blocks&r are currently the &oonly way of disposing&r of &bMolten Slag&r, so creating an Asphalt factory is recommended."]
+			id: "3D98294ADD721FFA"
+			subtitle: "Roadssss"
+			tasks: [{
+				id: "6C8B9046959CBFF3"
+				item: "createdieselgenerators:asphalt_block"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"6415490227886A7C"
+				"6A780E561897BA9F"
+			]
+			description: ["When configured properly, a &lDistilation Tower&r is sufficient enough to create &bMolten Steel&r, however be aware that &oefficiency greatly depends on the amount of heat supplied&r. Steel production also generates large amounts of &bMolten Slag&r (depending on your heat setup) as a byproduct which &oneeds to be disposed of&r properly. Note that &bMolten Steel&r and &bMolten Slag&r &lcannot be picked up by Buckets&r as they are too hot, so it is recommended to &oonly start producing Steel once youre sure your infrastructure can handle it&r."]
+			id: "54F7D9BAEAAA8459"
+			subtitle: "Poor Man's Blast Furnace"
+			tasks: [{
+				id: "625A31C84800C68B"
+				item: "createdieselgenerators:distillation_controller"
+				type: "item"
+			}]
+			x: -7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["19C3E3ADF7132671"]
+			description: ["Since Steel is such a durable material, it is basicaly interchangeable with &bCompressed Iron&r, however as a &bSteel Ingot&r is so much larger, it &oneeds to be cut first&r - this also means that cutting Steel is &lmore efficient&r than creating &bCompressed Iron&r directly."]
+			id: "1D18E2A01689EE38"
+			subtitle: "The first business"
+			tasks: [{
+				id: "53A89EC39FD3802D"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -2.0d
+		}
+		{
+			description: ["In order to create efficient and durable machinery, a new material is required - &lSteel&r. However producing &lSteel&r is not an easy task, requiring large amounts of heat and supplies. Start by making &bSteel Blend&r, a fine powder mix containing &oboth fuel and base materials&r."]
+			id: "6415490227886A7C"
+			subtitle: "Ferrous-ious Powder"
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:steel_blend"
+				icon: "kubejs:steel_blend_bucket"
+				id: "6C1AD9731F91D848"
+				type: "fluid"
+			}]
+			title: "Steel Blend"
+			x: -9.0d
+			y: 2.5d
+		}
+		{
+			description: ["Steel production requires large amounts of Heat which can only be supplied by superheated Blaze Burners, it is therefore recommended to automate Blaze Cake production to ease progression."]
+			id: "6A780E561897BA9F"
+			tasks: [{
+				id: "022583FD191420F6"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["7612C6AF76564F02"]
+			description: ["You &lcannot&r just place Pumpjacks anywhere in the world, a &osufficient oil deposit is required&r - use an &bOil Detector&r to locate &oOil Deposit Chunks&r."]
+			id: "66BC3D8AA72D273D"
+			subtitle: "The Great Oil Search"
+			tasks: [{
+				id: "2A1106E55BEACD07"
+				item: "createdieselgenerators:oil_scanner"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D3443EB7D1740AF"]
+			description: ["The &bModular Diesel Engine&r functions almost the same as a Small one does, except this one &ocan create long chains that only require one fuel input&r (right click the top side with a wrench to create a fuel input). It is also &lslightly more efficient&r than the Small variant."]
+			id: "56F049CC078B9DBB"
+			tasks: [{
+				id: "0DD3CC0F36E66502"
+				item: "createdieselgenerators:large_diesel_engine"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["64248E9B313C2902"]
+			description: ["The Huge &bDiesel Engine&r is a modified &bSteam Engine&r that &ouses combustion instead of steam power&r, and requires an extra &bShaft&r to be placed as an output. It is also &lthe most efficient variant&r of Diesel Engines."]
+			id: "3C556EB1EA2D4897"
+			tasks: [{
+				id: "068FCB567B103A38"
+				item: "createdieselgenerators:huge_diesel_engine"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3D98294ADD721FFA"]
+			description: ["Since you are the main profession meant to be Selling and Trading Items, you gain access to a cheaper recipe for the &bVendor&r Block."]
+			id: "6A620B5AC9F654B0"
+			tasks: [{
+				id: "148A6A6B38FB44B5"
+				item: "numismatics:vendor"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.5d
+		}
+	]
+	title: "The Merchant"
+}

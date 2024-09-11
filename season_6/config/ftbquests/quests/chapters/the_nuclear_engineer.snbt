@@ -1,0 +1,21 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_nuclear_engineer"
+	group: ""
+	icon: "create_new_age:nuclear_fuel"
+	id: "697A849EB442A08A"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "5D7191F63F779E26"
+		tasks: [{
+			id: "479EEAC7B4A2BEB6"
+			item: "create_new_age:nuclear_fuel"
+			type: "item"
+		}]
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "The Nuclear Engineer"
+}

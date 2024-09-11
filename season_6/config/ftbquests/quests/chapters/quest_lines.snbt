@@ -12,6 +12,11 @@
 			dependencies: ["301A901C93EF849F"]
 			icon: "kubejs:mod_token"
 			id: "20CF0E1AEE75EF62"
+			rewards: [{
+				id: "6B92F59D16CFB779"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
 			tasks: [{
 				id: "1294BE851772E722"
 				title: "Quest Lines"
@@ -30,7 +35,7 @@
 				item: "kubejs:mod_token"
 				type: "item"
 			}]
-			title: "Applied Energestics 2"
+			title: "The Archivist"
 			x: 2.0d
 			y: -2.0d
 		}
@@ -44,9 +49,107 @@
 				item: "kubejs:mod_token"
 				type: "item"
 			}]
-			title: "Pneumaticcraft"
+			title: "The Airsmith"
 			x: 2.5d
 			y: 0.0d
+		}
+		{
+			dependencies: ["20CF0E1AEE75EF62"]
+			description: [
+				"While the Distributor might not have all the new fancy tools and armor, it is a vital part of the community. Other professions (mainly the Archivist and the Airsmith) need large quantities of items only you have the ability to automate, however it is your choice whether you team up with them, or if you set up shops to sell such items."
+				""
+				"The main advantage of the Distributor is the ability to pump and refine Crude Oil, as well as to create oil product powered engines."
+				"When combined with the capabilities of a Airsmith, both you and the Airsmith can seriously upgrade your factories production - it is therefore recommended that at least one player in a faction is a Distributor. "
+			]
+			icon: "createdieselgenerators:diesel_engine"
+			id: "69718654F7D474FE"
+			tasks: [{
+				consume_items: true
+				id: "41753938676D1605"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
+			title: "The Merchant"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["20CF0E1AEE75EF62"]
+			icon: "create:electron_tube"
+			id: "3C4C0ECC056D109D"
+			tasks: [{
+				consume_items: true
+				id: "675D37B39DCC31A2"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
+			title: "The Mechanic"
+			x: -2.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["20CF0E1AEE75EF62"]
+			icon: "create_new_age:nuclear_fuel"
+			id: "3EC74CBC5E378F64"
+			tasks: [{
+				consume_items: true
+				id: "56AD1AC0F7E64F55"
+				item: "kubejs:mod_token"
+				type: "item"
+			}]
+			title: "The Nuclear Engineer"
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			id: "71630F85C0C662CB"
+			tasks: [{
+				count: 64L
+				id: "031FAF9A8C57D560"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			title: "Trackwork"
+			x: -5.0d
+			y: 4.0d
+		}
+		{
+			icon: "vs_clockwork:physics_infuser"
+			id: "32F7D6ED714F5C42"
+			tasks: [{
+				id: "2431727D942A8E80"
+				item: "vs_clockwork:wanderlite_crystal"
+				type: "item"
+			}]
+			title: "Clockwork"
+			x: -5.0d
+			y: 2.0d
+		}
+		{
+			icon: "functionalstorage:ender_drawer"
+			id: "09ADFCCF30378F40"
+			tasks: [{
+				consume_items: true
+				count: 8L
+				id: "561982BAD49513E5"
+				item: "minecraft:ender_chest"
+				type: "item"
+			}]
+			title: "Ender Drawers"
+			x: -2.5d
+			y: 2.0d
+		}
+		{
+			description: ["In order to enter the end dimension, eyes of ender are no longer sufficient, instead 9 different eyes must be found naturaly, and the remaining 3 must be obtained by completing different profession quest lines (it is recommended to team up with mutliple people to speed progress up)"]
+			icon: "minecraft:end_stone"
+			id: "424F315716238F1B"
+			tasks: [{
+				id: "4EF16024BE5D0E62"
+				title: "End Info"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
 		}
 	]
 	title: "Quest Lines"

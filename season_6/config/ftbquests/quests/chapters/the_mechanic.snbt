@@ -1,0 +1,343 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_mechanic"
+	group: ""
+	icon: "create:electron_tube"
+	id: "37C3D8B3E023B8F6"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"4902D95130CB2F46"
+				"652805DC604BB9C5"
+			]
+			description: ["Now that you have &bBlaze Cake Bases&r automated, you can simply spout &bLava&r onto them to finish &bBlaze Cake&r production. It is recommended to &ohave these be stored in an easily accessible spot&r (ideally a storage system) as they will be used widely in the following steps."]
+			id: "666983D8FE51330A"
+			tasks: [{
+				id: "6AC36F824AEDEF03"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 1.0d
+		}
+		{
+			description: ["The &ofirst real contraption&r you should build as a Mechanic, is a &lLava Farm&r - this can either be done by sending &bLava&r through a &bNether Portal&r (more efficient but more complex) or by using &bDripstones&r placed on top of &bCauldrons&r (simple but inefficient unless built in large scale)- the choice is up to you."]
+			icon: "minecraft:lava_bucket"
+			id: "4902D95130CB2F46"
+			tasks: [{
+				amount: 1000L
+				fluid: "minecraft:lava"
+				id: "6196236844154023"
+				type: "fluid"
+			}]
+			x: -5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"666983D8FE51330A"
+				"108E93C31FBE2AF6"
+				"7293653EC478D116"
+				"19A1AFD50AFEB4F0"
+			]
+			description: ["The first step in &bElectron Tube&r automation is the automation of &bRedstone Dust&r  - this should be a fairly easy task if your factory is &orunning at maximum efficiency&r, however you might need to still supply some items manually."]
+			id: "46604D1A6D7D456E"
+			min_required_dependencies: 3
+			tasks: [{
+				id: "645DB37B142C997A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -1.0d
+		}
+		{
+			description: ["&bOchrum&r can be used to create &bElectrum Nuggets&r (as well as some &bGold&r), however you &lcannot automate it&r as a Mechanic, so having a deal with a Merchant is recommended."]
+			id: "7293653EC478D116"
+			tasks: [{
+				id: "4CB831DCDF7F015B"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			description: ["Remember that &ltree farm&r you built in chapter 2? You might want to pay it a visit and maybe even &lupgrade it&r - you might also want to &lupgrade your smelting setup&r while you're at it. &bGraphite&r production takes a lot of &bCharcoal&r to be made and crushed, so it is recommended to &ocheck for any bottlenecks&r before continuing."]
+			id: "19A1AFD50AFEB4F0"
+			tasks: [{
+				id: "700F590E08E5F7C6"
+				item: "kubejs:graphite_dust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"46604D1A6D7D456E"
+				"24AFB7C705F25C63"
+				"2E2228A7021D63C5"
+			]
+			description: ["&bCrimson Essence&r is a thick &oconductive&r liquid that &ohas some logic capabilities&r if used properly therefore it is &oessential in &bElectron Tube&r Automation&r. As a bonus, it can also be used to create &bCrimsite&r (a very ferrous mineral) and &bCrimson Nylium&r (mainly used for decoration purposes). You might want to &lcheck if your Lava Farm is still sufficient&r with this sudden increase in demand."]
+			id: "45C770FCC9A108B7"
+			tasks: [{
+				amount: 1000L
+				fluid: "kubejs:crimson_essence"
+				icon: "kubejs:crimson_essence_bucket"
+				id: "49F6579B3D48A9B6"
+				type: "fluid"
+			}]
+			title: "Crimson Essence"
+			x: 1.5d
+			y: -3.5d
+		}
+		{
+			description: [
+				"Remember how i said &bCinder Flour&r is not easily automatable? Well that &odoes not mean it's impossible&r, just a bit harder."
+				"Clicking the Checkmark above unlocks a &bCinder Flour Automation&r Quest Line (fully optional, if you want to keep mining &bNetherrack&r manually)"
+			]
+			icon: "create:cinder_flour"
+			id: "108E93C31FBE2AF6"
+			optional: true
+			tasks: [{
+				id: "74025F939BC67FAD"
+				title: "Bonus"
+				type: "checkmark"
+			}]
+			title: "[Bonus] Automating Cinder Flour"
+			x: -4.5d
+			y: -1.0d
+		}
+		{
+			description: ["Used as a base bonding material for &bCrimson Essence&r, &bClay Balls&r are another material the production line of which&o should be upgraded&r (if you haven't already)."]
+			id: "24AFB7C705F25C63"
+			tasks: [{
+				id: "151B558FA2FF954E"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			description: ["&bGlowstone Dust&r is another material you cannot easily automate, so having a deal with a Nuclear Engineer is recommended. However, it's not that hard to obtain it manually, even less if you have a &bJetpack&r."]
+			id: "2E2228A7021D63C5"
+			tasks: [{
+				id: "03C662B0588894B8"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["45C770FCC9A108B7"]
+			description: ["Since &bCrimsite&r is highly ferrous, it can be used to make an Iron Generator, or just used as a colorful building block."]
+			id: "38FE930D591AF723"
+			tasks: [{
+				id: "706947B722160059"
+				item: "create:crimsite"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["45C770FCC9A108B7"]
+			description: ["Now that you have automated &bCrimson Essence&r, it is time to create the Base of the &bElectron Tube&r to fill with it - A &bLight Bulb Base&r is &lperfect&r for this application, as it is hollow and has electrodes built inside, however it requires &oseveral more production steps&r, mainly requiring lots of &bIron&r - maybe it is finaly time to look into upgrading your Iron Generator?"]
+			id: "2694EA9CDD0C827E"
+			tasks: [
+				{
+					id: "7DD612338D040D26"
+					item: "kubejs:graphite_electrode"
+					type: "item"
+				}
+				{
+					id: "64C132F62E4209E2"
+					item: "kubejs:light_bulb_base"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["2694EA9CDD0C827E"]
+			description: ["Now you have &lone last step&r to do: combine the two assembly lines to create your own  &bElectron Tubes&r. &bElectron tubes&r are created by &oprecisely layering&r &bCrimson Essence&r and &bGraphite Dust&r (a conductive layer that acts as another electrode) inside a &bLight Bulb Base&r."]
+			id: "655B70EE25ED4233"
+			tasks: [{
+				id: "2F3FF0D339CA4008"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -7.5d
+		}
+		{
+			id: "32EC76CB3B9D6FD1"
+			tasks: [{
+				id: "6130B4CE3AD913D8"
+				item: "create_sa:steam_engine"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			id: "4C2524ABBDD7B804"
+			tasks: [{
+				id: "1719B5C0EAC8F8AB"
+				item: "create_sa:heat_engine"
+				type: "item"
+			}]
+			x: 2.0d
+			y: 7.0d
+		}
+		{
+			id: "29459DFA395D7BFF"
+			tasks: [{
+				id: "668F36EAF800D829"
+				item: "create_sa:hydraulic_engine"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			description: ["Since Airmsiths do not have the required technology, they are incapable of creating &bLight Bulb Bases&r, but they are able of creating finished &bLight Bulbs&r which they &lneed large amounts of&r - It is recommended to split of some of your &bLight Bulb Base&r production to be sold to Airsmiths."]
+			id: "77824917C06F5FC7"
+			tasks: [{
+				id: "543F999C1C1B4A0D"
+				title: "can be exported to airsmiths"
+				type: "checkmark"
+			}]
+			x: 3.5d
+			y: -6.5d
+		}
+		{
+			description: [
+				"In order to create &bBlaze Cakes&r, a &bBlaze Cake Base&r must first be made - this can be done by mixing &bCinder Flour&r, &bSugar&r and &bSeed Oil&r in a mechanical mixer."
+				""
+				"&bSeed Oil&r can be obtained by pressing Seeds - you should have quite a stockpile of these from the first chapter."
+				"&bCinder Flour&r can be obtained by crushing down &bNetherrack&r - it is therefore &othe only material you cannot easily automate&r."
+			]
+			id: "652805DC604BB9C5"
+			tasks: [{
+				id: "3855717C19C5E9CC"
+				item: "create:blaze_cake_base"
+				type: "item"
+			}]
+			x: -2.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["108E93C31FBE2AF6"]
+			id: "20D64C5C751A7612"
+			optional: true
+			tasks: [{
+				id: "5E0AFC7A14FFB854"
+				item: "create:dough"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["108E93C31FBE2AF6"]
+			id: "6780AF6B6BC76E81"
+			optional: true
+			tasks: [{
+				id: "4D31B57E081D11E1"
+				item: "minecraft:lime_dye"
+				type: "item"
+			}]
+			x: -6.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6780AF6B6BC76E81"]
+			id: "6B107550B66EE54C"
+			optional: true
+			tasks: [{
+				id: "0AC15720450647C6"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6780AF6B6BC76E81"]
+			id: "01402484B301AA05"
+			optional: true
+			tasks: [{
+				id: "326991923D61AFDE"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			x: -6.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"6780AF6B6BC76E81"
+				"20D64C5C751A7612"
+			]
+			id: "304328DF9684B1C2"
+			optional: true
+			tasks: [{
+				id: "35DF820D96F39EF3"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["304328DF9684B1C2"]
+			id: "35001D8E78DA3DCD"
+			optional: true
+			tasks: [
+				{
+					id: "33178F2F74091E58"
+					item: "minecraft:magma_cream"
+					type: "item"
+				}
+				{
+					id: "1BB537CB70946890"
+					item: "minecraft:magma_block"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["35001D8E78DA3DCD"]
+			id: "55CE24CFA1CA2429"
+			optional: true
+			tasks: [{
+				id: "3A13059D1B643F74"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			id: "669FD7968E8861DD"
+			tasks: [{
+				id: "16C9F086C1AEE2C5"
+				title: "Start"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 5.5d
+		}
+	]
+	title: "The Mechanic"
+}

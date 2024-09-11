@@ -12,9 +12,9 @@
 			dependencies: [
 				"4D6A6077C20BCBC7"
 				"605C590A9C56E61C"
-				"06A2A567E0851D5F"
 				"1459630D668EA75C"
 			]
+			description: ["The Precision mechanism is the perhaps most used mechanism in this pack. Using it you can create much more efficient setups - however, as it is a very delicate mechansim, it requires high quality materials - Brass is one of them."]
 			id: "57854839D31216FE"
 			shape: "hexagon"
 			size: 2.0d
@@ -46,7 +46,7 @@
 			y: -3.5d
 		}
 		{
-			description: ["In order to create more advanced machinery, you need to obtain a couple of &bElectron Tubes&r and &bBrass Hands&r. However, in order to create these items, you would need more advanced machinery than you currently have, so your only option is finding them in &lVillages and Blacksmiths&r as artifacts."]
+			description: ["In order to create more advanced machinery, you need to obtain a couple of &bElectron Tubes&r and &bBrass Hands&r. However, in order to create these items, you would need more advanced machinery than you currently have, so your only option is finding them as loot in &lVillages and Blacksmiths&r."]
 			id: "6E387D2D5CD42E31"
 			tasks: [
 				{
@@ -69,24 +69,21 @@
 				"144ED18ABCD8E55D"
 				"6357749919C66968"
 			]
+			description: ["By deploying any planks onto shafts you can automate Cogwheels and then Large Cogwheels - it is once again recommended to setup a stroage system for these - this is not only for automation reasons but also a quality of life improvement."]
 			id: "605C590A9C56E61C"
-			tasks: [{
-				id: "6E8E647748DFD07B"
-				item: "create:cogwheel"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6E8E647748DFD07B"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "618BD7810779836A"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
 			x: -1.5d
-			y: 1.0d
-		}
-		{
-			dependencies: ["605C590A9C56E61C"]
-			id: "06A2A567E0851D5F"
-			tasks: [{
-				id: "6AB87368144D157F"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			x: 1.0d
 			y: 1.0d
 		}
 		{
@@ -101,6 +98,7 @@
 			y: 1.0d
 		}
 		{
+			description: ["By cutting the Andesite Alloy you automated in the previous chapter you can create Shafts at a higher yield than manual crafting. It is once again recommended to setup a \"buffer\" storage system to account for bottlenecks later down the line."]
 			id: "144ED18ABCD8E55D"
 			tasks: [{
 				id: "266CEE08DFB57996"
@@ -112,6 +110,7 @@
 		}
 		{
 			dependencies: ["0A36050A62F29EFD"]
+			description: ["Cutting a log twice creates 6 planks - you get 2 extra comapred to manual crafting. It is once again recommended to set up a \"buffer\" storage system to account for bottlenecks later down the line."]
 			id: "6357749919C66968"
 			tasks: [{
 				id: "4435CDA825363F84"
@@ -123,6 +122,7 @@
 		}
 		{
 			dependencies: ["0A2075195F30EAC5"]
+			description: ["Using the Mechanical Saw, you can also craft wooden items, such as wooden planks, at a higher yield than manualy crafting."]
 			id: "0A36050A62F29EFD"
 			tasks: [{
 				id: "1CB68A8AADD92AF7"
@@ -134,6 +134,7 @@
 		}
 		{
 			dependencies: ["5B923E9561870771"]
+			description: ["The Logs are the only resource required from the tree farm, for now..."]
 			id: "0A2075195F30EAC5"
 			tasks: [{
 				id: "0C8F3829137DEFC3"
@@ -191,8 +192,8 @@
 				item: "kubejs:silicon_template"
 				type: "item"
 			}]
-			x: 8.0d
-			y: -5.0d
+			x: 12.0d
+			y: -4.0d
 		}
 		{
 			dependencies: [
@@ -206,8 +207,8 @@
 				item: "kubejs:silicon_compound"
 				type: "item"
 			}]
-			x: 11.0d
-			y: -4.0d
+			x: 11.5d
+			y: -2.0d
 		}
 		{
 			dependencies: ["1A2CF1ED4B51544B"]
@@ -218,7 +219,7 @@
 				type: "item"
 			}]
 			x: 12.0d
-			y: -2.0d
+			y: -0.5d
 		}
 		{
 			dependencies: [
@@ -233,8 +234,8 @@
 				item: "minecraft:sand"
 				type: "item"
 			}]
-			x: 10.5d
-			y: -1.5d
+			x: 8.5d
+			y: 0.5d
 		}
 		{
 			dependencies: ["1A2CF1ED4B51544B"]
@@ -244,8 +245,8 @@
 				item: "ae2:certus_quartz_dust"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -2.5d
+			x: 9.0d
+			y: -2.0d
 		}
 		{
 			id: "5C75853B51176C1E"
@@ -318,53 +319,55 @@
 		}
 		{
 			dependencies: ["57854839D31216FE"]
+			description: ["In order to create some Brass ingots you will need a Blaze Burner - this can only be obtained in the nether, so it is time to start gathering resources to build a portal. It is recommended to craft a few Empty Blaze Burners before entering, that way you do not have to come back later."]
 			id: "16D7B56900563B6D"
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: "minecraft:netherrack"
-				id: "6615F210885576F8"
-				title: "Visit the nether"
-				type: "dimension"
-			}]
-			title: "Go to hell... Literaly"
+			subtitle: "Go to hell... Literaly"
+			tasks: [
+				{
+					dimension: "minecraft:the_nether"
+					icon: "minecraft:netherrack"
+					id: "6615F210885576F8"
+					title: "Visit the nether"
+					type: "dimension"
+				}
+				{
+					count: 10L
+					id: "7830065FEFCD3B1C"
+					item: "create:empty_blaze_burner"
+					type: "item"
+				}
+			]
+			title: "Visit the Nether"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["16D7B56900563B6D"]
-			id: "318F3A0772C2EB80"
-			subtitle: "Find a Nether Fortress"
-			tasks: [{
-				icon: "minecraft:nether_bricks"
-				id: "37EB8CAC47CC2C70"
-				structure: "minecraft:fortress"
-				title: "Find a Nether Fortress"
-				type: "structure"
-			}]
-			title: "Why is it even called a fortress?"
-			x: -0.5d
-			y: -4.5d
-		}
-		{
-			dependencies: ["318F3A0772C2EB80"]
+			description: ["As usual, you will need to locate a Fortress and find a Blaze/Blaze Spawner. After doing so take your Empty Blaze Burners and right-click on a blaze to trap it inside, this can also be done on Blaze Spawners, without having to find actual Blazes."]
 			id: "1EBE98079FA739E5"
+			subtitle: "My stove has Eyes..."
 			tasks: [
 				{
+					count: 10L
 					id: "47A8815BC04A78FD"
 					item: "create:blaze_burner"
 					type: "item"
 				}
 				{
-					id: "5E58261CDB53E8D3"
-					item: "create:empty_blaze_burner"
-					type: "item"
+					icon: "minecraft:nether_bricks"
+					id: "41375092EA024C45"
+					structure: "minecraft:fortress"
+					title: "Find a Fortress"
+					type: "structure"
 				}
 			]
+			title: "Blaze Burner"
 			x: 1.5d
 			y: -4.5d
 		}
 		{
 			dependencies: ["1EBE98079FA739E5"]
+			description: ["Brass is a very versatile material that when combined with Precision Mechanisms can create very powerful and helpful machinery, while also being an upgrade to andesite machinery."]
 			id: "45FC2437B5DF1F45"
 			tasks: [{
 				id: "011BE42899E5747D"
@@ -373,10 +376,11 @@
 			}]
 			title: "Time for an upgrade"
 			x: 3.5d
-			y: -4.0d
+			y: -5.0d
 		}
 		{
 			dependencies: ["45FC2437B5DF1F45"]
+			description: ["Brass Funnels/Tunnels/Chutes function almost the same as their andesite counterparts, except they extra filtering options and have much larger transfer rates. However they require Electron Tubes you still cannot create, so use them wisely."]
 			id: "63A0AF5DF93D033E"
 			tasks: [
 				{
@@ -395,65 +399,65 @@
 					type: "item"
 				}
 			]
-			x: 5.0d
-			y: -6.5d
+			x: 4.0d
+			y: -7.5d
 		}
 		{
 			dependencies: ["6203241AD5AEA2F7"]
+			description: ["The Mechanical Arm can seriously reduce your assembly line dimensions, if used properly. When powered, it will take any items from a specified input position and place them into the specified output location, while still respecting filters set on brass machinery - storage system anyone?"]
 			id: "30972DEB9DDB8DF2"
-			tasks: [
-				{
-					id: "1D8A86C667F05904"
-					item: "create:mechanical_arm"
-					type: "item"
-				}
-				{
-					id: "608D00B6895DF2E7"
-					item: "create:deployer"
-					type: "item"
-				}
-			]
-			x: 3.5d
+			tasks: [{
+				id: "1D8A86C667F05904"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			x: 2.0d
 			y: -8.5d
 		}
 		{
 			dependencies: ["45FC2437B5DF1F45"]
+			description: ["Now that you have access to Brass, you can finaly create the Brass Hands you needed before."]
 			id: "6203241AD5AEA2F7"
+			subtitle: "Handy"
 			tasks: [{
 				id: "43688ED523F87BD9"
 				item: "create:brass_hand"
 				type: "item"
 			}]
-			x: 3.5d
+			x: 2.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["45FC2437B5DF1F45"]
+			description: ["The Rotation Speed Controller is a much more compact way of changing rotation speeds on your network, compared to the previous gear shifting."]
 			id: "2495F5817B4F1A80"
 			tasks: [{
 				id: "31A939E3329005BE"
 				item: "create:rotation_speed_controller"
 				type: "item"
 			}]
-			x: 2.0d
-			y: -7.0d
+			x: 1.0d
+			y: -6.0d
 		}
 		{
 			dependencies: [
 				"57854839D31216FE"
-				"45FC2437B5DF1F45"
+				"0F7663F4130781E0"
 			]
-			icon: "ae2:silicon"
+			description: ["You've now reached the point where base Create Mod ends, by clicking the checkmark above you will gain access to all the new quests/recipes added by the pack."]
+			icon: "kubejs:light_bulb"
 			id: "48151A301D641F9C"
 			tasks: [{
 				id: "7FFE602214375978"
-				title: "But whyy stop thereee???"
+				title: "The checkmark above"
 				type: "checkmark"
 			}]
-			x: 6.0d
-			y: -2.0d
+			title: "But whyy stop theere..."
+			x: 7.0d
+			y: -2.5d
 		}
 		{
+			description: ["The Mechanical Saw works similarly to how the mechanical drill does - when powered, it will break blocks placed in front of the blade, however if the bottom-most block of a tree is broken, the whole tree will get harvested. When placed on contraptions, all tree drops will automaticaly be collected and placed into attached inventories, instead of just dropping on the ground as items."]
 			id: "263D2B85CB29DEF7"
 			tasks: [{
 				id: "2E09D8F322D288A9"
@@ -466,7 +470,7 @@
 		}
 		{
 			dependencies: ["5B923E9561870771"]
-			description: ["Depending on the tree type you chose to build your tree farm with, you might get different buproducts, however they all have their own uses - with all tree types you receive additional saplings which are not needed, and with oak trees you receive apples as well - these can be composted into bonemeal which can be used in the wheat farm from the previous chapter to speed it up a little. Sticks can be used as a cheap and inefficient fuel, which is not recommended, or they might get utilized in the following chapters."]
+			description: ["Depending on the tree type you chose to build your tree farm with, you might get different buproducts, however they all have their own uses - with all tree types you receive additional saplings which are not needed, and with oak trees you receive apples as well - these can be composted into bonemeal which can be used in the wheat farm from the previous chapter to speed it up a little. It is recommended to set up a small storage system for Sticks that always keeps some in the system and destroys the rest."]
 			id: "3F0668E4037B8B07"
 			tasks: [
 				{
@@ -488,6 +492,146 @@
 			title: "The Byproducts"
 			x: -8.5d
 			y: -0.5d
+		}
+		{
+			dependencies: ["45FC2437B5DF1F45"]
+			description: ["The Mechanical Crafter is essentialy an automated Crafting Table, except it is much more precise while crafting and has virtualy no size limitations, allowing for much more complicated recipes."]
+			id: "54BA90E566211B84"
+			tasks: [{
+				id: "1E4F88495B502F2A"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["54BA90E566211B84"]
+			description: ["The Crushing Wheels are an upgraded version of the Millstone. Most of their recipes are the same except they are capable of crushing much harder materials such as Obsidian or even Diamonds."]
+			id: "0F7663F4130781E0"
+			tasks: [{
+				count: 2L
+				id: "166BFB9188BBABFF"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"0F7663F4130781E0"
+				"48151A301D641F9C"
+			]
+			hide: true
+			id: "53280184F9F00B17"
+			tasks: [{
+				id: "27ACAD9162BF5B96"
+				item: "kubejs:graphite_ingot"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["53280184F9F00B17"]
+			id: "72EF47B79A42BC40"
+			tasks: [{
+				id: "6932D0976FF3C3CC"
+				item: "kubejs:graphite_electrode"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["72EF47B79A42BC40"]
+			id: "5387D36050892752"
+			tasks: [{
+				id: "69DA3A9DF2D75ED7"
+				item: "kubejs:light_bulb"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"5387D36050892752"
+				"5BF976B8EA7CCB7A"
+			]
+			id: "061955EDF8CC783A"
+			tasks: [{
+				id: "792491BAE3CF9E4B"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -10.0d
+		}
+		{
+			dependencies: [
+				"5387D36050892752"
+				"33F2146155E8F26E"
+			]
+			hide: true
+			id: "5BF976B8EA7CCB7A"
+			tasks: [{
+				id: "18E7D19ADAE676A2"
+				item: "kubejs:destabilized_redstone_bucket"
+				type: "item"
+			}]
+			x: 10.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["54BA90E566211B84"]
+			description: ["Now that you can create much more advanced materials, it is about time you upgrade your power production - start by crafting a couple Steam Motors and a lot of Fluid Tanks. Using these two blocks you can create the curretly best way of generating power in the whole mod - Steam Engines. Steam engines require two things in order to run - water and heat. Water can simply be pumped in using fluid pumps, but heat can be supplied in multiple ways. Currently, the most efficient one is using blaze burners as the heater - these however require fuel. For further help with the construction of a steam engine check out the ponder index."]
+			id: "61CDD703328BDAA8"
+			tasks: [
+				{
+					id: "755AB83CDCF01AA6"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					id: "624F3366FC2EEE80"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			x: 6.0d
+			y: -7.5d
+		}
+		{
+			description: [
+				"dont forget to change the steam motor recipe..."
+				" T   S: copper sheet"
+				" A   B: copper block"
+				"SBS M: precision mechanism"
+				"SMS A: andesite alloy"
+				"     T: brass sheet"
+			]
+			id: "19F9A74383CEAB37"
+			tasks: [{
+				id: "513622B92D832D01"
+				title: "[note]"
+				type: "checkmark"
+			}]
+			x: 5.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["61CDD703328BDAA8"]
+			description: ["The best option for fueling blaze burners besides blaze cakes, is by feeding them Lava Buckets. These make Blaze Burners last for a long enough time for automation puproses. Perhaps you can try and put your create knowledge to the test by building a lava exporting machine to export infinite lava from the nether into the overworld using Nether Portals and infinite source Hose Pulleys (Hose Pulleys placed into a large enough pool of lava)."]
+			id: "33F2146155E8F26E"
+			tasks: [{
+				id: "4C531956F74504EC"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -8.0d
 		}
 	]
 	title: "2. Precise Engineering"

@@ -1,0 +1,472 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "pneumaticcraft"
+	group: ""
+	icon: "pneumaticcraft:pressure_gauge"
+	id: "437439C2C8D20E8B"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			id: "2AA27F45AEECE2B7"
+			tasks: [{
+				id: "1DF00C320B8D7F49"
+				item: "pneumaticcraft:ingot_iron_compressed"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2AA27F45AEECE2B7"]
+			id: "3EDBBFD5A29EDD4D"
+			optional: true
+			tasks: [{
+				id: "47D644FF02502989"
+				item: "compressedcreativity:rotational_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"3EDBBFD5A29EDD4D"
+				"109238DBB7FAED92"
+			]
+			dependency_requirement: "one_completed"
+			id: "4687FAE626D3B7DA"
+			tasks: [
+				{
+					id: "732D4E7120046E09"
+					item: "pneumaticcraft:pressure_chamber_wall"
+					type: "item"
+				}
+				{
+					id: "0B9062A7978FB132"
+					item: "pneumaticcraft:pressure_chamber_valve"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "2305E879D5162F4A"
+					item: { Count: 2, id: "pneumaticcraft:pressure_chamber_interface" }
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4687FAE626D3B7DA"]
+			id: "4D4B23B2E3E59007"
+			tasks: [{
+				id: "2AA3CA7154B6E144"
+				item: "pneumaticcraft:fluid_mixer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"022762686D626E34"
+				"3004AC668442D99E"
+				"4D4B23B2E3E59007"
+			]
+			id: "28EEC5C2FD6EE105"
+			tasks: [{
+				id: "3359E9D7FC9175F4"
+				item: "pneumaticcraft:biodiesel_bucket"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4D4B23B2E3E59007"]
+			hide_dependency_lines: true
+			id: "3004AC668442D99E"
+			tasks: [{
+				id: "490E97B9342C0044"
+				item: "createdieselgenerators:plant_oil_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4D4B23B2E3E59007"]
+			hide_dependency_lines: true
+			id: "022762686D626E34"
+			tasks: [{
+				id: "0E16BD8565761CD4"
+				item: "createdieselgenerators:ethanol_bucket"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["13FCACDD7B44072D"]
+			id: "0000C2B122D5328B"
+			tasks: [{
+				id: "3995EB6D4AC39723"
+				item: "pneumaticcraft:plastic"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"28EEC5C2FD6EE105"
+				"15CC2BF33D31F151"
+			]
+			id: "13FCACDD7B44072D"
+			tasks: [{
+				id: "7F0DD65C7727CDB7"
+				item: "pneumaticcraft:thermopneumatic_processing_plant"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"0000C2B122D5328B"
+				"3798D891D09F2BFD"
+				"007D553D587DF224"
+			]
+			id: "3BA87C58CAB2625D"
+			tasks: [{
+				id: "78729BA959225FE9"
+				item: "pneumaticcraft:empty_pcb"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -0.5d
+		}
+		{
+			description: [
+				"change recipe of empty pcbs to: 2 plastic sheets, 1 electrum sheet, 2 redstone torches"
+				"redstone has to be supplied by the pumpjack profession for full automation"
+				""
+				"uv light box - change recipe to require a blueprint and one refined radiance block"
+				"refined radiance has to be supplied by a storage person, or bought from an admin shop"
+			]
+			id: "1F8B852AF4B8B2AA"
+			tasks: [{
+				id: "6858AF713E4979CB"
+				title: "[note]"
+				type: "checkmark"
+			}]
+			x: 18.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0000C2B122D5328B"]
+			hide_dependency_lines: true
+			id: "3798D891D09F2BFD"
+			tasks: [{
+				id: "3E0EE55A61DC87A3"
+				item: "createaddition:electrum_sheet"
+				type: "item"
+			}]
+			x: 14.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["0000C2B122D5328B"]
+			hide_dependency_lines: true
+			id: "007D553D587DF224"
+			tasks: [{
+				id: "7CE0BE25146FE4F4"
+				item: "minecraft:redstone_torch"
+				type: "item"
+			}]
+			x: 16.0d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"3BA87C58CAB2625D"
+				"0481368999419651"
+			]
+			id: "4600E339B2FC1F62"
+			tasks: [{
+				id: "1412AC2835E62A58"
+				item: "pneumaticcraft:uv_light_box"
+				type: "item"
+			}]
+			x: 19.0d
+			y: -1.0d
+		}
+		{
+			description: ["[if lpg is used, the yield increases 2-3x, lpg cannot be obtained unless supplied by a distributor - makes people who chose these 2 professions have to team up]"]
+			id: "15CC2BF33D31F151"
+			tasks: [{
+				id: "7C92E2DF6C8D0C52"
+				item: "pneumaticcraft:lpg_bucket"
+				type: "item"
+			}]
+			x: 11.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["3BA87C58CAB2625D"]
+			hide_dependency_lines: true
+			id: "0481368999419651"
+			tasks: [{
+				id: "7FB75A2C3F96A4BF"
+				item: "kubejs:refined_radiance_block"
+				type: "item"
+			}]
+			x: 20.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["4600E339B2FC1F62"]
+			id: "1EDEDDFAE05A496A"
+			tasks: [{
+				id: "574425BA1F2D873C"
+				item: "pneumaticcraft:etching_tank"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1EDEDDFAE05A496A"]
+			id: "4B679331D13B2167"
+			tasks: [{
+				id: "060A5B8DC453F7E3"
+				item: "pneumaticcraft:unassembled_pcb"
+				type: "item"
+			}]
+			x: 23.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["1EDEDDFAE05A496A"]
+			id: "24A1398A2DE54C85"
+			tasks: [{
+				id: "49EB3C6E014F4EA8"
+				item: "pneumaticcraft:failed_pcb"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -0.5d
+		}
+		{
+			id: "55CFF45189194917"
+			tasks: [{
+				id: "1B617B9C5B485BDE"
+				item: "pneumaticcraft:capacitor"
+				type: "item"
+			}]
+			x: 22.5d
+			y: -5.0d
+		}
+		{
+			id: "3959528BFB7464A8"
+			tasks: [{
+				id: "7DF4390F1A4E00E6"
+				item: "pneumaticcraft:transistor"
+				type: "item"
+			}]
+			x: 21.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"4B679331D13B2167"
+				"55CFF45189194917"
+				"3959528BFB7464A8"
+			]
+			id: "1C4A861ABE546102"
+			tasks: [{
+				id: "143C2CEDED3BB12A"
+				item: "pneumaticcraft:printed_circuit_board"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["1C4A861ABE546102"]
+			id: "4284B1111A27F279"
+			tasks: [{
+				id: "2C85250BCF24C1DE"
+				item: "kubejs:compressed_mechanism"
+				type: "item"
+			}]
+			x: 27.0d
+			y: -4.5d
+		}
+		{
+			description: ["the compressed mechanism is a VERY expensive item used as an ingredient  for late game equipment such as the pneumatic armor and aerial interfaces. one is required for each piece of pneumatic armor, and one is required for an assembly controller (but not required for other assembly line components)"]
+			id: "53EA16D7C978EAB8"
+			tasks: [{
+				id: "2DCC248A71F154DD"
+				title: "[note]"
+				type: "checkmark"
+			}]
+			x: 28.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4284B1111A27F279"]
+			id: "729F28F4DD9F288F"
+			tasks: [
+				{
+					id: "0E589F8B344BC1BF"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1F9F79C3BAED12FE"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "106F32ED5EF0C347"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0EA75152BDB75A30"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 29.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["4284B1111A27F279"]
+			id: "5A5908ADFB60F928"
+			tasks: [
+				{
+					id: "49FD3A7D2F31C29C"
+					item: "pneumaticcraft:assembly_controller"
+					type: "item"
+				}
+				{
+					id: "2D9804F1CA97AE1F"
+					item: "pneumaticcraft:assembly_drill"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4A067F7524B7E032"
+					item: "pneumaticcraft:assembly_io_unit_export"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0049DDC556D2459F"
+					item: "pneumaticcraft:assembly_io_unit_import"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3797E48FCFF6B005"
+					item: "pneumaticcraft:assembly_laser"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3F8E52BA23D00B2D"
+					item: "pneumaticcraft:assembly_platform"
+					type: "item"
+				}
+			]
+			x: 30.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["729F28F4DD9F288F"]
+			id: "29F9BBAEC688B033"
+			tasks: [{
+				id: "5A7EFDE32BB54DCF"
+				item: "pneumaticcraft:jet_boots_upgrade_1"
+				type: "item"
+			}]
+			x: 31.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["4284B1111A27F279"]
+			id: "05D70FC101B9970A"
+			tasks: [{
+				id: "1D1C2B2A3E5098C5"
+				item: "pneumaticcraft:drone"
+				type: "item"
+			}]
+			x: 26.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["05D70FC101B9970A"]
+			id: "1060038EFCF38F74"
+			optional: true
+			tasks: [{
+				id: "01F4A707476FAC98"
+				item: "pneumaticcraft:programmer"
+				type: "item"
+			}]
+			x: 24.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["2AA27F45AEECE2B7"]
+			id: "109238DBB7FAED92"
+			optional: true
+			tasks: [{
+				id: "5FFA97E552C4043D"
+				item: "pneumaticcraft:air_compressor"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["4284B1111A27F279"]
+			id: "682E4CA692B4DF85"
+			tasks: [{
+				id: "7769319B9A9434C4"
+				item: "pneumaticcraft:jackhammer"
+				type: "item"
+			}]
+			x: 30.0d
+			y: -3.5d
+		}
+	]
+	title: "Pneumaticcraft"
+}

@@ -1,87 +1,48 @@
 ServerEvents.recipes((event) => {
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('kubejs:compressed_mechanism').withChance(130.0), // this is the item that will appear in JEI as the result
-		Item.of('create:golden_sheet').withChance(8.0), // the rest of these items will part of the scrap
-		Item.of('create:andesite_alloy').withChance(8.0),
-		Item.of('create:cogwheel').withChance(5.0),
-		Item.of('create:shaft').withChance(2.0),
-		Item.of('create:crushed_gold_ore').withChance(2.0),
-		Item.of('2x gold_nugget').withChance(2.0),
-		'iron_ingot',
-		'clock'
-	],'create:precision_mechanism',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
-		event.recipes.createDeploying('kubejs:incomplete_compressed_mechanism',['kubejs:incomplete_compressed_mechanism','pneumaticcraft:pressure_tube']),
- 	 	// like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
-		event.recipes.createCutting('kubejs:incomplete_compressed_mechanism','kubejs:incomplete_compressed_mechanism'),
-		event.recipes.createDeploying('kubejs:incomplete_compressed_mechanism',['kubejs:incomplete_compressed_mechanism','#forge:glass']),
-		event.recipes.createPressing('kubejs:incomplete_compressed_mechanism','kubejs:incomplete_compressed_mechanism')
-	]).transitionalItem('kubejs:incomplete_compressed_mechanism').loops(5) // set the transitional item and the loops (amount of repetitions)
+event.recipes.createSequencedAssembly([
+		Item.of('minecraft:hopper').withChance(130.0),
 
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('minecraft:hopper').withChance(130.0), // this is the item that will appear in JEI as the result
-
-	],'minecraft:chest',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
+	],'minecraft:chest',[
 		event.recipes.createDeploying('minecraft:chest',['minecraft:chest','minecraft:iron_ingot']),
- 	 	// like a normal recipe function, is used as a sequence step in this array. Input and output have the transitional item
 		event.recipes.createCutting('minecraft:chest','minecraft:chest')
-	]).transitionalItem('minecraft:chest').loops(3) // set the transitional item and the loops (amount of repetitions)
+	]).transitionalItem('minecraft:chest').loops(3)
 
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('create:electron_tube').withChance(130.0), // this is the item that will appear in JEI as the result
-		Item.of('kubejs:graphite_electrode').withChance(8.0), // the rest of these items will part of the scrap
+event.recipes.createSequencedAssembly([
+		Item.of('create:electron_tube').withChance(130.0),
+		Item.of('kubejs:graphite_electrode').withChance(8.0),
 		Item.of('create:iron_sheet').withChance(8.0),
 		Item.of('kubejs:light_bulb').withChance(5.0),
-	],'kubejs:graphite_electrode',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
-		event.recipes.createFilling('kubejs:incomplete_electron_tube',['kubejs:incomplete_electron_tube', Fluid.of('kubejs:destabilized_redstone', 500)]),
-		event.recipes.createPressing('kubejs:incomplete_electron_tube','kubejs:incomplete_electron_tube')
-	]).transitionalItem('kubejs:incomplete_electron_tube').loops(3) // set the transitional item and the loops (amount of repetitions)
+	],'kubejs:light_bulb',[
+		event.recipes.createFilling('kubejs:incomplete_electron_tube',['kubejs:incomplete_electron_tube', Fluid.of('kubejs:crimson_essence', 250)]),
+		event.recipes.createDeploying('kubejs:incomplete_electron_tube',['kubejs:incomplete_electron_tube', 'kubejs:graphite_dust'])
+	]).transitionalItem('kubejs:incomplete_electron_tube').loops(5)
 
 
 
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('kubejs:graphite_electrode').withChance(130.0), // this is the item that will appear in JEI as the result
-		Item.of('kubejs:graphite_dust').withChance(8.0), // the rest of these items will part of the scrap
+event.recipes.createSequencedAssembly([
+		Item.of('kubejs:graphite_electrode').withChance(130.0),
+		Item.of('kubejs:graphite_dust').withChance(8.0),
 		Item.of('create:iron_sheet').withChance(8.0),
 		Item.of('kubejs:graphite_ingot').withChance(5.0),
-	],'kubejs:graphite_ingot',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
+	],'kubejs:graphite_ingot',[
 		event.recipes.createCutting('kubejs:incomplete_graphite_electrode', 'kubejs:incomplete_graphite_electrode'),
 		event.recipes.createDeploying('kubejs:incomplete_graphite_electrode', ['kubejs:incomplete_graphite_electrode', 'create:iron_sheet']),
 		event.recipes.createDeploying('kubejs:incomplete_graphite_electrode', ['kubejs:incomplete_graphite_electrode', 'minecraft:iron_nugget'])
-	]).transitionalItem('kubejs:incomplete_electron_tube').loops(3) // set the transitional item and the loops (amount of repetitions)
+	]).transitionalItem('kubejs:incomplete_electron_tube').loops(1)
 
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('kubejs:light_bulb').withChance(130.0), // this is the item that will appear in JEI as the result
-		Item.of('minecraft:glass').withChance(8.0), // the rest of these items will part of the scrap
+event.recipes.createSequencedAssembly([
+		Item.of('kubejs:light_bulb_base').withChance(130.0),
+		Item.of('minecraft:glass').withChance(8.0),
 		Item.of('create:iron_sheet').withChance(8.0),
 		Item.of('kubejs:graphite_electrode').withChance(5.0),
-	],'kubejs:graphite_electrode',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
+	],'kubejs:graphite_electrode',[
 		event.recipes.createDeploying('kubejs:incomplete_light_bulb', ['kubejs:incomplete_light_bulb', '#forge:glass']),
 		event.recipes.createPressing('kubejs:incomplete_light_bulb', 'kubejs:incomplete_light_bulb')
-	]).transitionalItem('kubejs:incomplete_light_bulb').loops(3) // set the transitional item and the loops (amount of repetitions)
-
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('pneumaticcraft:ingot_iron_compressed').withChance(130.0), // this is the item that will appear in JEI as the result
-		Item.of('create:andesite_alloy').withChance(8.0), // the rest of these items will part of the scrap
-		Item.of('create:iron_sheet').withChance(8.0),
-	],'create:andesite_alloy',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
-		event.recipes.createDeploying('kubejs:incomplete_compressed_iron', ['kubejs:incomplete_compressed_iron', 'create:iron_sheet']),
-		event.recipes.createPressing('kubejs:incomplete_compressed_iron', 'kubejs:incomplete_compressed_iron'),
-		event.recipes.createPressing('kubejs:incomplete_compressed_iron', 'kubejs:incomplete_compressed_iron'),
-		event.recipes.createPressing('kubejs:incomplete_compressed_iron', 'kubejs:incomplete_compressed_iron')
-	]).transitionalItem('kubejs:incomplete_compressed_iron').loops(1) // set the transitional item and the loops (amount of repetitions)
-
-event.recipes.createSequencedAssembly([ // start the recipe
-		Item.of('16x create:fluid_pipe').withChance(130.0), // this is the item that will appear in JEI as the result
-		//Item.of('create:copper_sheet').withChance(8.0), // the rest of these items will part of the scrap
-		//Item.of('create:iron_sheet').withChance(8.0),
-	],'minecraft:copper_block',[ // 'create:golden_sheet' is the input
-		// the transitional item set by "transitionalItem('create:incomplete_large_cogwheel')" is the item used during the intermediate stages of the assembly
+	]).transitionalItem('kubejs:incomplete_light_bulb').loops(3)
+	
+event.recipes.createSequencedAssembly([
+		Item.of('16x create:fluid_pipe').withChance(130.0)
+	],'minecraft:copper_block',[
 		event.recipes.createCutting('kubejs:incomplete_fluid_pipe', 'kubejs:incomplete_fluid_pipe'),
 		event.recipes.createPressing('kubejs:incomplete_fluid_pipe', 'kubejs:incomplete_fluid_pipe'),
 		event.recipes.createPressing('kubejs:incomplete_fluid_pipe', 'kubejs:incomplete_fluid_pipe')
@@ -96,6 +57,62 @@ event.recipes.createSequencedAssembly([
 		event.recipes.createPressing('kubejs:incomplete_radiant_mechanism', 'kubejs:incomplete_radiant_mechanism'),
 		event.recipes.createDeploying('kubejs:incomplete_radiant_mechanism', ['kubejs:incomplete_radiant_mechanism', 'create:refined_radiance']),
 		event.recipes.createDeploying('kubejs:incomplete_radiant_mechanism', ['kubejs:incomplete_radiant_mechanism', 'ae2:fluix_crystal'])
-	]).transitionalItem('kubejs:incomplete_radiant_mechanism').loops(2)
-
+	]).transitionalItem('kubejs:incomplete_radiant_mechanism').loops(2),
+event.recipes.createSequencedAssembly([
+	Item.of('pneumaticcraft:printed_circuit_board').withChance(90),
+	Item.of('kubejs:almost_assembled_pcb').withChance(2),
+	Item.of('createaddition:electrum_sheet').withChance(8)
+	], 'pneumaticcraft:unassembled_pcb', [
+		event.recipes.createDeploying('kubejs:almost_assembled_pcb', ['kubejs:almost_assembled_pcb', 'pneumaticcraft:transistor']),
+		event.recipes.createDeploying('kubejs:almost_assembled_pcb', ['kubejs:almost_assembled_pcb', 'pneumaticcraft:capacitor']),
+		event.recipes.createDeploying('kubejs:almost_assembled_pcb', ['kubejs:almost_assembled_pcb', 'kubejs:light_bulb'])
+	]).transitionalItem('kubejs:almost_assembled_pcb').loops(2),
+	
+event.recipes.createSequencedAssembly([
+	Item.of('kubejs:compressed_mechanism').withChance(100)
+	], 'pneumaticcraft:plastic', [
+		event.recipes.createDeploying('kubejs:incomplete_compressed_mechanism', ['kubejs:incomplete_compressed_mechanism', 'kubejs:silicon_template']),
+		event.recipes.createDeploying('kubejs:incomplete_compressed_mechanism', ['kubejs:incomplete_compressed_mechanism', 'pneumaticcraft:printed_circuit_board']),
+		event.recipes.createPressing('kubejs:incomplete_compressed_mechanism', 'kubejs:incomplete_compressed_mechanism')
+	]).transitionalItem('kubejs:incomplete_compressed_mechanism').loops(32),
+event.recipes.createSequencedAssembly([
+	Item.of('kubejs:graphite_ingot').withChance(90),
+	Item.of('kubejs:graphite_dust').withChance(10)
+	], 'kubejs:graphite_dust', [
+		event.recipes.createPressing('kubejs:incomplete_graphite_ingot','kubejs:incomplete_graphite_ingot')
+	]).transitionalItem('kubejs:incomplete_graphite_ingot').loops(3),
+event.recipes.createSequencedAssembly([
+	Item.of('create_sa:heat_engine').withChance(90),
+	Item.of('create:zinc_ingot').withChance(5),
+	Item.of('minecraft:copper_ingot').withChance(5)
+	], 'kubejs:silicon_template', [
+		event.recipes.createDeploying('create_sa:incomplete_heat_engine', ['create_sa:incomplete_heat_engine', 'create:electron_tube']),
+		event.recipes.createDeploying('create_sa:incomplete_heat_engine', ['create_sa:incomplete_heat_engine', 'minecraft:copper_ingot']),
+		event.recipes.createPressing('create_sa:incomplete_heat_engine','create_sa:incomplete_heat_engine'),
+		event.recipes.createDeploying('create_sa:incomplete_heat_engine', ['create_sa:incomplete_heat_engine', 'create:zinc_ingot']),
+		event.recipes.createPressing('create_sa:incomplete_heat_engine', 'create_sa:incomplete_heat_engine')
+	]).transitionalItem('create_sa:incomplete_heat_engine').loops(3),
+event.recipes.createSequencedAssembly([
+	Item.of('create_sa:hydraulic_engine').withChance(90),
+	Item.of('create:fluid_pipe').withChance(5),
+	Item.of('minecraft:copper_ingot').withChance(5)
+	], 'kubejs:silicon_template', [
+		event.recipes.createDeploying('create_sa:incomplete_hydraulic_engine', ['create_sa:incomplete_hydraulic_engine', 'create:electron_tube']),
+		event.recipes.createDeploying('create_sa:incomplete_hydraulic_engine', ['create_sa:incomplete_hydraulic_engine', 'create:fluid_pipe']),
+		event.recipes.createFilling('create_sa:incomplete_hydraulic_engine', ['create_sa:incomplete_hydraulic_engine', Fluid.of('minecraft:water', 200)]),
+		event.recipes.createDeploying('create_sa:incomplete_hydraulic_engine', ['create_sa:incomplete_hydraulic_engine', 'minecraft:copper_ingot']),
+		event.recipes.createPressing('create_sa:incomplete_hydraulic_engine', 'create_sa:incomplete_hydraulic_engine')
+	]).transitionalItem('create_sa:incomplete_hydraulic_engine').loops(3),
+event.recipes.createSequencedAssembly([
+	Item.of('create_sa:steam_engine').withChance(90),
+	Item.of('create:electron_tube').withChance(2),
+	Item.of('create:brass_sheet').withChance(8)
+	], 'kubejs:silicon_template', [
+		event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:brass_sheet']),
+		event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:electron_tube']),
+		event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:steam_engine']),
+		event.recipes.createPressing('create_sa:incomplete_steam_engine', 'create_sa:incomplete_steam_engine'),
+		event.recipes.createDeploying('create_sa:incomplete_steam_engine', ['create_sa:incomplete_steam_engine', 'create:electron_tube'])
+	]).transitionalItem('create_sa:incomplete_steam_engine').loops(3)
+	
 })

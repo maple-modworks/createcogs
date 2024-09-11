@@ -14,4 +14,8 @@ ServerEvents.recipes((event) => {
     A: 'create:large_cogwheel',
     B: 'minecraft:chest'
   })
+
+
+
+
 })

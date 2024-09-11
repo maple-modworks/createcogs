@@ -6,15 +6,15 @@ ServerEvents.recipes((event) => {
   },
   ingredients: [
     {
-      item: "create:refined_radiance"
+      item: "create:iron_sheet"
     },
 	{
-	  item: "kubejs:chaotic_mechanism"
+	  item: "createdeco:andesite_sheet"
 	}
   ],
   result: {
     count: 1,
-    item: "kubejs:radiant_mechanism"
+    item: "pneumaticcraft:ingot_iron_compressed"
   }
 })
 })
