@@ -508,6 +508,11 @@ hash = "a25e604a0f6495b25bdf44562cea7227e9d6757f9ccef2d53d4f53c3cb942a9a"
 metafile = true
 
 [[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "80061143ef327fe4611e10a6c2bce219be4fb893260106a321c6628e151a57ec"
+metafile = true
+
+[[files]]
 file = "mods/create-framed.pw.toml"
 hash = "ca7a35471f4475ad2826cfa189bea98309c3f67731f119fdd5c2247fa7c89ba9"
 metafile = true
@@ -534,7 +539,7 @@ metafile = true
 
 [[files]]
 file = "mods/create.pw.toml"
-hash = "9a46e878cc447fa6375554fddd18cfe4f7a04cd232ae1685be6af7c7f75b617a"
+hash = "dcf86796fa9b4459e3f0824b2a3fea2f314a2e991540171591d208e092a6ea19"
 metafile = true
 
 [[files]]
@@ -840,6 +845,16 @@ metafile = true
 [[files]]
 file = "mods/pehkui.pw.toml"
 hash = "ff455d3439b8e4ffbf78dc1e8998c1b59200bd10c74c77f9fe90e98f606e0f0d"
+metafile = true
+
+[[files]]
+file = "mods/petrolpark.pw.toml"
+hash = "fd34d4af47c0ed6681e02eb99b4f995b9127d68ee13213b0673b9f92b7bc1149"
+metafile = true
+
+[[files]]
+file = "mods/petrols-parts.pw.toml"
+hash = "0659af1a535afdcc31c69c4f2bdd5371a785119ab942e70ce5b2db8460de21cc"
 metafile = true
 
 [[files]]

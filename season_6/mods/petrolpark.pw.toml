@@ -1,0 +1,13 @@
+name = "Petrolpark's Library"
+filename = "petrolpark-1.20.1-1.0.1-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ik2WZkTZ/versions/z0ut2cAG/petrolpark-1.20.1-1.0.1-all.jar"
+hash-format = "sha1"
+hash = "6b8c51af9135794914609837fade8ab47ce98a32"
+
+[update]
+[update.modrinth]
+mod-id = "ik2WZkTZ"
+version = "z0ut2cAG"
