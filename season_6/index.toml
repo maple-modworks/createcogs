@@ -98,11 +98,11 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1introduction.snbt"
-hash = "0a738e95e2ad22e564a95c0ad5be72d41b29cefd66813ff1f943c1db438a1876"
+hash = "084ea514a1243d9064325fb35e2f84949f4a50ff3a521929ae62bf19001ea31d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
-hash = "a9ec5f05f23b72f8ae69b30ae856acddd673437ab141e5ea51a43f53c299bd32"
+hash = "66c931385142ca8b13d8e949dec62e639e310339995c96f776ba67b0a6656bca"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
@@ -110,11 +110,27 @@ hash = "4f2a169b40db97d2c13bcb3b80fd6b6f58c865478c176fa22fc3ed0645ba9559"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "a4ebe38b27d6e0e4ad65c429d2b35feb5df0835d2e9ef1d97309832444e0edab"
+hash = "9d0095952af2b08f6451b7a18f2900089e353b7ac66636ef41af2e0a4a90fd47"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/pneumaticcraft.snbt"
+hash = "a2d60000d251d813d0e54dabd7a34171b34827a52192b415a396c92d353c1119"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quest_lines.snbt"
-hash = "3cc4bf222484258638b1884c2ae38c47a53b7868542ae6207bda811d4a64d08f"
+hash = "f64a79504bce32a1dd184eee0649312f630fa4fcb0a2d0307ef5b3c7bbb11086"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_distributor.snbt"
+hash = "4e146aac66b408ade0c47accc3ae6df68cbcdbbbfdafa8210ab50d3e34fe3a22"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_mechanic.snbt"
+hash = "6709707f5b5ba59ad935425c5d951cd33e3d5ca54f1918743d346a4154efefe2"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/the_nuclear_engineer.snbt"
+hash = "12c08bf855c9940bfed8f98398abc3579cb8fedc22e953fa04551ba67788556b"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -135,6 +151,10 @@ hash = "0997db08b9152b7ea292f86d54eed2e3e040c1d775d54174c75738d1cc8838c9"
 [[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
+
+[[files]]
+file = "kubejs/assets/davebuildingmod/textures/item/steel_ingot.png"
+hash = "7cf3127a513836e0e6e970c734faa633d5013dfeb41b87199539dc5050de290e"
 
 [[files]]
 file = "kubejs/assets/dev9.zip"
@@ -173,6 +193,30 @@ file = "kubejs/assets/kubejs/textures/block/example_block.png"
 hash = "783d78bd1ee61d3b32273670dff9d82c34cd74c5ae899a10f104f473828d5bbc"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/moletn_slag_flow.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/molten_slag_flow.png"
+hash = "2c5f1619574a1acaf5b9010a33aa9de68a591abbd27d8a97e65cc91e4c24d192"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/molten_slag_still.png"
+hash = "225bba12a68a8bff374688a07ff60e66789480eba3fed5611bc6a472e6d4022c"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/molten_steel_flow.png"
+hash = "2c5f1619574a1acaf5b9010a33aa9de68a591abbd27d8a97e65cc91e4c24d192"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/molten_steel_flow.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/molten_steel_still.png"
+hash = "225bba12a68a8bff374688a07ff60e66789480eba3fed5611bc6a472e6d4022c"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/refined_radiance_block.png"
 hash = "6e8078b7331bd7af464f1550b7ed3920df4e4ebeeac8e62c1303617c350780c1"
 
@@ -187,6 +231,14 @@ hash = "49fc4624f6d61129d531f982ca66b24219ed1716c8e736e0b11f34a9a68250ea"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/soul_tears_still.png"
 hash = "eb6bb91af8a0bfd32d18aefa9c5a1603a7421d9399959f58d83379b69ea448a2"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/steel_blend.png"
+hash = "d1943f4eb7f2e3ca2af7c47a99f7c09ea0fcd8c3e5c6b91cce7d10d4dbbc8f7f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/almost_assembled_pcb.png"
+hash = "6e6925eae2dd1dc06c910a0f6e5295a9832921b036aeeb56bc55cf6d4108b4ef"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/compressed_mechanism.png"
@@ -205,6 +257,10 @@ file = "kubejs/assets/kubejs/textures/item/graphite_ingot.png"
 hash = "1b2e40486228ebba246bbcc0736fc4e7a56707513f6b518eb652d1a395fb6fc8"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_capacitor.png"
+hash = "1bc8e5aef1a5f6d52d93d7973d0f7cef46f536858d4a1a450ee758229ba24d82"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_compressed_mechanism.png"
 hash = "fad2474c12a1ca4beabc99c6e4d8cd990623e39fa72bbe507c7c501bfb7f3a98"
 
@@ -217,12 +273,24 @@ file = "kubejs/assets/kubejs/textures/item/incomplete_graphite_electrode.png"
 hash = "0488ad6c7ef1c0442c6af2cde98cedd58b27da36efc8f42e296b19f5557b5ed5"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_graphite_ingot.png"
+hash = "8fec6f30e4eb4a0dfb83c4401ba53f54690edcc23bdef25922a1799e00ff92ee"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/incomplete_light_bulb.png"
 hash = "68a19a4a6076b7a04da023795d43afdfc6762305c3b8f9ff943f294abf4d89c3"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/incomplete_transistor.png"
+hash = "6f0eba6c13bb20be9b9ee99cbc0df920346e9d9bdb714f9882ad0ced7637427c"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/item/light_bulb.png"
 hash = "5375e29499940bb1141cd7948065c8c880e442800756cf55051ef657cf519588"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/light_bulb_base.png"
+hash = "98425c7a04c2a3d5acd18a2764f82e4ce9b02a57e66ab5cfe8403e832f6bfd3e"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/mod_token.png"
@@ -250,7 +318,7 @@ hash = "0581e904712b6c7e125f7f5f8788c8493c234934f6793a3aeee812a3e72b530b"
 
 [[files]]
 file = "kubejs/client_scripts/example.js"
-hash = "ac77464118ab9ee4989602c2120ec36dee702d2ca397ed7242892f9732d4321b"
+hash = "81a1021587b5ab7e7e8ebe4e1ebc5ac6086b43fc539eaac2c871e2a13747241b"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -261,20 +329,36 @@ file = "kubejs/config/common.properties"
 hash = "d673a310e2fd0703cad032b1da2ce6f83a3c0f297a1f506bcd69d594d987390b"
 
 [[files]]
+file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/kerosene.json"
+hash = "c7a816a351b24b34795d8b877fc6aa903e7b5669d8410ec22e19be69fd1c029c"
+
+[[files]]
+file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/lpg.json"
+hash = "7986f11c5cf24e7b346fdd3e9ae38cbe8510c4c9ce551bd370460389ca2dffc8"
+
+[[files]]
 file = "kubejs/server_scripts/base/loot_tables/loottables.js"
-hash = "67b693edc8c527d29753901ca6f56da6e4795c899c9f91298c5b8245bb84d9ef"
+hash = "aebcdaa6046e73a51745b159ca155f8e8aad40b93f56d24f6bfa430f67d8f3b8"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/ae2/explosion_crafting.js"
-hash = "c8a286b193e43bd69b520491b1e8dae820d647e1568f2a58c5e5ef2d6f79b9f5"
+hash = "621b434cd6a16e2422598d0c7a136ae8bc09452e1b27c3af95198fe2cb5103be"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/ae2/transform.js"
 hash = "6acc4b35e0cd0355e099081ca0e5620894597d0f8c20af222bb9e885764f3f58"
 
 [[files]]
+file = "kubejs/server_scripts/base/recipes/create/Compacting.js"
+hash = "6f53d161f63565508c97f771e675f22aa4862956171ffaed4e2188a435f0df93"
+
+[[files]]
 file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
-hash = "e4a6b161c8750ece0095bd1e5840a58029216191debf5b65953fd7983050865e"
+hash = "47603b41a262736b865a47b109b860985337b403bf67d83afa93ea7800baba48"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create/Cutting.js"
+hash = "4685f4c9667a46d5d92bf74e24c819e2c8f1d829a8bacc349a87c4a759109b2a"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
@@ -285,12 +369,16 @@ file = "kubejs/server_scripts/base/recipes/create/Emptying.js"
 hash = "7882fbc6eba6555eb797247cbe09dc645427e70e75e58e1c329f3274b1fa38c1"
 
 [[files]]
+file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
+hash = "7dbb8d0a055f14b724a3bcf846c483e9041d3a2b311313d83042b23f149479a3"
+
+[[files]]
 file = "kubejs/server_scripts/base/recipes/create/Milling.js"
 hash = "64cb27563a0c48d6d177de391349e5907aad25e569527b3c48355012e2b3b65a"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "07f71991f699dc5b7fcccb62139ab533d1e4cc120851df78754ff6a6a1f0034c"
+hash = "3cff9f77903d1d6bcc2c5e65522b67786ed77bba743feaae27cad52a8ff0fb28"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -298,11 +386,23 @@ hash = "76c3bd0a7b6974bb2e6703c8f62cea8d1cfd1356ded4d69f69d4674a4bcc23c9"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
-hash = "c4be7f841332f400ae2c8d22a2be070797644dcf272bc97b05fe72b363e3970c"
+hash = "4e7a44ed378a7c8db0bcae0a76f13128db4ad71a97998c2c540ca4a80fee9aab"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create/Washing.js"
+hash = "7c0e850a69d57405d35756d71361d33260342ce94ee6c546a78f657d6cbcd361"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/mechanical_crafting.js"
-hash = "0a977e5af363d6f1ff57ccd49f50b8791cb25d72fcf3a3d6eefc967aa24e0e4c"
+hash = "932d2d4f63d277d07b140ccc16e6f0a31b0f0ee2dc526584505aef420ae37d7a"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create_diesel_generators/basin_processing.js"
+hash = "672d39c76bb48e257e21f1d2bdfe5d9fb00640d72984b8073e7e80824c2dd61f"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/create_diesel_generators/distillation.js"
+hash = "7bef888e2438f085cd5f56c708ae11177e9b7ad2bfa3069cacb99a58e64a9b1d"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_new_age/energising.js"
@@ -310,7 +410,11 @@ hash = "b1356471219026f845f299b695b56abf7ad5e4f89b26b0fe516bae56b7978bfc"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "ad214473c1b65a0e9d5ff99fd2b6229c73ccd5ed721797031575a2ecf6b44262"
+hash = "691c1f3bf42f8a0cd81c9ef0674a527851735544717d0fee95676352db045c9b"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/misc/asphalt_recipes.js"
+hash = "ad8973292fb08503c2f3d5d75804f3197382d9b7909cde81cf52976f65e076e1"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
@@ -318,7 +422,19 @@ hash = "0317d56fd0d164bf8f62bb05dde3fae86f0f3a0301279934f7b1a7cb058cf21e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
-hash = "5e678b9d2686eba880db1d4ab8a202b916ac7fd8ce72e2e71205f7b4923422dd"
+hash = "aa547486b8db293a4cde5b3356739fc61f61c5b17449a3b27ec5099a911f2be2"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/pneumaticcraft/block_heat_properties.js"
+hash = "544af74123e6007a8e012db2877b9c5b949b6f05d52d42369c4bb1b0eca00c98"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/pneumaticcraft/pressure_chamber.js"
+hash = "6a4d49aeb7a0120e8abd728dacf721827dc34ea84062176d4d075c25379dd96e"
+
+[[files]]
+file = "kubejs/server_scripts/base/tags/tags.js"
+hash = "ff7176223ac21e862a7d6c3df5ffceba240091cb57005c5bef01d06e34c05f26"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"
@@ -326,11 +442,19 @@ hash = "e217894d7c5c0e1eff3061aa40688e7d42ee04f0625dbbad6d65b127ad94bd39"
 
 [[files]]
 file = "kubejs/startup_scripts/fluid_registry.js"
-hash = "cefcef634ac9ab30a181ff6ec3a942bdaff55b3e8b700f25ab9d72b3620f5ae4"
+hash = "f371bf410254f0e805b029d229636f313ef0523f68ae7fab8b8ed0e975c78d5b"
+
+[[files]]
+file = "kubejs/startup_scripts/item_registry - Copy.zip"
+hash = "c903440df5b1904fbac41b6e4fd899d0d2b4e8550ca0529b3d75fdcb1ec24b19"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "4a0a5aaef94971193deace52447c5f4d31ff5320eff25283263e1bd29e4d9e2c"
+hash = "807f2ecd58f5f371ebc142387a4cb56ba5492455a813de0ef342396cad36d03f"
+
+[[files]]
+file = "kubejs/startup_scripts/removed_structures/removed_structures.js"
+hash = "d182da2b4889b10d7bc7a37287ab3128aaba392424976677e1ed4870aa6830d7"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -535,6 +659,11 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "8f8754eda6beb02d73da14294026af5fcc2c849fd07ae3b210136492e7fde95b"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "4c6fbf3f3ea6f6fc907d9673a77dd991776c55ad7a25d0011034d66624616518"
 metafile = true
 
 [[files]]
