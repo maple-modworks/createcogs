@@ -413,10 +413,6 @@ file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
 hash = "691c1f3bf42f8a0cd81c9ef0674a527851735544717d0fee95676352db045c9b"
 
 [[files]]
-file = "kubejs/server_scripts/base/recipes/misc/asphalt_recipes.js"
-hash = "ad8973292fb08503c2f3d5d75804f3197382d9b7909cde81cf52976f65e076e1"
-
-[[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
 hash = "0317d56fd0d164bf8f62bb05dde3fae86f0f3a0301279934f7b1a7cb058cf21e"
 
