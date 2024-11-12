@@ -1,0 +1,13 @@
+{
+  "input": {
+    "count": 0,
+    "tag": "blank"
+  },
+  "loss_rate": 20,
+  "results": [
+    {
+      "count": 0,
+      "id": "blank"
+    }
+  ]
+}

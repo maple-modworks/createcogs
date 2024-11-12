@@ -14,7 +14,10 @@ ServerEvents.recipes(event => {
 		'create_sa:andesite_jetpack_chestplate',
 		'create_sa:brass_jetpack_chestplate',
 		'create_new_age:thorium',
-		'create_sa:steam_engine'
+		'create_sa:steam_engine',
+		'createdieselgenerators:pumpjack_crank',
+		'createdieselgenerators:pumpjack_head',
+		'createdieselgenerators:pumpjack_bearing'
 	]
 
 	rRecipes.forEach(output => {
@@ -24,6 +27,7 @@ ServerEvents.recipes(event => {
 	event.remove({output: 'createdieselgenerators:diesel', type: 'createdieselgenerators:distillation'}),
 	event.remove({mod: 'create_dd'}),
 	event.remove({output: 'minecraft:redstone', type: 'create:filling'})
-	
+	event.remove({id: 'jei:/pneumaticcraft/explosion_crafting/compressed_iron_ingot'})
+	event.remove({output: 'pneumaticcraft:ingot_iron_compressed'})
 	
 })

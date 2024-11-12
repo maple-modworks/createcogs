@@ -56,5 +56,11 @@ ServerEvents.recipes((event) => {
 		'create_new_age:thorium',
 		'kubejs:graphite_ingot',
 		Fluid.of('minecraft:water', 500)
+	]),
+	
+	event.recipes.createMixing('8x createdieselgenerators:asphalt_block', [
+		'cogutilities:decayed_waste_barrel',
+		'4x minecraft:sand',
+		'4x minecraft:gravel'
 	])
 })

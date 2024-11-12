@@ -38,4 +38,6 @@ StartupEvents.registry('item', event => {
 	event.create('mod_token').glow(true),
 	event.create('incomplete_graphite_ingot', 'create:sequenced_assembly').displayName('Almost Solid Graphite Dust')
 	event.create('incomplete_radiant_mechanism', 'create:sequenced_assembly').displayName('Incomplete Radiant Core')
+	
+	event.create('test_item')
 })  

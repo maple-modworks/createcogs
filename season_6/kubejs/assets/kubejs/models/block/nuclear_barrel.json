@@ -1,0 +1,63 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "kubejs:block/nuclear_barrels",
+		"particle": "kubejs:block/nuclear_barrels"
+	},
+	"elements": [
+		{
+			"from": [0, 15, 15],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"},
+				"east": {"uv": [4, 7.5, 4.25, 7.75], "texture": "#0"},
+				"south": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"},
+				"west": {"uv": [4, 7.5, 4.25, 7.75], "texture": "#0"},
+				"up": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 15, 0],
+			"to": [16, 16, 1],
+			"faces": {
+				"north": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"},
+				"east": {"uv": [4, 7.5, 4.25, 7.75], "texture": "#0"},
+				"south": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"},
+				"west": {"uv": [4, 7.5, 4.25, 7.75], "texture": "#0"},
+				"up": {"uv": [4, 7.5, 8, 7.75], "texture": "#0"}
+			}
+		},
+		{
+			"from": [15, 15, 1],
+			"to": [16, 16, 15],
+			"faces": {
+				"east": {"uv": [4, 7.5, 7.5, 7.75], "texture": "#0"},
+				"west": {"uv": [4, 7.5, 7.5, 7.75], "texture": "#0"},
+				"up": {"uv": [8, 0, 8.25, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 15, 1],
+			"to": [1, 16, 15],
+			"faces": {
+				"east": {"uv": [4, 7.5, 7.5, 7.75], "texture": "#0"},
+				"west": {"uv": [4, 7.5, 7.5, 7.75], "texture": "#0"},
+				"up": {"uv": [8, 0, 8.25, 3.5], "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 15, 16],
+			"faces": {
+				"north": {"uv": [4, 0, 8, 3.75], "texture": "#0"},
+				"east": {"uv": [4, 3.75, 8, 7.5], "texture": "#0"},
+				"south": {"uv": [4, 0, 8, 3.75], "texture": "#0"},
+				"west": {"uv": [4, 3.75, 8, 7.5], "texture": "#0"},
+				"up": {"uv": [4, 8, 0, 4], "texture": "#0"},
+				"down": {"uv": [4, 0, 0, 4], "texture": "#0"}
+			}
+		}
+	]
+}

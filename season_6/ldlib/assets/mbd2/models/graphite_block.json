@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"render_type": "minecraft:cutout",
+	"texture_size": [256, 256],
+	"textures": {
+		"0": "mbd2:steam_turbine",
+		"particle": "mbd2:steam_turbine"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"},
+				"east": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"},
+				"south": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"},
+				"west": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"},
+				"up": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"},
+				"down": {"uv": [0, 5.25, 1, 6.25], "texture": "#0"}
+			}
+		}
+	]
+}

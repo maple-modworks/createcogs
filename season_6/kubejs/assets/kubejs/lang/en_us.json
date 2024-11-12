@@ -1,0 +1,18 @@
+{
+	"tooltip.kubejs.tradeable": "Tradeable",
+	"tooltip.kubejs.light_bulb": "Most useful for Airsmiths",
+	"tooltip.kubejs.multiblock": "Check JEI for Assembly Guide",
+	
+	
+	"block.mbd2.nuclear_boiler": "Nuclear Boiler Controller",
+	"block.mbd2.proxy_part_block": "Machine Part",
+	"block.mbd2.steam_vent": "Steam Vent",
+	"block.mbd2.graphite_block": "Graphite Block",
+	"block.mbd2.graphite_rods": "Graphite Rods",
+	"block.mbd2.item_input": "Item Input",
+	"block.mbd2.boiler": "Boiler Controller",
+	"block.mbd2.hydraulic_press": "Hydraulic Press Controller",
+	"block.mbd2.steam_turbine": "Steam Turbine Controller",
+	"block.mbd2.turbine_fan": "Turbine Fan",
+	"block.mbd2.rotation_output": "Rotation Output"
+}
