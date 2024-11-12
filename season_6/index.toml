@@ -608,6 +608,11 @@ hash = "90200e29769e848ca290f96ddc9c33ff2a1eb10a4a714dd5afa7644237cfda2a"
 metafile = true
 
 [[files]]
+file = "mods/create-clockwork.pw.toml"
+hash = "94714097a323468448daf3ad97cbec4a8e145ddc6e58081b9fcb0ca53be71df1"
+metafile = true
+
+[[files]]
 file = "mods/create-connected.pw.toml"
 hash = "b612a6b66dc537d6f151c23a96f9049bbe3910d675c599baf852e6b72289f09f"
 metafile = true
@@ -818,6 +823,11 @@ hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
 metafile = true
 
 [[files]]
+file = "mods/geckolib.pw.toml"
+hash = "315418827149c57947f77defb618c60eb776209bb5ae966d1a4b5af1bca96539"
+metafile = true
+
+[[files]]
 file = "mods/geoactive.pw.toml"
 hash = "46bfa7de47cd3e2e4968eeea81bbea572daa88ffc774c6f8e4614ea27162a72e"
 metafile = true
@@ -888,6 +898,11 @@ hash = "07efd4cf1c3424849a3b79a7213a3655ebdada80fd901dba0cdcae11d1bbb6af"
 metafile = true
 
 [[files]]
+file = "mods/ldlib.pw.toml"
+hash = "ed0a84c834597239835a0856268d5c994b135e30c59402bdec36cd58dd77c738"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
 metafile = true
@@ -925,6 +940,11 @@ metafile = true
 [[files]]
 file = "mods/mouse-tweaks.pw.toml"
 hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+metafile = true
+
+[[files]]
+file = "mods/multiblocked2.pw.toml"
+hash = "916f6aefab47decacd7fba5faf589e76823d4ac30db582df2de6db1e81a23f99"
 metafile = true
 
 [[files]]
@@ -980,6 +1000,11 @@ metafile = true
 [[files]]
 file = "mods/petrols-parts.pw.toml"
 hash = "0659af1a535afdcc31c69c4f2bdd5371a785119ab942e70ce5b2db8460de21cc"
+metafile = true
+
+[[files]]
+file = "mods/photon-editor.pw.toml"
+hash = "3040938ede3141d52434d0750dee8032bb43afde8bee7d0872efa52ad7ed8697"
 metafile = true
 
 [[files]]
@@ -1070,6 +1095,11 @@ metafile = true
 [[files]]
 file = "mods/titanium.pw.toml"
 hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
+metafile = true
+
+[[files]]
+file = "mods/trackwork.pw.toml"
+hash = "7a5c696a422bb545fef6bfd7859c00629a4d2929c09cda7af30ce23348fa6565"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+name = "Multiblocked2"
+filename = "multiblocked2-1.20.1-1.0.17.b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/TimGT4XK/multiblocked2-1.20.1-1.0.17.b.jar"
+hash-format = "sha1"
+hash = "beefeb55c4200a92b2166cc6a30a8c9c4dfd6265"
+
+[update]
+[update.modrinth]
+mod-id = "R2gjKEpa"
+version = "TimGT4XK"

@@ -1,0 +1,13 @@
+name = "Photon Editor"
+filename = "photon-forge-1.20.1-1.0.7.b.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gzevkJbM/versions/mlWIiq24/photon-forge-1.20.1-1.0.7.b.jar"
+hash-format = "sha1"
+hash = "30ce98276d824886520e4e1967dc492658cfc196"
+
+[update]
+[update.modrinth]
+mod-id = "gzevkJbM"
+version = "mlWIiq24"
