@@ -130,7 +130,7 @@ hash = "6709707f5b5ba59ad935425c5d951cd33e3d5ca54f1918743d346a4154efefe2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nuclear_engineer.snbt"
-hash = "12c08bf855c9940bfed8f98398abc3579cb8fedc22e953fa04551ba67788556b"
+hash = "1c43592369e7719b52368ff03a526d8cfb3e73fabc4a6231510ad24749745706"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -161,12 +161,36 @@ file = "kubejs/assets/dev9.zip"
 hash = "2e1e1022f5515a30ec13d41a5c041f6ae516e9fce7cb8e05530e6fb7bf6c0244"
 
 [[files]]
+file = "kubejs/assets/kubejs/lang/en_us.json"
+hash = "f9cb54a69d1c4c64fbeb30ac8f993c1523f8d32583e5045cee351a86c44a3c08"
+
+[[files]]
 file = "kubejs/assets/kubejs/models/block/andesite_trophy.json"
 hash = "1b898f19151478ef75824e2b64005e094923d519da82b9ab5434279d36008dda"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/andesite_trophy.png"
 hash = "0071baf6e76ffc03b3ef7fae318b8583df79c74ab117e60580b0da855dba5091"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/nuclear_barrel.json"
+hash = "b9aec7bfeb3309d453dc0420ab57a66806758fc4a0428197f3e2db09cc8eef50"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/nuclear_barrel.png"
+hash = "4b83c819d8bbed25864c9a8d38a7ff5a70085a86d5873399aa59007274af4b1e"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/residue_barrel.json"
+hash = "95d309e15580f9ea37967afa828ef281b4bcf020e85b639868ef9d5c78c0e905"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/block/turbine_fan.json"
+hash = "fa5b7ed0fa1060c1105bf7ea2ee04896a1e4081bb880bdb793457b09343b297b"
+
+[[files]]
+file = "kubejs/assets/kubejs/models/item/nuclear_barrel.json"
+hash = "57e0c9f529def259f5752f65577077261516de4fa8729ecaa71db9832b73c22d"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/andesite_trophy.png"
@@ -217,6 +241,14 @@ file = "kubejs/assets/kubejs/textures/block/molten_steel_still.png"
 hash = "225bba12a68a8bff374688a07ff60e66789480eba3fed5611bc6a472e6d4022c"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/block/nuclear_barrel_3.png"
+hash = "8f5a6f29571e7596b8d732f120e84f4858d67307390e68ede8d2c846e5488175"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/nuclear_barrels.png"
+hash = "222000b83dc627f2b55dbfbdbed809a77608aad42ebccc4215971d101121e243"
+
+[[files]]
 file = "kubejs/assets/kubejs/textures/block/refined_radiance_block.png"
 hash = "6e8078b7331bd7af464f1550b7ed3920df4e4ebeeac8e62c1303617c350780c1"
 
@@ -235,6 +267,42 @@ hash = "eb6bb91af8a0bfd32d18aefa9c5a1603a7421d9399959f58d83379b69ea448a2"
 [[files]]
 file = "kubejs/assets/kubejs/textures/block/steel_blend.png"
 hash = "d1943f4eb7f2e3ca2af7c47a99f7c09ea0fcd8c3e5c6b91cce7d10d4dbbc8f7f"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/block/turbine_fan.png"
+hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_fuel_flow.png"
+hash = "f79070a62db346f2e62aa4489de37ff5e13f7dfceb1e8d4e2b29d22d79722336"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_fuel_flow.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_fuel_still.png"
+hash = "418f1e125140fe75c225bb7e5b24f5d42fc6fef81b7e72554ea95429633cce9d"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_waste_flow.png"
+hash = "8dd921e60f905be1d76f47b0863f59efa2181115650ea16e1b894a51d79a7e99"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_waste_flow.png.mcmeta"
+hash = "90fb44a3511d279e0f59d80d82799e72ee6295ef29420184f76f218d4d3d653a"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/nuclear_waste_still.png"
+hash = "aea5568c30dd106f3accda498bf6d7588dbe0f931ea86c3db277a1a774fbe1e0"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/steam.png"
+hash = "a0b3671153ad441937f5d86128e7b5a3512d3dbedce4710d9b596f3242f2e7aa"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/fluid/steam.png.mcmeta"
+hash = "c7e3cb48950b9ba74cd970e13a21613cdd0adf381be72b291e63034f29d3d330"
 
 [[files]]
 file = "kubejs/assets/kubejs/textures/item/almost_assembled_pcb.png"
@@ -317,8 +385,20 @@ file = "kubejs/assets/kubejs/textures/item/silicon_template.png"
 hash = "0581e904712b6c7e125f7f5f8788c8493c234934f6793a3aeee812a3e72b530b"
 
 [[files]]
+file = "kubejs/assets/kubejs/textures/item/test_item.png"
+hash = "751f47bc2018e9a64784d1757a4948743997e116194e318251690a56274120a4"
+
+[[files]]
+file = "kubejs/assets/kubejs/textures/item/test_item.png.mcmeta"
+hash = "2e47b49f5a7faa2554aa99a14c35b169137eb55c0cc7d65fc820594163acfef9"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "81a1021587b5ab7e7e8ebe4e1ebc5ac6086b43fc539eaac2c871e2a13747241b"
+
+[[files]]
+file = "kubejs/client_scripts/tooltips.js"
+hash = "3d4e17ee2b3e5b152c393a072e7d77e4361b50bfa7cf827f95d006718a7163e6"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -329,12 +409,28 @@ file = "kubejs/config/common.properties"
 hash = "d673a310e2fd0703cad032b1da2ce6f83a3c0f297a1f506bcd69d594d987390b"
 
 [[files]]
+file = "kubejs/data/create_new_age/tags/items/nuclear/is_nuclear_fuel.json"
+hash = "1650cb4673a0fcf492ea4cf0c96ea43e2c45ec1090f426e68333c7da86178ffd"
+
+[[files]]
+file = "kubejs/data/create_new_age/tags/items/nuclear/time_6000.json"
+hash = "1650cb4673a0fcf492ea4cf0c96ea43e2c45ec1090f426e68333c7da86178ffd"
+
+[[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/kerosene.json"
 hash = "c7a816a351b24b34795d8b877fc6aa903e7b5669d8410ec22e19be69fd1c029c"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/lpg.json"
 hash = "7986f11c5cf24e7b346fdd3e9ae38cbe8510c4c9ce551bd370460389ca2dffc8"
+
+[[files]]
+file = "kubejs/data/pneumaticcraft/recipe/explosion_crafting/compressed_iron_ingot.json"
+hash = "aabee8656d97d65fa18477fe8467a65325bcf80cb0fa3f384e2a8604d9f61b4d"
+
+[[files]]
+file = "kubejs/server_scripts/barrel_age.js"
+hash = "c91b84a5db0d3771deab447d8083dd64515a5bfb60b48a9c872e24dd22d1d65c"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot_tables/loottables.js"
@@ -366,11 +462,11 @@ hash = "5971aa54f3e7753a7a419acb9534186762d7290fa9076876c2de63c3e24688e0"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying.js"
-hash = "7882fbc6eba6555eb797247cbe09dc645427e70e75e58e1c329f3274b1fa38c1"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
-hash = "7dbb8d0a055f14b724a3bcf846c483e9041d3a2b311313d83042b23f149479a3"
+hash = "1fbb0a126712a91738a54f5dc71dd36dc8cd74f3c33ccf4f68a5dca0d8c9857e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Milling.js"
@@ -378,7 +474,7 @@ hash = "64cb27563a0c48d6d177de391349e5907aad25e569527b3c48355012e2b3b65a"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "3cff9f77903d1d6bcc2c5e65522b67786ed77bba743feaae27cad52a8ff0fb28"
+hash = "19454af6cf6c4c3ce778e31cdce372ef96eda577aa9a971dfa711a3dc996b86c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -405,12 +501,20 @@ file = "kubejs/server_scripts/base/recipes/create_diesel_generators/distillation
 hash = "7bef888e2438f085cd5f56c708ae11177e9b7ad2bfa3069cacb99a58e64a9b1d"
 
 [[files]]
+file = "kubejs/server_scripts/base/recipes/create_diesel_generators/pumpjack.js"
+hash = "f69798f89d1691949b635b09272429da52202705d4089195ed6fc9811c8bb187"
+
+[[files]]
 file = "kubejs/server_scripts/base/recipes/create_new_age/energising.js"
 hash = "b1356471219026f845f299b695b56abf7ad5e4f89b26b0fe516bae56b7978bfc"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "691c1f3bf42f8a0cd81c9ef0674a527851735544717d0fee95676352db045c9b"
+hash = "ff69934a54f5a356d7b0fc4209af079510ae6fff5ebf05374707ae179878a645"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/misc/asphalt_recipes.js"
+hash = "ad8973292fb08503c2f3d5d75804f3197382d9b7909cde81cf52976f65e076e1"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
@@ -418,7 +522,15 @@ hash = "0317d56fd0d164bf8f62bb05dde3fae86f0f3a0301279934f7b1a7cb058cf21e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
-hash = "aa547486b8db293a4cde5b3356739fc61f61c5b17449a3b27ec5099a911f2be2"
+hash = "778810c910b41c5b4bacd61dcd97250dcded7f8f142f6b452185e37ef0ebc4eb"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/nuclear/multiblock_controllers.js"
+hash = "bf08b905d03a4ac3b557bd81ff3fa7975c28b901c6807e23c2e1437c621a163e"
+
+[[files]]
+file = "kubejs/server_scripts/base/recipes/nuclear/nuclear.js"
+hash = "a981245c766740220642365e5c3e09c4499e391afe0a95f1c5520a733460bcdc"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/pneumaticcraft/block_heat_properties.js"
@@ -430,15 +542,23 @@ hash = "6a4d49aeb7a0120e8abd728dacf721827dc34ea84062176d4d075c25379dd96e"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/tags.js"
-hash = "ff7176223ac21e862a7d6c3df5ffceba240091cb57005c5bef01d06e34c05f26"
+hash = "48659a6e67497ae8fc89fefe71c2a8bef336f21b662229a1746ea7ecaa2fedc2"
+
+[[files]]
+file = "kubejs/server_scripts/fluid_effects.js"
+hash = "833cd075e34bfc0c9f978e83049fab653bae4b7861d187283d40b8769421b3ef"
+
+[[files]]
+file = "kubejs/server_scripts/tank_effects.js"
+hash = "56c97967a4fb3197de89926bc114715b85201d23d69e07643d30844fcb35996d"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"
-hash = "e217894d7c5c0e1eff3061aa40688e7d42ee04f0625dbbad6d65b127ad94bd39"
+hash = "01e31efd130180afe299a759b052213627431853e46056ab4a1ee5b8a8d4a443"
 
 [[files]]
 file = "kubejs/startup_scripts/fluid_registry.js"
-hash = "f371bf410254f0e805b029d229636f313ef0523f68ae7fab8b8ed0e975c78d5b"
+hash = "e356b63a362c7719a70276221dc9de6c1b8a593154307c55f244245e37ea93da"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry - Copy.zip"
@@ -446,11 +566,219 @@ hash = "c903440df5b1904fbac41b6e4fd899d0d2b4e8550ca0529b3d75fdcb1ec24b19"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "807f2ecd58f5f371ebc142387a4cb56ba5492455a813de0ef342396cad36d03f"
+hash = "e07bfc595e5022b334fca072437c71e17c54b80fb09b546f79eab32755d7ea93"
 
 [[files]]
 file = "kubejs/startup_scripts/removed_structures/removed_structures.js"
 hash = "d182da2b4889b10d7bc7a37287ab3128aaba392424976677e1ed4870aa6830d7"
+
+[[files]]
+file = "ldlib/assets/mbd2-2.zip"
+hash = "7aa0a3474a264c06b6af87e845fe1476a70073c8fd292f333afb60199fe2030c"
+
+[[files]]
+file = "ldlib/assets/mbd2.zip"
+hash = "e10fae24bf0d283ab241d9d10404273b85821549bab16a70de8c8c667e93fed3"
+
+[[files]]
+file = "ldlib/assets/mbd2/animations/hydraulicpress.animation.json"
+hash = "ebb91f6ce47fd2e77344d5881f11ac5bbf44676ef5188b80438399c0fad4edbc"
+
+[[files]]
+file = "ldlib/assets/mbd2/geo/hydraulic_press_mb.geo.json"
+hash = "e7bff22ad33afdb9115097f853d06be81544f0f360a5e252423e235a3af52cc0"
+
+[[files]]
+file = "ldlib/assets/mbd2/geo/steam_turbine_part.geo.json"
+hash = "a19a6837083f719e356d037bea2077b764fcfcb33f30d9cfd3813dbf4b508ad0"
+
+[[files]]
+file = "ldlib/assets/mbd2/geo/steam_turbine_part_i.geo.json"
+hash = "9f470b4dc9520927a20580879157faba3ed2aa543ef3352c50aed7ecd71ded69"
+
+[[files]]
+file = "ldlib/assets/mbd2/kinetic_machine/fan.km"
+hash = "1d98cd907ca390cd68ccc47421cb2ac118d59b58530897e9e1cd57c849d25c79"
+
+[[files]]
+file = "ldlib/assets/mbd2/kinetic_machine/rotation_output.km"
+hash = "8fccb040cc0860ca576c96bef781f7c943e5a60167a00378f3b84bcfa929f9d3"
+
+[[files]]
+file = "ldlib/assets/mbd2/machine/graphite_block.sm"
+hash = "4c3f12aa1dfc919d0a954a15c604dd035fad59bc2a24f040fba50394016d0a8a"
+
+[[files]]
+file = "ldlib/assets/mbd2/machine/graphite_rods.sm"
+hash = "244a1c307ed1ba8aa168be04406d9feaff8a13576ba49f661f13c26964ebd028"
+
+[[files]]
+file = "ldlib/assets/mbd2/machine/item_input.sm"
+hash = "881c410b69f61464edf7776749443709ba983a86f9ac74dbd18f1df361bd31ef"
+
+[[files]]
+file = "ldlib/assets/mbd2/machine/steam_vent.sm"
+hash = "94c921187bf6b598a4fa147cccdf72c1997e42c5d28a9a0da7c1ee4e46600740"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/graphite_block.json"
+hash = "bc62ec7bbb6bb78c847d71f30aea0e6ccacc28d7fa7ca465c336d310c3aa993e"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/graphite_block.png"
+hash = "95724c8937de89dc0053732ee2444c3c348c14cc092714bc33a05f351372550c"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/graphite_rods.json"
+hash = "0beaec6fa806f88f72c3d3e1dbbd70317dddce64f9be8ad5b5b2db7ec972de96"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler.json"
+hash = "05a55317e6bf9e8551311b2c96a54896418f630409eea4901b8e81e2d5edf850"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler.mtl"
+hash = "0401021a4ca1afe1b530480d658eac56065bd889fdd4520a6bb787eae1b2dd54"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler.obj"
+hash = "8471a07ccdc8dab731ffee829113d4a5f3e50e8f6dd10932ceb759788f3559e3"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler.zip"
+hash = "29f73f81b0f5c88066c9a55f5b9782f38b2a4db8791390414a9b9e917d4ae45b"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_end.json"
+hash = "fd504b55f008df55683c3108c0e1d693a44f503e1581cca4017d2efdc0a25312"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_end.mtl"
+hash = "c4bf148321b2f94d6cd3aa87119264807bc9c6ff47f1f6b6b93909abdd415cec"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_end.obj"
+hash = "47f5abc97b139778ebb04c4a2118b134f9cd4179d189664eb46a56427a648a85"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_part.json"
+hash = "1a20206e84d2a0930091081f41c8e5d6b9edc145b471184ae641eb13521d1e84"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_part.mtl"
+hash = "0eded1a5c290d4959d880f6aaccaf21a63e29cc4ffd30a15c844cddb75214bd8"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/nuclear_boiler_part.obj"
+hash = "80dafc0fc66a49e1493573729fcce2dce737b652bd5f262e5ed31cf0b03b33de"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_end.json"
+hash = "c620b869d8ec21087a1fc1e3c832f64631c9f8fd46a005556a81893f7f9642d2"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_end.mtl"
+hash = "691700d218facf63ae54bc7ee365e1d79e834cee3f6cff30c024a87370272d0c"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_end.obj"
+hash = "889032fd189fa7cc3a2bc89b6853a0e690b35c883c32b85b4d36e6a77f0af8f5"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_main.json"
+hash = "e0bd92db53ce3dbffd32f99980f5e2882fc62621b9ea50f3c766a250398134c8"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_main.mtl"
+hash = "be91410fc625a0868c3d02d557e0ef60ecb2f24a9065b80d3a83dcd4d9550333"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/steam_turbine_main.obj"
+hash = "3fb163d22b5f1928a07cd8f3ecd707486b7abaa182989b7cdfe446d4a05e167d"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/turbine_fan.json"
+hash = "3691c924c1bc5f53db5537607ddb73c88a89cfddd1faf69f5206cba10801f423"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/turbine_fan.png"
+hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
+
+[[files]]
+file = "ldlib/assets/mbd2/multiblock/boiler.mb"
+hash = "a4cab39a7532d2fc2aabf6ab9a3c35782a02af87ed4351d1a2ca5bbc75c7e02f"
+
+[[files]]
+file = "ldlib/assets/mbd2/multiblock/hydraulic_press.mb"
+hash = "bb48be08edde60c665ded04382346dbfab6e4c6960c7a52bf19ce4ac9934480b"
+
+[[files]]
+file = "ldlib/assets/mbd2/multiblock/nuclear_boiler.mb"
+hash = "cdfae354b9ab2b16f1119cafdb734d32435e90cab9665a8f4adce5e069ce4f1b"
+
+[[files]]
+file = "ldlib/assets/mbd2/multiblock/steam_turbine.mb"
+hash = "59dad97a5519f9dfafefb1b294b3830b669a4db932a0afdd49ab68211fe7e0d4"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/boiling.rt"
+hash = "907fdeacd542efccbf7dcd488dd7c535196674ac6cab39eeaf4f27bd0dfa5abc"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/create_stop.rt"
+hash = "e0187adddfe448bb4e052c98dcb613842fca987bcdc3cf506b7af52dd3503818"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/hydraulic_compressing.rt"
+hash = "ab2f2239560c61d167953b8ed5432998c254c03fe99be924b0515db917aa79a4"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/nuclear_boiling.rt"
+hash = "04fc0a9cddebd9e085cb8b9a0cc73afb0ceb6368a2d610a2b477aee9ac61ec31"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/turbine_operation.rt"
+hash = "bdf41c07bfa6872c88c0423c1fab9dc4aa3b147fe4e05f0626ba838d6c803402"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/block/graphite_block.png"
+hash = "95724c8937de89dc0053732ee2444c3c348c14cc092714bc33a05f351372550c"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/block/steam_turbine.png"
+hash = "6f79f12ac57ba43c6985619cc7b3f816e80a5966e5babb377cea0f9a5bfa0e4c"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/block/turbine_fan.png"
+hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/graphite_block.png"
+hash = "95724c8937de89dc0053732ee2444c3c348c14cc092714bc33a05f351372550c"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/hydraulic_press.png"
+hash = "27181be1c395dd223d7ff14613dc3fc8a4b31ca5a1c3547f2f301f927e0be5fd"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/nuclear_boiler_2.png"
+hash = "cc0f6213fd4d219e214b4e58c58468fb28d5803d7e3573b332c1415f2693366e"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/steam_turbine.png"
+hash = "be92c4ea3d755a428d6668abd8c2df5ab1caa700a92a6ff4e7155adc061d44fa"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/steam_turbine.zip"
+hash = "7fbdef3baa77bbe46ea5908abab338900c91bf691cf1af12397cda03f4a66666"
+
+[[files]]
+file = "ldlib/assets/mbd2/textures/turbine_fan.png"
+hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
+
+[[files]]
+file = "ldlib/assets/photon/fx/turbine_steam.fx"
+hash = "e9ad15f121a457975372c9d5d2bff8ecfc7a325c847521b39788d09420271406"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
