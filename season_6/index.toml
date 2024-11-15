@@ -5,12 +5,24 @@ file = "config/fancymenu/assets/alpha.png"
 hash = "77b53a76bba8e28e452fba2b8622e2b283f15c831c5ed86ff3a1fa296cd6165e"
 
 [[files]]
+file = "config/fancymenu/assets/artist.png"
+hash = "dcd8f2212fb499cd1af49af7d5e3fb6e11e9931cd59ed2484a3fcb0a7233ec34"
+
+[[files]]
 file = "config/fancymenu/assets/beta.png"
 hash = "4983a89dc510d5c3c2a7087ba65186609c4bb06d1b3976944238f0964ad320eb"
 
 [[files]]
 file = "config/fancymenu/assets/betasplash.txt"
 hash = "6a53a0468c032db2fd0fe41707d30369e96f2b1ec29e3dfc7396b9d72703c631"
+
+[[files]]
+file = "config/fancymenu/assets/builder.png"
+hash = "4a01dd699df1d9f1566832f010408fe10fb1afbdb3f4a199587ea6e18e12f4e3"
+
+[[files]]
+file = "config/fancymenu/assets/cogs6.gif"
+hash = "d16124b34bbab1f8a4c782b04e55484e36ed85f71c221bbef144ad14c4cd1460"
 
 [[files]]
 file = "config/fancymenu/assets/cogsdark.png"
@@ -25,8 +37,28 @@ file = "config/fancymenu/assets/cogsnew.png"
 hash = "364ca9ec3ee6aaf539ed95099c3ba8e9a10e1ca26a580ebb91d3fdf33b467966"
 
 [[files]]
+file = "config/fancymenu/assets/developer.png"
+hash = "6e36fc09baf37979475c01ca9e9b25249568b18083e5b5b6a7aed151991fddfa"
+
+[[files]]
+file = "config/fancymenu/assets/github.png"
+hash = "5b9d42f89de53c87e47a33bbef1bc9551c30bbd9e52ea9e89ea26e96f29ac198"
+
+[[files]]
 file = "config/fancymenu/assets/maplemodworks.png"
 hash = "63a2f345267ee50968daf644609b38c61fcdc69391a5de51f0cbf402d877b2f0"
+
+[[files]]
+file = "config/fancymenu/assets/mmsmall.png"
+hash = "b0598ab5350f67f9569e953077bf1ef63dd80d1dcf87c411028a13cc911c13c7"
+
+[[files]]
+file = "config/fancymenu/assets/modeler.png"
+hash = "240fbf8563293384169d9314c23ac771d9205df6b0a5c317d006b52c29b68f24"
+
+[[files]]
+file = "config/fancymenu/assets/musician.png"
+hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
@@ -49,8 +81,36 @@ file = "config/fancymenu/assets/onlineoff.png"
 hash = "dbd32c8a70e1a4f0ecfaf0bd4408cdff736a749975e9831663b211adae0dfa74"
 
 [[files]]
+file = "config/fancymenu/assets/patreon.png"
+hash = "cf4023f8d016fb96a8ed8674553e6e003cf2d5e4610137b0698817d2bde52fbf"
+
+[[files]]
+file = "config/fancymenu/assets/teamleaf.png"
+hash = "65918dbd107f80613434f9294379e7350766468f84f9656bf9d1d20dd5d46a1d"
+
+[[files]]
+file = "config/fancymenu/assets/twitter.png"
+hash = "41ec483467a6df419a9c31b8fabbc4622cb63be21509a73dc3ec7d8595df367c"
+
+[[files]]
+file = "config/fancymenu/assets/voteneutral.png"
+hash = "6220e46c673179962d66cb945e78a6e958435db35c0fff334198f534941488c5"
+
+[[files]]
+file = "config/fancymenu/assets/voteno.png"
+hash = "6d555c0de4f8175c43b02db551351f7f3c3c1dc33874cb53708c9cec5d4b6a1b"
+
+[[files]]
+file = "config/fancymenu/assets/voteyes.png"
+hash = "5af4ed6297ec506dc2cd9e8c278d81bbd25ce7c1023ef96491d23f4ff7caff88"
+
+[[files]]
+file = "config/fancymenu/assets/website.png"
+hash = "2a7fba24f4f8a6807688da2df76ebc88d0e7efe439d1060c3cd6e845ab543390"
+
+[[files]]
 file = "config/fancymenu/custom_gui_screens.txt"
-hash = "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+hash = "65a398463a5358b14798fb9b022d0b0c7ec903b589dc372b26906ef18ad73370"
 
 [[files]]
 file = "config/fancymenu/customizablemenus.txt"
@@ -61,16 +121,20 @@ file = "config/fancymenu/customization/cogsloadingscreen.txt"
 hash = "daba983858bd734af6a7b73077484f86781c5f57dc463459d4be3ba692d9d9bf"
 
 [[files]]
+file = "config/fancymenu/customization/credits.txt"
+hash = "20d7d9cae1436d501ee506a19910043b2ce01ec62816f7eee51f751fc16c0a37"
+
+[[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
 hash = "41f248ba6f872b44d7af69f6963d4b206620232c11da5d940bd576cb4cd9ba7a"
 
 [[files]]
 file = "config/fancymenu/customization/s6beta.txt"
-hash = "4a25e323f333df0618f55f4eaa6823b08b2acdd22f9e4a1e2a8b97f139c6dd29"
+hash = "a8914298b137936a9eb01a9c12ae5e8a2331b394fa2d92119ee3265eeb889baa"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
-hash = "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+hash = "d4e66bc22fcfa56158ca7100017623c71b1437fb4722229b6e064e0a48a5f5de"
 
 [[files]]
 file = "config/fancymenu/legacy_checklist.txt"
@@ -130,7 +194,7 @@ hash = "6709707f5b5ba59ad935425c5d951cd33e3d5ca54f1918743d346a4154efefe2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nuclear_engineer.snbt"
-hash = "1c43592369e7719b52368ff03a526d8cfb3e73fabc4a6231510ad24749745706"
+hash = "1a96486a4a59f7d2676971d19db7fe415b4beee3a9d00605dba95f0c3dccb7c4"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
@@ -393,6 +457,30 @@ file = "kubejs/assets/kubejs/textures/item/test_item.png.mcmeta"
 hash = "2e47b49f5a7faa2554aa99a14c35b169137eb55c0cc7d65fc820594163acfef9"
 
 [[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
+hash = "aa794e5d7977f515691d654bccaa49a362e9c1047be7dabc75952a5662e47827"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_1.png"
+hash = "3e943b803205c038becb321c40bf4bbced2bab7ade0cd15ec5e16387c830baed"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_2.png"
+hash = "e647242785325c0358108e98ac2c34311fafc5f8e92def4de807b92635093348"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_3.png"
+hash = "3874e0963bb42128dfc7e3e2cebdeff303cc0b78c1f4e4e7459d27b43dc7f2cb"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_4.png"
+hash = "9e0975380dfa6c934f7828ca9a0973f0d265ebf8164a7d283b248fddc544a0b1"
+
+[[files]]
+file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_5.png"
+hash = "acfcf9ba6f40a10f37a6753489ebd78c60c4cd91b70b9f372e0dd71a2354a656"
+
+[[files]]
 file = "kubejs/client_scripts/example.js"
 hash = "81a1021587b5ab7e7e8ebe4e1ebc5ac6086b43fc539eaac2c871e2a13747241b"
 
@@ -618,7 +706,19 @@ hash = "881c410b69f61464edf7776749443709ba983a86f9ac74dbd18f1df361bd31ef"
 
 [[files]]
 file = "ldlib/assets/mbd2/machine/steam_vent.sm"
-hash = "94c921187bf6b598a4fa147cccdf72c1997e42c5d28a9a0da7c1ee4e46600740"
+hash = "1b11b85b93e698c1303131929c581dc2b1843652f44edf2a404b6f615ea6cc1b"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/cooling_tower.json"
+hash = "a310193bb1711b7931f6ca373e5e3dcb3881c3ab928fa7c771978d1dc4b8c9c0"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/cooling_tower.mtl"
+hash = "1e071c88cb20816c47545c860ed81b7303943293a2310e11d553fc3b1dd089e7"
+
+[[files]]
+file = "ldlib/assets/mbd2/models/cooling_tower.obj"
+hash = "9c1c5e4e46babfcc4fdf299dd34c889d686a88e28287a21e134702ed93c919c8"
 
 [[files]]
 file = "ldlib/assets/mbd2/models/graphite_block.json"
@@ -709,6 +809,10 @@ file = "ldlib/assets/mbd2/multiblock/boiler.mb"
 hash = "a4cab39a7532d2fc2aabf6ab9a3c35782a02af87ed4351d1a2ca5bbc75c7e02f"
 
 [[files]]
+file = "ldlib/assets/mbd2/multiblock/cooling_tower.mb"
+hash = "632d2b0ffd4a912c09cf21ca2e6ca54503d00010e897cf20129bf80d4b73bb3e"
+
+[[files]]
 file = "ldlib/assets/mbd2/multiblock/hydraulic_press.mb"
 hash = "bb48be08edde60c665ded04382346dbfab6e4c6960c7a52bf19ce4ac9934480b"
 
@@ -723,6 +827,10 @@ hash = "59dad97a5519f9dfafefb1b294b3830b669a4db932a0afdd49ab68211fe7e0d4"
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/boiling.rt"
 hash = "907fdeacd542efccbf7dcd488dd7c535196674ac6cab39eeaf4f27bd0dfa5abc"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/cooling.rt"
+hash = "d0c6f50b7aa84cebb5674840106f6d21c1e3d9cbcd0dd510077c09b9f1cdee41"
 
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/create_stop.rt"
@@ -766,7 +874,7 @@ hash = "cc0f6213fd4d219e214b4e58c58468fb28d5803d7e3573b332c1415f2693366e"
 
 [[files]]
 file = "ldlib/assets/mbd2/textures/steam_turbine.png"
-hash = "be92c4ea3d755a428d6668abd8c2df5ab1caa700a92a6ff4e7155adc061d44fa"
+hash = "f4bdaf069d3de9e3d23c066255779e8c8a79a3a9a697bc91c64627d9b0f43c6f"
 
 [[files]]
 file = "ldlib/assets/mbd2/textures/steam_turbine.zip"
@@ -777,8 +885,16 @@ file = "ldlib/assets/mbd2/textures/turbine_fan.png"
 hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
 
 [[files]]
+file = "ldlib/assets/photon/fx/tower_smoke.fx"
+hash = "59475fc2f451660a5ecc4f951072727224658635d67d4259c9ea4a1c4fd16bc4"
+
+[[files]]
 file = "ldlib/assets/photon/fx/turbine_steam.fx"
 hash = "e9ad15f121a457975372c9d5d2bff8ecfc7a325c847521b39788d09420271406"
+
+[[files]]
+file = "ldlib/projects/fxproj/tower_smoke.fxproj"
+hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
 file = "mods/advanced-peripherals.pw.toml"
@@ -1308,11 +1424,6 @@ metafile = true
 [[files]]
 file = "mods/oozing-backport.pw.toml"
 hash = "28779632359bd6d9a45a3aa55a373dd60d2298141ec3b1450b761ad74325c354"
-metafile = true
-
-[[files]]
-file = "mods/panorama.pw.toml"
-hash = "f0ff2781756905268d20864053ec7993fd493f855a0c0d4edcca7ff5e4ea6a4f"
 metafile = true
 
 [[files]]
