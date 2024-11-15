@@ -1,0 +1,9 @@
+{
+  "loader": "forge:obj",
+  "flip_v": true,
+  "model": "mbd2:models/cooling_tower.obj",
+  "textures": {
+    "texture0": "mbd2:steam_turbine",
+    "particle": "mbd2:steam_turbine"
+  }
+}

@@ -9,6 +9,7 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: ["64A9AC0DC9E57860"]
 			description: [
 				"The Standard Nuclear Reactor is the more bare-bones version of the nuclear reacotr"
 				"The Standard Nuclear Reactor does not accept liquid fuel - it needs to be compressed into Nuclear Fuel Cartridges."
@@ -53,6 +54,7 @@
 			y: -1.5d
 		}
 		{
+			dependencies: ["1471EB84CDC0F8F3"]
 			id: "0DCF4AD9DB142A1F"
 			tasks: [{
 				id: "3FA757DE078906C5"
@@ -63,18 +65,20 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["0DCF4AD9DB142A1F"]
 			id: "4226EAA3487B0E28"
 			tasks: [{
 				id: "6299B2448222D51D"
 				item: "create_new_age:basic_motor"
 				type: "item"
 			}]
-			x: -5.5d
-			y: 1.5d
+			x: -4.0d
+			y: 0.5d
 		}
 		{
 			description: ["Nuclear Fuel can also be created from Refined Radiance (only obtained from the Archivist profession) - this has a major advantage over the standard recipe, as the recipe doesnt require heat, since heat is obtained from the Refined Radiance directly."]
 			id: "65FD24C1FBC0BF05"
+			optional: true
 			tasks: [
 				{
 					id: "0099F23E8300B483"
@@ -88,19 +92,10 @@
 				}
 			]
 			x: 0.5d
-			y: -5.0d
+			y: -3.5d
 		}
 		{
-			id: "50BEE2177C78F939"
-			tasks: [{
-				id: "5827A95587D7E55A"
-				item: "kubejs:graphite_ingot"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 0.0d
-		}
-		{
+			dependencies: ["1471EB84CDC0F8F3"]
 			description: ["By making large amounts of energy flow through some Cinder Flour, it will turn into a redstone like, glowing powder - Glowstone. Glowstone is very useful in lots of recipes, as well as a very bright light source."]
 			id: "0EE9D89110084801"
 			tasks: [
@@ -119,38 +114,49 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["1471EB84CDC0F8F3"]
 			description: ["Graphite, being a very versatile material, is once again used as a base in many recipes, including the creation of Nuclear Fuel - now is the time to upgrade your tree farm if you haven't already."]
+			hide_dependency_lines: true
 			id: "1712BEFCDF4E3B88"
 			tasks: [{
 				id: "461B0BF5F47627A7"
 				item: "kubejs:graphite_ingot"
 				type: "item"
 			}]
-			x: -4.0d
-			y: -3.5d
+			x: -4.5d
+			y: -4.0d
 		}
 		{
+			dependencies: [
+				"1D144F37EB8DF197"
+				"65FD24C1FBC0BF05"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Nuclear Fuel is the ideal blend that can be used as a fuel for nuclear reactors - there are currently two types of these, each having different usecases, so pick carefully."]
 			id: "64A9AC0DC9E57860"
+			min_required_dependencies: 1
 			tasks: [{
 				id: "7D38AC0BDA462E0C"
 				item: "kubejs:nuclear_fuel_bucket"
 				type: "item"
 			}]
-			x: 0.5d
-			y: -3.0d
+			x: 1.0d
+			y: -1.5d
 		}
 		{
+			dependencies: ["20068CB2A411EC34"]
 			id: "6D66F0CC6826A1DB"
 			tasks: [{
 				id: "490E7C7BD30ACED9"
 				item: "kubejs:nuclear_waste_bucket"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 5.5d
+			y: -4.0d
 		}
 		{
+			dependencies: ["5D7191F63F779E26"]
+			description: ["The Standard Nuclear Reactor, while being cheaper to maintain, is only used for generating large amounts of heat - at the moment this heat cannot be used outside of the Create New Age mod, however an exchange option is being worked on."]
 			id: "297EA484988983E4"
 			tasks: [
 				{
@@ -174,10 +180,11 @@
 					type: "item"
 				}
 			]
-			x: 4.5d
-			y: -5.0d
+			x: 3.0d
+			y: -6.0d
 		}
 		{
+			dependencies: ["64A9AC0DC9E57860"]
 			id: "20068CB2A411EC34"
 			tasks: [
 				{
@@ -196,10 +203,11 @@
 					type: "item"
 				}
 			]
-			x: 4.0d
-			y: -1.5d
+			x: 4.5d
+			y: -2.5d
 		}
 		{
+			dependencies: ["20068CB2A411EC34"]
 			id: "5CF0F9F6D526CC0E"
 			tasks: [
 				{
@@ -213,10 +221,11 @@
 					type: "item"
 				}
 			]
-			x: 6.0d
-			y: -1.5d
+			x: 7.0d
+			y: -2.5d
 		}
 		{
+			dependencies: ["6D66F0CC6826A1DB"]
 			id: "17B85F7F98A9EC9C"
 			tasks: [{
 				id: "6EF63049A6E05195"
@@ -224,10 +233,11 @@
 				type: "item"
 			}]
 			title: "Nuclear Waste Barrel"
-			x: 4.5d
-			y: 2.5d
+			x: 6.5d
+			y: -5.0d
 		}
 		{
+			dependencies: ["17B85F7F98A9EC9C"]
 			id: "7902694749711F18"
 			tasks: [
 				{
@@ -242,20 +252,26 @@
 				}
 			]
 			title: "Residue Barrel"
-			x: 6.0d
-			y: 4.0d
+			x: 7.5d
+			y: -6.0d
 		}
 		{
+			dependencies: ["297EA484988983E4"]
+			description: ["The perhaps most useful way of utilising the generated heat is by using a Boiler Heater - when powered, a Boiler Heater acts similarly to a standard Blaze Burner - when powered, it can be used as a heat source for Steam Engines, except with the Boiler Heater no items are consumed, only heat - the amount of heat supplied corresponds to the heat level of the heater."]
 			id: "6EF69F732BFAF07B"
 			tasks: [{
 				id: "78BD598AC7756DEB"
 				item: "create_new_age:heater"
 				type: "item"
 			}]
-			x: 6.5d
-			y: -5.0d
+			x: 2.0d
+			y: -8.0d
 		}
 		{
+			dependencies: [
+				"0EE9D89110084801"
+				"1712BEFCDF4E3B88"
+			]
 			description: ["Thorium is a highly radioactive material that is suitable for use in nuclear reactors, however it is required in large quantities for sustained reactions - it is necessary to automate it - this can be done by mixing some graphite ingots, glowstone, water and some input Thorium - don't worry as two pieces of Thorium get created, effectively creating an infinite supply of it - if you can keep up with the demand."]
 			id: "41B2ECD5A02C6B1E"
 			tasks: [{
@@ -267,6 +283,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["41B2ECD5A02C6B1E"]
 			description: ["Radioactive Thorium is the refined variant of standard Thorium, it is therefore the only usable source of Nuclear Fuel. Radioactive Thorium is obtained by crushing standard Thorium, however it only has a 10% chance of getting refined - the rest gets turned into experience nuggets or iron nuggets - it is recommended to check for any major bottlenecks in your factory before progressing further."]
 			id: "1D144F37EB8DF197"
 			tasks: [{
@@ -274,8 +291,48 @@
 				item: "create_new_age:radioactive_thorium"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.5d
+			x: -1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5CF0F9F6D526CC0E"]
+			id: "0678E66BBC5E7B53"
+			tasks: [{
+				id: "1557B14D21F3CA00"
+				item: "mbd2:cooling_tower"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1D144F37EB8DF197"]
+			id: "11C91C9A2BC4466D"
+			tasks: [
+				{
+					id: "23C4769BAE45BDC8"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					id: "4C1666D6BC804770"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["11C91C9A2BC4466D"]
+			id: "032D659C8D076D1C"
+			tasks: [{
+				id: "24D9FB9491AAC42F"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 1.5d
 		}
 	]
 	title: "The Nuclear Engineer"

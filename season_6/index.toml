@@ -1311,6 +1311,11 @@ hash = "28779632359bd6d9a45a3aa55a373dd60d2298141ec3b1450b761ad74325c354"
 metafile = true
 
 [[files]]
+file = "mods/panorama.pw.toml"
+hash = "f0ff2781756905268d20864053ec7993fd493f855a0c0d4edcca7ff5e4ea6a4f"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3a7eaa64434e7449e5fe6bd089bc784499432dae7d6ca07174b55b10a3b32ec8"
 metafile = true

@@ -1,0 +1,6 @@
+# Made in Blockbench 4.11.2
+newmtl m_82326b62-add3-8a7e-d572-d8b07f9f64b5
+map_Kd #texture0
+newmtl m_4ab684ba-8cb7-ffcd-ea08-6c30fd0dc258
+map_Kd #reactor_casing
+newmtl none
