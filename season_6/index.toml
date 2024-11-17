@@ -1038,8 +1038,8 @@ hash = "cfa8aa9c0437721dab2057c932c9cf8ec3d3a11f672040601305238d13df85e8"
 metafile = true
 
 [[files]]
-file = "mods/cpmpvc.pw.toml"
-hash = "9fd4bb8b01f528a58ae5a3af52887dda1ae7b34f78d54b0731a669e7ff8ad40d"
+file = "mods/cpmsvcc.pw.toml"
+hash = "0f3dadee386ee8c83d171aaa7e3918b7013f31066f2acb454967be05c719bb41"
 metafile = true
 
 [[files]]
@@ -1453,11 +1453,6 @@ hash = "3040938ede3141d52434d0750dee8032bb43afde8bee7d0872efa52ad7ed8697"
 metafile = true
 
 [[files]]
-file = "mods/plasmo-voice.pw.toml"
-hash = "62c0d94234ea67aa04073c6bb259a60fafe434c59968682aac4bb4a839fabb82"
-metafile = true
-
-[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "825988f49076dc13383e7b74fbb576e81c65c7cd2ea4f655f6da72d7c24bce17"
 metafile = true
@@ -1465,16 +1460,6 @@ metafile = true
 [[files]]
 file = "mods/polymorph.pw.toml"
 hash = "9c0743b63f9f6903ea23c39930a052efd2f2080d6a540e6d8c54f0b649475f94"
-metafile = true
-
-[[files]]
-file = "mods/pv-addon-broadcast.pw.toml"
-hash = "99dc10c737cff18f2f08d076f3c6ba1f54a714fddd4d690cfb9631e1d25136f7"
-metafile = true
-
-[[files]]
-file = "mods/pv-addon-groups.pw.toml"
-hash = "e3117592566f7d83fbb82552040a625ab2e3bd78b91d2672ca6148a6051b6280"
 metafile = true
 
 [[files]]
@@ -1515,6 +1500,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "2e3f05a6740618a0eb333956615aa47247bf12554fc6b6375946026453c264cc"
+metafile = true
+
+[[files]]
+file = "mods/simple-voice-chat.pw.toml"
+hash = "dd7e58c1618dc45240e405ae0fb38765663c157151bec663d1e3ed404e20e77e"
 metafile = true
 
 [[files]]
