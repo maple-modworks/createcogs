@@ -9,7 +9,7 @@ Reticulating splines!
 Minecraft!
 Multiplayer!
 Keyboard compatible!
-(not) Controller compatible!
+Not controller compatible!
 Create!
 Cogs!
 Not on Steam!
@@ -58,7 +58,7 @@ Also try SkyFactory!
 Also try CrazyCraft!
 Also try Create Flavored!
 Also try All The Mods!
-Made by Canada!
+Made by Maple Modworks!
 Feature packed!
 Does barrel rolls!
 §1C§2o§3l§4o§5r§6m§7a§8t§9i§ac
@@ -72,7 +72,7 @@ Do it all, everything!
 Trains FTW!
 The true meaning of covfefe!
 Something funny!
-5 seasons of Mining and Crafting!
+6 seasons of Mining and Crafting!
 Ping the human!
 Not vanilla!
 [this splash text is now available]
@@ -122,7 +122,7 @@ BEHOLD! My server-crash-inator!
 Alt+F4!
 if you see this, join the server and say pineapple
 13 online, that’s a new record!
-Where is Choco?
+Choco returns!
 Server Crash!
 Goodbye, Oceantown!
 Mind the drones!
@@ -168,6 +168,25 @@ All rights reserved!
 This splash text is hard to read at the default game resolution, but at 1080p its fine!
 Gaming activated!
 Don't poke the turrets!
-Server started!
-Server stopped!
+The server has started!
+The server has stopped!
 i hate this server >:(
+Deploy the Ban Hammer!
+What broke this time?
+Never let Katze host!
+death.attack.ban
+Season 6 when?
+Oops wrong chat!
+Wrong, sulfuric acid!
+I'll host my own server!
+A flying brick!
+Max speed of 3!
+Chat is this real?
+3 seasons no desert!
+Check my Inventory!
+We're gonna crash!
+Apotheosisn't!
+"Teleporting Phantoms!"
+The sky is NOT the limit!
+Abnormally sized hitbox!
+3799 ms ping!

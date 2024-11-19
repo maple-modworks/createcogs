@@ -62,7 +62,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "52b17e066ef460ba7cfa05be80c9c14f1aa45b3b7e13083500df1b0662d63d9d"
+hash = "51a1aab64aa2dc534486560c499ad508d9b8e678e58f9ab0aea7b5510f42e85d"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -1523,8 +1523,18 @@ hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
 metafile = true
 
 [[files]]
+file = "mods/tetra-extras.pw.toml"
+hash = "212fc263606971eefb70bbef4f56c7108bfeaf25df6d48a7ad33fd91a5b5c8bb"
+metafile = true
+
+[[files]]
 file = "mods/tetra.pw.toml"
 hash = "85a71671d0de5a84f67b7b9b14d7582c7b73967feea8301a180867496aa7e535"
+metafile = true
+
+[[files]]
+file = "mods/tetracelium.pw.toml"
+hash = "4a049327d97930b784ebd68a8fbf1b4be06bc21af6054a1a19a6b2dafc0fc6ed"
 metafile = true
 
 [[files]]
@@ -1560,6 +1570,11 @@ metafile = true
 [[files]]
 file = "resourcepacks/create-energistics.pw.toml"
 hash = "f4b50345eb4830d8a305e22745b4285da37e65919da06062050e127bd273b5c6"
+metafile = true
+
+[[files]]
+file = "resourcepacks/textrapack.pw.toml"
+hash = "a88731fbf56df7a81da068d4c735d16ace13bcacaafe978229c107719521aa96"
 metafile = true
 
 [[files]]

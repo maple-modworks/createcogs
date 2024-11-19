@@ -1,0 +1,13 @@
+name = "Textrapack"
+filename = "textrapack0.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/hjgNgY1y/versions/1wMLCdCt/textrapack0.2.zip"
+hash-format = "sha1"
+hash = "3676170887ccc591afc2f092440f15d38360e79f"
+
+[update]
+[update.modrinth]
+mod-id = "hjgNgY1y"
+version = "1wMLCdCt"
