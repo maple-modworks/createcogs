@@ -923,6 +923,11 @@ hash = "6878f9fecb26497a5b2bd38de543ae15caf3b01921c4db82b7df637584809ec9"
 metafile = true
 
 [[files]]
+file = "mods/astages.pw.toml"
+hash = "ae096df90410935e9cee0498336a0ca736200b14870735f7c67af007dbeb255e"
+metafile = true
+
+[[files]]
 file = "mods/athena.pw.toml"
 hash = "9638d8a308563842fd989970919a51f37ed1bcc82372bff47fc5a5c2e6de738e"
 metafile = true
@@ -1258,11 +1263,6 @@ hash = "3de7e29cd28529757e0a09db7466b7d50b791ba4235de2f125a86921a5c60ea7"
 metafile = true
 
 [[files]]
-file = "mods/game-stages.pw.toml"
-hash = "8e6b9d8f865cd23aa6bfd31e04c1fa4dc8727f714ee915e901362a2bf1fb0ffd"
-metafile = true
-
-[[files]]
 file = "mods/geckolib.pw.toml"
 hash = "315418827149c57947f77defb618c60eb776209bb5ae966d1a4b5af1bca96539"
 metafile = true
@@ -1290,11 +1290,6 @@ metafile = true
 [[files]]
 file = "mods/item-filters.pw.toml"
 hash = "ff92eddb2bf6f1afe9fa7fc73d63ea9419e0cff77fbd4fd2936b51525fe9340c"
-metafile = true
-
-[[files]]
-file = "mods/item-stages.pw.toml"
-hash = "e7088f7c568d00cc695b8556a13976d16455ab6dba683eccf3fca67355c5d05a"
 metafile = true
 
 [[files]]
