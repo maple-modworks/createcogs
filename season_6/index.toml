@@ -205,10 +205,6 @@ file = "config/ftbquests/quests/reward_tables/cogwheel_reward.snbt"
 hash = "526d1af9106c089f9f9dade92ebdefd0a8bd7b2bd198b5684e8aa56f9584c03b"
 
 [[files]]
-file = "config/gamestages/known_stages.json"
-hash = "cf6f1f1fe610ef3655273980fc2d693a671d122d3b739bf1e3641d16c28719d0"
-
-[[files]]
 file = "defaultconfig/computercraft-server.toml"
 hash = "0997db08b9152b7ea292f86d54eed2e3e040c1d775d54174c75738d1cc8838c9"
 
@@ -1571,7 +1567,3 @@ metafile = true
 file = "resourcepacks/textrapack.pw.toml"
 hash = "a88731fbf56df7a81da068d4c735d16ace13bcacaafe978229c107719521aa96"
 metafile = true
-
-[[files]]
-file = "scripts/stages.zs"
-hash = "22e300b1fc1333bf51fef24fa723610498a71ed291739c13b48455340f9db62e"
