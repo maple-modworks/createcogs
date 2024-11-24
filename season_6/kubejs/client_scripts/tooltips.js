@@ -1,19 +1,20 @@
 ItemEvents.tooltip((event) => {
-	//TODO: when doing gamestages copy this list and lock everything except its contents
-	const tradeable = [
-		//all tradeable (not locked by gamestages) pneumaticcraft items
+	// TODO: when doing gamestages copy this list and lock everything except its contents
+	[
+		// all tradeable (not locked by gamestages) pneumaticcraft items
 		"pneumaticcraft:pneumatic_helmet",
 		"pneumaticcraft:pneumatic_chestplate",
 		"pneumaticcraft:pneumatic_leggings",
 		"pneumaticcraft:pneumatic_boots",
 		"pneumaticcraft:minigun",
-		//yes i know i couldve set up a loop to do this, too late...
+
+		// these should have tweaked recipes (unless i forgor) and should be harder to obtain
 		"pneumaticcraft:jet_boots_upgrade_1",
 		"pneumaticcraft:jet_boots_upgrade_2",
 		"pneumaticcraft:jet_boots_upgrade_3",
 		"pneumaticcraft:jet_boots_upgrade_4",
 		"pneumaticcraft:jet_boots_upgrade_5",
-		// ^these should have tweaked recipes (unless i forgor) and should be harder to obtain
+
 		"pneumaticcraft:jumping_upgrade_1",
 		"pneumaticcraft:jumping_upgrade_2",
 		"pneumaticcraft:jumping_upgrade_3",
@@ -44,15 +45,15 @@ ItemEvents.tooltip((event) => {
 		"pneumaticcraft:standby_upgrade",
 		"pneumaticcraft:stomp_upgrade",
 		"pneumaticcraft:volume_upgrade",
-		//end of upgrade block
+
 		"pneumaticcraft:lpg_bucket",
 		"pneumaticcraft:kerosene_bucket",
-		"pneumaticcraft:ingot_iron_compressed", //TODO:remove (lock) this if necessary - can be replaced by unlocking steel to airsmiths
+		"pneumaticcraft:ingot_iron_compressed", // TODO: remove (lock) this if necessary - can be replaced by unlocking steel to airsmiths
 		"pneumaticcraft:drone",
 		"pneumaticcraft:collector_drone",
 		"pneumaticcraft:guard_drone",
 		"pneumaticcraft:harvesting_drone",
-		"pneumaticcraft:jackhammer", //TODO: remove and lock higher tier drill bits if necessary
+		"pneumaticcraft:jackhammer", // TODO: remove and lock higher tier drill bits if necessary
 		"pneumaticcraft:drill_bit_compressed_iron",
 		"pneumaticcraft:drill_bit_diamond",
 		"pneumaticcraft:drill_bit_iron",
@@ -63,7 +64,7 @@ ItemEvents.tooltip((event) => {
 
 		"pneumaticcraft:gun_ammo",
 		"pneumaticcraft:gun_ammo_ap",
-		"pneumaticcraft:gun_ammo_explosive", //TODO:remove (lock) if considered too powerful
+		"pneumaticcraft:gun_ammo_explosive", // TODO:remove (lock) if considered too powerful
 		"pneumaticcraft:gun_ammo_freezing",
 		"pneumaticcraft:gun_ammo_incendiary",
 		"pneumaticcraft:gun_ammo_weighted",
@@ -71,17 +72,18 @@ ItemEvents.tooltip((event) => {
 		"pneumaticcraft:programmer",
 		"pneumaticcraft:sentry_turret",
 		"pneumaticcraft:programming_puzzle",
-		"pneumaticcraft:aerial_interface", //tradeable (not locked) since it requires the receiver to place it to work, recipe still only accessible to airsmiths
+		"pneumaticcraft:aerial_interface", // tradeable (not locked) since it requires the receiver to place it to work, recipe still only accessible to airsmiths
 		"pneumaticcraft:air_canister",
 		"pneumaticcraft:reinforced_air_canister",
-		//The merchant block - most of these should only have recipes locked, as the merchant doesnt get access to that many profession specific items
+
+		// The merchant block - most of these should only have recipes locked, as the merchant doesnt get access to that many profession specific items
 		"createdieselgenerators:gasoline_bucket",
 		"createdieselgenerators:diesel_bucket",
 		"pneumaticcraft:kerosene_bucket",
 		"pneumaticcraft:lpg_bucket",
 		"create:asurine",
 		"create:tuff",
-		"create:ochrum", //TODO: these can be theoreticaly removed as they are available to everyone
+		"create:ochrum", // TODO: these can be theoreticaly removed as they are available to everyone
 		"createdieselgenerators:diesel_engine",
 		"createdieselgenerators:large_diesel_engine",
 		"createdieselgenerators:huge_diesel_engine",
@@ -89,8 +91,8 @@ ItemEvents.tooltip((event) => {
 		"createaddition:electrum_nugget",
 		"createaddition:electrum_ingot",
 
-		//The mechanic block
-		//TODO: the merchant has mostly items that everyone has access to, so only recipes/some specific items should be locked
+		// The mechanic block
+		// TODO: the merchant has mostly items that everyone has access to, so only recipes/some specific items should be locked
 		"create:electron_tube",
 		"create:cinder_flour",
 		"create_sa:brass_jetpack_chestplate",
@@ -116,23 +118,15 @@ ItemEvents.tooltip((event) => {
 		"create_sa:portable_drill",
 		"create_sa:grapplin_whisk",
 		"create_sa:block_picker",
-
 		"create_sa:heap_of_experience", // TODO: maybe remove this but dont lock it
-
 		"create_sa:small_fueling_tank",
 		"create_sa:medium_fueling_tank",
 		"create_sa:large_fueling_tank",
 		"create_sa:small_filling_tank",
 		"create_sa:medium_filling_tank",
 		"create_sa:large_filling_tank",
-	];
+	].forEach((id) => event.add(id, Text.translate("tooltip.kubejs.tradeable").withStyle("gold")));
 
-	tradeable.forEach((itemID) => {
-		//should be a gold color tooltip
-		event.add(itemID, Text.translate("tooltip.kubejs.tradeable").withStyle("gold"));
-	});
-	//TODO: do not lock light bulbs, only their recipe as they can be found in almost every dungeon chest - accessible to all players
-	//TODO: add non-airsmith uses for lightbulbs
 	event.add("kubejs:light_bulb", Text.translate("tooltip.kubejs.light_bulb").withStyle("blue"));
 	event.add("mbd2:steam_turbine", Text.translate("tooltip.kubejs.multiblock").withStyle("blue"));
 });

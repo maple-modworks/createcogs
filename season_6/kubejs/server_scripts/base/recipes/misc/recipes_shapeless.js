@@ -7,9 +7,4 @@ ServerEvents.recipes((event) => {
 		"minecraft:yellow_dye",
 		"create:iron_sheet",
 	]);
-	event.shaped("minecraft:hopper", ["S S", "SBS", " A"], {
-		S: "minecraft:iron_ingot",
-		A: "create:large_cogwheel",
-		B: "minecraft:chest",
-	});
 });

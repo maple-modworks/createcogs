@@ -1,34 +1,15 @@
 ServerEvents.recipes((event) => {
-	event.custom({
-		type: "ae2:transform",
-		circumstance: {
-			type: "fluid",
-			tag: "minecraft:water",
-		},
-		ingredients: [
-			{ item: "ae2:certus_quartz_crystal" },
-			{ item: "minecraft:glowstone_dust" },
-			{ item: "create:refined_radiance" },
-		],
-		result: {
-			count: 3,
-			item: "ae2:fluix_crystal",
-		},
-	});
-	event.custom({
-		type: "ae2:transform",
-		circumstance: {
-			type: "fluid",
-			tag: "minecraft:water",
-		},
-		ingredients: [
-			{ item: "ae2:certus_quartz_crystal" },
-			{ item: "minecraft:glowstone_dust" },
-			{ item: "ae2:charged_certus_quartz_crystal" },
-		],
-		result: {
-			count: 1,
-			item: "ae2:fluix_crystal",
-		},
-	});
+	const r = (ingredients, result) =>
+		event.custom({
+			type: "ae2:transform",
+			circumstance: {
+				type: "fluid",
+				tag: "minecraft:water",
+			},
+			ingredients,
+			result,
+		});
+
+	r(["ae2:certus_quartz_crystal", "minecraft:glowstone_dust", "create:refined_radiance"], "3x ae2:fluix_crystal");
+	r(["ae2:certus_quartz_crystal", "glowstone_dust", "ae2:charged_certus_quartz_crystal"], "ae2:fluix_crystal");
 });

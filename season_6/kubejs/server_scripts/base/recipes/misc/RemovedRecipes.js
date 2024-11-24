@@ -1,6 +1,6 @@
 ServerEvents.recipes((event) => {
 	//why pneumaticcraft, why do you not use a usable format
-	const rRecipes = [
+	[
 		"ae2:fluix_crystal",
 		"ae2:controller",
 		"ae2:cell_component_4k",
@@ -18,8 +18,7 @@ ServerEvents.recipes((event) => {
 		"createdieselgenerators:pumpjack_crank",
 		"createdieselgenerators:pumpjack_head",
 		"createdieselgenerators:pumpjack_bearing",
-	];
-	rRecipes.forEach((output) => event.remove({ output: output }));
+	].forEach((output) => event.remove({ output: output }));
 
 	event.remove({
 		type: "pneumaticcraft:pressure_chamber",

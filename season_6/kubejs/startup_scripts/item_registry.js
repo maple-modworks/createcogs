@@ -1,6 +1,5 @@
 StartupEvents.registry("item", (event) => {
-	//standard items list
-	const items = [
+	[
 		"compressed_mechanism",
 		"graphite_dust",
 		"sawdust",
@@ -12,20 +11,17 @@ StartupEvents.registry("item", (event) => {
 		"incomplete_transistor",
 		"incomplete_capacitor",
 		"light_bulb_base",
-	];
-	//incomplete items list
-	const iItems = [
+	].forEach((output) => event.create(output));
+	[
+		// incomplete items
 		"incomplete_compressed_mechanism",
 		"incomplete_electron_tube",
 		"incomplete_graphite_electrode",
 		"incomplete_light_bulb",
 		"incomplete_fluid_pipe",
 		"almost_assembled_pcb",
-	];
-	items.forEach((output) => event.create(output));
-	iItems.forEach((output) => event.create(output, "create:sequenced_assembly"));
+	].forEach((output) => event.create(output, "create:sequenced_assembly"));
 
-	//specific scenarios
 	event.create("radiant_mechanism").glow(true).displayName("Radiant Core");
 	event.create("mod_token").glow(true);
 	event.create("incomplete_graphite_ingot", "create:sequenced_assembly").displayName("Almost Solid Graphite Dust");

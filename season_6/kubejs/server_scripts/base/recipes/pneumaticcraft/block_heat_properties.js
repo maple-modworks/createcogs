@@ -1,18 +1,14 @@
 ServerEvents.recipes((event) => {
-	event.custom({
-		type: "pneumaticcraft:heat_properties",
-		fluid: "kubejs:molten_steel",
-		temperature: 1643,
-		thermalResistance: 100,
-		heatCapacity: 10000,
-		transformCold: { block: "minecraft:air" },
-	});
-	event.custom({
-		type: "pneumaticcraft:heat_properties",
-		fluid: "kubejs:molten_slag",
-		temperature: 1643,
-		thermalResistance: 100,
-		heatCapacity: 10000,
-		transformCold: { block: "minecraft:air" },
-	});
+	const r = (fluid, temperature, thermalResistance, heatCapacity, transformCold) =>
+		event.custom({
+			type: "pneumaticcraft:heat_properties",
+			fluid,
+			temperature,
+			thermalResistance,
+			heatCapacity,
+			transformCold,
+		});
+
+	r("kubejs:molten_steel", 1643, 100, 10000, { block: "minecraft:air" });
+	r("kubejs:molten_slag", 1643, 100, 10000, { block: "minecraft:air" });
 });

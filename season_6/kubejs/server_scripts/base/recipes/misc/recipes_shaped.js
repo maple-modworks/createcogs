@@ -44,4 +44,18 @@ ServerEvents.recipes((event) => {
 			B: "ae2:calculation_processor",
 		}
 	);
+	event.shaped(
+		"minecraft:hopper",
+		// prettier-ignore
+		[
+			"S S",
+			"SBS",
+			" A",
+		],
+		{
+			S: "minecraft:iron_ingot",
+			A: "create:large_cogwheel",
+			B: "minecraft:chest",
+		}
+	);
 });

@@ -5,7 +5,7 @@ LootJS.modifiers((event) => {
 			"chests/abandoned_mineshaft",
 			"chests/ancient_city",
 			"chests/buried_treasure",
-			"chests/shipwreck_treasure",
+			"chests/shipwreck_treasure"
 		)
 		.pool((pool) => {
 			pool.rolls([1, 3]);
@@ -18,7 +18,7 @@ LootJS.modifiers((event) => {
 			"chests/abandoned_mineshaft",
 			"chests/ancient_city",
 			"chests/buried_treasure",
-			"chests/shipwreck_treasure",
+			"chests/shipwreck_treasure"
 		)
 		.pool((pool) => {
 			pool.rolls([1, 3]);
@@ -35,7 +35,7 @@ LootJS.modifiers((event) => {
 			"minecraft:cave_spider",
 			"minecraft:ghast",
 			"minecraft:wither_skeleton",
-			"minecraft:blaze",
+			"minecraft:blaze"
 		)
 		.pool((pool) => {
 			pool.rolls([1, 2]);

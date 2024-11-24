@@ -1,5 +1,5 @@
 WorldgenEvents.remove((event) => {
-	const steps = [
+	[
 		"raw_generation",
 		"lakes",
 		"local_modifications",
@@ -11,6 +11,5 @@ WorldgenEvents.remove((event) => {
 		"fluid_springs",
 		"vegetal_decoration",
 		"top_layer_modification",
-	];
-	steps.forEach((step) => event.removeFeatureById(step, ["pneumaticcraft:oil_lake"]));
+	].forEach((step) => event.removeFeatureById(step, ["pneumaticcraft:oil_lake"]));
 });

@@ -16,13 +16,31 @@ ServerEvents.recipes((event) => {
 			A: "create:andesite_alloy",
 		}
 	);
-	event.shaped("createdieselgenerators:pumpjack_bearing", ["ASA", "SMS", "ASA"], {
-		A: "create:andesite_alloy",
-		S: "davebuildingmod:steel_ingot",
-		M: "create:mechanical_bearing",
-	});
-	event.shaped("createdieselgenerators:pumpjack_head", ["S S", "SRS", "S S"], {
-		S: "davebuildingmod:steel_ingot",
-		R: "#kubejs:ropes",
-	});
+	event.shaped(
+		"createdieselgenerators:pumpjack_bearing",
+		// prettier-ignore
+		[
+			"ASA",
+			"SMS",
+			"ASA",
+		],
+		{
+			A: "create:andesite_alloy",
+			S: "davebuildingmod:steel_ingot",
+			M: "create:mechanical_bearing",
+		}
+	);
+	event.shaped(
+		"createdieselgenerators:pumpjack_head",
+		// prettier-ignore
+		[
+			"S S",
+			"SRS",
+			"S S"
+		],
+		{
+			S: "davebuildingmod:steel_ingot",
+			R: "#kubejs:ropes",
+		}
+	);
 });
