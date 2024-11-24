@@ -53,25 +53,6 @@ ServerEvents.recipes((event) => {
 		},
 	);
 	event.recipes.create.mechanical_crafting(
-		"create_dd:furnace_engine",
-		// prettier-ignore
-		[
-			"  BES",
-			"FCNHK",
-			"  BES",
-		],
-		{
-			B: "create:brass_ingot",
-			S: "createdeco:andesite_sheet",
-			E: "create:electron_tube",
-			H: "create_sa:heat_engine",
-			N: "create:steam_engine",
-			K: "create:andesite_alloy_block",
-			F: "create:shaft",
-			C: "create:brass_sheet",
-		},
-	);
-	event.recipes.create.mechanical_crafting(
 		"create_sa:andesite_jetpack_chestplate",
 		// prettier-ignore
 		[
