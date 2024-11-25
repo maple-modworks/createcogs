@@ -60,4 +60,7 @@ StartupEvents.registry("fluid", (event) => {
 		.flowingTexture("kubejs:fluid/steam")
 		.noBlock()
 		.noBucket();
+	event
+		.create("test")
+		.displayName("Testity test");
 });
