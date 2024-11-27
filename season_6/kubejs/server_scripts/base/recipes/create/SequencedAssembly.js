@@ -158,7 +158,7 @@ ServerEvents.recipes((event) => {
 			),
 		])
 		.transitionalItem("kubejs:incomplete_compressed_mechanism")
-		.loops(32);
+		.loops(8);
 
 	event.recipes
 		.createSequencedAssembly(
@@ -261,4 +261,15 @@ ServerEvents.recipes((event) => {
 		)
 		.transitionalItem("create_sa:incomplete_steam_engine")
 		.loops(3);
+		['boots', 'leggings', 'helmet', 'chestplate'].forEach(piece => {
+			event.recipes.createSequencedAssembly([
+				Item.of(`pneumaticcraft:pneumatic_${piece}`).withChance(100)
+			], `pneumaticcraft:compressed_iron_${piece}`, [
+				event.recipes.createDeploying(`kubejs:incomplete_pneumatic_${piece}`, [`kubejs:incomplete_pneumatic_${piece}`, 'kubejs:compressed_mechanism']),
+				event.recipes.createDeploying(`kubejs:incomplete_pneumatic_${piece}`, [`kubejs:incomplete_pneumatic_${piece}`, 'pneumaticcraft:reinforced_air_canister']),
+				event.recipes.createPressing(`kubejs:incomplete_pneumatic_${piece}`, `kubejs:incomplete_pneumatic_${piece}`),
+				event.recipes.createDeploying(`kubejs:incomplete_pneumatic_${piece}`, [`kubejs:incomplete_pneumatic_${piece}`, 'pneumaticcraft:reinforced_air_canister']),
+				event.recipes.createPressing(`kubejs:incomplete_pneumatic_${piece}`, `kubejs:incomplete_pneumatic_${piece}`),
+			]).transitionalItem(`kubejs:incomplete_pneumatic_${piece}`).loops(1)
+		})
 });

@@ -23,4 +23,12 @@ ServerEvents.recipes((event) => {
 		Fluid.of("kubejs:nuclear_waste", 1000),
 		"minecraft:barrel",
 	]);
+	event.recipes.createFilling('minecraft:crimson_nylium', [
+		Fluid.of('kubejs:crimson_essence', 100),
+		'minecraft:netherrack'
+	]);
+	event.recipes.createFilling('minecraft:warped_nylium', [
+		Fluid.of('kubejs:soul_tears', 100),
+		'minecraft:netherrack'
+	]);
 });

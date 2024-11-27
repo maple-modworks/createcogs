@@ -18,18 +18,31 @@ ServerEvents.recipes((event) => {
 		"createdieselgenerators:pumpjack_crank",
 		"createdieselgenerators:pumpjack_head",
 		"createdieselgenerators:pumpjack_bearing",
+		'create_enchantment_industry:hyper_experience',
+		'create_enchantment_industry:printer',
+		'create_enchantment_industry:disenchanter',
+		'create:electron_tube',
+		'createaddition:seed_oil'
 	].forEach((output) => event.remove({ output: output }));
 
-	event.remove({
-		type: "pneumaticcraft:pressure_chamber",
-		output: "pneumaticcraft:ingot_iron_compressed",
-	});
 	event.remove({
 		output: "createdieselgenerators:diesel",
 		type: "createdieselgenerators:distillation",
 	});
-	event.remove({ mod: "create_dd" });
-	event.remove({ output: "minecraft:redstone", type: "create:filling" });
-	event.remove({ id: "pneumaticcraft:explosion_crafting/compressed_iron_ingot" });
-	event.remove({ output: "pneumaticcraft:ingot_iron_compressed" });
+	event.remove({
+		output: 'minecraft:redstone',
+		type: 'create:filling'
+	});
+	//specific cases
+	[
+		"create_enchantment_industry:mixing/hyper_experience",
+		"pneumaticcraft:explosion_crafting/compressed_iron_ingot",
+		"pneumaticcraft:pressure_chamber/capacitor",
+		"pneumaticcraft:pressure_chamber/transistor",
+		"pneumaticcraft:printed_circuit_board",
+		"pneumaticcraft:pressure_chamber/empty_pcb"
+	].forEach((id) => event.remove({id: i}));
+	//remove recipes for pneumaticcraft's pneumatic armor
+	['helmet', 'leggings', 'chestplate', 'boots'].forEach((piece) => event.remove({id: `penumaticcraft:pneumatic_${piece}`}));
+
 });
