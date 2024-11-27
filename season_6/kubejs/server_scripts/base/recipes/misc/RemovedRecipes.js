@@ -41,8 +41,8 @@ ServerEvents.recipes((event) => {
 		"pneumaticcraft:pressure_chamber/transistor",
 		"pneumaticcraft:printed_circuit_board",
 		"pneumaticcraft:pressure_chamber/empty_pcb"
-	].forEach((id) => event.remove({id: i}));
+	].forEach((id) => event.remove({id: id}));
 	//remove recipes for pneumaticcraft's pneumatic armor
-	['helmet', 'leggings', 'chestplate', 'boots'].forEach((piece) => event.remove({id: `penumaticcraft:pneumatic_${piece}`}));
+	['helmet', 'leggings', 'chestplate', 'boots'].forEach((piece) => event.remove({id: `pneumaticcraft:pneumatic_${piece}`}));
 
 });

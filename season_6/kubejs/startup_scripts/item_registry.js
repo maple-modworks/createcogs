@@ -26,5 +26,6 @@ StartupEvents.registry("item", (event) => {
 	event.create("mod_token").glow(true);
 	event.create("incomplete_graphite_ingot", "create:sequenced_assembly").displayName("Almost Solid Graphite Dust");
 	event.create("incomplete_radiant_mechanism", "create:sequenced_assembly").displayName("Incomplete Radiant Core");
-	event.create("test_item");
+	//add incomplete versions of pneumatic armor with textures
+	['leggings', 'chestplate', 'helmet', 'boots'].forEach(piece => event.create(`incomplete_pneumatic_${piece}`, 'create:sequenced_assembly').texture(`pneumaticcraft:item/pneumatic_${piece}`));
 });

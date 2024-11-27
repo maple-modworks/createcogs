@@ -5,8 +5,8 @@ ServerEvents.recipes((event) => {
 			circumstance: {
 				type: "explosion",
 			},
-			ingredients,
-			result,
+			ingredients: ingredients.map((i) => ({ item: i })),
+			result: {item: result},
 		});
 
 	r(["create:iron_sheet", "createdeco:andesite_sheet"], "pneumaticcraft:ingot_iron_compressed");
