@@ -979,6 +979,11 @@ hash = "d4512023e6eb03c5045365468de16cebe1aea7f14f6cb94902d72848f69c79ce"
 metafile = true
 
 [[files]]
+file = "mods/cogutilities.pw.toml"
+hash = "04593e010a3ab54f46af4b363df2929eacb73879d39bace65bbd7ef66466687c"
+metafile = true
+
+[[files]]
 file = "mods/collective.pw.toml"
 hash = "9f1dec816a7af9f1b2f2bda122da3b86e46d069b17f9a9b54b9a5cdfd0991f3e"
 metafile = true
