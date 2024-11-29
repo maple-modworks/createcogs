@@ -1334,6 +1334,11 @@ hash = "7ff110c86a5c19b4c5638695d9a888fb3558649410c49bc21ec0f7711587f1de"
 metafile = true
 
 [[files]]
+file = "mods/makersmark.pw.toml"
+hash = "da653f89e7ebc6a46547704aeefba2c30caed542a2b35edc7f0574d07d0254e7"
+metafile = true
+
+[[files]]
 file = "mods/mc2discord.pw.toml"
 hash = "89515ed26c65972322160e628623c6fd8ece91514a80ad3d4c5cb8caa743d00f"
 metafile = true
@@ -1370,7 +1375,7 @@ metafile = true
 
 [[files]]
 file = "mods/mutil.pw.toml"
-hash = "4e0ebdb97b93b545a2ab458e7aea179a32564234a7828fe4ecbee415d68916a2"
+hash = "c730f5a36bad3b8f4ffd4fdb9d1c87e5c84af61c0c5f53df5ee3df2ba068dfa1"
 metafile = true
 
 [[files]]
@@ -1505,7 +1510,7 @@ metafile = true
 
 [[files]]
 file = "mods/tetra.pw.toml"
-hash = "85a71671d0de5a84f67b7b9b14d7582c7b73967feea8301a180867496aa7e535"
+hash = "4b38d65d8ccf162d1e1d02405655091569df6478bfaac34010659e294b741c56"
 metafile = true
 
 [[files]]
