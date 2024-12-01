@@ -1,0 +1,13 @@
+name = "Vanishmod"
+filename = "Vanishmod-1.20.1-1.1.17.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/MihN2cw5/versions/yThCGxpM/Vanishmod-1.20.1-1.1.17.1.jar"
+hash-format = "sha1"
+hash = "0f8ed2e744eb7ff2b6fa2338e6b64f683e5a5627"
+
+[update]
+[update.modrinth]
+mod-id = "MihN2cw5"
+version = "yThCGxpM"

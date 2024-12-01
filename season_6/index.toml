@@ -1534,6 +1534,11 @@ hash = "d0b9e330714c613ba207842facd66054188ad4cb60538f455487a8ca04d1b82a"
 metafile = true
 
 [[files]]
+file = "mods/vanishmod.pw.toml"
+hash = "8d0fd8dff276a499f8cfbc5fdae9d6c8d7c478403b4c89faa82421e255fd0c35"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "718ec3f4126f8e520dac17aa2e0644e5bb8f870b0de2d20fa682a56b07876484"
 metafile = true
