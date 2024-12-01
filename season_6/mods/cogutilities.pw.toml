@@ -1,0 +1,13 @@
+name = "CogUtilities"
+filename = "cogutilities-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/9oX3IXmP/versions/wEa79jLg/cogutilities-0.1.jar"
+hash-format = "sha1"
+hash = "94cce80ce4cdaaa6b34cb8ddb63aa302cfbde27c"
+
+[update]
+[update.modrinth]
+mod-id = "9oX3IXmP"
+version = "wEa79jLg"
