@@ -522,7 +522,7 @@ hash = "5ec6fe884e359a3688ad0d76f709831101485327db65bdd55fedff370ead0cd5"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/ae2/transform.js"
-hash = "3f54dbf1021b62f8e0a73e2d97a5796e92f272a9d2b811a7ac12ae77596dc471"
+hash = "c96afa32046421d833a8b6268fbfc4f8adbcbd166070ec3883cf37640c353ac2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Compacting.js"
