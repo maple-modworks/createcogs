@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1731700226486
+  last_edited_time = 1735683251126
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:e94068f6-d1e7-4b18-9436-ba8124453a71-1731700218304] = [groups:][instances:]
+  [loading_requirement_container_meta:5adb9cfc-8cb1-4cfe-b8f0-298b6d16c4a3-1735683199628] = [groups:][instances:]
 }
 
 customization {
@@ -538,9 +538,9 @@ element {
   appearance_delay_seconds = 2.0
   fade_in = true
   fade_in_speed = 1.0
-  anchor_point = mid-centered
+  anchor_point = bottom-centered
   x = -34
-  y = 116
+  y = -77
   width = 68
   height = 14
   stretch_x = false
@@ -677,47 +677,5 @@ element {
   stay_on_screen = true
   element_loading_requirement_container_identifier = d4483070-7d78-4bc9-b519-2d5fe238286d-1731694991038
   [loading_requirement_container_meta:d4483070-7d78-4bc9-b519-2d5fe238286d-1731694991038] = [groups:][instances:]
-}
-
-element {
-  interactable = true
-  source = ^^^%n%Use code "%#00aaaa%MapleMods%#%" at Bisecthosting.com for 25% off your first month!%n%^^^
-  source_mode = direct
-  shadow = true
-  scale = 1.0
-  base_color = #FFFFFFFF
-  text_border = 2
-  line_spacing = 2
-  enable_scrolling = false
-  auto_line_wrapping = true
-  remove_html_breaks = true
-  code_block_single_color = #737373FF
-  code_block_multi_color = #565656FF
-  headline_line_color = #A9A9A9FF
-  separation_line_color = #A9A9A9FF
-  hyperlink_color = #0771FCFF
-  quote_color = #818181FF
-  quote_indent = 8.0
-  quote_italic = false
-  bullet_list_dot_color = #A9A9A9FF
-  bullet_list_indent = 8.0
-  bullet_list_spacing = 3.0
-  parse_markdown = true
-  element_type = text_v2
-  instance_identifier = 47865e44-e76c-4234-80a1-70e88fc373b3-1731700031854
-  appearance_delay = every_time
-  appearance_delay_seconds = 3.0
-  fade_in = true
-  fade_in_speed = 0.5
-  anchor_point = bottom-centered
-  x = -256
-  y = -20
-  width = 513
-  height = 14
-  stretch_x = false
-  stretch_y = false
-  stay_on_screen = true
-  element_loading_requirement_container_identifier = 6ae9a80c-faa8-45dd-b2e6-e2dda9fede31-1731700031854
-  [loading_requirement_container_meta:6ae9a80c-faa8-45dd-b2e6-e2dda9fede31-1731700031854] = [groups:][instances:]
 }
 
