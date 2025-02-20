@@ -870,6 +870,11 @@ hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
 metafile = true
 
 [[files]]
+file = "mods/ae2.pw.toml"
+hash = "6946aa6679b9ef660ec5183d49b5eb0f097c54772d0215d21a9f33b25529a73b"
+metafile = true
+
+[[files]]
 file = "mods/amendments.pw.toml"
 hash = "c514f491ac1d393df5bcdbefef1d91a4e96c4e5cea74f78d1e8d9bf9e43dd966"
 metafile = true
@@ -1155,6 +1160,11 @@ hash = "c61734cdfd93db9cc1509659e5719d8db79ffafec8eb9832776a0253f6096cdf"
 metafile = true
 
 [[files]]
+file = "mods/extended-ae.pw.toml"
+hash = "b7277d2db3a4bc1006861370e6a6b63111571d8913ea0f0585872b525a46ab77"
+metafile = true
+
+[[files]]
 file = "mods/extended-bogeys.pw.toml"
 hash = "ed801f0f50169db90b7f5b8cbe27e151d2b1e0888ec4cdc9a172a1ec3a02c581"
 metafile = true
@@ -1252,6 +1262,11 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "7e862d8a8716e79a389edc6e45e8126cef8aed3821c580bd6b5056a515078c2a"
+metafile = true
+
+[[files]]
+file = "mods/glodium.pw.toml"
+hash = "7dd266ba23fc08aade3fe194f1e55af68a80fc81f7a79ede8500a85bb05dc565"
 metafile = true
 
 [[files]]

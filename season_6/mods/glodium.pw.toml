@@ -1,0 +1,13 @@
+name = "Glodium"
+filename = "Glodium-1.20-1.5-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UhW5uCKw/versions/eoUaDkZf/Glodium-1.20-1.5-forge.jar"
+hash-format = "sha1"
+hash = "c7534db3248adfcf39a6158b423dfc9bfc99a378"
+
+[update]
+[update.modrinth]
+mod-id = "UhW5uCKw"
+version = "eoUaDkZf"
