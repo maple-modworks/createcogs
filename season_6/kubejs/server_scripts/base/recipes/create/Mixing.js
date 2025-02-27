@@ -24,7 +24,7 @@ ServerEvents.recipes((event) => {
 	);
 	event.recipes.createMixing(
 		[Fluid.of("kubejs:steel_blend", 750)],
-		["2x create:crushed_raw_iron", "3x minecraft:coal"],
+		["2x create:crushed_raw_iron", "3x #minecraft:coals"],
 	);
 	event.recipes.createMixing(
 		[Fluid.of("kubejs:crimson_essence", 250)],

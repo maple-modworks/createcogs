@@ -526,7 +526,7 @@ hash = "c96afa32046421d833a8b6268fbfc4f8adbcbd166070ec3883cf37640c353ac2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Compacting.js"
-hash = "67a1300a574dca6e949b0e2858930fd18de6c2be111a95f01b817ac88a85cf1d"
+hash = "bde433d1eedf0dcd455ebf841b6816289686b865f01f1b1e8059723168af6920"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
@@ -538,7 +538,7 @@ hash = "77e2c7509d975db747081f60a84e3fabdb864d5f7b86ddd2733c3ae26637f932"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
-hash = "2a73aadb2a0a654fcdbaebf0d8f17f8d7070bf539550bfc8d9e2cbf1498da5a4"
+hash = "8a45b11a9e044fba75a40b12763ef8bb1a9495a0e5082e41fdd1940072078eb7"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
@@ -550,7 +550,7 @@ hash = "5a8e2f9b666aaecd4f773a81833f9ba03470bd0bae59b7abfcfca55e1738db66"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "54510cecbfd141546c0e7c6151867ac56e6b8013adf93f0f8b8f23fd2b8e7076"
+hash = "42118b9b5ff1f47d0b8f17d87e2abcdc29bfb72c9b3c186079532c8e3b80fdc2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -558,7 +558,7 @@ hash = "83356b2423c5fbef0e6cf2942bfee798ae5947b73b76d70fce91d65b7b6d32bf"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
-hash = "48b9f87c7f94bda894c6624da02f899632f3a95240e7f73f427a9c7f1eefd3bc"
+hash = "56eba62cdec29d661f95232de68e81ff951959c6e92646601013f4507c52486c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Washing.js"
@@ -589,8 +589,12 @@ file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
 hash = "55a91c9cdd08ff18a9267e167545d2e10a85bde8d90539cf6ee52d0b4cda83f6"
 
 [[files]]
+file = "kubejs/server_scripts/base/recipes/misc/furnace_recipes.js"
+hash = "292c8f861c15ee0ccb44a54836f6a4c734147d2e211db509b6a1a5df755c4b37"
+
+[[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
-hash = "304166fc7bbb45fc7f8af08f5a9e5e3ea75e1463076c9a693ff1277e56422201"
+hash = "b02a9e49bbd4ff8a4e7252129f64bb06df50529d1676fde51a76675ed2e060ed"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"

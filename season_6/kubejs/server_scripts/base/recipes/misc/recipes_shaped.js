@@ -58,4 +58,18 @@ ServerEvents.recipes((event) => {
 			B: "minecraft:chest",
 		}
 	);
+		event.shaped(
+		"create_enchantment_industry:disenchanter",
+		// prettier-ignore
+		[
+			"   ",
+			"G G",
+			"CDC",
+		],
+		{
+			G: "minecraft:grindstone",
+			C: "minecraft:copper_ingot",
+			D: "create:item_drain",
+		}
+	);
 });

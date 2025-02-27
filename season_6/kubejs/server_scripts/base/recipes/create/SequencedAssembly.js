@@ -15,20 +15,27 @@ ServerEvents.recipes((event) => {
 				Item.of("create:iron_sheet").withChance(8.0),
 				Item.of("kubejs:light_bulb").withChance(5.0),
 			],
-			"kubejs:light_bulb",
+			"kubejs:graphite_electrode",
 			[
-				event.recipes.createFilling("kubejs:incomplete_electron_tube", [
+				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
 					"kubejs:incomplete_electron_tube",
-					Fluid.of("kubejs:crimson_essence", 250),
+					"minecraft:iron_nugget",
 				]),
 				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
 					"kubejs:incomplete_electron_tube",
-					"kubejs:graphite_dust",
+					"create:polished_rose_quartz",
+				]),
+				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
+					"kubejs:incomplete_electron_tube",
+					"minecraft:glass",
+				]),
+				event.recipes.createPressing("kubejs:incomplete_electron_tube", [
+					"kubejs:incomplete_electron_tube",
 				]),
 			],
 		)
 		.transitionalItem("kubejs:incomplete_electron_tube")
-		.loops(5);
+		.loops(1);
 
 	event.recipes
 		.createSequencedAssembly(
