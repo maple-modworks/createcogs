@@ -19,6 +19,7 @@ ServerEvents.recipes((event) => {
 	r(["createaddition:electrum_sheet", "minecraft:slime_ball"], 1.5, ["kubejs:incomplete_transistor"]);
 	r(["createaddition:electrum_sheet", "minecraft:redstone"], 1.5, ["kubejs:incomplete_capacitor"]);
 	r(["create:iron_sheet", "createdeco:andesite_sheet"], 2, ["pneumaticcraft:ingot_iron_compressed"]);
+	r(["kubejs:light_bulb_base"],-0.5,["kubejs:light_bulb"])
 
 	// Stacked example
 	r(

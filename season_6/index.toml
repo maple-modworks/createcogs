@@ -538,7 +538,7 @@ hash = "77e2c7509d975db747081f60a84e3fabdb864d5f7b86ddd2733c3ae26637f932"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
-hash = "8a45b11a9e044fba75a40b12763ef8bb1a9495a0e5082e41fdd1940072078eb7"
+hash = "2a73aadb2a0a654fcdbaebf0d8f17f8d7070bf539550bfc8d9e2cbf1498da5a4"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
@@ -614,7 +614,7 @@ hash = "32e8dd498dfcd4a9ea5995b32ecd26389f94a714967e87e308ae69da2ada4b0b"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/pneumaticcraft/pressure_chamber.js"
-hash = "bf4a06add86743a356cf72ab7af87ff4b9e83f92a9d065aff07ed647729e66b1"
+hash = "d07263db274e239ed0dd9c7c5906b308f5b2fc9489ee5be53b9bfdc316ae62ae"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/tags.js"
