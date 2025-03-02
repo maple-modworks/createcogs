@@ -1,13 +1,13 @@
 name = "Petrol's Parts (Create add-on)"
-filename = "petrolsparts-1.20.1-1.0.3.jar"
+filename = "petrolsparts-1.20.1-1.1.5.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/YVCgdYJa/petrolsparts-1.20.1-1.0.3.jar"
-hash-format = "sha1"
-hash = "32c4becd6de041321dd78cf7a5a234bba532ce15"
+url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/aFHiyPaG/petrolsparts-1.20.1-1.1.5.jar"
+hash-format = "sha512"
+hash = "b86bc2721dff4b9616ac020bba0d39e681794eba321d9bc39c80dc996296a180cecdfd3801a06f057173b2fd288c23afe5fcbb40a3ba9454507e8807018480c3"
 
 [update]
 [update.modrinth]
 mod-id = "AN0CZD9P"
-version = "YVCgdYJa"
+version = "aFHiyPaG"
