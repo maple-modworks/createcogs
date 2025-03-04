@@ -665,6 +665,10 @@ file = "ldlib/assets/mbd2/kinetic_machine/rotation_output.km"
 hash = "8fccb040cc0860ca576c96bef781f7c943e5a60167a00378f3b84bcfa929f9d3"
 
 [[files]]
+file = "ldlib/assets/mbd2/machine/engine_interface.sm"
+hash = "06426a1f2ed53da2f0cd22fb17b57be1eb8b657f4aa0ac4d5f2ff0919abc8e1d"
+
+[[files]]
 file = "ldlib/assets/mbd2/machine/graphite_block.sm"
 hash = "4c3f12aa1dfc919d0a954a15c604dd035fad59bc2a24f040fba50394016d0a8a"
 
@@ -789,6 +793,10 @@ file = "ldlib/assets/mbd2/multiblock/hydraulic_press.mb"
 hash = "bb48be08edde60c665ded04382346dbfab6e4c6960c7a52bf19ce4ac9934480b"
 
 [[files]]
+file = "ldlib/assets/mbd2/multiblock/mining_rig.mb"
+hash = "ffbdc0cb1c0776b1730f4fad9c75b0ef7c3f4b5a5b181d0cabeb052718882973"
+
+[[files]]
 file = "ldlib/assets/mbd2/multiblock/nuclear_boiler.mb"
 hash = "cdfae354b9ab2b16f1119cafdb734d32435e90cab9665a8f4adce5e069ce4f1b"
 
@@ -811,6 +819,10 @@ hash = "e0187adddfe448bb4e052c98dcb613842fca987bcdc3cf506b7af52dd3503818"
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/hydraulic_compressing.rt"
 hash = "ab2f2239560c61d167953b8ed5432998c254c03fe99be924b0515db917aa79a4"
+
+[[files]]
+file = "ldlib/assets/mbd2/recipe_type/mining.rt"
+hash = "a31fd3c5c652912823b188bec351d26fcd6a81d6773e78be6ed51d3fb5cf8bea"
 
 [[files]]
 file = "ldlib/assets/mbd2/recipe_type/nuclear_boiling.rt"
@@ -857,12 +869,24 @@ file = "ldlib/assets/mbd2/textures/turbine_fan.png"
 hash = "8204be53df3c6e9336c23cb0f7ea4b58b511a3474c6c792008f9f0851b28a5e3"
 
 [[files]]
+file = "ldlib/assets/photon/fx/mining_rig_smoke.fx"
+hash = "ca80fa7f157b153593e8f87ac6ee5ca75522ff0c828f20c027c7bc0cc1c896ae"
+
+[[files]]
+file = "ldlib/assets/photon/fx/smoke.fx"
+hash = "e3e31e1478bf7c96ddee9c7d6e6db7067f505b8fd615fcb03e34485c972e26f4"
+
+[[files]]
 file = "ldlib/assets/photon/fx/tower_smoke.fx"
 hash = "59475fc2f451660a5ecc4f951072727224658635d67d4259c9ea4a1c4fd16bc4"
 
 [[files]]
 file = "ldlib/assets/photon/fx/turbine_steam.fx"
 hash = "e9ad15f121a457975372c9d5d2bff8ecfc7a325c847521b39788d09420271406"
+
+[[files]]
+file = "ldlib/projects/fxproj/mining_rig_smoke.fxproj"
+hash = "787d5caa142b209656a4338efa8565adb70563e7bba6e05b7cce82271a95cdbf"
 
 [[files]]
 file = "ldlib/projects/fxproj/tower_smoke.fxproj"
