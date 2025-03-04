@@ -7,7 +7,3 @@ url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/ScFPMpMO/multiblocked2-1.
 hash-format = "sha512"
 hash = "c899fe2c616d6e954340ca2787879c42d5c1b22159e43afb98f712d3deffcbcce2e2a3c8033edefc7a839bcf586ec3dc2ce71148bd2677b7aefdff8a990d314c"
 
-[update]
-[update.modrinth]
-mod-id = "R2gjKEpa"
-version = "ScFPMpMO"
