@@ -130,7 +130,7 @@ hash = "41f248ba6f872b44d7af69f6963d4b206620232c11da5d940bd576cb4cd9ba7a"
 
 [[files]]
 file = "config/fancymenu/customization/s6beta.txt"
-hash = "a8914298b137936a9eb01a9c12ae5e8a2331b394fa2d92119ee3265eeb889baa"
+hash = "7e77c0c9ba8d26213b3d56eca82a6b2bda1490f155f4746c2ff15d4db4c6b77d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
