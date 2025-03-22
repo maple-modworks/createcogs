@@ -658,11 +658,11 @@ hash = "9f470b4dc9520927a20580879157faba3ed2aa543ef3352c50aed7ecd71ded69"
 
 [[files]]
 file = "ldlib/assets/mbd2/kinetic_machine/fan.km"
-hash = "1d98cd907ca390cd68ccc47421cb2ac118d59b58530897e9e1cd57c849d25c79"
+hash = "b7620bce2a4566a634538cf245a73602cc4b45851313e32a2d3ee9698c51b349"
 
 [[files]]
 file = "ldlib/assets/mbd2/kinetic_machine/rotation_output.km"
-hash = "8fccb040cc0860ca576c96bef781f7c943e5a60167a00378f3b84bcfa929f9d3"
+hash = "2b461c73cfc8237035479d40e6ca131c748bef22feae0ef3f179de7a14528c84"
 
 [[files]]
 file = "ldlib/assets/mbd2/machine/engine_interface.sm"
@@ -1413,6 +1413,11 @@ hash = "8240937e4f99128e7ce31eab253e689d2585361474a731a68c16bf00d72cdbc7"
 metafile = true
 
 [[files]]
+file = "mods/nature-arise.pw.toml"
+hash = "38c07895fd139e814a9cc5aec4189cabff1ebc49ddd981ad843290feaab99408"
+metafile = true
+
+[[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "318a137293d0919ddeb5e25c3facd5bc83de60366ac6cd5707d28ee650330f62"
 metafile = true
@@ -1524,7 +1529,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
+hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
 metafile = true
 
 [[files]]
