@@ -475,7 +475,10 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["2B4033336F26AEF0"]
+			dependencies: [
+				"2B4033336F26AEF0"
+				"1D8E3E92B0FF607E"
+			]
 			description: [
 				"The &bWater wheel&r and the &bLarge Water Wheel&r are a decent early-game power supply - they have a decent stress capacity at the cost of speed."
 				"&lPower a water wheel by getting water to flow around it&r."
@@ -505,7 +508,7 @@
 			]
 			title: "Powah!"
 			x: 4.2d
-			y: -7.8d
+			y: -10.2d
 		}
 		{
 			dependencies: ["543891AFE583647E"]
@@ -517,13 +520,13 @@
 				title: "Water wheel info "
 				type: "checkmark"
 			}]
-			x: 6.8d
-			y: -8.0d
+			x: 4.5d
+			y: -7.5d
 		}
 		{
 			dependencies: ["543891AFE583647E"]
 			description: ["Connect a &bLarge Cogwheel&r to a &bCogwheel&r to change the speed output of your new water wheels. "]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0247253239B2D009"
 			rewards: [{
 				exclude_from_claim_all: true
@@ -545,8 +548,8 @@
 		{
 			dependencies: ["0247253239B2D009"]
 			description: ["The &bMechanical Press&r allows you to turn some materials into their flatter counterparts - use a mechanical press to craft a few &liron sheets&r."]
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: "create:mechanical_press"
 			id: "15952C0D4433CB6E"
 			rewards: [{
@@ -587,8 +590,8 @@
 				""
 				"{@pagebreak}"
 			]
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			icon: "create:mechanical_mixer"
 			id: "2796AE35AE33B6B0"
 			rewards: [{
@@ -622,7 +625,7 @@
 		}
 		{
 			dependencies: ["50EDF006D42CA248"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "740CFB4663063114"
 			rewards: [{
 				command: "/gamestage add @p botanypots"
@@ -663,7 +666,7 @@
 		{
 			dependencies: ["740CFB4663063114"]
 			description: ["Now you can complete your starter kitchen using automatized encased fans with lava that will cook the food. the order in which you bake or mix the ingredients is up to you. But mainly, let your kitchen smell good!"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "0AA2CA4ED115730E"
 			shape: "rsquare"
 			tasks: [
@@ -975,9 +978,12 @@
 				"50EDF006D42CA248"
 				"0C70A658BB1462E9"
 			]
-			description: ["Craft the &bAndesite Trophy&r to &lprove that you are worthy to progress&r in this this pack, before clicking the checkmark above, it is recommended to &lcheck back through your factory&r and &llook for any major bottlenecks&r - it will only &lslow you down later on&r"]
-			hide: false
+			description: [
+				"By Carfting the &bAndesite Trophy&r you have completed the first chapter of the pack."
+				"It is recommended that you now go through your factory and check for any major bottlenecks before continuing to chapter 2, as it will only slow you down later."
+			]
 			hide_dependency_lines: true
+			hide_until_deps_visible: false
 			icon: "kubejs:andesite_trophy"
 			id: "10C69EB3EFC3A768"
 			shape: "gear"
@@ -1164,7 +1170,7 @@
 		{
 			dependencies: ["466F191A3E0BA4FA"]
 			description: ["By placing any &b1x1 Drawer&r with an &bAndesite Funnel&r attached to it next to a &bMechanical Belt&r or a &bDepot&r, you &lcan create a simple item filte&rr - first place the item to match inside the drawer, then lock it using the &bConfiguration Tool&r - you can then &lfreely pull items out&r of the &b1x1 Drawer&r without losing the filter."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "706777A257A7EA89"
 			optional: true
 			tasks: [
@@ -1246,7 +1252,7 @@
 		{
 			dependencies: ["466F191A3E0BA4FA"]
 			description: ["Another solution could be the use of &lvanila Hopper filters&r - however, it is not recommended, as these are a lot slower than using &bChutes&r and &bFunnels&r"]
-			hide: true
+			hide_until_deps_visible: true
 			id: "7834FAF9C9764446"
 			optional: true
 			tasks: [{
@@ -1284,7 +1290,7 @@
 		{
 			dependencies: ["538901FE7E3B4CA8"]
 			description: ["The &bBotany Pot&r acts as a &lmini farm&r - put a &bSoil block&r (e.g. Dirt, Sand or Stone) into the bottom slot and a &bSeed item&r (e.g. Seeds, Pumpkin Seeds or Sugarcane) into the top slot - the Botany pot should then &lstart growing&r - &lright click&r on the &bBotany Pot&r once fully grown to harvest and automaticaly replant the Pot."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "1AB33EC6F11C4190"
 			optional: true
 			tasks: [{
@@ -1298,7 +1304,7 @@
 		{
 			dependencies: ["1AB33EC6F11C4190"]
 			description: ["&bHopper Botany Pots&r act the same as normal &bBotany Pots&r, except they &lautomaticaly harvest&r and if possible, &lpush the output downwards&r (similarly to normal Hoppers)."]
-			hide: true
+			hide_until_deps_visible: true
 			id: "365E598FFE7CA7B1"
 			optional: true
 			tasks: [{
@@ -1308,6 +1314,52 @@
 			}]
 			x: 12.0d
 			y: 13.0d
+		}
+		{
+			description: [
+				"Welcome to the first vhapter of the pack - this chapter focuses on the basics of the Create mod (or the Andesite Age if you will)"
+				"This chapter will guide you through all the basic concepts of the Create mod - click the checkmark above to begin"
+			]
+			id: "1D8E3E92B0FF607E"
+			tasks: [{
+				id: "6395B4D296AC31A2"
+				title: "Chapter 1 Start"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["1D8E3E92B0FF607E"]
+			description: ["Since this is the first chapter of the pack, it is mostly focused on introducing the Create mod and its features, therefore we are offering you an option to speed up this chapter's progression if you think you know the Create mod well enough - The main goals of this chapter are to make a Bread farm and an Andesite Alloy farm - after completing these, the final quest of this chapter will appear, allowing you to skip the tutorial quests."]
+			id: "76611730D5263668"
+			optional: true
+			tasks: [
+				{
+					count: 64L
+					id: "02595E2F08962E3B"
+					item: { Count: 64, id: "minecraft:bread" }
+					type: "item"
+				}
+				{
+					id: "5B605656EFFF97AE"
+					title: "Bread Automated"
+					type: "checkmark"
+				}
+				{
+					count: 64L
+					id: "6259AB014EC38970"
+					item: { Count: 64, id: "create:andesite_alloy" }
+					type: "item"
+				}
+				{
+					id: "6D0D4ECB65022F7F"
+					title: "Andesite Alloy automated"
+					type: "checkmark"
+				}
+			]
+			x: 8.5d
+			y: -9.5d
 		}
 	]
 	title: "1.Industrial Revolution"

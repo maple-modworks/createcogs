@@ -485,7 +485,7 @@
 		{
 			description: [
 				"&n&lWelcome to Create-ive Cogs Season 6!&r&r"
-				"Start by gathering simple resources like wood, cobblestone, food."
+				"Start by gathering simple resources like wood, cobblestone and food."
 				"By mining &b1 Cobblestone&r and reading this , you will "
 				"unlock new quest lines."
 			]
@@ -513,10 +513,9 @@
 			dependencies: ["6EA1BCD1AE124BF0"]
 			description: [
 				"The &bCreate&r mod opens a lot of new options for item processing and transportation."
-				"Start by obtaining &l20 Andesite Alloy&r and click on the checkmark"
-				"to unlock Chapter 1"
+				"Start by obtaining &l20 Andesite Alloy&r and click the checkmark above to unlock Chapter 1"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "create:andesite_alloy"
 			id: "2B4033336F26AEF0"
 			tasks: [
@@ -541,7 +540,7 @@
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
 			description: ["Mailbox system "]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "refurbished_furniture:oak_mail_box"
 			id: "3446DFBEBFC35ABA"
 			rewards: [{
@@ -560,7 +559,7 @@
 		}
 		{
 			dependencies: ["3446DFBEBFC35ABA"]
-			hide: true
+			hide_until_deps_visible: true
 			icon: "chipped:chipped_emerald_block"
 			id: "6D7556EC864EC556"
 			rewards: [{
@@ -583,10 +582,7 @@
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
-			description: [
-				"Want better tools? The mod &l&bTetra&r&r adds new interesting and useful variants of vanilla-styled tools and weapons that you can combine together"
-				"with the &nTetra workbench&r, that can be created by right-clicking using the &nhammer&r (main hand) on the crafting table."
-			]
+			description: ["Want better tools? &l&bTetra&r&r adds new interesting and useful variants of vanilla-styled tools and weapons that you can combine together with the &nTetra workbench&r, that can be created by right-clicking on a Crafting Table using the &nHammer&r (main hand)"]
 			icon: {
 				Count: 1
 				id: "tetra:scroll_rolled"

@@ -5,7 +5,7 @@
 	group: ""
 	icon: "create_new_age:nuclear_fuel"
 	id: "697A849EB442A08A"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
