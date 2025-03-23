@@ -130,7 +130,7 @@ hash = "41f248ba6f872b44d7af69f6963d4b206620232c11da5d940bd576cb4cd9ba7a"
 
 [[files]]
 file = "config/fancymenu/customization/s6beta.txt"
-hash = "a8914298b137936a9eb01a9c12ae5e8a2331b394fa2d92119ee3265eeb889baa"
+hash = "7e77c0c9ba8d26213b3d56eca82a6b2bda1490f155f4746c2ff15d4db4c6b77d"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -162,15 +162,15 @@ hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1introduction.snbt"
-hash = "084ea514a1243d9064325fb35e2f84949f4a50ff3a521929ae62bf19001ea31d"
+hash = "d4d33de7704ad3b6dfe7c0e2983ac2719ad67fc2da5b0a8112f75ea27a9ce919"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
-hash = "66c931385142ca8b13d8e949dec62e639e310339995c96f776ba67b0a6656bca"
+hash = "cdac5eb6a09ff365b0b4738fbbe8e86cc9ebc2535ce10eeda4e546788ace4d27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
-hash = "4f2a169b40db97d2c13bcb3b80fd6b6f58c865478c176fa22fc3ed0645ba9559"
+hash = "e9b4fa3ffa2895e48642afd508fa086d2a30de3e2ccdcf9adda8d0e45b14ee98"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -194,7 +194,7 @@ hash = "6709707f5b5ba59ad935425c5d951cd33e3d5ca54f1918743d346a4154efefe2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nuclear_engineer.snbt"
-hash = "1a96486a4a59f7d2676971d19db7fe415b4beee3a9d00605dba95f0c3dccb7c4"
+hash = "c85e248a2c07648f8a990c5c8a83394cfed9f9ac795bd33906fdf8e6428cd8b9"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
