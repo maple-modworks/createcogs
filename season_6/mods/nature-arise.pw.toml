@@ -1,0 +1,13 @@
+name = "Nature Arise"
+filename = "Nature_Arise-forge-1.20.1-0.8.1c.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sBj82FD9/versions/xlKtU832/Nature_Arise-forge-1.20.1-0.8.1c.jar"
+hash-format = "sha512"
+hash = "55a84c792c12945d2eb05290d9cf12c7dd7b423dcba019a1721de37799eff8c9cccbe95532823c4577db9eff4c6315a2555088b27b50016148cac8701e741bad"
+
+[update]
+[update.modrinth]
+mod-id = "sBj82FD9"
+version = "xlKtU832"

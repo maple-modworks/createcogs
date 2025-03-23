@@ -1418,6 +1418,11 @@ hash = "8240937e4f99128e7ce31eab253e689d2585361474a731a68c16bf00d72cdbc7"
 metafile = true
 
 [[files]]
+file = "mods/nature-arise.pw.toml"
+hash = "38c07895fd139e814a9cc5aec4189cabff1ebc49ddd981ad843290feaab99408"
+metafile = true
+
+[[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "318a137293d0919ddeb5e25c3facd5bc83de60366ac6cd5707d28ee650330f62"
 metafile = true
@@ -1529,7 +1534,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "97175f71f202d2d47a5828568c9f53339952a1c20b09378bdf5ad34557a8b4be"
+hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
 metafile = true
 
 [[files]]
