@@ -1,0 +1,13 @@
+name = "LuckPerms"
+filename = "LuckPerms-Forge-5.4.102.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/Vebnzrzj/versions/AudvOzqV/LuckPerms-Forge-5.4.102.jar"
+hash-format = "sha1"
+hash = "00597f94cd1f88a468202c1fa0495106f000d564"
+
+[update]
+[update.modrinth]
+mod-id = "Vebnzrzj"
+version = "AudvOzqV"

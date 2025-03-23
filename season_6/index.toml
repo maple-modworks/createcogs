@@ -1018,6 +1018,11 @@ hash = "39fc70ada6da75706190a552190ef37e0707d15c6126abdf48baecb3b7359c13"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "a71da6b2e8a7654cdc2936e0ac684fbcbed513eb07b32f68f39497c27fe0de1d"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -1213,6 +1218,11 @@ hash = "e5264eb103970e9148e18d2b6ed50584d1d897e679db8c74be7b34b940574867"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "6a69d79b93e0634a65f9f00e30fa55b449a3e463847ab56ddc2847773774a8a8"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "a2c33376068c7b4e18966fe832c981c1376a443203ee621a3c52d25046df40f8"
 metafile = true
@@ -1228,11 +1238,6 @@ hash = "e4a60dc6d46d1070e33b8972e2c000a200928d3a401af21df57649f39e207bf5"
 metafile = true
 
 [[files]]
-file = "mods/ftb-essentials-forge.pw.toml"
-hash = "e196c44c69785ae15eb47a10207fee12362d34e63d94f663a00aa58e26313c37"
-metafile = true
-
-[[files]]
 file = "mods/ftb-library-forge.pw.toml"
 hash = "eb351918762f5c8f05672257082d1ca144c3c9397c40d6785116d1af8b02d864"
 metafile = true
@@ -1240,11 +1245,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
 hash = "843071fda8ea52f60308947a8145a05cd1763726bd226ef2c71cc09395de823b"
-metafile = true
-
-[[files]]
-file = "mods/ftb-ranks-forge.pw.toml"
-hash = "517e9a48e3bc790458003217c1c8608919bc3c5c06770c106fe36ca3f2d07d9e"
 metafile = true
 
 [[files]]
@@ -1370,6 +1370,11 @@ metafile = true
 [[files]]
 file = "mods/lootr.pw.toml"
 hash = "cd4fe8b667d14c946028050cf9e4c3367868f79d9f429ec18eb47cce34e021a3"
+metafile = true
+
+[[files]]
+file = "mods/luckperms.pw.toml"
+hash = "646a3bb87c40661133f72b4351c2727c16f5660568bf5a66321ab410b1682fb8"
 metafile = true
 
 [[files]]
@@ -1520,6 +1525,11 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "5d608562aae7967c72f0711fb3836ce341aed463491d987fcf9e6a15fdeda841"
+metafile = true
+
+[[files]]
+file = "mods/solstice-essentials.pw.toml"
+hash = "1832e960eaefcfc5b6515e28706e09f672ad8281c3a1dd28e1712ac6b5af03ce"
 metafile = true
 
 [[files]]
