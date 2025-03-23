@@ -630,7 +630,7 @@ hash = "5e114cff884ba0b88439716ec25e4d0477e9ccfbc3e2afebe00dced3b22564e9"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "bc1b200204fd15b22c12c68919b7864eefafcdc5208ce569867c21228ff2479b"
+hash = "3daad7574bcffc32b200854ebaf8935dba2f509e08b7f768286d5266afe1aab2"
 
 [[files]]
 file = "ldlib/assets/mbd2-2.zip"
@@ -658,11 +658,11 @@ hash = "9f470b4dc9520927a20580879157faba3ed2aa543ef3352c50aed7ecd71ded69"
 
 [[files]]
 file = "ldlib/assets/mbd2/kinetic_machine/fan.km"
-hash = "1d98cd907ca390cd68ccc47421cb2ac118d59b58530897e9e1cd57c849d25c79"
+hash = "b7620bce2a4566a634538cf245a73602cc4b45851313e32a2d3ee9698c51b349"
 
 [[files]]
 file = "ldlib/assets/mbd2/kinetic_machine/rotation_output.km"
-hash = "8fccb040cc0860ca576c96bef781f7c943e5a60167a00378f3b84bcfa929f9d3"
+hash = "2b461c73cfc8237035479d40e6ca131c748bef22feae0ef3f179de7a14528c84"
 
 [[files]]
 file = "ldlib/assets/mbd2/machine/engine_interface.sm"
@@ -1358,6 +1358,11 @@ hash = "db2b121b5fc67d2db2390f9ff56baa1cea12929062d05132fc6fd848da95694f"
 metafile = true
 
 [[files]]
+file = "mods/lithosphere.pw.toml"
+hash = "b1ad16e23fa53e02d3fb88904a273187b72470c5aaa467587806fe1cec4720f9"
+metafile = true
+
+[[files]]
 file = "mods/lootjs.pw.toml"
 hash = "43aa2c47e284692aa6182abd00929d5753c8660aea9e23b901da68aa75a68930"
 metafile = true
@@ -1459,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/photon-editor.pw.toml"
-hash = "4e9cec2b4eca8003cfa06226dfccaefd2fa9c589ae7b0bbb1e05ce9c3d6102ee"
+hash = "12ac889cb34962ef077e516d8296c134dc81afd950c2d7e177c066259de32a79"
 metafile = true
 
 [[files]]
