@@ -630,7 +630,7 @@ hash = "5e114cff884ba0b88439716ec25e4d0477e9ccfbc3e2afebe00dced3b22564e9"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
-hash = "3daad7574bcffc32b200854ebaf8935dba2f509e08b7f768286d5266afe1aab2"
+hash = "bc1b200204fd15b22c12c68919b7864eefafcdc5208ce569867c21228ff2479b"
 
 [[files]]
 file = "ldlib/assets/mbd2-2.zip"
@@ -924,7 +924,7 @@ metafile = true
 
 [[files]]
 file = "mods/astages.pw.toml"
-hash = "37699023c80df0993c24e0e760e3c348eb1d21c40be978b264a43140fbb10808"
+hash = "04f8514909f38b60dc868a6f138912ba3a7f5dd67ca4cece6a0162f8ef7cc81e"
 metafile = true
 
 [[files]]
@@ -1464,7 +1464,7 @@ metafile = true
 
 [[files]]
 file = "mods/photon-editor.pw.toml"
-hash = "12ac889cb34962ef077e516d8296c134dc81afd950c2d7e177c066259de32a79"
+hash = "52ac8de76d31160d94cd11a7202df12c1cf60142fed6a6950d4bc0474120be6e"
 metafile = true
 
 [[files]]
