@@ -3,13 +3,18 @@ type = fancymenu_layout
 layout-meta {
   identifier = credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1735683251126
+  last_edited_time = 1742789714906
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5adb9cfc-8cb1-4cfe-b8f0-298b6d16c4a3-1735683199628] = [groups:][instances:]
+  [loading_requirement_container_meta:e4464454-304c-4dd5-9b02-0f9669bb84ba-1742789345294] = [groups:][instances:]
+}
+
+customization {
+  action = setscale
+  scale = 3.0
 }
 
 customization {
@@ -120,7 +125,7 @@ element {
 
 element {
   interactable = true
-  source = Canada_LaVearn%n%%#aaaaaa% Owner, Artist, Graphic Design%#%%n%%n%HerrKatzeGaming%n%%#aaaaaa% Lead Developer%#%%n%%n%MkeksikYT%n%%#aaaaaa% Developer%#%%n%%n%Mato539%n%%#aaaaaa% Developer, Artist, Modeler%#%%n%%n%Eliasthefox%n%%#aaaaaa% Artist, Modeler%#%%n%%n%Choconeosome%n%%#aaaaaa% Musician, Structure Design%#%
+  source = Canada_LaVearn%n%%#aaaaaa% Owner, Artist, Graphic Design%#%%n%%n%HerrKatzeGaming%n%%#aaaaaa% Lead Developer%#%%n%%n%MkeksikYT%n%%#aaaaaa% Developer%#%%n%%n%Mato539%n%%#aaaaaa% Developer, Artist, Modeler%#%%n%%n%Eliasthefox%n%%#aaaaaa% Artist, Modeler%#%%n%%n%Choconeosome%n%%#aaaaaa% Musician, Structure Design%#%%n%%n%Tizu%n%%#aaaaaa% Developer%#%
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -151,8 +156,8 @@ element {
   anchor_point = mid-left
   x = 30
   y = -73
-  width = 200
-  height = 190
+  width = 236
+  height = 229
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -296,7 +301,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%Viriss%n%|||
+  source = |||%n%Caljam%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
@@ -380,7 +385,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%NbeeMC%n%%#aaaaaa% Create-ive Cogs logo%#%%n%%n%%#00aaaa%Bisecthosting%#%%n%%#aaaaaa% Server provider, partnership%#%%n%%n%Players like you!%n%%#aaaaaa% for supporting us through feedback, gameplay, and more!%#%%n%|||
+  source = |||%n%NbeeMC%n%%#aaaaaa% Create-ive Cogs logo%#%%n%%n%%#A9D18B%Lilypad%#%%n%%#aaaaaa% Server provider%#%%n%%n%Players like you!%n%%#aaaaaa% for supporting us through feedback, gameplay, and more!%#%%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0
