@@ -1,0 +1,68 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1industrial_revolution_beta"
+	group: "7775AC1CEE8CBE2D"
+	icon: "kubejs:andesite_trophy"
+	id: "4397B7DB281E3AA8"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2B4033336F26AEF0"]
+			id: "54C1857507104B3E"
+			subtitle: "Welcome to the first chapter of the pack - this chapter focuses on the basics of the Create mod (or the Andesite Age if you will)"
+			tasks: [{
+				id: "039B4AD269A210FB"
+				title: "The new beginning"
+				type: "checkmark"
+			}]
+			title: "Andesite Age"
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["54C1857507104B3E"]
+			description: ["&lPower a water wheel by getting water to flow around it&r."]
+			hide_until_deps_complete: true
+			id: "4C24276DC25BD9CC"
+			subtitle: "The &bWater wheel&r and the &bLarge Water Wheel&r are a decent early-game power supply - they have a decent stress capacity at the cost of speed."
+			tasks: [
+				{
+					id: "43BCE14086AEBE5A"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "143D6A2E1D690E31"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "Powah!"
+			x: 6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4C24276DC25BD9CC"]
+			id: "174C55767B2AE3CB"
+			subtitle: "Connect a &bLarge Cogwheel&r to a &bCogwheel&r to change the speed output of your new water wheels. "
+			tasks: [
+				{
+					id: "3A78751D3FB1CA51"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5F021817E2DF22E2"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			title: "Spinning madness"
+			x: 8.0d
+			y: -3.0d
+		}
+	]
+	title: "1.Industrial Revolution BETA"
+}

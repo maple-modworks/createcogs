@@ -478,6 +478,30 @@
 			x: 0.0d
 			y: -3.5d
 		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_petals"
+			rotation: 0.0d
+			width: 1.0d
+			x: 14.0d
+			y: 2.0d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_petals"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/pink_petals"
+			rotation: 0.0d
+			width: 1.0d
+			x: 21.0d
+			y: 6.0d
+		}
 	]
 	order_index: 0
 	quest_links: [ ]
@@ -506,8 +530,8 @@
 				type: "item"
 			}]
 			title: "And so it begins..."
-			x: 0.0d
-			y: 2.0d
+			x: -0.8238095238095369d
+			y: 2.016369047619051d
 		}
 		{
 			dependencies: ["6EA1BCD1AE124BF0"]
@@ -518,6 +542,8 @@
 			hide_until_deps_visible: true
 			icon: "create:andesite_alloy"
 			id: "2B4033336F26AEF0"
+			shape: "rsquare"
+			size: 1.0d
 			tasks: [
 				{
 					count: 20L
@@ -534,28 +560,29 @@
 				}
 			]
 			title: "The most useful rock"
-			x: 4.0d
-			y: 2.0d
+			x: 3.5d
+			y: 1.5d
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
-			description: ["Mailbox system "]
+			description: ["ComputerCraft"]
 			hide_until_deps_visible: true
-			icon: "refurbished_furniture:oak_mail_box"
+			icon: "computercraft:computer_normal"
 			id: "3446DFBEBFC35ABA"
 			rewards: [{
 				id: "2069AE6889E1972F"
 				type: "xp"
 				xp: 15
 			}]
+			shape: "rsquare"
 			tasks: [{
-				id: "4AD212E80C856AFF"
-				item: "refurbished_furniture:oak_mail_box"
+				id: "661E5ACA5C289ACD"
+				item: "computercraft:computer_normal"
 				type: "item"
 			}]
-			title: "Mail spam"
-			x: 2.1428571428571317d
-			y: 3.25d
+			title: "Tech support"
+			x: 1.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["3446DFBEBFC35ABA"]
@@ -567,6 +594,7 @@
 				id: "5CCB16225112AC12"
 				type: "command"
 			}]
+			shape: "rsquare"
 			subtitle: "This modpack includes some really interesting decoration mods like Chipped, Dave's BE or Create Deco. To continue and unlock mod chipped, use Stonecutter at least 30 times. "
 			tasks: [{
 				icon: "supplementaries:hourglass"
@@ -577,7 +605,7 @@
 				value: 30
 			}]
 			title: "New Decoration Options!"
-			x: 4.0d
+			x: 3.5d
 			y: 3.0d
 		}
 		{
@@ -611,6 +639,7 @@
 				item: "minecraft:torch"
 				type: "item"
 			}]
+			shape: "rsquare"
 			tasks: [
 				{
 					id: "2A47E3C20F72BF54"
@@ -636,35 +665,8 @@
 					type: "item"
 				}
 			]
-			x: 2.2857142857142847d
-			y: 1.1071428571428683d
-		}
-		{
-			id: "720104B03D5BEDC1"
-			rewards: [{
-				count: 256
-				id: "18E7116A3A343234"
-				item: "minecraft:netherite_block"
-				type: "item"
-			}]
-			size: 5.0d
-			subtitle: "sex"
-			tasks: [
-				{
-					id: "7DFD1471787E685E"
-					title: "sex"
-					type: "checkmark"
-				}
-				{
-					entity: "minecraft:player"
-					id: "6E770FBAC2BEAE5A"
-					title: "sex"
-					type: "kill"
-					value: 100L
-				}
-			]
-			x: 52.5d
-			y: 30.0d
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	title: "0. Blossoms of Beginning"

@@ -1317,7 +1317,7 @@
 		}
 		{
 			description: [
-				"Welcome to the first vhapter of the pack - this chapter focuses on the basics of the Create mod (or the Andesite Age if you will)"
+				"Welcome to the first chapter of the pack - this chapter focuses on the basics of the Create mod (or the Andesite Age if you will)"
 				"This chapter will guide you through all the basic concepts of the Create mod - click the checkmark above to begin"
 			]
 			id: "1D8E3E92B0FF607E"
@@ -1362,5 +1362,5 @@
 			y: -9.5d
 		}
 	]
-	title: "1.Industrial Revolution"
+	title: "1.Industrial Revolution OLD"
 }
