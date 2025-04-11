@@ -1,0 +1,7 @@
+name = "solstice-pronouns"
+filename = "solstice-pronouns-1.1.1.jar"
+
+[download]
+url = "https://github.com/scmcgowen/SolsticePronouns/releases/download/v1.1.1/solstice-pronouns-1.1.1.jar"
+hash-format = "sha256"
+hash = "31ad680984d0cae02eb4832b0cd44786ac6f52edc41182b99451bf32d56d57ec"

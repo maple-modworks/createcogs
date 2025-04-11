@@ -994,6 +994,11 @@ hash = "39fc70ada6da75706190a552190ef37e0707d15c6126abdf48baecb3b7359c13"
 metafile = true
 
 [[files]]
+file = "mods/connector.pw.toml"
+hash = "a71da6b2e8a7654cdc2936e0ac684fbcbed513eb07b32f68f39497c27fe0de1d"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
 hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
 metafile = true
@@ -1189,6 +1194,11 @@ hash = "e5264eb103970e9148e18d2b6ed50584d1d897e679db8c74be7b34b940574867"
 metafile = true
 
 [[files]]
+file = "mods/forgified-fabric-api.pw.toml"
+hash = "6a69d79b93e0634a65f9f00e30fa55b449a3e463847ab56ddc2847773774a8a8"
+metafile = true
+
+[[files]]
 file = "mods/framedblocks.pw.toml"
 hash = "f0985d39c6bb45984378049516de43f8faa6ee52ac74487d67442452cbf84d60"
 metafile = true
@@ -1206,11 +1216,6 @@ metafile = true
 [[files]]
 file = "mods/ftb-chunks-forge.pw.toml"
 hash = "3e6cd0338e376c0b84fbdbc7fed1b97637782087721c694a0bd6092694331c51"
-metafile = true
-
-[[files]]
-file = "mods/ftb-essentials-forge.pw.toml"
-hash = "e196c44c69785ae15eb47a10207fee12362d34e63d94f663a00aa58e26313c37"
 metafile = true
 
 [[files]]
@@ -1496,6 +1501,16 @@ metafile = true
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
 hash = "dd7e58c1618dc45240e405ae0fb38765663c157151bec663d1e3ed404e20e77e"
+metafile = true
+
+[[files]]
+file = "mods/solstice-essentials.pw.toml"
+hash = "55f9d5b8bec7f583886178a461c58de53e1af80faec87de2f3404cbe88a47625"
+metafile = true
+
+[[files]]
+file = "mods/solstice-pronouns.pw.toml"
+hash = "244e5619c71eda263215eb4cffafbe7399c9c8070870335c93ef95daac5380dc"
 metafile = true
 
 [[files]]
