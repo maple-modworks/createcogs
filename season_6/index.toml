@@ -1349,6 +1349,11 @@ hash = "7ff110c86a5c19b4c5638695d9a888fb3558649410c49bc21ec0f7711587f1de"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "646a3bb87c40661133f72b4351c2727c16f5660568bf5a66321ab410b1682fb8"
+metafile = true
+
+[[files]]
 file = "mods/makersmark.pw.toml"
 hash = "da653f89e7ebc6a46547704aeefba2c30caed542a2b35edc7f0574d07d0254e7"
 metafile = true
