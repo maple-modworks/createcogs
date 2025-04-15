@@ -873,6 +873,11 @@ file = "ldlib/projects/fxproj/tower_smoke.fxproj"
 hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "d3a18bbfbb1436f8917f5275ce336de3fc6012dfe44ac074a4cc616976bae038"
+metafile = true
+
+[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "008f4b4782a92c6a8995f26159433659d9b5bdfc5a736614a142666c4d235b3c"
 metafile = true
