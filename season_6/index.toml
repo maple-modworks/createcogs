@@ -25,6 +25,10 @@ file = "config/fancymenu/assets/cogs6.gif"
 hash = "d16124b34bbab1f8a4c782b04e55484e36ed85f71c221bbef144ad14c4cd1460"
 
 [[files]]
+file = "config/fancymenu/assets/cogs6crop.gif"
+hash = "1dacb60137aff242c1b53bf1f73f1981accaef452870ae8536ebf0b4e880a98e"
+
+[[files]]
 file = "config/fancymenu/assets/cogsdark.png"
 hash = "abc8ee25b507e4d0db6531c367e2f27d7eb6d074184a12e4878eecdcc2502cf7"
 
@@ -62,7 +66,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "51a1aab64aa2dc534486560c499ad508d9b8e678e58f9ab0aea7b5510f42e85d"
+hash = "d717956ba8c41d67823c9244089f9c0477b19896b3a1672ec683ea149a404e6d"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -118,19 +122,23 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/cogsloadingscreen.txt"
-hash = "daba983858bd734af6a7b73077484f86781c5f57dc463459d4be3ba692d9d9bf"
+hash = "4babba9155224ef9713ac66a602f6a02eb62825aa5eb730af651642c8e009d0b"
 
 [[files]]
 file = "config/fancymenu/customization/credits.txt"
-hash = "ca8dc4580265c899f473c1a38c5d0eaf965a3438a89666839c660ecdad005c40"
+hash = "ffac5c404fb948ec10eb6b056775b6e9d6199be51a3f040075372ffc773ceb22"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
-hash = "41f248ba6f872b44d7af69f6963d4b206620232c11da5d940bd576cb4cd9ba7a"
+hash = "9c0686ff9eec517f72afeb33b51dc989a375abc0e8d9eeec6110c72562bb155a"
 
 [[files]]
 file = "config/fancymenu/customization/s6beta.txt"
-hash = "7e77c0c9ba8d26213b3d56eca82a6b2bda1490f155f4746c2ff15d4db4c6b77d"
+hash = "39f47a4865d0919ca0c78db3d21f836f3ee92c5e3eaff1c51b120d7c9e993879"
+
+[[files]]
+file = "config/fancymenu/customization/s6release.txt"
+hash = "922508426033d6f201f2f89ff99a3b6245ce28b0c9c1a6b8618939e392ecb194"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -142,7 +150,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "fe1398a779801dbe9140c4be2698ae0e8bb02eda8a00a47005139a376e80bfa1"
+hash = "718d8789aaab717418d628dc880baf93576bbd841d26681cb41a7c07630893a0"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -158,11 +166,15 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "739539b4146abfddb28d18027abc040e62af3634552c3c8092d021545f0c08fe"
+hash = "86d5dcf140fcb7aded57df24912d72d634b929008cb9ca01bc8e2e05c2d7a19b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/1industrial_revolution_beta.snbt"
+hash = "32a8f1f4ff0a306c2a75e04b5685193ff3620f0245d4ffbafc737563f1e38c7c"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1introduction.snbt"
-hash = "d4d33de7704ad3b6dfe7c0e2983ac2719ad67fc2da5b0a8112f75ea27a9ce919"
+hash = "152ab1464b3a5bcce1be1e7ec4b4c244967d733962dfeecc2f8367540734d50e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
@@ -170,7 +182,7 @@ hash = "cdac5eb6a09ff365b0b4738fbbe8e86cc9ebc2535ce10eeda4e546788ace4d27"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
-hash = "e9b4fa3ffa2895e48642afd508fa086d2a30de3e2ccdcf9adda8d0e45b14ee98"
+hash = "23891b02d1db5789394da6d73c3484653bed5253318503de010a22a0e4e15401"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
@@ -1423,11 +1435,6 @@ hash = "8240937e4f99128e7ce31eab253e689d2585361474a731a68c16bf00d72cdbc7"
 metafile = true
 
 [[files]]
-file = "mods/nature-arise.pw.toml"
-hash = "38c07895fd139e814a9cc5aec4189cabff1ebc49ddd981ad843290feaab99408"
-metafile = true
-
-[[files]]
 file = "mods/necronomicon.pw.toml"
 hash = "318a137293d0919ddeb5e25c3facd5bc83de60366ac6cd5707d28ee650330f62"
 metafile = true
@@ -1464,12 +1471,12 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "81bc3646f21a68ddd04d76154f7c1aafe100df082a7831a0fe5a76c78aa90e2d"
+hash = "e5a1999432321e1d017f5d7fbdc6701ec62077c24f71cca3cc82d8d92c49f6b7"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "e9a9f0c3f6a82d553544cba60cf150e09c605c46116219bc0e46b41f41c8c7fa"
+hash = "7e67b31ffb950dac821d0992f6951e11c8b3887cc4b2c3324639862de7d9a8c6"
 metafile = true
 
 [[files]]
