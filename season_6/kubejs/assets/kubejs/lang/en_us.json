@@ -2,7 +2,7 @@
 	"tooltip.kubejs.tradeable": "Tradeable",
 	"tooltip.kubejs.light_bulb": "Most useful for Airsmiths",
 	"tooltip.kubejs.multiblock": "Check JEI for Assembly Guide",
-	
+	"tooltip.kubejs.removed": "Recipe Removed due to Server issues",
 	
 	"block.mbd2.nuclear_boiler": "Nuclear Boiler Controller",
 	"block.mbd2.proxy_part_block": "Machine Part",
@@ -15,4 +15,5 @@
 	"block.mbd2.steam_turbine": "Steam Turbine Controller",
 	"block.mbd2.turbine_fan": "Turbine Fan",
 	"block.mbd2.rotation_output": "Rotation Output"
+
 }
