@@ -1516,12 +1516,12 @@ metafile = true
 
 [[files]]
 file = "mods/rcc-discord-shim.pw.toml"
-hash = "0fc71b631899cd1df19bd11d952505acffb6451ec59b13d49116b8db81f583fd"
+hash = "3c2ac73d75e1e81b28ebcb66b3f2581cb278bffefd29eb6aa8271359d11e7b92"
 metafile = true
 
 [[files]]
 file = "mods/rcc-library.pw.toml"
-hash = "4f0e510bc49433a80783990914cbf8a36e72f618389c6bc9d234c9059f0f7433"
+hash = "e831fc2532f65078ef51cbd047ea0c2cb9d45881c2e73f404bc6847458c59a31"
 metafile = true
 
 [[files]]
