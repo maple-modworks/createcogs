@@ -22,7 +22,8 @@ ServerEvents.recipes((event) => {
 		'create_enchantment_industry:printer',
 		'create_enchantment_industry:disenchanter',
 		'create:electron_tube',
-		'createaddition:seed_oil'
+		'createaddition:seed_oil',
+		'create:tree_fertilizer'
 	].forEach((output) => event.remove({ output: output }));
 
 	event.remove({

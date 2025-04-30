@@ -1390,6 +1390,11 @@ hash = "646a3bb87c40661133f72b4351c2727c16f5660568bf5a66321ab410b1682fb8"
 metafile = true
 
 [[files]]
+file = "mods/mantle.pw.toml"
+hash = "50089e9e41f8e332aa6af6ed6490ac8f02caf314609e8ddd5c385e79cf7abe78"
+metafile = true
+
+[[files]]
 file = "mods/mc2discord.pw.toml"
 hash = "89515ed26c65972322160e628623c6fd8ece91514a80ad3d4c5cb8caa743d00f"
 metafile = true
@@ -1555,18 +1560,8 @@ hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
 metafile = true
 
 [[files]]
-file = "mods/tetra-extras.pw.toml"
-hash = "212fc263606971eefb70bbef4f56c7108bfeaf25df6d48a7ad33fd91a5b5c8bb"
-metafile = true
-
-[[files]]
-file = "mods/tetra.pw.toml"
-hash = "39df5b6db8a65ba9ee61716d8b66c2d17cfd93eb50e2c648457fd386347209f7"
-metafile = true
-
-[[files]]
-file = "mods/tetracelium.pw.toml"
-hash = "1f9ed7d78a4e7263a46a7ff5095394e3932d526e71ba8bdf1cd64c6f3b2594d1"
+file = "mods/tinkers-construct.pw.toml"
+hash = "719ceecb60e75b25656701c386fea8a098f8dc959197abcfac0e6fbe5f93a429"
 metafile = true
 
 [[files]]
