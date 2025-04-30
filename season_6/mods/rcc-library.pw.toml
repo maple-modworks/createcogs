@@ -1,5 +1,6 @@
 name = "rcc-library"
 filename = "rcc-library-1.0.1.jar"
+side = "server"
 
 [download]
 url = "https://github.com/scmcgowen/random_stuff/raw/refs/heads/main/rcc-library-1.0.1.jar"
