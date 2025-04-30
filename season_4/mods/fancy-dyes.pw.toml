@@ -1,0 +1,13 @@
+name = "Fancy Dyes"
+filename = "fancydyes-forge-1.19.2-1.0.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0b541336078d0adbed1e879f29d6f4cd996c4106"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4133941
+project-id = 715108

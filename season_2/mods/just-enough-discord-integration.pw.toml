@@ -1,0 +1,13 @@
+name = "Just Enough Discord Integration"
+filename = "jedi-1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f50a032f8a9d17234a173d8833bf2388115eaf94"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3594271
+project-id = 563369

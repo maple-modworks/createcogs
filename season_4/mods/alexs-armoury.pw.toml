@@ -1,0 +1,13 @@
+name = "Alex's Armoury"
+filename = "Alexs Armoury v1.4.1-1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e066e6e14146d6df575dc3c5231d16a3f72136a2"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4328911
+project-id = 720512

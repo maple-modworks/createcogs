@@ -1,0 +1,13 @@
+name = "Diamond Nuggets"
+filename = "diamondNuggets-forge-1.3-1.18.x.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "438066e3b95d528072af02adc98d3a41525911be"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3553243
+project-id = 454034

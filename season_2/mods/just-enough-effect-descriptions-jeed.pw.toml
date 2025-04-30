@@ -1,0 +1,13 @@
+name = "Just Enough Effect Descriptions (JEED)"
+filename = "jeed-1.18-1.6.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "e0b8e6dd73e6d3d3142d0e48b3867aa48357f61d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3551032
+project-id = 532286

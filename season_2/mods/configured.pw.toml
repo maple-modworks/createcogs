@@ -1,0 +1,13 @@
+name = "Configured"
+filename = "configured-1.5.1-1.18.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "30e43530cd6f80cfd2f84647652a89f9d7b68579"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3559398
+project-id = 457570

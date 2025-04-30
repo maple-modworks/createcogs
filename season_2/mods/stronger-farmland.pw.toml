@@ -1,0 +1,13 @@
+name = "Stronger Farmland"
+filename = "strongfarmland-1.18-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68a1c16077241c0e3fae619c90c9a14fc4ee41a0"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3545920
+project-id = 333875

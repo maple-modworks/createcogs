@@ -1,0 +1,284 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screens.TitleScreen
+  randomgroup = 1
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  keepaspectratio = false
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 104
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=376322%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = -3
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = 2
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 57
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -27
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = sethoverlabel
+  label = Don't want to join us? :(
+}
+
+customization {
+  identifier = %id=button_compatibility_id:forge_titlescreen_mods_button%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = 21
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = mid-centered
+  x = -124
+  action = movebutton
+  y = 21
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 106
+  width = 268
+  action = deep_customization_element:title_screen_forge_top
+  actionid = ec2f6a7a-1a8e-4a6b-92d5-4821fefc8f9e1672614892775
+  y = 4
+  height = 19
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 108
+  action = deep_customization_element:title_screen_branding
+  actionid = 296d3969-7174-46b6-9b80-0503f026486f1672614892786
+  y = 318
+  height = 40
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 411
+  width = 228
+  action = deep_customization_element:title_screen_forge_copyright
+  actionid = ee599878-496c-4797-9ee8-25819a8b4f531672614892786
+  y = 340
+  height = 9
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 370
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = ec7ba937-d2f6-4ac2-b0df-4d279b004b371672614892786
+  y = 175
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 183
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 78b11254-9160-4b2a-8a1d-9e46677905881672614892786
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = top-centered
+  splash_color = #ffff00
+  hidden = false
+  x = 0
+  width = 60
+  splash_rotation = 0
+  action = deep_customization_element:title_screen_splash
+  actionid = 23e7435d-6f53-46c4-b8aa-5ea819ede4f71672614892786
+  y = 98
+  splash_file_path = newsplash.txt
+  height = 30
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Modpack by Canada_LaVearn
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -147
+  width = 158
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = 82bd743f-d343-449a-b796-78c4d473a9f41672615026093
+  y = -42
+  alignment = left
+  height = 9
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = joinserver
+  label = Join Server
+  loopbackgroundanimations = true
+  hoverlabel = Create-ive Cogs!
+  x = 2
+  width = 98
+  actionid = 9a7a37e8-fd57-4ebb-b517-003c3d15f6461672615208669
+  action = addbutton
+  y = 21
+  value = createcogs.mcserver.us
+  height = 20
+}
+
+customization {
+  path = downloads/creativecogs4.png
+  orientation = top-centered
+  x = -135
+  width = 270
+  action = addtexture
+  actionid = 33f669db-393f-46cd-bb57-271b4c07edc21673057758096
+  y = 4
+  height = 82
+}
+
+customization {
+  orientation = bottom-right
+  enable_scrolling = false
+  shadow = true
+  scale = 1.0
+  source = Logo by @NBeeMC
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = -89
+  width = 87
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = cde1829e-a83f-4a65-8aac-e71c939117be1673058211940
+  y = -32
+  alignment = left
+  height = 9
+}
+
+customization {
+  path = downloads/online.png
+  orientation = mid-centered
+  vr:showif:serveronline = true
+  vr:value:serveronline = createcogs.mcserver.us
+  x = 102
+  width = 9
+  action = addtexture
+  actionid = 30fb765c-40a5-4864-9193-315c24a389c41675551022985
+  y = 21
+  height = 9
+}
+
+customization {
+  path = downloads/offlineoff.png
+  orientation = mid-centered
+  vr:showif:serveronline = true
+  vr:value:serveronline = createcogs.mcserver.us
+  x = 102
+  width = 9
+  action = addtexture
+  actionid = e851e71f-64fe-49c8-a719-28af5cc6ebb61675551332744
+  y = 32
+  height = 9
+}
+
+customization {
+  path = downloads/offline.png
+  orientation = mid-centered
+  vr:showif:serveronline = false
+  vr:value:serveronline = createcogs.mcserver.us
+  x = 102
+  width = 9
+  action = addtexture
+  actionid = c0c4de2f-5215-4710-bf92-0413659c24121675551382246
+  y = 32
+  height = 9
+}
+
+customization {
+  path = downloads/onlineoff.png
+  orientation = mid-centered
+  vr:showif:serveronline = false
+  vr:value:serveronline = createcogs.mcserver.us
+  x = 102
+  width = 9
+  action = addtexture
+  actionid = cc5cdfa7-56e3-41c1-bd0d-0576c802cd4b1675551414287
+  y = 21
+  height = 9
+}
+

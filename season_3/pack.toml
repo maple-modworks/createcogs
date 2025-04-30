@@ -1,0 +1,12 @@
+name = "Create-ive Cogs Season 3"
+version = "v1.0.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "79073582238cfed841e58bba1cf2ba154a112c0fcb783ecd08295503ffd9be72"
+
+[versions]
+forge = "40.1.69"
+minecraft = "1.18.2"

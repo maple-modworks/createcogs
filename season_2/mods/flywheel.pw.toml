@@ -1,0 +1,13 @@
+name = "Flywheel (Legacy)"
+filename = "flywheel-forge-1.18-0.5.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c537a42840f028d3f965045a97a674c4eeffe8d1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3600401
+project-id = 486392

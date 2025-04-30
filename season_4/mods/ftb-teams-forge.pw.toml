@@ -1,0 +1,13 @@
+name = "FTB Teams (Forge)"
+filename = "ftb-teams-forge-1902.2.12-build.95.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7958d0b78ff2d877c001c7349336c0e1d7e6b72c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4367026
+project-id = 404468

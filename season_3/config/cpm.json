@@ -1,0 +1,29 @@
+{
+  "playerSettings": {},
+  "globalSettings": {
+    "safetyProfile": "low"
+  },
+  "blockedList": {},
+  "advScalingSettings": false,
+  "editorGizmoLength": 1.0,
+  "showLoadingInfo": true,
+  "editorGizmoSize": 1.0,
+  "editorUVAreaAlpha": 0.8,
+  "serverSettings": {},
+  "editorSelectMouseButton": 0.0,
+  "titleScreenButton": false,
+  "friendSettings": {},
+  "keybinds": {},
+  "editorUVAreaAllAlpha": 0.33333334,
+  "editorDragMouseButton": -1.0,
+  "editorMenuMouseButton": 1.0,
+  "editorRotateMouseButton": 2.0,
+  "safetyProfiles": {},
+  "editorRecentProjects": [
+    "C:\\Curseforge\\Instances\\Create-ive Cogs Season 3\\mydefaultanims.cpmproject"
+  ],
+  "editorGizmoScale": true,
+  "editorScale": 2.0,
+  "editorGizmoAlpha": 1.0,
+  "editorLastVersion": "0.4.5a"
+}

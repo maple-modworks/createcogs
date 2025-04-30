@@ -1,0 +1,12 @@
+name = "Create-ed Survival"
+version = "SPECIAL"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e1af242cebfc3de1bb92e28a1784ccd5d53a9d0b15015f611944a862d44e85f4"
+
+[versions]
+forge = "36.2.2"
+minecraft = "1.16.5"

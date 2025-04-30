@@ -6,3 +6,4 @@ side = "server"
 url = "https://github.com/scmcgowen/Solstice/releases/download/v1.8.0/solstice-1.8.0+1.20.1.jar"
 hash-format = "sha256"
 hash = "e3f1181734f4cf521af970f89f9667654320395710839928e3cfeab5a76a7e04"
+

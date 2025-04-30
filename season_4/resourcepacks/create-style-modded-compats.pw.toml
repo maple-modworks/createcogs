@@ -1,0 +1,13 @@
+name = "Create Tweaks & Compats"
+filename = "Create Style Modded Compats v16.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d23fb9720d579be3f484eab99fb1d13bf8a19b56"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4331757
+project-id = 492890

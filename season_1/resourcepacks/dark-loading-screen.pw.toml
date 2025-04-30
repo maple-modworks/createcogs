@@ -1,0 +1,13 @@
+name = "Dark Loading Screen"
+filename = "Dark_Loading_Screen.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ef087910725e602fc5fc2e2c66d346169bee08fd"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3033967
+project-id = 369053

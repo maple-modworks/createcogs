@@ -1,0 +1,13 @@
+name = "Customizable Player Models"
+filename = "CustomPlayerModels-1.18-0.5.0a.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "41f6eaf291231a757568fef67049458d2ef05a67"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3959324
+project-id = 439870

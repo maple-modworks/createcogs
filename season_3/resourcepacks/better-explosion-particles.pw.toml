@@ -1,0 +1,13 @@
+name = "Better Explosion Particles"
+filename = "Better Explosion Particle.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "547b30ecc5d06cb709a17a0a104f3ed57fee5201"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3814176
+project-id = 629882

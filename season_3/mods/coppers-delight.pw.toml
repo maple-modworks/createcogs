@@ -1,0 +1,13 @@
+name = "Copper's Delight"
+filename = "CoppersDelight-1.18.2-1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "34c1a8c5dcbda716cc6feafb384946865d136cd3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3821105
+project-id = 566666

@@ -1,0 +1,11 @@
+
+[general]
+	creative_tab = false
+	cross_section = false
+
+[examples]
+	#Range: 1 ~ 8
+	integer_config = 4
+	#Range: 0.0 ~ 1.0
+	double_config = 0.06
+

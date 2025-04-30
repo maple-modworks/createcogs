@@ -3,6 +3,9 @@ if [ -e .commit ]
     then
     rm .commit
     python3 .scripts/version.py ./season_6/pack.toml $(git rev-parse --short HEAD)
-    git add ./season_6/pack.toml
+    cd season_6
+    packwiz refresh
+    git add ./pack.toml
+    git add ./index.toml
     git commit -m "Auto: update version" --no-verify
 fi

@@ -1,0 +1,5 @@
+#Whether the smog from pollution should be rendered
+renderSmog = true
+#Whether the smog should be colored
+colorSmog = true
+

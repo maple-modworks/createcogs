@@ -1,0 +1,13 @@
+name = "MrCrayfish's Furniture Mod (Legacy)"
+filename = "furniture-7.0.0-pre27-1.18.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0d401c81ae4549a77a9a9cd90c3879694870b6a6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3559392
+project-id = 55438

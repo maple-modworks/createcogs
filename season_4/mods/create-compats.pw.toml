@@ -1,0 +1,13 @@
+name = "Create Compats"
+filename = "nocubes_create_compats_1.0.0_forge_1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cbe5c7088b4f12b303aeed2bbce0fec1edd4c974"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4219730
+project-id = 750841

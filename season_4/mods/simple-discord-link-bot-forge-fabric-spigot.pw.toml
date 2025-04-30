@@ -1,0 +1,13 @@
+name = "Simple Discord Link Bot"
+filename = "SimpleDiscordLink-forge-1.19.1-2.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1e78c2ba4f52a17cab76d65794c070ef3b466ff5"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4284794
+project-id = 541320

@@ -1,0 +1,13 @@
+name = "Drink Beer Refill"
+filename = "drinkbeer-refill-1.19.2-1.0.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "ced1db1147a1b1993387056975d3eba1659a012f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4370768
+project-id = 729120

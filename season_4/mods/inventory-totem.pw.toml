@@ -1,0 +1,13 @@
+name = "Inventory Totem"
+filename = "inventorytotem-1.19.2-3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1465c7df6ed12ccc38830f622a1f716328905681"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4326182
+project-id = 349071

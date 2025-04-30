@@ -1,0 +1,27 @@
+type = hud
+
+customization-meta {
+  randomgroup = 1
+  keepaspectratio = false
+  renderorder = foreground
+  randommode = false
+  randomonlyfirsttime = false
+  backgroundcolor = 28A9FF
+}
+
+customization {
+  visible = false
+  action = editlogo
+}
+
+customization {
+  path = downloads/createfeatured.png
+  orientation = mid-centered
+  x = 0
+  width = 362
+  action = addtexture
+  actionid = 884a0009-5443-44c8-8aff-13fc630a9d461658183020986
+  y = 0
+  height = 100
+}
+
