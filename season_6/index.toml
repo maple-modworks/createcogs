@@ -1276,7 +1276,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-ranks-forge.pw.toml"
-hash = "47c9773ffdea65b209557efa75cedbeb612c83bcbc9dbc21606c70445ece9b4f"
+hash = "6d4a92463401c5452fd11c1f71f7b049b3564b1f53f69a74b54302e981415465"
 metafile = true
 
 [[files]]
@@ -1312,11 +1312,6 @@ metafile = true
 [[files]]
 file = "mods/geophilic.pw.toml"
 hash = "fe213ae1ba13c8cf1f6234cd4f36d181bf02fdfbc5389361ce64bb253884d933"
-metafile = true
-
-[[files]]
-file = "mods/glitchcore.pw.toml"
-hash = "71f185e62d546881244d4b5a213ebc3d2d6df14b0218c0e5dd6426fcb22cb55f"
 metafile = true
 
 [[files]]
