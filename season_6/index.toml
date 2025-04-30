@@ -965,6 +965,11 @@ hash = "ae215e40d0cde8796ee6a7543d641cd9c4225d5637053ebe0acc0596f38d78a4"
 metafile = true
 
 [[files]]
+file = "mods/bookshelf-lib.pw.toml"
+hash = "40bab89c8030327eba75a6fe4350d6ac883d4b168a8171d4c0ca3a416efbd318"
+metafile = true
+
+[[files]]
 file = "mods/bookshelf.pw.toml"
 hash = "058699e4832d0cf5396c5ea29244100f0c0e39a8d7aa5b64c2afdcc3cb8c8145"
 metafile = true
@@ -1155,6 +1160,11 @@ hash = "940f5a0dbae5e0cbf209ddfdd8a49c9cca82c90d84eb817090361d327966592f"
 metafile = true
 
 [[files]]
+file = "mods/dark-utilities.pw.toml"
+hash = "0448ff51462480e146c264fcbbbc1e39867ab5c4ffeaded0f79962d145409a77"
+metafile = true
+
+[[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
 metafile = true
@@ -1307,6 +1317,11 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2044e3d144cee4b7016d22d6c4c74f362288261b1e1bd01da4b919d116d6d016"
+metafile = true
+
+[[files]]
+file = "mods/interactive.pw.toml"
+hash = "c22a7f8ab4e09d87550b0b49e5c32bfdfc8dc1d5515c77a8b8a83ce9618d87b9"
 metafile = true
 
 [[files]]
@@ -1495,6 +1510,11 @@ hash = "52ac8de76d31160d94cd11a7202df12c1cf60142fed6a6950d4bc0474120be6e"
 metafile = true
 
 [[files]]
+file = "mods/pig-pen-cipher.pw.toml"
+hash = "86d1f26a7ae6210d216a1af25759b07986f71bf6deeed02b4ce651204502773c"
+metafile = true
+
+[[files]]
 file = "mods/pneumaticcraft-repressurized.pw.toml"
 hash = "645b7f787ddcde08094e315c356f9e5e102ca0b365d614d9068fd897229ea47f"
 metafile = true
@@ -1537,6 +1557,11 @@ metafile = true
 [[files]]
 file = "mods/rhino.pw.toml"
 hash = "ca4411ac6d8a9a892948bb63cd0ba52ae5523ca5e257632d6ae8c933b660c5ee"
+metafile = true
+
+[[files]]
+file = "mods/runelic.pw.toml"
+hash = "61ce4ba81f3903ab9d2c27f7fa073f800f9480d910d3022e1701bfcdbb0ad6dd"
 metafile = true
 
 [[files]]
