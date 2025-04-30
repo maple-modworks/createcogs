@@ -1,0 +1,13 @@
+name = "SwingThroughGrass"
+filename = "swingthroughgrass-1.18.1-1.8.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d1c73c7875dbe8fba989f1ae7d4816918c36540"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3578339
+project-id = 264353

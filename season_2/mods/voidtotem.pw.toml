@@ -1,0 +1,13 @@
+name = "Void Totem (Forge)"
+filename = "voidtotem-forge-1.18.1-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "62d34882453b1f9e6690e575a74b280945fee901"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3556606
+project-id = 449655

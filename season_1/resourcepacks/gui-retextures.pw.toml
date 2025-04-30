@@ -1,0 +1,13 @@
+name = "GUI Retextures"
+filename = "guiretexture-1.5.3-1.16.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "52b6cf22b208f5ec3c015af2e91c6f081e3b6b07"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3302411
+project-id = 412189

@@ -1,0 +1,552 @@
+hash-format = "sha256"
+
+[[files]]
+file = "config/MouseTweaks.cfg"
+hash = "4069ce1a439d8c37453c1b1e9f2037e0942674c7e48723a39b37eab245792ad4"
+
+[[files]]
+file = "config/abnormals_core-client.toml"
+hash = "04da81be4e3f14bba033caf0b10f86188d6b8e250cf3549a8acd6b5ffed438b6"
+
+[[files]]
+file = "config/abnormals_core-common.toml"
+hash = "f1f81028dde9ee2cf8e94d170e987cfdadc22205d1fbbd38975d12334fd5cba7"
+
+[[files]]
+file = "config/appleskin-client.toml"
+hash = "e6609ffbea927ee6390b1317bb6f3abb3f31ee591ca5c1d5e748f5e625fefea1"
+
+[[files]]
+file = "config/astikorcarts-common.toml"
+hash = "e425a36820d79a1c89a9a15a5b4ab5dcc9c26057d098db5bbc22f64a464f55fe"
+
+[[files]]
+file = "config/betteradvancements-client.toml"
+hash = "9376911f8431f28c6d7cef493ac8466491a79961793096385ad2e88aea4ffdf2"
+
+[[files]]
+file = "config/bettermineshafts-forge-1_16.toml"
+hash = "6817437f4ddf1dffdfef144050f14909508352e39cabec3a8dd575e1416816eb"
+
+[[files]]
+file = "config/bettermineshafts/1_16/README.txt"
+hash = "b2222a54a5fcaeba7597d0d88f49d184e33cb4532b60e393b9a6d832a02e62c9"
+
+[[files]]
+file = "config/bettermineshafts/1_16/biomeTags.txt"
+hash = "d1e6c75dd7378bd478d4e119a0d1fa408084ce86f19a5f560a4f70f7b3577b7f"
+
+[[files]]
+file = "config/bettermineshafts/1_16/variants.json"
+hash = "beb99d01d25aba3582b28836fcc165e8f69a075ff13c7356c18ee03d81300293"
+
+[[files]]
+file = "config/bettermineshafts/README.txt"
+hash = "5e4216e07280b8881466f5b1010f8006ff9477054b366a1f4c0b24cba0b8d030"
+
+[[files]]
+file = "config/carryon-client.toml"
+hash = "737c6f33b53eceb7ca503ac8f8fd96c0d186d820568b92919cb0040ea82006eb"
+
+[[files]]
+file = "config/create-client.toml"
+hash = "7ce73add336397e3059e80c48755c73a0d2299b36182231802e362a81045eca5"
+
+[[files]]
+file = "config/create-common.toml"
+hash = "749e4219f3a3e3b1885bc0c31a26447861743ba274998d720ae9e484cc7297b9"
+
+[[files]]
+file = "config/curios-client.toml"
+hash = "b38ea260cde0a1b5d176abc4c5c7ac0f11ff30c972d0ff9cb66c129c4fed67fd"
+
+[[files]]
+file = "config/enchdesc-client.toml"
+hash = "891c189b7c1829750c7027ec7739b08312e19404ce604b367eb05c5c1f48d426"
+
+[[files]]
+file = "config/fairylights-client.toml"
+hash = "a6ae359e8252d40af533e6ff9e6d9c18dadc7191596bcf2c97936f50f30ae7ca"
+
+[[files]]
+file = "config/fairylights-common.toml"
+hash = "61078cc778b4049c259a0bc2e1ba809306e39cc90dffd59c6f9855aabacd52e0"
+
+[[files]]
+file = "config/farmersdelight-client.toml"
+hash = "9a6031bfa6559d9a0660441444f5acb3575e2b9b65ebbdb7c75db3dfdcfa9b25"
+
+[[files]]
+file = "config/farmersdelight-common.toml"
+hash = "ceb28770c73039e59ef2a8ecddd9bc8aca49cf671a6717ad977d5ad3342e9923"
+
+[[files]]
+file = "config/flywheel-client.toml"
+hash = "c552f640891856a9cbaacf326301b274284932d535ac3a8bca76ce8e6959331e"
+
+[[files]]
+file = "config/fml.toml"
+hash = "7b7d580fbddb34b59cfa2b08130e4514d7f84ddf33bd61e03c25299997ab5f4c"
+
+[[files]]
+file = "config/forge-client.toml"
+hash = "aba44e8db528160edac5925e92b8fed6148853cf60e98ce7c255b814e685e7d2"
+
+[[files]]
+file = "config/forge-common.toml"
+hash = "7da7a8a2043c5146b6c941631b040a945281943b9ff75a25e9743291959bd2bf"
+
+[[files]]
+file = "config/jade-common.toml"
+hash = "618e2ac27e2ffb5543d2985a53bffb2c317429a2220cba8b70cb97c77c7a8a43"
+
+[[files]]
+file = "config/jei-client.toml"
+hash = "0d72fbb8aeac9f6602e964ad5731d2134d374dc5264016545071e508976af8bb"
+
+[[files]]
+file = "config/jei/bookmarks.ini"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "config/jei/ingredient-list-mod-sort-order.ini"
+hash = "e31ebf49891d69e6e0c1ca00e703aa3e22b2916551984fc19d7f000753a5b651"
+
+[[files]]
+file = "config/jei/ingredient-list-type-sort-order.ini"
+hash = "7fb423a4831d5c11d8843718cf458c833f006a3d606d7a2835cc709be0c8e43f"
+
+[[files]]
+file = "config/jei/recipe-category-sort-order.ini"
+hash = "0f6f6b3061a576a6e492143846498070da77a2623585b56e3763cd7c7c03569a"
+
+[[files]]
+file = "config/jeresources-common.toml"
+hash = "9dbe8c6973dc932be6dd20cb63381276740b23c75349dbe870fc8098c8529989"
+
+[[files]]
+file = "config/jeresources.toml"
+hash = "b101c668c6c658e2db126b7f6d3b9eb913537ff8903fbfce0128534299b2aea5"
+
+[[files]]
+file = "config/oreexcavation-client.toml"
+hash = "a0e1ccdc8a5e885b9146b6f0d28b2c3cacc7bc1b553a6c8d674adc29fefe2901"
+
+[[files]]
+file = "config/oreexcavation-common.toml"
+hash = "8854baccd6b256224a35e983376b28b4ef1ce9fdb16f15680fcdec0028226ea1"
+
+[[files]]
+file = "config/oreexcavation/block_groups.json"
+hash = "c10846e015d2fb6bdbaf3c3271ae6a2ee17c31596949793b401cd390be091510"
+
+[[files]]
+file = "config/oreexcavation/shapes.json"
+hash = "2a2429b18ea0ef737d05653964fa5443a2a80cf5b4d80e0f9b8a6022df34bb0d"
+
+[[files]]
+file = "config/oreexcavation/tool_overrides.json"
+hash = "a456dc73234254ee94ddb1a3a6461729127c85b833370c83bb945a3d14e5344e"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "1d07f246ee29f58b498274d23210e9d386c91b8f1303fbad94c4e6926986dc4b"
+
+[[files]]
+file = "config/relics-common.toml"
+hash = "d512521cf5b46289bfbe03aaab05aa827dae91640349906aacb644930accc3d0"
+
+[[files]]
+file = "config/relics/items/relics/amphibian_boot.json"
+hash = "383740ded18625baf662623dcd2c2bbd2eded92f7f443f71b43011c2ee66345c"
+
+[[files]]
+file = "config/relics/items/relics/arrow_quiver.json"
+hash = "cd0c9026b26e521e0e50ede48f01646c339fd33e6d1a005b90d70e1150bf7ca9"
+
+[[files]]
+file = "config/relics/items/relics/bastion_ring.json"
+hash = "e976f587f5c712a521ba0aea9b8de0ad975d7af45f9975291a99619a1b237a64"
+
+[[files]]
+file = "config/relics/items/relics/blazing_flask.json"
+hash = "5fbaeaa4f4cf222755c9589f1b7c264cf642ca519b2606804c5b1ae44771783c"
+
+[[files]]
+file = "config/relics/items/relics/camouflage_ring.json"
+hash = "28981896025069ac4e953b525b11f86879cbbe12708b1130f3e45381e0043bd7"
+
+[[files]]
+file = "config/relics/items/relics/chorus_inhibitor.json"
+hash = "3a2984a2a83ecdbf6e04a3e2d098766f65d6858a74ac1a1893fac751ccfe4708"
+
+[[files]]
+file = "config/relics/items/relics/delay_ring.json"
+hash = "366969eae983fbecf8613017bccaba86ba7f5263433abba082ef4e02ac1f7040"
+
+[[files]]
+file = "config/relics/items/relics/drowned_belt.json"
+hash = "3ee92263014b7b8bf20f88528b89830c57ec432f947264d72abe585ae064579e"
+
+[[files]]
+file = "config/relics/items/relics/elytra_booster.json"
+hash = "7868da964486de9e32da15f0b69627ef20a06476ea93bcfdd255a808b1143158"
+
+[[files]]
+file = "config/relics/items/relics/enders_hand.json"
+hash = "f14a763cecb4c1cb9f7f17fa5a63d95c0466140d8a7d4863aca69678f76796f7"
+
+[[files]]
+file = "config/relics/items/relics/fragrant_flower.json"
+hash = "1b40267408332b93e1964637a8ffcb7fae1d80e059d577a15fc55a0f985c6cec"
+
+[[files]]
+file = "config/relics/items/relics/holy_locket.json"
+hash = "f3998a7e152e3edfb30fe663e8a4773ec3377328bf70b4e35319e9dd9d1c9f7b"
+
+[[files]]
+file = "config/relics/items/relics/hunter_belt.json"
+hash = "9e170f885c9bd54a5893c62231af6a04d39d27afff457ade1264532fa08f32ae"
+
+[[files]]
+file = "config/relics/items/relics/ice_breaker.json"
+hash = "45b80656a2a855ac2bb39171dbf991748e018a77458a3ce21477d9ff7fbd519e"
+
+[[files]]
+file = "config/relics/items/relics/ice_skates.json"
+hash = "8072a5ff62e834b8ca2bf320b835cf85c114211a70dcdee062a5b1b9c0f0cc0f"
+
+[[files]]
+file = "config/relics/items/relics/jellyfish_necklace.json"
+hash = "acc24aad17a92bfd27a742c171e8c850af60c827ffb680a1b65c7062159a5830"
+
+[[files]]
+file = "config/relics/items/relics/lucky_horseshoe.json"
+hash = "8d3a3a4b9c628494d5bbcb5f3c320613a64b1cb1d036643e904990285026abdf"
+
+[[files]]
+file = "config/relics/items/relics/magic_mirror.json"
+hash = "729776e047f88cd396b934381e62d0b00a9f9cfb24e06a96d327c5025233039c"
+
+[[files]]
+file = "config/relics/items/relics/magma_walker.json"
+hash = "0139ce133d6ac20fa6761532ffd70854cefeef729232977a42af4857741ad0b2"
+
+[[files]]
+file = "config/relics/items/relics/midnight_robe.json"
+hash = "85f59fe64367ff4aac80abdd2a737dcd2d2f7fce424a1a9dcf3c2ed2a04a2b24"
+
+[[files]]
+file = "config/relics/items/relics/old_boot.json"
+hash = "8f62f68f95fa2d0c0e11f0815072ea16e372caf02b7e44008a658f1a99b1a38e"
+
+[[files]]
+file = "config/relics/items/relics/out_runner.json"
+hash = "40f7bc30eca83f6c9b60d27121f217c0f7c78f7f3166cec37ed6d9715ad411bf"
+
+[[files]]
+file = "config/relics/items/relics/rage_glove.json"
+hash = "5b23f3ade3ee2b77f89495acb98bac80e618c71f459db6f2b0a1f484b42569d2"
+
+[[files]]
+file = "config/relics/items/relics/reflection_necklace.json"
+hash = "2c6d82950d92a6d4835d1864d29cc035432cdefb69c21e402311d755f7a96273"
+
+[[files]]
+file = "config/relics/items/relics/scarab_talisman.json"
+hash = "743ef34f1092c3c48f26d27a49de08114701d8d6a75754be93c2b0cbe0d584bf"
+
+[[files]]
+file = "config/relics/items/relics/shadow_glaive.json"
+hash = "16b347d75fcfe0f3e43bf81d3aeb584712ab725ec2032f84863d8cc8475b1cf5"
+
+[[files]]
+file = "config/relics/items/relics/soul_devourer.json"
+hash = "bc1ca068b2982031ac3f2ef4540d90a63a17ee736ce1290cdbdd7ec59c1e9445"
+
+[[files]]
+file = "config/relics/items/relics/space_dissector.json"
+hash = "36d246beb01774b6ed0494d6c921d96ccb4ae5347a498d5d21e92638b53f078e"
+
+[[files]]
+file = "config/relics/items/relics/spatial_sign.json"
+hash = "61acda924c30a28d76bcf66d1fe3f2e93c0905bdb4fb4876f7e53c320d437fe4"
+
+[[files]]
+file = "config/relics/items/relics/spider_necklace.json"
+hash = "62e7775a97d6a6705a8dcd50612469ab2fa23eb3dd10b3cdeabd1addcf3b55cd"
+
+[[files]]
+file = "config/relics/items/relics/spore_sack.json"
+hash = "30043289dacede9571c3c8e0bef3acdad1fa78e9242d8e24625392cc0bb7aea2"
+
+[[files]]
+file = "config/relics/items/relics/stellar_catalyst.json"
+hash = "b4d9d0a56c3c618fc14160478c8132e8abac474c5f1849a3e7501a9942ead259"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_air.json"
+hash = "e8406fb826b60414a0c88348a06e0ef2a0455c4fe26b3d4bca4a6c01095524bb"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_cold.json"
+hash = "661c2a74a4034b6f2407912b88f56f44cac950edd6dcbf818717b4976dffa04f"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_earth.json"
+hash = "1cec9e11f40bb5500e742d5b9c57ac6c4402177278234a3c55feb1e55ef58b4c"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_explosion.json"
+hash = "a4b448734dfa55859d671d87e50b67cba41f7a945727fd8ffc12d9008f622e19"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_fire.json"
+hash = "04d35dcd7ed0950b8ebb634e8ac7c398cb888a583de30310c28094ae380f15f7"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_lightning.json"
+hash = "888373ccafce2f72173056b6603ad004d8bf65895c694d3b28dc2ca35abb0c0d"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_love.json"
+hash = "8b3fb79e6d0e900f2f43d7d7552a155b20dec893f9be607ba7be6efb04acd011"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_luck.json"
+hash = "b201fe945da75a3382a4ae4dd60f4563f2f036646e633a85bb5c49229271ce85"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_moon.json"
+hash = "490b3b49d48f6b7f6708ff1c682a6cc89e6c7d360331616e10e813573317d2d5"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_redstone.json"
+hash = "c01387d78d02b6f2fdad26c9389afddc586b33d219a57a7a8c3193924a4a7b33"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_sun.json"
+hash = "b4cc6a075fd0d0d3c186442d2bba3214d143fbae4acfbb8244604ea4dfa73a6f"
+
+[[files]]
+file = "config/relics/items/runes/rune_of_water.json"
+hash = "5b54e0e3f974c815627dd59533fded9a7c8bede74c17c79a3e073b471f54ba50"
+
+[[files]]
+file = "config/supplementaries-client.toml"
+hash = "2fe3b89da61dc5c6c24817d279ccf6e352a7851122cdb680645155acf488539b"
+
+[[files]]
+file = "config/supplementaries-common.toml"
+hash = "4f71c0eef3404b806887e8e1b7bccb7f5cf54499af388f032a65397fedbb6661"
+
+[[files]]
+file = "config/supplementaries-registry.toml"
+hash = "a6f90ab871d155dbe4edd53cafe8af97491cae637fe64e65aa53925fca6b8b5f"
+
+[[files]]
+file = "config/waila/waila.json"
+hash = "54d8c2b1710cbb845729ed256ea6447f8946d76c38455902cae804bb8d81267e"
+
+[[files]]
+file = "config/waila/waila_plugins.json"
+hash = "c1a06725cb0f771bf01c137322cdf738c6571d33f7310f4b5019a700bbfb6c94"
+
+[[files]]
+file = "config/xaerominimap.txt"
+hash = "98ceb10f40bb7cc6ade5ffd339a4e021295bbab09cd4f95a62ec09e50729c747"
+
+[[files]]
+file = "config/xaeropatreon.txt"
+hash = "36a890045fce4aa69f1c550d5a49a62b336cbb7911a7afa6956fcce5d4d9dcb8"
+
+[[files]]
+file = "config/xaeroworldmap.txt"
+hash = "7cc80c2b869ea25e30c7637125b952a12cd1bd0de6bf29903a3b95ef32267069"
+
+[[files]]
+file = "mods/OptiFine_1.16.5_HD_U_G8.jar"
+hash = "3c76bc90ed44bce567cee7c20eb2c4361926f23a86e5367d596f6e624d0b494f"
+
+[[files]]
+file = "mods/astikorcarts.pw.toml"
+hash = "f24decd9d4d223465581368d991fb80a7730c73f756d13e00fa362cf93816cda"
+metafile = true
+
+[[files]]
+file = "mods/autoreglib.pw.toml"
+hash = "9b2088287d126347cb44a539b7104462e0a4aaa0b871577ca13902398f174f52"
+metafile = true
+
+[[files]]
+file = "mods/better-advancements.pw.toml"
+hash = "8f28716ece15f4eef1318e9134ed2356c7adf986a65a6c702a0c994a669444bd"
+metafile = true
+
+[[files]]
+file = "mods/better-third-person.pw.toml"
+hash = "b49a7514eb606542d049f22a4054d65d222afdf3adc44983b5dbb10d51e3e567"
+metafile = true
+
+[[files]]
+file = "mods/blueprint.pw.toml"
+hash = "1c28428ce6404be40ad24dc5a2096425e2ce5808b69b4031bf98feec713ce12e"
+metafile = true
+
+[[files]]
+file = "mods/bookshelf.pw.toml"
+hash = "7e9f658301cbffcacfed8ba4bf90204ba83f526b01247b6762823dffa3567ce5"
+metafile = true
+
+[[files]]
+file = "mods/carry-on.pw.toml"
+hash = "e4661395f1ce71dae6e4e68d8ab121c73a85bdf83d745c6180456bc59b59cdf4"
+metafile = true
+
+[[files]]
+file = "mods/catalogue.pw.toml"
+hash = "3d13c92af821663d9c3d61b3f72f5cf3e878dfa01bf2c9774ec136a82c814d39"
+metafile = true
+
+[[files]]
+file = "mods/clumps.pw.toml"
+hash = "c9f61ed2908d3469de4388e382e73f1f64622d1f1b56a7e7d7af4a3b6112cc08"
+metafile = true
+
+[[files]]
+file = "mods/configured.pw.toml"
+hash = "c0cbb1f94c8145ebe8f53583a3ab04e7dc522342906301c18628fe0d01c65004"
+metafile = true
+
+[[files]]
+file = "mods/create-stuff-additions.pw.toml"
+hash = "575d5d3234c6325730823c50aa74ce72695eca59ee501accb8f8aed9ad4536cc"
+metafile = true
+
+[[files]]
+file = "mods/create.pw.toml"
+hash = "af37dd024056e9e550822766c46d4db1b7d88d839395af7c305b11f579bc75b7"
+metafile = true
+
+[[files]]
+file = "mods/curios.pw.toml"
+hash = "4d77ef88aa2192c18153f8b29e14bc0e89818a69adbf6ae7bfd0aed3ed6d9dc2"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
+hash = "3517728ce3f0d133e475d7c5ee4a75deb0cf345669dfa61ac7ecf47ea4eef37e"
+metafile = true
+
+[[files]]
+file = "mods/fairy-lights.pw.toml"
+hash = "bda92abbce032421cfcbfe9ff2fb435dbed2bcc1ec4133e2c95621e74d6d525b"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "e86702b56d5d9b054198fc030bc4376d0740fe47a1e773f4463cc91ec524a2fb"
+metafile = true
+
+[[files]]
+file = "mods/flywheel.pw.toml"
+hash = "481c6ba7286c7ef4d8ae7c9db48d07db870e8f527293d10c3b8f38217ec05885"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+hash = "09a54a69cd7db965b9ea9879ed9569f06fee964d671dd447e0514efdfe31003f"
+metafile = true
+
+[[files]]
+file = "mods/jei.pw.toml"
+hash = "c1c233457d809f756beff4cda0b8503a29eb010f46e772319330e1b2e6e3cf4c"
+metafile = true
+
+[[files]]
+file = "mods/just-enough-resources-jer.pw.toml"
+hash = "8ef9b236ddff29ee77bba36918478213f523bd019c04a7903df674ab0ae7a735"
+metafile = true
+
+[[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "04a92a819f7c3dff89382baf5c5fb25c1386da08ead8510ea009aa1ccc8daf02"
+metafile = true
+
+[[files]]
+file = "mods/nethers-delight.pw.toml"
+hash = "156fa5b340765c121b921efde50bf5d6581ec142ac259317de89c28876eee7a3"
+metafile = true
+
+[[files]]
+file = "mods/ore-excavation.pw.toml"
+hash = "99b6906f304e7c3548599ecf0becb1e0fea771eb4ab3d243b51a7ad434ec946d"
+metafile = true
+
+[[files]]
+file = "mods/quark-oddities.pw.toml"
+hash = "0b196e43cccc784743ce35fe7ced677660d54aa80335e8b4275406d374679de0"
+metafile = true
+
+[[files]]
+file = "mods/quark.pw.toml"
+hash = "099c6264b349a355dcbd6979391ff5efb33c17d57bd1bfdc5b6fd3bde34e26fc"
+metafile = true
+
+[[files]]
+file = "mods/relics-mod.pw.toml"
+hash = "28b4721183e05c4ca5de5a7e485718045129c88b2bf80fb0a7a54a08d9cba3a2"
+metafile = true
+
+[[files]]
+file = "mods/selene.pw.toml"
+hash = "63d6d9f5b2f8f7761a81d94f260c6f36ae0cdd7453d85d93df883ca19d87e8e7"
+metafile = true
+
+[[files]]
+file = "mods/supplementaries.pw.toml"
+hash = "69e3f01ecbb4406b8497239d7204121986057cfc0098057d18a56b13c4d8cb83"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "bbf81ca35a801cd6c19c6351c0830dc24315be0bb651425cc34ab4e1c03f600a"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "856137b9edfa6948bf0880fac477904c62be03a263c29167914d1d16396f3fab"
+metafile = true
+
+[[files]]
+file = "mods/yungs-api.pw.toml"
+hash = "c8867c5f879aee22173066c5082ea3ef7b2c9c49a86b2af697151bef34d79100"
+metafile = true
+
+[[files]]
+file = "mods/yungs-better-mineshafts-forge.pw.toml"
+hash = "619ffadba0b78fa526135c3d01cb5224cb823b6527627d4b05cd846ec9b433f9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/Quark Programmer Art.zip"
+hash = "727a1911080bd4b8041986e47d9e4d556b4d78756636643470f7e54a46116349"
+
+[[files]]
+file = "resourcepacks/VanillaTweaks_r518077.zip"
+hash = "9fd46e00d606512e83837e28a331cb37397c426f795d02dbbba7ccae0f522414"
+
+[[files]]
+file = "resourcepacks/dark-loading-screen.pw.toml"
+hash = "5c09f80d555e8126e5127ffdc6692332278032869f728e654e54ae7d915c40ec"
+metafile = true
+
+[[files]]
+file = "resourcepacks/fresh-animations.pw.toml"
+hash = "835da44e9c91bf7f477033e1959cb7123d5d06f728c5d45a0b66644927adb93e"
+metafile = true
+
+[[files]]
+file = "resourcepacks/gui-retextures.pw.toml"
+hash = "23f6914f9a892212ad40a416a70d63f67fabef5ff2749863087f0025eb256d20"
+metafile = true

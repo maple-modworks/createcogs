@@ -1,0 +1,12 @@
+name = "Cogs Season 4"
+version = "v1.4.2"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "fa8b60b0d32b127d22a48d6ca5b64277bed477fd992c41a3b46aec64ad4c92e9"
+
+[versions]
+forge = "43.2.4"
+minecraft = "1.19.2"

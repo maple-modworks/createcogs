@@ -1,0 +1,13 @@
+name = "Create: Extended Cogwheels "
+filename = "extendedgears-1.19.2-0.5.0g-1.1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "dbea26e658d9ac271be61f7554f8fc492784c688"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4303812
+project-id = 739973

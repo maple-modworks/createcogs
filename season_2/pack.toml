@@ -1,0 +1,12 @@
+name = "Create-ive Cogs 1.18.1"
+version = "2.1.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "d3f3aa7217515c4afa6b463d490498413da542b17fd02349f7434af0f30bbfd4"
+
+[versions]
+forge = "39.0.43"
+minecraft = "1.18.1"

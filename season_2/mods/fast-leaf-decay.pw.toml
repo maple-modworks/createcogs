@@ -1,0 +1,13 @@
+name = "Fast Leaf Decay"
+filename = "FastLeafDecay-27.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d2cf210146fc4f2f2120b3417afacc34eb38d700"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3590415
+project-id = 230976

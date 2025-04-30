@@ -1,0 +1,13 @@
+name = "Create"
+filename = "create-mc1.16.5_v0.3.2c.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3f200c8c6d244c0466000f3a308479ae259556b8"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3406857
+project-id = 328085

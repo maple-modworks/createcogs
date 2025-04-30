@@ -1,0 +1,13 @@
+name = "Mannequins"
+filename = "mannequins-forge-2.1.0+1.18.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "8399324c164a805e45c3e6a46142a21029b0dd40"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3717750
+project-id = 488506

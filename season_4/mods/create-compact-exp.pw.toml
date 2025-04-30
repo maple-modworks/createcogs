@@ -1,0 +1,13 @@
+name = "Create Compact Exp"
+filename = "nocube's_create_compact_exp_1.0.1_forge_1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4447d726893902292825a73815f767a63d1d3e77"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4205816
+project-id = 750806

@@ -1,0 +1,13 @@
+name = "Windowlogging"
+filename = "windowlogging-mc1.18.1_v0.0.8.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d8bfdd108e52d870db0d67918672722461b004ea"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3569538
+project-id = 408759

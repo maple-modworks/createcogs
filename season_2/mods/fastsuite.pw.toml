@@ -1,0 +1,13 @@
+name = "FastSuite"
+filename = "FastSuite-1.18.1-3.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "64926cc95d83f99bae93b4c87eba253833652fe4"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3567088
+project-id = 475117

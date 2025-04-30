@@ -1,0 +1,13 @@
+name = "Dave's Building Extended"
+filename = "dbExtended-1.19-5.0.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "cc863def0cb177687e9228da5b0c5b76696a06d6"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4257971
+project-id = 568645

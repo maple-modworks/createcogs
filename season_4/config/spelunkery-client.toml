@@ -1,0 +1,8 @@
+
+[general]
+	#Boolean Config Name
+	boolean_config = false
+	#Integer Config Name
+	#Range: 8 ~ 512
+	integer_config = 16
+

@@ -1,0 +1,13 @@
+name = "Lighting Glow Squids"
+filename = "Lighting Glow Squids 1.19.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "01777258de8cf74bfaa27c7a42a6a3722b8dc25a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 4027055
+project-id = 688127
