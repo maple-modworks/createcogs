@@ -1515,6 +1515,16 @@ hash = "ac5c6465b2615a3437d07645befb011f123ea9d15108f71bcc6145882ea07b25"
 metafile = true
 
 [[files]]
+file = "mods/rcc-discord-shim.pw.toml"
+hash = "0fc71b631899cd1df19bd11d952505acffb6451ec59b13d49116b8db81f583fd"
+metafile = true
+
+[[files]]
+file = "mods/rcc-library.pw.toml"
+hash = "4f0e510bc49433a80783990914cbf8a36e72f618389c6bc9d234c9059f0f7433"
+metafile = true
+
+[[files]]
 file = "mods/resourceful-lib.pw.toml"
 hash = "ef0264b7d819848f72ab2f34643306187e712965a8246e1f733e1bd39d8fd681"
 metafile = true

@@ -1,0 +1,7 @@
+name = "rcc-discord-shim"
+filename = "rcc-discord-1.8.4.jar"
+
+[download]
+url = "https://github.com/scmcgowen/random_stuff/raw/refs/heads/main/rcc-discord-1.8.4.jar"
+hash-format = "sha256"
+hash = "9ac3764f182ea6046436a7e4430b122a90b6b8671358464b56a65ad2418d592d"
