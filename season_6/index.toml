@@ -234,7 +234,7 @@ hash = "2e1e1022f5515a30ec13d41a5c041f6ae516e9fce7cb8e05530e6fb7bf6c0244"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "f9cb54a69d1c4c64fbeb30ac8f993c1523f8d32583e5045cee351a86c44a3c08"
+hash = "eb3a21b20b7be9c2edcef3e6771c4b219f42af3fcbc3defa5b5aedb3b86dc161"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/andesite_trophy.json"
@@ -494,7 +494,7 @@ hash = "6fead25dc540f7e00dd5d1fc046f0847d3bcfe8cff6a641e2ce19fbd32c59d50"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "a1c0910c814a76b8044beaa22dc98cad87797fb4037a5fa6f50737dc2599b824"
+hash = "01c74290826712cd8c59ade9b5001b38021468652e7ddc2cb2920e922a074400"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -598,7 +598,7 @@ hash = "f8eb24b80599a4d36bdf03d68e2663af92f67c6a3af1945773866183b5ebc261"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "55a91c9cdd08ff18a9267e167545d2e10a85bde8d90539cf6ee52d0b4cda83f6"
+hash = "ff166955ca2c74efbc7c241b4335b38f7212c39f183dc6968381cb0a4fca2921"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/furnace_recipes.js"
