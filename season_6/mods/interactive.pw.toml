@@ -1,0 +1,13 @@
+name = "Create: Interactive"
+filename = "create_interactive-1.1.1-beta.3_1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/MyfCcqiE/versions/qvzfN0zX/create_interactive-1.1.1-beta.3_1.20.1-forge.jar"
+hash-format = "sha1"
+hash = "d73e2084f6e72ca87f33753ac3eba231def357eb"
+
+[update]
+[update.modrinth]
+mod-id = "MyfCcqiE"
+version = "qvzfN0zX"

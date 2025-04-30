@@ -1,0 +1,8 @@
+name = "rcc-chatbox"
+filename = "rcc-chatbox-1.8.8.jar"
+side = "server"
+
+[download]
+url = "https://github.com/scmcgowen/rcc-chatbox/releases/download/v1.8.8/rcc-chatbox-1.8.8.jar"
+hash-format = "sha256"
+hash = "6008c30bf5d38a178e4b6727aec60375b21260b3e2fc4852f681d6d5d7ea73b5"

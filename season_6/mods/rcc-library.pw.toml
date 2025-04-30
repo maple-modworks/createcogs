@@ -1,0 +1,8 @@
+name = "rcc-library"
+filename = "rcc-library-1.0.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/scmcgowen/random_stuff/raw/refs/heads/main/rcc-library-1.0.1.jar"
+hash-format = "sha256"
+hash = "72b9144e03e610d873b0e1b4e882c9133155cdc444cd69b575284255345c3dfd"

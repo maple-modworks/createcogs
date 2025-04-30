@@ -46,6 +46,7 @@
 			y: -3.5d
 		}
 		{
+			dependencies: ["30AA23E411B10479"]
 			description: ["In order to create more advanced machinery, you need to obtain a couple of &bElectron Tubes&r and &bBrass Hands&r. However, in order to create these items, you would need more advanced machinery than you currently have, so your only option is finding them as loot in &lVillages and Blacksmiths&r."]
 			id: "6E387D2D5CD42E31"
 			tasks: [
@@ -87,18 +88,22 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["1C48A4C8FBD47B22"]
+			dependencies: ["30AA23E411B10479"]
+			description: ["You will also need some Iron Nuggets - you can take these from you existing factory, if possible"]
+			hide_dependency_lines: true
 			id: "1459630D668EA75C"
 			tasks: [{
 				id: "3DB98BBF0BA0C630"
 				item: "minecraft:iron_nugget"
 				type: "item"
 			}]
-			x: 4.0d
-			y: 1.0d
+			x: 3.0d
+			y: 1.5d
 		}
 		{
+			dependencies: ["263D2B85CB29DEF7"]
 			description: ["By cutting the Andesite Alloy you automated in the previous chapter you can create Shafts at a higher yield than manual crafting. It is once again recommended to setup a \"buffer\" storage system to account for bottlenecks later down the line."]
+			hide_dependency_lines: true
 			id: "144ED18ABCD8E55D"
 			tasks: [{
 				id: "266CEE08DFB57996"
@@ -110,7 +115,7 @@
 		}
 		{
 			dependencies: ["0A36050A62F29EFD"]
-			description: ["Cutting a log twice creates 6 planks - you get 2 extra comapred to manual crafting. It is once again recommended to set up a \"buffer\" storage system to account for bottlenecks later down the line."]
+			description: ["Cutting a log twice creates 6 planks - you get 2 extra compared to manual crafting. It is once again recommended to set up a \"buffer\" storage system to account for bottlenecks later down the line."]
 			id: "6357749919C66968"
 			tasks: [{
 				id: "4435CDA825363F84"
@@ -182,8 +187,8 @@
 				"2B377B8CA8562B78"
 				"48151A301D641F9C"
 			]
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "301A901C93EF849F"
 			shape: "hexagon"
 			size: 2.0d
@@ -226,8 +231,8 @@
 				"1C48A4C8FBD47B22"
 				"48151A301D641F9C"
 			]
-			hide: true
 			hide_details_until_startable: true
+			hide_until_deps_visible: true
 			id: "1A2CF1ED4B51544B"
 			tasks: [{
 				id: "309B0A5C4EFE77FA"
@@ -249,24 +254,19 @@
 			y: -2.0d
 		}
 		{
+			description: ["Most recipes start with Cobblestone, so you should get some by either splitting some off from your existing cobblestone generator or by making a new, more efficient one (which is recommended)."]
 			id: "5C75853B51176C1E"
-			tasks: [
-				{
-					id: "51050199BB631E04"
-					item: "minecraft:cobblestone"
-					type: "item"
-				}
-				{
-					id: "58B013A32CEEFF27"
-					item: "create:mechanical_drill"
-					type: "item"
-				}
-			]
+			tasks: [{
+				id: "51050199BB631E04"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["5C75853B51176C1E"]
+			description: ["Millstones can also convert Cobblestone into Gravel (and then convert Gravel into Sand), however they only do so one item at a time, which means that setting up a large array of them for balancing output rates with you cobblestone generator is recommended."]
 			id: "1C48A4C8FBD47B22"
 			tasks: [{
 				id: "7F484050989DFFF6"
@@ -457,6 +457,7 @@
 			y: -2.5d
 		}
 		{
+			dependencies: ["30AA23E411B10479"]
 			description: ["The Mechanical Saw works similarly to how the mechanical drill does - when powered, it will break blocks placed in front of the blade, however if the bottom-most block of a tree is broken, the whole tree will get harvested. When placed on contraptions, all tree drops will automaticaly be collected and placed into attached inventories, instead of just dropping on the ground as items."]
 			id: "263D2B85CB29DEF7"
 			tasks: [{
@@ -523,7 +524,7 @@
 				"0F7663F4130781E0"
 				"48151A301D641F9C"
 			]
-			hide: true
+			hide_until_deps_visible: true
 			id: "53280184F9F00B17"
 			tasks: [{
 				id: "27ACAD9162BF5B96"
@@ -543,46 +544,6 @@
 			}]
 			x: 10.0d
 			y: -6.0d
-		}
-		{
-			dependencies: ["72EF47B79A42BC40"]
-			id: "5387D36050892752"
-			tasks: [{
-				id: "69DA3A9DF2D75ED7"
-				item: "kubejs:light_bulb"
-				type: "item"
-			}]
-			x: 10.5d
-			y: -8.0d
-		}
-		{
-			dependencies: [
-				"5387D36050892752"
-				"5BF976B8EA7CCB7A"
-			]
-			id: "061955EDF8CC783A"
-			tasks: [{
-				id: "792491BAE3CF9E4B"
-				item: "create:electron_tube"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -10.0d
-		}
-		{
-			dependencies: [
-				"5387D36050892752"
-				"33F2146155E8F26E"
-			]
-			hide: true
-			id: "5BF976B8EA7CCB7A"
-			tasks: [{
-				id: "18E7D19ADAE676A2"
-				item: "kubejs:destabilized_redstone_bucket"
-				type: "item"
-			}]
-			x: 10.0d
-			y: -9.5d
 		}
 		{
 			dependencies: ["54BA90E566211B84"]
@@ -612,7 +573,9 @@
 				"SMS A: andesite alloy"
 				"     T: brass sheet"
 			]
+			hide_until_deps_complete: true
 			id: "19F9A74383CEAB37"
+			invisible: true
 			tasks: [{
 				id: "513622B92D832D01"
 				title: "[note]"
@@ -632,6 +595,21 @@
 			}]
 			x: 8.0d
 			y: -8.0d
+		}
+		{
+			description: [
+				"This is the start of the second chapter of the pack, focused on higher tier materials and also features some custom features - because of this, we are not offering a skip like in the previous chapter."
+				"Click the checkmark above to continue"
+			]
+			id: "30AA23E411B10479"
+			size: 2.0d
+			tasks: [{
+				id: "56E4A46D61B6B4B9"
+				title: "Chapter 2 Start"
+				type: "checkmark"
+			}]
+			x: -10.5d
+			y: -5.5d
 		}
 	]
 	title: "2. Precise Engineering"
