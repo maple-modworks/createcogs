@@ -905,6 +905,11 @@ file = "ldlib/projects/fxproj/tower_smoke.fxproj"
 hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
+file = "mods/advanced-backups.pw.toml"
+hash = "d3a18bbfbb1436f8917f5275ce336de3fc6012dfe44ac074a4cc616976bae038"
+metafile = true
+
+[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "b0c61413cc2dd7fca52014fa070c40aa478dc9007dc7a94330b97f1be7827bd5"
 metafile = true
@@ -1586,7 +1591,12 @@ metafile = true
 
 [[files]]
 file = "mods/solstice-essentials.pw.toml"
-hash = "8e89d3c40474b6ba543c0cf287f4d2ffe160ef820e1da864808a3b64fe926214"
+hash = "3680a7e3f2d6da11372c348ee4693200b6bb4b2e4420b59f16f77e8123b0c1ab"
+metafile = true
+
+[[files]]
+file = "mods/solstice-pronouns.pw.toml"
+hash = "6971680a9f94189433842e05aee0398a95834904309a312e020f8d834eafbe72"
 metafile = true
 
 [[files]]
