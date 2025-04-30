@@ -966,7 +966,7 @@ metafile = true
 
 [[files]]
 file = "mods/biomes-o-plenty.pw.toml"
-hash = "ae215e40d0cde8796ee6a7543d641cd9c4225d5637053ebe0acc0596f38d78a4"
+hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
 metafile = true
 
 [[files]]
@@ -1616,7 +1616,7 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
-hash = "14117b94c456598c9acece143c7a0da3cf56d13182d035a74a2da8a52dd19cbd"
+hash = "fde3d3b1607636100e382dce1bba80ab4608ebfa1ef888a37b86bc8c7dcbafe5"
 metafile = true
 
 [[files]]
