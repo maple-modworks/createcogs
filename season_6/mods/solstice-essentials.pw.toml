@@ -3,11 +3,6 @@ filename = "solstice-1.8.0+1.20.1.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/uIvrDZas/versions/IPMCjIUV/solstice-1.8.0%2B1.20.1.jar"
-hash-format = "sha1"
-hash = "d91b317ec6b00868f1d395088c2a20e1627094ce"
-
-[update]
-[update.modrinth]
-mod-id = "uIvrDZas"
-version = "IPMCjIUV"
+url = "https://github.com/scmcgowen/Solstice/releases/download/v1.8.0/solstice-1.8.0+1.20.1.jar"
+hash-format = "sha256"
+hash = "e3f1181734f4cf521af970f89f9667654320395710839928e3cfeab5a76a7e04"

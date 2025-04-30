@@ -1541,7 +1541,7 @@ metafile = true
 
 [[files]]
 file = "mods/solstice-essentials.pw.toml"
-hash = "1832e960eaefcfc5b6515e28706e09f672ad8281c3a1dd28e1712ac6b5af03ce"
+hash = "2ef303d64ce5e7c01f3d6519c780da8e4b53c7f79ea258624af91c63b995bc0c"
 metafile = true
 
 [[files]]
