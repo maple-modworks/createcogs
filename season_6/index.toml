@@ -453,10 +453,6 @@ file = "kubejs/assets/kubejs/textures/item/test_item.png.mcmeta"
 hash = "2e47b49f5a7faa2554aa99a14c35b169137eb55c0cc7d65fc820594163acfef9"
 
 [[files]]
-file = "kubejs/assets/langfix/lang/en_us.json"
-hash = "91bbb58962a90d3e56215ac848df5adc8a641eb790b9d9585f10cadfb8d0507d"
-
-[[files]]
 file = "kubejs/assets/minecraft/textures/gui/title/background/panorama_0.png"
 hash = "aa794e5d7977f515691d654bccaa49a362e9c1047be7dabc75952a5662e47827"
 
