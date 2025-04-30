@@ -1,0 +1,8 @@
+name = "mc2discordfix"
+filename = "mc2discordfix-0.1.jar"
+side = "server"
+
+[download]
+url = "https://github.com/scmcgowen/mc2discordfix/releases/download/v0.1/mc2discordfix-0.1.jar"
+hash-format = "sha256"
+hash = "3ea459c35dcc3d382f92c10182c68198a580f58f01c5be4092e18a2ba1056cd9"

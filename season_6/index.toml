@@ -1400,6 +1400,11 @@ hash = "89515ed26c65972322160e628623c6fd8ece91514a80ad3d4c5cb8caa743d00f"
 metafile = true
 
 [[files]]
+file = "mods/mc2discordfix.pw.toml"
+hash = "f4d87d70e068a74420de3fb3328d0143ae8a4361cf98e8893b911872f2e1306b"
+metafile = true
+
+[[files]]
 file = "mods/melody.pw.toml"
 hash = "0b9cc190139b0eb2d5f0153f05717ed53edd499ad2a3eeee99ea75d22fd0ef1c"
 metafile = true
@@ -1502,6 +1507,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
+metafile = true
+
+[[files]]
+file = "mods/rcc-chatbox.pw.toml"
+hash = "a4fc597dce2838effeedc93c413a8cf8ec6882d762464d8cf9c588c5e94ab50d"
 metafile = true
 
 [[files]]
