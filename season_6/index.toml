@@ -1401,7 +1401,7 @@ metafile = true
 
 [[files]]
 file = "mods/mc2discordfix.pw.toml"
-hash = "f4d87d70e068a74420de3fb3328d0143ae8a4361cf98e8893b911872f2e1306b"
+hash = "b67b10939f2241c71f628e479ada3f18e00556d26b5bc4158eb4d55f10c6d32a"
 metafile = true
 
 [[files]]
@@ -1511,7 +1511,7 @@ metafile = true
 
 [[files]]
 file = "mods/rcc-chatbox.pw.toml"
-hash = "a4fc597dce2838effeedc93c413a8cf8ec6882d762464d8cf9c588c5e94ab50d"
+hash = "ac5c6465b2615a3437d07645befb011f123ea9d15108f71bcc6145882ea07b25"
 metafile = true
 
 [[files]]
