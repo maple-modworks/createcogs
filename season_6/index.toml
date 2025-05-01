@@ -905,10 +905,6 @@ file = "ldlib/projects/fxproj/tower_smoke.fxproj"
 hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
-file = "mods/.retro-damage-indicators.pw.toml.swp"
-hash = "8ebef2e24f1652a96a921d9cb8d393c2a17b50a45b2eba741fa1d371259da5e8"
-
-[[files]]
 file = "mods/advanced-backups.pw.toml"
 hash = "d3a18bbfbb1436f8917f5275ce336de3fc6012dfe44ac074a4cc616976bae038"
 metafile = true
