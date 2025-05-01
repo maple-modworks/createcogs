@@ -1255,6 +1255,11 @@ hash = "a2c33376068c7b4e18966fe832c981c1376a443203ee621a3c52d25046df40f8"
 metafile = true
 
 [[files]]
+file = "mods/framework.pw.toml"
+hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
+metafile = true
+
+[[files]]
 file = "mods/free-cam.pw.toml"
 hash = "e52a5f654d1b1978ecdc9328950cecf22254c773f9c11d22440b8834bb92db2a"
 metafile = true
@@ -1547,6 +1552,11 @@ metafile = true
 [[files]]
 file = "mods/rcc-library.pw.toml"
 hash = "e831fc2532f65078ef51cbd047ea0c2cb9d45881c2e73f404bc6847458c59a31"
+metafile = true
+
+[[files]]
+file = "mods/refurbished-furniture.pw.toml"
+hash = "35ab5c3dcf5dd6b521dbf5d5543879d751ba4bdbcb1781ce2a27cb98f6b105e9"
 metafile = true
 
 [[files]]
