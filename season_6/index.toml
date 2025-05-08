@@ -1380,6 +1380,11 @@ hash = "7142644b6ee70047ec0eec880a44050cf4fd7e42c94f93dbe85ea7630f2d4500"
 metafile = true
 
 [[files]]
+file = "mods/json-things.pw.toml"
+hash = "09f312d16a1a26a7a66f7c577802a6f6e1c69e67183acc63c72462c81f5765a0"
+metafile = true
+
+[[files]]
 file = "mods/konkrete.pw.toml"
 hash = "34f1fb2e7c9fc5fa9a646a8f59b4e6054a1c5de60072d194c421662365a1bfbf"
 metafile = true
