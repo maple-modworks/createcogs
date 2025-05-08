@@ -1181,7 +1181,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "7c5ae4adfb514315d9abb8c4e3f19601948731622b765cab939d7cf1e5c633f1"
+hash = "952db8bd41c1e83672b42f676a126fa0984ef86127d384979de1088f4b1088a1"
 metafile = true
 
 [[files]]
@@ -1691,12 +1691,12 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
-hash = "845eac117020455b3cf880fa5499cba5bfbd6a483a2aa8cfd61575435cdd7c1c"
+hash = "ac8574e62d80182d27d65ccd09e60910c93a08bcaa7e31bd5783b7560113d667"
 metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
-hash = "f45e4de6888b345c33e7339aa1a14d5a46c6f4597317f7666a7d7119a0206b86"
+hash = "8e868eeceb9f9c9d25da02da234593cc0dac6ae6050a4fdf493c5616540fc13b"
 metafile = true
 
 [[files]]
