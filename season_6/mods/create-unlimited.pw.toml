@@ -1,0 +1,13 @@
+name = "Create Unlimited"
+filename = "createunlimited-0.6.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/jyG2CDff/versions/LD1Ax5h7/createunlimited-0.6.3.jar"
+hash-format = "sha1"
+hash = "0302bf40001a91dab3b2c74b918c53b4d1fb33d1"
+
+[update]
+[update.modrinth]
+mod-id = "jyG2CDff"
+version = "LD1Ax5h7"

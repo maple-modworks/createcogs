@@ -1145,6 +1145,11 @@ hash = "1a671e706d847e222c95dae4caa9c2c9d7d5525ed877938480d70503063417b0"
 metafile = true
 
 [[files]]
+file = "mods/create-unlimited.pw.toml"
+hash = "0915b8a3c23c6dd93e58bcf3be21ea28b1b1b50292d41a8780510302a7104fed"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "7c56e7a4afd735ee502970c08d52b4f495af482254bbd934150d176f26e146c5"
 metafile = true
@@ -1172,6 +1177,11 @@ metafile = true
 [[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "7c5ae4adfb514315d9abb8c4e3f19601948731622b765cab939d7cf1e5c633f1"
 metafile = true
 
 [[files]]
@@ -1640,6 +1650,11 @@ hash = "719ceecb60e75b25656701c386fea8a098f8dc959197abcfac0e6fbe5f93a429"
 metafile = true
 
 [[files]]
+file = "mods/tinkers-delight.pw.toml"
+hash = "f0657d89dd2ac572f672aebef513c6ef2214abdd65ef49034b03698d042de07d"
+metafile = true
+
+[[files]]
 file = "mods/titanium.pw.toml"
 hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
@@ -1672,6 +1687,16 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "bd1dc13316e2aa9b56c89e7e974057f8da8d6bbfe707ba4210109fc612b782e3"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap.pw.toml"
+hash = "845eac117020455b3cf880fa5499cba5bfbd6a483a2aa8cfd61575435cdd7c1c"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
+hash = "f45e4de6888b345c33e7339aa1a14d5a46c6f4597317f7666a7d7119a0206b86"
 metafile = true
 
 [[files]]
