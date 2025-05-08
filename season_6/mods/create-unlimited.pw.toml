@@ -1,6 +1,6 @@
 name = "Create Unlimited"
 filename = "createunlimited-0.6.3.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/jyG2CDff/versions/LD1Ax5h7/createunlimited-0.6.3.jar"
