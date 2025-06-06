@@ -480,6 +480,7 @@
 			]
 			icon: "numismatics:cog"
 			id: "4005F378A3279ACC"
+			invisible: true
 			tasks: [{
 				id: "09896878DEEA2360"
 				title: "[note] 1"
@@ -522,6 +523,7 @@
 			]
 			icon: "numismatics:cog"
 			id: "7A5915C9644DB371"
+			invisible: true
 			tasks: [{
 				id: "2C174DEA9DF98360"
 				title: "[note] 2"
@@ -570,6 +572,7 @@
 			]
 			icon: "numismatics:cog"
 			id: "5ADC68416EF3F991"
+			invisible: true
 			tasks: [{
 				id: "5EA108610A8BA0FB"
 				title: "[note] 3"
@@ -579,5 +582,5 @@
 			y: 4.0d
 		}
 	]
-	title: "Applied Energistics 2"
+	title: "The Archivist"
 }
