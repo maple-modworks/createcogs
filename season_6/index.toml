@@ -1085,6 +1085,11 @@ hash = "1d93eff4b510bb974ab096ad5b83d71a3713d248044c33368c823140366b0cab"
 metafile = true
 
 [[files]]
+file = "mods/create-central-kitchen.pw.toml"
+hash = "c35784e2cbb1721fe6b27f118f2e7459e4a38faaf88fb214c759df4228b24791"
+metafile = true
+
+[[files]]
 file = "mods/create-clockwork.pw.toml"
 hash = "94714097a323468448daf3ad97cbec4a8e145ddc6e58081b9fcb0ca53be71df1"
 metafile = true
