@@ -566,7 +566,7 @@ hash = "42118b9b5ff1f47d0b8f17d87e2abcdc29bfb72c9b3c186079532c8e3b80fdc2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
-hash = "83356b2423c5fbef0e6cf2942bfee798ae5947b73b76d70fce91d65b7b6d32bf"
+hash = "de20cc66996e47fe485d9cbdff85405ca91bb30aa7c99ffa61f0f5edbda8b3cf"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"

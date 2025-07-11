@@ -157,6 +157,7 @@
 				"refined radiance has to be supplied by a storage person, or bought from an admin shop"
 			]
 			id: "1F8B852AF4B8B2AA"
+			invisible: true
 			tasks: [{
 				id: "6858AF713E4979CB"
 				title: "[note]"
@@ -308,6 +309,7 @@
 		{
 			description: ["the compressed mechanism is a VERY expensive item used as an ingredient  for late game equipment such as the pneumatic armor and aerial interfaces. one is required for each piece of pneumatic armor, and one is required for an assembly controller (but not required for other assembly line components)"]
 			id: "53EA16D7C978EAB8"
+			invisible: true
 			tasks: [{
 				id: "2DCC248A71F154DD"
 				title: "[note]"
@@ -468,5 +470,5 @@
 			y: -3.5d
 		}
 	]
-	title: "Pneumaticcraft"
+	title: "The Airsmith"
 }
