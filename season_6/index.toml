@@ -225,6 +225,10 @@ file = "defaultconfig/computercraft-server.toml"
 hash = "0997db08b9152b7ea292f86d54eed2e3e040c1d775d54174c75738d1cc8838c9"
 
 [[files]]
+file = "index.toml.rej"
+hash = "434c40b6d56b70bc13302d3f3d4fb3641115d8684d543cdbe4040f2eb9bb0ffa"
+
+[[files]]
 file = "kubejs/README.txt"
 hash = "989f3737ae4621b8ff6730bce4cbeeee756921e7e510e0c281c8a350501d98af"
 
@@ -1734,6 +1738,10 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
+
+[[files]]
+file = "pack.toml.rej"
+hash = "7b97e8d7e8cde10497f6a7c3c5961657abf6d0295c27d32d9cfa9858e561237b"
 
 [[files]]
 file = "resourcepacks/create-energistics.pw.toml"
