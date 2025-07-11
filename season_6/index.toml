@@ -1096,11 +1096,6 @@ hash = "0f3dadee386ee8c83d171aaa7e3918b7013f31066f2acb454967be05c719bb41"
 metafile = true
 
 [[files]]
-file = "mods/crafttweaker.pw.toml"
-hash = "1d93eff4b510bb974ab096ad5b83d71a3713d248044c33368c823140366b0cab"
-metafile = true
-
-[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "c35784e2cbb1721fe6b27f118f2e7459e4a38faaf88fb214c759df4228b24791"
 metafile = true
