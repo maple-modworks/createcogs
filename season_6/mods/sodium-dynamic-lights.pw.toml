@@ -1,0 +1,16 @@
+name = "Sodium Dynamic Lights"
+filename = "sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/PxQSWIcD/versions/I156ee3A/sodiumdynamiclights-forge-1.0.10-1.20.1.jar"
+hash-format = "sha1"
+hash = "d27524e85bed0f0af83c03be46f9ca3eb02a1be9"
+
+[update]
+[update.modrinth]
+mod-id = "PxQSWIcD"
+version = "I156ee3A"
+
+[option]
+optional=true

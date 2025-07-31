@@ -1,0 +1,13 @@
+name = "Tinkers' Delight"
+filename = "Tinkers-Delight-1.20.1FORGE-1.0.6.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Y4vhKn2h/versions/VxkkVkcA/Tinkers-Delight-1.20.1FORGE-1.0.6.3.jar"
+hash-format = "sha1"
+hash = "9d598e9a1af5e864964ad4b783a329715f258e4c"
+
+[update]
+[update.modrinth]
+mod-id = "Y4vhKn2h"
+version = "VxkkVkcA"
