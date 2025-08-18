@@ -1,13 +1,13 @@
 name = "Photon Editor"
-filename = "photon-forge-1.20.1-1.1.5.jar"
+filename = "photon-forge-1.20.1-1.1.14.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/gzevkJbM/versions/FrJsjRb0/photon-forge-1.20.1-1.1.5.jar"
+url = "https://cdn.modrinth.com/data/gzevkJbM/versions/sqJo8vbj/photon-forge-1.20.1-1.1.14.jar"
 hash-format = "sha512"
-hash = "8a94c3184f33c76d68d2ac14fad8ac28d423b81abae3b9824c8a25b137f89b23a0ef6f6d6e96736016d571815e95505c8b4b2f3477aa18712dff35ec49078af5"
+hash = "88131f8afe4960285155130ded8ce717636f34b299721f5c83ce3ec88478d4749ed6261bae3f35a80ff5a75658a74323ee2f4df463b03c137d5d1462071c6c92"
 
 [update]
 [update.modrinth]
 mod-id = "gzevkJbM"
-version = "FrJsjRb0"
+version = "sqJo8vbj"
