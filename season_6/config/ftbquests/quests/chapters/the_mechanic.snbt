@@ -208,7 +208,7 @@
 			y: 5.0d
 		}
 		{
-			description: ["Since Airmsiths do not have the required technology, they are incapable of creating &bLight Bulb Bases&r, but they are able of creating finished &bLight Bulbs&r which they &lneed large amounts of&r - It is recommended to split of some of your &bLight Bulb Base&r production to be sold to Airsmiths."]
+			description: ["Since Airmsiths do not have the required technology, they are incapable of creating &bLight Bulb Bases&r, but they are capable of creating finished &bLight Bulbs&r which they &lneed large amounts of&r - It is recommended to split of some of your &bLight Bulb Base&r production to be sold to Airsmiths."]
 			id: "77824917C06F5FC7"
 			tasks: [{
 				id: "543F999C1C1B4A0D"

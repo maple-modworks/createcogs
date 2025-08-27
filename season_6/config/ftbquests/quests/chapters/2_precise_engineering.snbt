@@ -150,42 +150,13 @@
 			y: 0.0d
 		}
 		{
-			id: "477DA67DA242BCBC"
-			tasks: [
-				{
-					count: 3L
-					icon: "create:mechanical_saw"
-					id: "103056E34BEC068C"
-					item: "create:mechanical_saw"
-					type: "item"
-				}
-				{
-					id: "0F2B27A0794D4CF8"
-					item: "create:mechanical_bearing"
-					type: "item"
-				}
-				{
-					count: 2L
-					icon: "create:portable_storage_interface"
-					id: "1F1AE99DC9363101"
-					item: "create:portable_storage_interface"
-					type: "item"
-				}
-				{
-					count: 3L
-					id: "77EF5886C6BE9837"
-					item: "create:deployer"
-					type: "item"
-				}
-			]
-			title: "First Farm"
-			x: -4.0d
-			y: -7.5d
-		}
-		{
 			dependencies: [
 				"2B377B8CA8562B78"
 				"48151A301D641F9C"
+			]
+			description: [
+				"Silicon Templates are the base of all specialised mechanisms, so getting a decent amount of them is recommended. "
+				"Their automation is not mandatory for progression, though it highly depends on the progression path you choose."
 			]
 			hide_details_until_startable: true
 			hide_until_deps_visible: true
@@ -201,10 +172,10 @@
 			y: -4.0d
 		}
 		{
-			dependencies: [
-				"1A2CF1ED4B51544B"
-				"1D95AE1918967AA2"
-				"0A71B477740D764C"
+			dependencies: ["5C75853B51176C1E"]
+			description: [
+				"Silicon compound is a special blend of Silicone ingredients, which make it more suitable for mechanical apllications than silicon."
+				"Silicon compound is made from Clay, Sand and Certus Quartz Dust, all of which can be obtained by processing Sand."
 			]
 			id: "2B377B8CA8562B78"
 			tasks: [{
@@ -212,69 +183,28 @@
 				item: "kubejs:silicon_compound"
 				type: "item"
 			}]
-			x: 11.5d
+			x: 10.5d
 			y: -2.0d
 		}
 		{
-			dependencies: ["1A2CF1ED4B51544B"]
-			id: "1D95AE1918967AA2"
-			tasks: [{
-				id: "424A7A6DFE9988E5"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
-			x: 12.0d
-			y: -0.5d
-		}
-		{
-			dependencies: [
-				"1C48A4C8FBD47B22"
-				"48151A301D641F9C"
-			]
-			hide_details_until_startable: true
-			hide_until_deps_visible: true
-			id: "1A2CF1ED4B51544B"
-			tasks: [{
-				id: "309B0A5C4EFE77FA"
-				item: "minecraft:sand"
-				type: "item"
-			}]
-			x: 8.5d
-			y: 0.5d
-		}
-		{
-			dependencies: ["1A2CF1ED4B51544B"]
-			id: "0A71B477740D764C"
-			tasks: [{
-				id: "430839E70AF0D7ED"
-				item: "ae2:certus_quartz_dust"
-				type: "item"
-			}]
-			x: 9.0d
-			y: -2.0d
-		}
-		{
-			description: ["Most recipes start with Cobblestone, so you should get some by either splitting some off from your existing cobblestone generator or by making a new, more efficient one (which is recommended)."]
+			dependencies: ["48151A301D641F9C"]
+			description: ["You will need a decent amount of Sand at this point in the pack, which is made from cobblestone - you should get some by either splitting some off from your existing cobblestone generator or by making a new, more efficient one (which is recommended)."]
 			id: "5C75853B51176C1E"
-			tasks: [{
-				id: "51050199BB631E04"
-				item: "minecraft:cobblestone"
-				type: "item"
-			}]
-			x: 4.5d
-			y: 3.0d
-		}
-		{
-			dependencies: ["5C75853B51176C1E"]
-			description: ["Millstones can also convert Cobblestone into Gravel (and then convert Gravel into Sand), however they only do so one item at a time, which means that setting up a large array of them for balancing output rates with you cobblestone generator is recommended."]
-			id: "1C48A4C8FBD47B22"
-			tasks: [{
-				id: "7F484050989DFFF6"
-				item: "create:millstone"
-				type: "item"
-			}]
-			x: 7.0d
-			y: 2.0d
+			tasks: [
+				{
+					id: "51050199BB631E04"
+					item: "minecraft:cobblestone"
+					type: "item"
+				}
+				{
+					id: "7F2D194B2C2EE4A8"
+					item: "minecraft:sand"
+					type: "item"
+				}
+			]
+			title: "Cobblestone Generator Mk.2"
+			x: 9.0d
+			y: 0.0d
 		}
 		{
 			dependencies: [
@@ -524,6 +454,10 @@
 				"0F7663F4130781E0"
 				"48151A301D641F9C"
 			]
+			description: [
+				"Graphite can be made by pressing Graphite Dust (made by crushing Charcoal) with a large enough force - a Mechanical Press will do the trick, though it needs several hits to achieve results."
+				"Graphite is the main custom material added in this pack and is therefore used in most late-game recipes. Getting a decent automation line set up is recommended."
+			]
 			hide_until_deps_visible: true
 			id: "53280184F9F00B17"
 			tasks: [{
@@ -536,12 +470,23 @@
 		}
 		{
 			dependencies: ["53280184F9F00B17"]
+			description: [
+				"Graphite Electrodes form the base of Electron Tubes, which you will need quite a few of."
+				"Up until this point, you have been collecting Electron Tubes in dungeon chests or from other players - by crafting Graphite Electrodes you get the ability to create these on your own, however, since your technology is still pretty rudimentary, you will have to make these by hand and with varying success rates - because of this, finding Electron Tubes in chests will most likely still remain your main source of them."
+			]
 			id: "72EF47B79A42BC40"
-			tasks: [{
-				id: "6932D0976FF3C3CC"
-				item: "kubejs:graphite_electrode"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6932D0976FF3C3CC"
+					item: "kubejs:graphite_electrode"
+					type: "item"
+				}
+				{
+					id: "6C7C114D3AAABC83"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
 			x: 10.0d
 			y: -6.0d
 		}

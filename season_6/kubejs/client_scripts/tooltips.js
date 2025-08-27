@@ -127,6 +127,7 @@ ItemEvents.tooltip((event) => {
 		"create_sa:large_filling_tank",
 	].forEach((id) => event.add(id, Text.translate("tooltip.kubejs.tradeable").withStyle("gold")));
 
+	event.add("cogutilities:empty_waste_barrel", Text.translate("tooltip.kubejs.building").withStyle("grey"));
 	event.add("kubejs:light_bulb", Text.translate("tooltip.kubejs.light_bulb").withStyle("blue"));
 	event.add("mbd2:steam_turbine", Text.translate("tooltip.kubejs.multiblock").withStyle("blue"));
 	//this is in a loop because i suspect there will be more items soon...
