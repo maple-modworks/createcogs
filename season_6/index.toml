@@ -1018,11 +1018,6 @@ hash = "b7b5d139282c441057c253e1d01d8333ed22b377a75242edac5c78bb26907ab2"
 metafile = true
 
 [[files]]
-file = "mods/cc-vs.pw.toml"
-hash = "b73b02e96dc793bfed23fbb157a252e798f6f1c68aec1f17ebbd61c45baaac7b"
-metafile = true
-
-[[files]]
 file = "mods/chipped.pw.toml"
 hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
 metafile = true
@@ -1095,11 +1090,6 @@ metafile = true
 [[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "c35784e2cbb1721fe6b27f118f2e7459e4a38faaf88fb214c759df4228b24791"
-metafile = true
-
-[[files]]
-file = "mods/create-clockwork.pw.toml"
-hash = "94714097a323468448daf3ad97cbec4a8e145ddc6e58081b9fcb0ca53be71df1"
 metafile = true
 
 [[files]]
@@ -1233,11 +1223,6 @@ hash = "c9f73e2b93b64fb0c44fbbde6245a5d5934143d6c4b9cc9829e3ba62c02ead4e"
 metafile = true
 
 [[files]]
-file = "mods/eureka-ships.pw.toml"
-hash = "c61734cdfd93db9cc1509659e5719d8db79ffafec8eb9832776a0253f6096cdf"
-metafile = true
-
-[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "b7277d2db3a4bc1006861370e6a6b63111571d8913ea0f0585872b525a46ab77"
 metafile = true
@@ -1350,11 +1335,6 @@ metafile = true
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "2044e3d144cee4b7016d22d6c4c74f362288261b1e1bd01da4b919d116d6d016"
-metafile = true
-
-[[files]]
-file = "mods/interactive.pw.toml"
-hash = "c22a7f8ab4e09d87550b0b49e5c32bfdfc8dc1d5515c77a8b8a83ce9618d87b9"
 metafile = true
 
 [[files]]
@@ -1683,18 +1663,8 @@ hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
 
 [[files]]
-file = "mods/trackwork.pw.toml"
-hash = "28be4cbc383219609173f427c918e0593e98498accd31fdb923ab00d8e6cbe3d"
-metafile = true
-
-[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "0c8a34a342d427e38c61312f248b57d601ecd15e1572265639736034108cca3c"
-metafile = true
-
-[[files]]
-file = "mods/valkyrien-skies.pw.toml"
-hash = "d0b9e330714c613ba207842facd66054188ad4cb60538f455487a8ca04d1b82a"
 metafile = true
 
 [[files]]
