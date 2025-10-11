@@ -83,4 +83,17 @@ ServerEvents.recipes((event) => {
 			D: "create:depot",
 		}
 	);
+	event.shaped(
+		"mbd2:cooling_tower",
+		[
+			" P ",
+			"ICI",
+			" P "
+		],
+		{
+			P: "create:mechanical_pump",
+			I: "create:fluid_pipe",
+			C: "create:copper_casing"
+		}
+	);
 });

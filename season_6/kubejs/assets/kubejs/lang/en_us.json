@@ -1,10 +1,10 @@
 {
-
-	"tooltip.kubejs.tradeable": "Tradeable",
-	"tooltip.kubejs.light_bulb": "Most useful for Airsmiths",
 	"tooltip.kubejs.multiblock": "Check JEI for Assembly Guide",
 	"tooltip.kubejs.removed": "Recipe Removed due to Server issues",
 	"tooltip.kubejs.building": "Great for Building!",
+
+	"tooltip.kubejs.nuclear.waste_barrel": "Placing it into the world might have side effects",
+	"tooltip.kubejs.nuclear.residue_barrel": "Gooey",
 
 	"block.mbd2.nuclear_boiler": "Nuclear Boiler Controller",
 	"block.mbd2.proxy_part_block": "Machine Part",
