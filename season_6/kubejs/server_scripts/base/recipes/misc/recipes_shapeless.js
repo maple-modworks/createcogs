@@ -7,4 +7,5 @@ ServerEvents.recipes((event) => {
 		"minecraft:yellow_dye",
 		"create:iron_sheet",
 	]);
+	event.shapeless("create:rose_quartz", ["8x minecraft:redstone", "kubejs:graphite_ingot"]); //replaces nether quartz (early game)
 });

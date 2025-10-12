@@ -242,7 +242,7 @@ hash = "2e1e1022f5515a30ec13d41a5c041f6ae516e9fce7cb8e05530e6fb7bf6c0244"
 
 [[files]]
 file = "kubejs/assets/kubejs/lang/en_us.json"
-hash = "c6fb457e183af63f9f04c7b1c8a745d7d07f078d73b59e827fbe48e971ccf4a3"
+hash = "32665109afa373a6754e826e722ec92e0f59eab558ca83733b83afb4dbc94de6"
 
 [[files]]
 file = "kubejs/assets/kubejs/models/block/andesite_trophy.json"
@@ -506,11 +506,11 @@ hash = "acfcf9ba6f40a10f37a6753489ebd78c60c4cd91b70b9f372e0dd71a2354a656"
 
 [[files]]
 file = "kubejs/client_scripts/jei.js"
-hash = "6fead25dc540f7e00dd5d1fc046f0847d3bcfe8cff6a641e2ce19fbd32c59d50"
+hash = "fb418aed5f19e2ff90ed0e58b9c5b45d441ea9dbcb947c28eb776106abdcca68"
 
 [[files]]
 file = "kubejs/client_scripts/tooltips.js"
-hash = "9994c8b7214b82c3cd815589be6e57993eb911413dc7fd2370844c501c8765fe"
+hash = "2822f3e515346345caee80d302b64f73a289e5472b0952f164aa2d63dd63940b"
 
 [[files]]
 file = "kubejs/config/client.properties"
@@ -519,14 +519,6 @@ hash = "600fd0260302c854a17699f0c91a2de2a91b4f35e4a1fe8a991416c01b01582e"
 [[files]]
 file = "kubejs/config/common.properties"
 hash = "d673a310e2fd0703cad032b1da2ce6f83a3c0f297a1f506bcd69d594d987390b"
-
-[[files]]
-file = "kubejs/data/create_new_age/tags/items/nuclear/is_nuclear_fuel.json"
-hash = "1650cb4673a0fcf492ea4cf0c96ea43e2c45ec1090f426e68333c7da86178ffd"
-
-[[files]]
-file = "kubejs/data/create_new_age/tags/items/nuclear/time_6000.json"
-hash = "1650cb4673a0fcf492ea4cf0c96ea43e2c45ec1090f426e68333c7da86178ffd"
 
 [[files]]
 file = "kubejs/data/createdieselgenerators/diesel_engine_fuel_types/kerosene.json"
@@ -566,7 +558,7 @@ hash = "77e2c7509d975db747081f60a84e3fabdb864d5f7b86ddd2733c3ae26637f932"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
-hash = "04fb81a48272cfc6be02b7c8cc6734378c8e3fbd9e3b945d2530a389e856dd51"
+hash = "9102a2e72d8d20fe117708af0d474c232d05ddc9b8b3e065f29dfd77445593c1"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
@@ -614,7 +606,7 @@ hash = "f8eb24b80599a4d36bdf03d68e2663af92f67c6a3af1945773866183b5ebc261"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "ff166955ca2c74efbc7c241b4335b38f7212c39f183dc6968381cb0a4fca2921"
+hash = "1e8b7aca3d8b6c65f52253e9133834c3fe916a9e93db4da855d435af6a784c46"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/furnace_recipes.js"
@@ -626,15 +618,15 @@ hash = "b02a9e49bbd4ff8a4e7252129f64bb06df50529d1676fde51a76675ed2e060ed"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
-hash = "4cdbe5d9a767aca3d8d89aec7940a9d8eb5b125ea3cbdbd17bab027ff76ce0ce"
+hash = "b37c9fdeaf667a918d600e1c6b1bcf3753b1a535b29a61a23fce463b42878f10"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/nuclear/multiblock_controllers.js"
-hash = "57071230c7dc4c7489f6b88d30f413ae35641f090967edac19667246d3a864d5"
+hash = "79309670442f6906bdef29131b8f04865991c8cd280ca96cd68942dc63003ad2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/nuclear/nuclear.js"
-hash = "a141f63670f263c2b5f79c8b2fa59552c32af499109f114afb75d5eed681080e"
+hash = "7e2c223a262b5a5e1408cc0d00ed546df384ccceb1584e05ca0853828e6fe4b2"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/pneumaticcraft/block_heat_properties.js"
@@ -655,6 +647,10 @@ hash = "94766ff5c1cf5256bc5f1ebeed64f9bc317b0090f2747cfec42ab94541d0820e"
 [[files]]
 file = "kubejs/startup_scripts/fluid_registry.js"
 hash = "5e114cff884ba0b88439716ec25e4d0477e9ccfbc3e2afebe00dced3b22564e9"
+
+[[files]]
+file = "kubejs/startup_scripts/inventory_tabs.js"
+hash = "0dbf88bc9d1a93a794e6f53bd606f73de17e1ed8389382d68152a6e9c9a17864"
 
 [[files]]
 file = "kubejs/startup_scripts/item_registry.js"
@@ -1466,11 +1462,6 @@ metafile = true
 [[files]]
 file = "mods/miners-delight-plus.pw.toml"
 hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
-metafile = true
-
-[[files]]
-file = "mods/modernfix.pw.toml"
-hash = "7aa4111dcd7ad7c621fe1b899dc9a6c2c4b42eef70c48bd143eb2baa3aaa7e1a"
 metafile = true
 
 [[files]]
