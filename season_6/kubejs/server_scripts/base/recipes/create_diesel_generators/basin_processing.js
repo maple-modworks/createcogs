@@ -4,18 +4,18 @@ ServerEvents.recipes((event) => {
 		ingredients: [
 			{
 				fluid: "createdieselgenerators:crude_oil",
-				amount: 500,
+				amount: 100,
 			},
 		],
 		heatRequirement: "heated",
-		processingTime: 200,
+		processingTime: 100,
 		results: [
 			{
 				item: "kubejs:graphite_dust",
 			},
 			{
 				item: "kubejs:graphite_dust",
-				chance: 0.1,
+				chance: 0.5,
 			},
 		],
 	});
