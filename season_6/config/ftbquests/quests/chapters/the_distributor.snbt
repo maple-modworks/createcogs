@@ -3,7 +3,7 @@
 	default_quest_shape: ""
 	filename: "the_distributor"
 	group: ""
-	icon: "createdieselgenerators:diesel_engine"
+	icon: "create:schematic"
 	id: "5254536DCB34C5CB"
 	order_index: 6
 	quest_links: [ ]
@@ -310,5 +310,5 @@
 			y: 1.5d
 		}
 	]
-	title: "The Merchant"
+	title: "The Prospector"
 }
