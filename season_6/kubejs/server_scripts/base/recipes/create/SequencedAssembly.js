@@ -7,35 +7,26 @@ ServerEvents.recipes((event) => {
 		.transitionalItem("minecraft:chest")
 		.loops(3);
 
-	event.recipes
+let iec = "kubejs:incomplete_electron_tube"
+event.recipes
 		.createSequencedAssembly(
 			[
-				Item.of("create:electron_tube").withChance(130.0),
-				Item.of("kubejs:graphite_electrode").withChance(8.0),
-				Item.of("create:iron_sheet").withChance(8.0),
-				Item.of("kubejs:light_bulb").withChance(5.0),
+				"create:electron_tube" //should have a 100% success rate as this is the optimal recipe
 			],
-			"kubejs:graphite_electrode",
+			"kubejs:light_bulb_base",
 			[
-				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
-					"kubejs:incomplete_electron_tube",
-					"minecraft:iron_nugget",
+				event.recipes.createFilling(iec, [
+					iec, 
+					Fluid.of("kubejs:crimson_essence", 50)
 				]),
-				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
-					"kubejs:incomplete_electron_tube",
-					"create:polished_rose_quartz",
-				]),
-				event.recipes.createDeploying("kubejs:incomplete_electron_tube", [
-					"kubejs:incomplete_electron_tube",
-					"minecraft:glass",
-				]),
-				event.recipes.createPressing("kubejs:incomplete_electron_tube", [
-					"kubejs:incomplete_electron_tube",
-				]),
+				event.recipes.createDeploying(iec, [
+					iec,
+					"kubejs:graphite_dust",
+				])
 			],
 		)
-		.transitionalItem("kubejs:incomplete_electron_tube")
-		.loops(1);
+		.transitionalItem(iec)
+		.loops(5);
 
 	event.recipes
 		.createSequencedAssembly(
@@ -69,7 +60,6 @@ ServerEvents.recipes((event) => {
 			[
 				Item.of("kubejs:light_bulb_base").withChance(130.0),
 				Item.of("minecraft:glass").withChance(8.0),
-				Item.of("create:iron_sheet").withChance(8.0),
 				Item.of("kubejs:graphite_electrode").withChance(5.0),
 			],
 			"kubejs:graphite_electrode",
@@ -82,7 +72,7 @@ ServerEvents.recipes((event) => {
 			],
 		)
 		.transitionalItem("kubejs:incomplete_light_bulb")
-		.loops(3);
+		.loops(1);
 
 	event.recipes
 		.createSequencedAssembly([Item.of("16x create:fluid_pipe").withChance(130.0)], "minecraft:copper_block", [

@@ -56,10 +56,10 @@
 		{
 			dependencies: ["20CF0E1AEE75EF62"]
 			description: [
-				"While the Distributor might not have all the new fancy tools and armor, it is a vital part of the community. Other professions (mainly the Archivist and the Airsmith) need large quantities of items only you have the ability to automate, however it is your choice whether you team up with them, or if you set up shops to sell such items."
+				"While the Prospector might not have all the new fancy tools and armor, it is a vital part of the community. Other professions (mainly the Archivist and the Airsmith) need large quantities of items only you have the ability to automate, however it is your choice whether you team up with them, or if you set up shops to sell such items."
 				""
-				"The main advantage of the Distributor is the ability to pump and refine Crude Oil, as well as to create oil product powered engines."
-				"When combined with the capabilities of a Airsmith, both you and the Airsmith can seriously upgrade your factories production - it is therefore recommended that at least one player in a faction is a Distributor. "
+				"The main advantage of the Prospector is the ability to pump and refine Crude Oil, as well as to create oil product powered engines."
+				"When combined with the capabilities of a Airsmith, both you and the Airsmith can seriously upgrade your factories production - it is therefore recommended that at least one player in a faction is a Prospector. "
 			]
 			icon: "createdieselgenerators:diesel_engine"
 			id: "69718654F7D474FE"
@@ -69,7 +69,7 @@
 				item: "kubejs:mod_token"
 				type: "item"
 			}]
-			title: "The Merchant"
+			title: "The Prospector"
 			x: 0.0d
 			y: -3.0d
 		}
@@ -102,8 +102,11 @@
 			y: 0.0d
 		}
 		{
+			dependencies: ["32F7D6ED714F5C42"]
+			description: ["Trackwork is an addon for Clockwork, which allows you to also build ground based vehicles - it adds several types of tank tracks and wheels."]
 			id: "71630F85C0C662CB"
 			tasks: [{
+				consume_items: false
 				count: 64L
 				id: "031FAF9A8C57D560"
 				item: "create:belt_connector"
@@ -114,6 +117,10 @@
 			y: 4.0d
 		}
 		{
+			description: [
+				"Clockwork allows you to add even more movement to your builds - literally. This mod adds most create's mechanical components but with a catch - they are all affected by physics. To top it all of, clockwork also adds a physics assembler, which allows you to have any build become a physical object."
+				"Realistic Airplane anyone?"
+			]
 			icon: "vs_clockwork:physics_infuser"
 			id: "32F7D6ED714F5C42"
 			tasks: [{
@@ -126,6 +133,7 @@
 			y: 2.0d
 		}
 		{
+			description: ["Ender Drawers function similarly to Ender Chests, except they can be used by machines and not just players (a Linking tool is required for proper function)."]
 			icon: "functionalstorage:ender_drawer"
 			id: "09ADFCCF30378F40"
 			tasks: [{

@@ -1,9 +1,11 @@
 {
-	"tooltip.kubejs.tradeable": "Tradeable",
-	"tooltip.kubejs.light_bulb": "Most useful for Airsmiths",
 	"tooltip.kubejs.multiblock": "Check JEI for Assembly Guide",
 	"tooltip.kubejs.removed": "Recipe Removed due to Server issues",
-	
+	"tooltip.kubejs.building": "Great for Building!",
+
+	"tooltip.kubejs.nuclear.waste_barrel": "Placing it into the world might have side effects",
+	"tooltip.kubejs.nuclear.residue_barrel": "Gooey",
+
 	"block.mbd2.nuclear_boiler": "Nuclear Boiler Controller",
 	"block.mbd2.proxy_part_block": "Machine Part",
 	"block.mbd2.steam_vent": "Steam Vent",
@@ -14,6 +16,11 @@
 	"block.mbd2.hydraulic_press": "Hydraulic Press Controller",
 	"block.mbd2.steam_turbine": "Steam Turbine Controller",
 	"block.mbd2.turbine_fan": "Turbine Fan",
-	"block.mbd2.rotation_output": "Rotation Output"
+	"block.mbd2.rotation_output": "Rotation Output",
+	"block.mbd2.cooling_tower": "Cooling Tower Controller",
+
+	"block.cogutilities.waste_barrel": "Nuclear Waste Barrel",
+	"block.cogutilities.empty_waste_barrel": "Empty Nuclear Waste Barrel",
+	"block.cogutilities.decayed_waste_barrel": "Residue Barrel"
 
 }
