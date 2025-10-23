@@ -1,6 +1,6 @@
 name = "rcc-chatbox"
 filename = "rcc-chatbox-1.8.10.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://dl.herrkatze.com/rcc-chatbox-1.8.10.jar"

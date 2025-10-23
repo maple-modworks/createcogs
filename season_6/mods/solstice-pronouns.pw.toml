@@ -1,6 +1,6 @@
 name = "solstice-pronouns"
 filename = "solstice-pronouns-1.1.2.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://dl.herrkatze.com/solstice-pronouns-1.1.2.jar"

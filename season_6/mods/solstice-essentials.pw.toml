@@ -1,6 +1,6 @@
 name = "solstice-essentials"
 filename = "solstice-1.9.0+1.20.1.jar"
-side = "both"
+side = "server"
 
 [download]
 url = "https://dl.herrkatze.com/solstice-1.9.0%2B1.20.1.jar"
