@@ -1626,12 +1626,12 @@ metafile = true
 
 [[files]]
 file = "mods/solstice-essentials.pw.toml"
-hash = "3680a7e3f2d6da11372c348ee4693200b6bb4b2e4420b59f16f77e8123b0c1ab"
+hash = "cbb52ddc987ac897b709274dfb5bab9590bb1ea204e060ea0086c58059d6801b"
 metafile = true
 
 [[files]]
 file = "mods/solstice-pronouns.pw.toml"
-hash = "6971680a9f94189433842e05aee0398a95834904309a312e020f8d834eafbe72"
+hash = "c5b00878a2b8dce7a2afe59b5a81a3111e578f8ad72c354e4ca6572cdf06336e"
 metafile = true
 
 [[files]]

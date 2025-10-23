@@ -1,8 +1,8 @@
 name = "solstice-pronouns"
-filename = "solstice-pronouns-1.1.1.jar"
-side = "server"
+filename = "solstice-pronouns-1.1.2.jar"
+side = "both"
 
 [download]
-url = "https://github.com/scmcgowen/SolsticePronouns/releases/download/v1.1.1/solstice-pronouns-1.1.1.jar"
+url = "https://dl.herrkatze.com/solstice-pronouns-1.1.2.jar"
 hash-format = "sha256"
-hash = "31ad680984d0cae02eb4832b0cd44786ac6f52edc41182b99451bf32d56d57ec"
+hash = "e7dd0fc35816d81e5280b0210cf759227b599b59f7fbb77037f403911f671412"
