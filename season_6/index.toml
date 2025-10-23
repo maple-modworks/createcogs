@@ -1556,7 +1556,7 @@ metafile = true
 
 [[files]]
 file = "mods/rcc-chatbox.pw.toml"
-hash = "996e5e61be74f99e9c09f92f10e01125c4d43a03321f52746c4d5c86b1f5c72a"
+hash = "611d55e849ad376f995d82e4e420f4e179b665bff87f6d7546aa74ce0db1dca6"
 metafile = true
 
 [[files]]
@@ -1626,12 +1626,12 @@ metafile = true
 
 [[files]]
 file = "mods/solstice-essentials.pw.toml"
-hash = "cbb52ddc987ac897b709274dfb5bab9590bb1ea204e060ea0086c58059d6801b"
+hash = "05103640f248afa80a932b96b44b7f89624e42cbdf58cd743360496d48ad8132"
 metafile = true
 
 [[files]]
 file = "mods/solstice-pronouns.pw.toml"
-hash = "c5b00878a2b8dce7a2afe59b5a81a3111e578f8ad72c354e4ca6572cdf06336e"
+hash = "bf4ba725be064cb3f4dcdada0ac48854bba200397accf30ab1a698b203639eaf"
 metafile = true
 
 [[files]]
