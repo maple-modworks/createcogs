@@ -971,7 +971,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1611542f5f481a64e11b4a32789bd71f43e16a07e5c548ccc668c4b5de05e2bd"
+hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
 metafile = true
 
 [[files]]
@@ -1192,6 +1192,11 @@ metafile = true
 [[files]]
 file = "mods/daves-building-extended.pw.toml"
 hash = "672217613d12a12c3a891d2909c7d17c1700f3edb3f80589ab6790b78850d273"
+metafile = true
+
+[[files]]
+file = "mods/default-options.pw.toml"
+hash = "3497e48c52866fe536932d77fbb5cb1793d4e268e52873f1ca5c1e961b777814"
 metafile = true
 
 [[files]]
