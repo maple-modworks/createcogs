@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "0eb03e74d7ce218d4b55e563b1c49b1f0bc3d2edbd3f7af10f6b1fe34569b471"
+
+[[files]]
 file = "config/fancymenu/assets/alpha.png"
 hash = "77b53a76bba8e28e452fba2b8622e2b283f15c831c5ed86ff3a1fa296cd6165e"
 
