@@ -70,7 +70,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "d717956ba8c41d67823c9244089f9c0477b19896b3a1672ec683ea149a404e6d"
+hash = "96c59f5e45b3dadcff3413c7675a57f4e6636f8752988e96884c13b60c148243"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -130,7 +130,7 @@ hash = "4babba9155224ef9713ac66a602f6a02eb62825aa5eb730af651642c8e009d0b"
 
 [[files]]
 file = "config/fancymenu/customization/credits.txt"
-hash = "ffac5c404fb948ec10eb6b056775b6e9d6199be51a3f040075372ffc773ceb22"
+hash = "90f12aae4d3805bc00a4b3b198848da65e67f262176a918b3966edef33edfd17"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
@@ -138,11 +138,11 @@ hash = "9c0686ff9eec517f72afeb33b51dc989a375abc0e8d9eeec6110c72562bb155a"
 
 [[files]]
 file = "config/fancymenu/customization/s6beta.txt"
-hash = "39f47a4865d0919ca0c78db3d21f836f3ee92c5e3eaff1c51b120d7c9e993879"
+hash = "18aaec5a48688496ef9419e920941eaa00310a18f6c86e1851d9eaceec503fef"
 
 [[files]]
 file = "config/fancymenu/customization/s6release.txt"
-hash = "922508426033d6f201f2f89ff99a3b6245ce28b0c9c1a6b8618939e392ecb194"
+hash = "29ee0cd7dc103d163c2030b8d1ba58013a80da734104abf5868d48df8acdb928"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -154,7 +154,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "718d8789aaab717418d628dc880baf93576bbd841d26681cb41a7c07630893a0"
+hash = "c01103316c4ed26b58bdcdfbbb2663830c06ead93fcddee23e26085734611535"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
