@@ -565,7 +565,7 @@
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
-			description: ["ComputerCraft"]
+			description: ["&b&lComputerCraft&r&r is a programming mod that allows you to create anything through the LUA programming language! It can do anything from controlling contraptions, automating systems, password protection, and even interactive games!"]
 			hide_until_deps_visible: true
 			icon: "computercraft:computer_normal"
 			id: "3446DFBEBFC35ABA"
@@ -610,28 +610,8 @@
 		}
 		{
 			dependencies: ["1FC9F3F14CA42B63"]
-			description: ["Want better tools? &l&bTetra&r&r adds new interesting and useful variants of vanilla-styled tools and weapons that you can combine together with the &nTetra workbench&r, that can be created by right-clicking on a Crafting Table using the &nHammer&r (main hand)"]
-			icon: {
-				Count: 1
-				id: "tetra:scroll_rolled"
-				tag: {
-					BlockEntityTag: {
-						data: [{
-							glyphs: [I;
-								3
-								2
-								2
-								1
-							]
-							intricate: 0b
-							key: "sword/sturdy_guard"
-							material: 1
-							ribbon: "bcb8b5"
-							schematics: ["tetra:sword/sturdy_guard"]
-						}]
-					}
-				}
-			}
+			description: ["Want better tools? &l&bTinker's Construct&r&r adds new interesting and useful tools and weapons that you can make using individual parts"]
+			icon: "tconstruct:part_builder"
 			id: "6EA1BCD1AE124BF0"
 			rewards: [{
 				count: 8
@@ -642,29 +622,17 @@
 			shape: "rsquare"
 			tasks: [
 				{
-					id: "2A47E3C20F72BF54"
-					title: "TETRA!"
-					type: "checkmark"
+					id: "259F773AC5DBBAB3"
+					item: "tconstruct:tinker_station"
+					type: "item"
 				}
 				{
-					id: "79DE02B3A50B819B"
-					item: {
-						Count: 1
-						id: "tetra:modular_double"
-						tag: {
-							Damage: 0
-							"double/basic_hammer_left_material": "basic_hammer/oak"
-							"double/basic_hammer_right_material": "basic_hammer/oak"
-							"double/basic_handle_material": "basic_handle/stick"
-							"double/handle": "double/basic_handle"
-							"double/head_left": "double/basic_hammer_left"
-							"double/head_right": "double/basic_hammer_right"
-							id: "1ffb30ff-b0c0-4438-96b9-8e5165052dc4"
-						}
-					}
+					id: "0BD4899D82A53255"
+					item: "tconstruct:part_builder"
 					type: "item"
 				}
 			]
+			title: "Tinker's Construct"
 			x: 1.5d
 			y: 1.0d
 		}

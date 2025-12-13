@@ -251,7 +251,7 @@
 			dependencies: ["57854839D31216FE"]
 			description: ["In order to create some Brass ingots you will need a Blaze Burner - this can only be obtained in the nether, so it is time to start gathering resources to build a portal. It is recommended to craft a few Empty Blaze Burners before entering, that way you do not have to come back later."]
 			id: "16D7B56900563B6D"
-			subtitle: "Go to hell... Literaly"
+			subtitle: "Go to hell... Literally!"
 			tasks: [
 				{
 					dimension: "minecraft:the_nether"
