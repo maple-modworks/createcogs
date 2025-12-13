@@ -170,55 +170,59 @@ hash = "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
 
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
-hash = "86d5dcf140fcb7aded57df24912d72d634b929008cb9ca01bc8e2e05c2d7a19b"
+hash = "6de3a8c5a60078cc2643f0a78b37377834b6b4865973a620184f8a559f9d29c2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1industrial_revolution_beta.snbt"
-hash = "32a8f1f4ff0a306c2a75e04b5685193ff3620f0245d4ffbafc737563f1e38c7c"
+hash = "a73407b3213cf4caf40b846762a2d388b0677dd05ff580c3915b8b9bd71d9c7a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/1introduction.snbt"
-hash = "152ab1464b3a5bcce1be1e7ec4b4c244967d733962dfeecc2f8367540734d50e"
+hash = "09ff65139eb4aecda21b3a652d8964fd66d1a3078ca7a89ed5189793cb7ad684"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2_precise_engineering.snbt"
-hash = "b5a4fc2f67a133198e61650957eba11fa4e36448a60f68a4de97d93d8b756796"
+hash = "00fec6541476cda1b65668148507a33e57eaa7c88bf3fa603b1c49b8b5371c85"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/2industrial_revolution.snbt"
-hash = "23891b02d1db5789394da6d73c3484653bed5253318503de010a22a0e4e15401"
+hash = "d7ec77638dd756b8e0eaa51a3fbd79faaefe98a44064a40d447596471e100ca4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/applied_energistics_2.snbt"
-hash = "eaa474766d0ee27e33e1c94478b66181437d50ca2d6481621dec489f68ad966d"
+hash = "8927329afe4e4d58d8a6f4d1af69a0cc2af1c62f559ce4688a24972071891fc7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/pneumaticcraft.snbt"
-hash = "d754e0c1cc8db93d366624307440b9abf891454f100f2c55b3d6c13b60ede81f"
+hash = "f93e9f78bfe70c241980ffbbaacf624618df471bd72af7b935c550d6c231bd13"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/quest_lines.snbt"
-hash = "941e8facb52b147d5832dea451ef1cc39798e9712a7035d83488106183e6a2d8"
+hash = "846d141f31bb1d60cf7706b07840c2557ca47510a8a096dac35bfb1e28435059"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_distributor.snbt"
-hash = "3084533b2b3c08101e43e1c172bc20d42038dee9305522b11ba6a145399f7446"
+hash = "11464f51148cf0bda396efdd4f88a9ee1f1df73ec8fa98dccba8f943f89db596"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_mechanic.snbt"
-hash = "31b291716b925571af46ee38ec85ceb2566cfac35827d0e9d9dec1a09b962665"
+hash = "af0703bfd2a362fb65b06e21e01afa22a61e7ab15575b84a7d410c6410efc3d2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/the_nuclear_engineer.snbt"
-hash = "3966b27f73282f0ed62dbd788296d14b153a9d6658285150160e49a0cd95e90a"
+hash = "a0696ab2d71dda2af44ac126b2653d434f760fa60013186fb75879b771326e77"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "c925746059c2848b3fdeb74f8240a378bf6059eaf254fe0a8e152eb8e3e58f23"
+hash = "2a5de39cb00183b633117cf042ac350013065024de8fcacd87099c25c1ab074b"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/cogwheel_reward.snbt"
-hash = "526d1af9106c089f9f9dade92ebdefd0a8bd7b2bd198b5684e8aa56f9584c03b"
+hash = "a023c2564a33f4d1dac64db11062d735a72cf184035591af4daa3f8cd55c1c19"
+
+[[files]]
+file = "config/ftbquests/quests/reward_tables/e.snbt"
+hash = "74821deb80549e38562819e4f5ff958910df09e98f15c12dbd5ee3195f998e8f"
 
 [[files]]
 file = "config/pneumaticcraft-common.toml"
