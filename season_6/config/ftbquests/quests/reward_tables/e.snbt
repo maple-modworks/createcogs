@@ -1,0 +1,20 @@
+{
+	id: "11EC9DDB40B1F820"
+	loot_crate: {
+		color: 16777215
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "E"
+		string_id: "e"
+	}
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 69, item: "minecraft:stripped_oak_log" }
+		{ count: 69, item: "minecraft:oak_wood" }
+	]
+	title: "e"
+}

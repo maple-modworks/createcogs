@@ -17,6 +17,7 @@
 				item: "kubejs:mod_token"
 				type: "item"
 			}]
+			subtitle: "not yet complete!"
 			tasks: [{
 				id: "1294BE851772E722"
 				title: "Quest Lines"
@@ -103,8 +104,9 @@
 		}
 		{
 			dependencies: ["32F7D6ED714F5C42"]
-			description: ["Trackwork is an addon for Clockwork, which allows you to also build ground based vehicles - it adds several types of tank tracks and wheels."]
+			description: ["&8&mTrackwork is an addon for Clockwork, which allows you to also build ground based vehicles - it adds several types of tank tracks and wheels.&r&r"]
 			id: "71630F85C0C662CB"
+			subtitle: "Delayed until 0.6"
 			tasks: [{
 				consume_items: false
 				count: 64L
@@ -118,11 +120,12 @@
 		}
 		{
 			description: [
-				"Clockwork allows you to add even more movement to your builds - literally. This mod adds most create's mechanical components but with a catch - they are all affected by physics. To top it all of, clockwork also adds a physics assembler, which allows you to have any build become a physical object."
-				"Realistic Airplane anyone?"
+				"&m&8Clockwork allows you to add even more movement to your builds - literally. This mod adds most create's mechanical components but with a catch - they are all affected by physics. To top it all of, clockwork also adds a physics assembler, which allows you to have any build become a physical object.&r"
+				"&8&mRealistic Airplane anyone?&r&r"
 			]
 			icon: "vs_clockwork:physics_infuser"
 			id: "32F7D6ED714F5C42"
+			subtitle: "Delayed until 0.6"
 			tasks: [{
 				id: "2431727D942A8E80"
 				item: "vs_clockwork:wanderlite_crystal"
