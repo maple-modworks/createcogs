@@ -1459,7 +1459,7 @@ metafile = true
 
 [[files]]
 file = "mods/mc2discordfix.pw.toml"
-hash = "b67b10939f2241c71f628e479ada3f18e00556d26b5bc4158eb4d55f10c6d32a"
+hash = "5505edc0c22f3eaaba876e5c886dba4335ba65ff6ecab61f14ff3847247578a1"
 metafile = true
 
 [[files]]
