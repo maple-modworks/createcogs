@@ -542,7 +542,7 @@ hash = "aabee8656d97d65fa18477fe8467a65325bcf80cb0fa3f384e2a8604d9f61b4d"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot_tables/loottables.js"
-hash = "de52a3f71973a62e7b27b218225fa7b59a07191b53175a901b1f6235eef626c5"
+hash = "833c89d59babebeef0ced214928e10a55e9bf79fc3435560629f89698eae6be3"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/ae2/explosion_crafting.js"
@@ -558,15 +558,15 @@ hash = "bde433d1eedf0dcd455ebf841b6816289686b865f01f1b1e8059723168af6920"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
-hash = "b04532675cc9e5452a09b0e824ebdd8628fc7923057198c94e88e3f8b1728904"
+hash = "b7c4212818bd63224e9bf85c73d6600359be2047245c2b4ae3c506838ee1666c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Cutting.js"
-hash = "77e2c7509d975db747081f60a84e3fabdb864d5f7b86ddd2733c3ae26637f932"
+hash = "81f396ad0dbed5883dd1be3829a1ef2140aa1936340c188b770ce5f55396e67e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
-hash = "9102a2e72d8d20fe117708af0d474c232d05ddc9b8b3e065f29dfd77445593c1"
+hash = "f8605359b19a85a6ba0602ad7247547cccb95a0e3a9415270e9014a5886633f3"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
@@ -574,11 +574,11 @@ hash = "c0cca8061f32623106f96c36be3f186e225b75a2d1e054365956ae47b6b5fe59"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Milling.js"
-hash = "5a8e2f9b666aaecd4f773a81833f9ba03470bd0bae59b7abfcfca55e1738db66"
+hash = "c2a75169a3a88fa44bf068f052fb0bf4e49f5658562c9d6d1c5ef11ee390db5f"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "42118b9b5ff1f47d0b8f17d87e2abcdc29bfb72c9b3c186079532c8e3b80fdc2"
+hash = "3cd7f72f036cdd32eb37735fa6682d86902915a7c147190ff5fabf53a12d04bd"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -586,11 +586,11 @@ hash = "de20cc66996e47fe485d9cbdff85405ca91bb30aa7c99ffa61f0f5edbda8b3cf"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
-hash = "3ea880be258f3665d98da5d1963cb2466f2ad628167c3def08ce2e6fbeb5a73c"
+hash = "2804185086f3def55cda62e32843500b3d19f274c20c5d63e699721e7fe3ae3c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Washing.js"
-hash = "dc446cba1b4777acfe39439667b5c6ea46f0152262b05dade71355ed01aea6a6"
+hash = "f4144028f2c73a84ce8d867a0841f3b70de1f3d39356dcb6c71f25d19cb482d4"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/mechanical_crafting.js"
@@ -598,7 +598,7 @@ hash = "9b92a84d96664869e11b4d13dd56471787ad94770d62a9b8a6b2e5bbcb1c0822"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/basin_processing.js"
-hash = "6a496d7808dee962242f4a1211a28093a06417a9a7ed8ee8aeb80ca9c12b0b12"
+hash = "4d6dff40c4e4688990a676b983d981b8ef291581663e2f9bd1dbb6ad8e7ad96e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/distillation.js"
@@ -614,7 +614,7 @@ hash = "f8eb24b80599a4d36bdf03d68e2663af92f67c6a3af1945773866183b5ebc261"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "1e8b7aca3d8b6c65f52253e9133834c3fe916a9e93db4da855d435af6a784c46"
+hash = "7fefcf3ae14768c6bc0a3dd9e0b4c853f3f82ce30c6e74f2c7fcce8df5aac1e5"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/furnace_recipes.js"
@@ -622,7 +622,7 @@ hash = "292c8f861c15ee0ccb44a54836f6a4c734147d2e211db509b6a1a5df755c4b37"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
-hash = "b02a9e49bbd4ff8a4e7252129f64bb06df50529d1676fde51a76675ed2e060ed"
+hash = "e68041e003c351208bf0df08e150a7b48f0be1d472ec199fafc09bc6cf5e287e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
@@ -646,7 +646,7 @@ hash = "d07263db274e239ed0dd9c7c5906b308f5b2fc9489ee5be53b9bfdc316ae62ae"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/tags.js"
-hash = "8c5cb486a14f300833b20e53e35a0b62147b1632c8b12bbb10fa9a492eeeb45d"
+hash = "231dc6cf859127bec2517902269ba8f75abdfc64e012cc3291361bd08842d0c4"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"

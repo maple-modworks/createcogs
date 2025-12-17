@@ -52,7 +52,7 @@ event.recipes
 				]),
 			],
 		)
-		.transitionalItem("kubejs:incomplete_electron_tube")
+		.transitionalItem("kubejs:incomplete_graphite_electrode")
 		.loops(1);
 
 	event.recipes
@@ -155,7 +155,7 @@ event.recipes
 			),
 		])
 		.transitionalItem("kubejs:incomplete_compressed_mechanism")
-		.loops(8);
+		.loops(4);
 
 	event.recipes
 		.createSequencedAssembly(
