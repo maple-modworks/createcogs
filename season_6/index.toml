@@ -974,7 +974,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
+hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
 metafile = true
 
 [[files]]
@@ -1205,6 +1205,11 @@ metafile = true
 [[files]]
 file = "mods/distanthorizons.pw.toml"
 hash = "fef08253ff367a9a250756cbf52f30341ef6d517e8d36e353298c308fefcdccc"
+metafile = true
+
+[[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "400396918f6581f7157a25c5dda75fd620d16fd8565201a5e7aee30f6c7df8b0"
 metafile = true
 
 [[files]]
@@ -1533,13 +1538,13 @@ hash = "ff455d3439b8e4ffbf78dc1e8998c1b59200bd10c74c77f9fe90e98f606e0f0d"
 metafile = true
 
 [[files]]
-file = "mods/petrolpark.pw.toml"
-hash = "e5a1999432321e1d017f5d7fbdc6701ec62077c24f71cca3cc82d8d92c49f6b7"
+file = "mods/petrolpark-library.pw.toml"
+hash = "b99e9eaa47d01c04aab00731d22572e30e19a37267b90cb03349c10fa9970b03"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "7e67b31ffb950dac821d0992f6951e11c8b3887cc4b2c3324639862de7d9a8c6"
+hash = "796644a28a27e40d17ded00929e1a1bdffcacd62a8bf4d023f985ea8c7f9f81c"
 metafile = true
 
 [[files]]
@@ -1624,7 +1629,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "5d608562aae7967c72f0711fb3836ce341aed463491d987fcf9e6a15fdeda841"
+hash = "0012d406484bb4303404b22ad6b6a318f74aa4dfa4d6b0fd7954b368669e800e"
 metafile = true
 
 [[files]]
@@ -1720,6 +1725,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
+metafile = true
+
+[[files]]
+file = "plugins/simple-voice-chat.pw.toml"
+hash = "754006151ff604c014af8d67b7e24f336aec577f2319d8543f935384c1421678"
 metafile = true
 
 [[files]]
