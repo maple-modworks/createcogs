@@ -606,7 +606,7 @@ hash = "2d0ee59d63c9776d60dc5fac8563b121fad027201ea6cfc3b82c46292e45909e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/pumpjack.js"
-hash = "e286e9ea7bf672a96d86c9cb6e16c70d46408efadc87ec57373940fb2ef27fa3"
+hash = "df2d8365365984f368dde98cf2bb6d412f9db609f7f78b8a5ad39515740c0302"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_new_age/energising.js"
@@ -646,7 +646,7 @@ hash = "d07263db274e239ed0dd9c7c5906b308f5b2fc9489ee5be53b9bfdc316ae62ae"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/tags.js"
-hash = "231dc6cf859127bec2517902269ba8f75abdfc64e012cc3291361bd08842d0c4"
+hash = "402bf3377401ab6a5e5ff329f05b898934d4d88b9ec7ed9e5d28bc5be6d4feae"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"
