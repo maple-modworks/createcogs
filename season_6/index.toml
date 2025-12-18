@@ -989,7 +989,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterf3.pw.toml"
-hash = "8341be7376192fe2cbffa3af36060ab8684adb2862efe478d697810cdd979e95"
+hash = "30b863b9415712a52a1f30ed866fe7e4792b09bb7e1d4c503072d3b95f86275c"
 metafile = true
 
 [[files]]
@@ -1214,7 +1214,7 @@ metafile = true
 
 [[files]]
 file = "mods/do-a-barrel-roll.pw.toml"
-hash = "400396918f6581f7157a25c5dda75fd620d16fd8565201a5e7aee30f6c7df8b0"
+hash = "fd3f78d9e8d07fb76b2058152e3423b2ba9c24fbaf92cb6461107e99dbcb5373"
 metafile = true
 
 [[files]]
