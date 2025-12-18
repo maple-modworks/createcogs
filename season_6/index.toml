@@ -578,7 +578,7 @@ hash = "c2a75169a3a88fa44bf068f052fb0bf4e49f5658562c9d6d1c5ef11ee390db5f"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "3cd7f72f036cdd32eb37735fa6682d86902915a7c147190ff5fabf53a12d04bd"
+hash = "a6aa742116d00a049dc7096541b9df4043b66a5a495dc28495591949ce37b795"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -622,7 +622,7 @@ hash = "292c8f861c15ee0ccb44a54836f6a4c734147d2e211db509b6a1a5df755c4b37"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
-hash = "e68041e003c351208bf0df08e150a7b48f0be1d472ec199fafc09bc6cf5e287e"
+hash = "61e5c19186ed777408476ba6ef557c686bc74a8d080dc6fbae4840c9d951c5ac"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
