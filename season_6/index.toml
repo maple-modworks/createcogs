@@ -1557,13 +1557,13 @@ hash = "ff455d3439b8e4ffbf78dc1e8998c1b59200bd10c74c77f9fe90e98f606e0f0d"
 metafile = true
 
 [[files]]
-file = "mods/petrolpark-library.pw.toml"
-hash = "b99e9eaa47d01c04aab00731d22572e30e19a37267b90cb03349c10fa9970b03"
+file = "mods/petrolpark.pw.toml"
+hash = "92b0421c5367bb6dc44435fa3808504e84e1c5a8ed3d919124b472b5f7f58f04"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "796644a28a27e40d17ded00929e1a1bdffcacd62a8bf4d023f985ea8c7f9f81c"
+hash = "19fd5d0949c89e9273512c873140dcd8f7bf423c5ebcb2d6eaf07c75b295f6c9"
 metafile = true
 
 [[files]]
