@@ -3,6 +3,6 @@ filename = "mc2discordfix-0.1.jar"
 side = "server"
 
 [download]
-url = "https://github.com/scmcgowen/mc2discordfix/releases/download/v0.1/mc2discordfix-0.1.jar"
+url = "https://dl.herrkatze.com/mc2discordfix-0.1.jar"
 hash-format = "sha256"
-hash = "3ea459c35dcc3d382f92c10182c68198a580f58f01c5be4092e18a2ba1056cd9"
+hash = "d30ebc8a4789d8bb6d0ddf4f99915fbe13e1e756067e519869033d1b19c30a5b"

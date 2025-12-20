@@ -807,10 +807,10 @@ vanilla_button {
   auto_sizing_base_screen_height = 0
   sticky_anchor = false
   anchor_point = vanilla
-  x = 442
-  y = 350
-  width = 196
-  height = 10
+  x = 607
+  y = 192
+  width = 20
+  height = 20
   stretch_x = false
   stretch_y = false
   stay_on_screen = true
@@ -1178,7 +1178,7 @@ vanilla_button {
   widget_active_state_requirement_container_identifier = 24cccc3b-fa0b-40e2-b158-739eb83a882a-1761243559236
   [loading_requirement_container_meta:24cccc3b-fa0b-40e2-b158-739eb83a882a-1761243559236] = [groups:][instances:]
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_multiplayer_button
+  instance_identifier = mc_titlescreen_singleplayer_button
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1192,7 +1192,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = -18
+  y = -42
   width = 200
   height = 20
   stretch_x = false
@@ -1455,8 +1455,8 @@ vanilla_button {
 }
 
 vanilla_button {
-  button_element_executable_block_identifier = ddb651f4-7fba-4585-b538-9d629bb2864f-1706717556630
-  [executable_block:ddb651f4-7fba-4585-b538-9d629bb2864f-1706717556630][type:generic] = [executables:]
+  button_element_executable_block_identifier = b26a86be-a0f8-4a49-aa30-42a8d80a0e47-1761243559236
+  [executable_block:b26a86be-a0f8-4a49-aa30-42a8d80a0e47-1761243559236][type:generic] = [executables:]
   restartbackgroundanimations = true
   loopbackgroundanimations = true
   nine_slice_custom_background = false
@@ -1466,7 +1466,7 @@ vanilla_button {
   widget_active_state_requirement_container_identifier = 7f764f83-c8db-4e2a-b5ad-e17e7ebab977-1761243559236
   [loading_requirement_container_meta:7f764f83-c8db-4e2a-b5ad-e17e7ebab977-1761243559236] = [groups:][instances:]
   element_type = vanilla_button
-  instance_identifier = mc_titlescreen_options_button
+  instance_identifier = 1
   appearance_delay = no_delay
   appearance_delay_seconds = 1.0
   fade_in_v2 = no_fading
@@ -1480,7 +1480,7 @@ vanilla_button {
   sticky_anchor = false
   anchor_point = mid-centered
   x = -100
-  y = 42
+  y = 66
   width = 98
   height = 20
   stretch_x = false
