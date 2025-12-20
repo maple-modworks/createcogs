@@ -40,7 +40,7 @@ ServerEvents.recipes((event) => {
 		],
 		{
 			S: "davebuildingmod:steel_ingot",
-			R: "#kubejs:ropes",
+			R: "#createcogs:ropes",
 		}
 	);
 });

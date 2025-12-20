@@ -3,7 +3,7 @@ ServerEvents.recipes((event) => {
 		type: "createdieselgenerators:basin_fermenting",
 		ingredients: [
 			{
-				fluid: "createdieselgenerators:crude_oil",
+				fluid: "#forge:crude_oil",
 				amount: 100,
 			},
 		],

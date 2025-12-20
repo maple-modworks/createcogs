@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = credits
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1765171171397
+  last_edited_time = 1766162220994
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:5e5d71a8-b905-46e3-aa18-534a23901599-1765171163247] = [groups:][instances:]
+  [loading_requirement_container_meta:66750ac0-1bfe-4f51-9322-41b3d3def4b9-1766162107315] = [groups:][instances:]
 }
 
 customization {
@@ -429,7 +429,7 @@ element {
 
 element {
   interactable = true
-  source = |||%n%Caljam%n%|||
+  source = |||%n%%#ffc3c3%onyxmn,%#% %#ff9a9a%CalJam%#%%n%|||
   source_mode = direct
   shadow = true
   scale = 1.0

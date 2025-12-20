@@ -5,6 +5,10 @@ file = "config/defaultoptions/keybindings.txt"
 hash = "0eb03e74d7ce218d4b55e563b1c49b1f0bc3d2edbd3f7af10f6b1fe34569b471"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "e0e8c50f3d6fe28a59f79d8977e300c1ac7aaa7ded151b80532009779f3cd6dc"
+
+[[files]]
 file = "config/fancymenu/assets/alpha.png"
 hash = "77b53a76bba8e28e452fba2b8622e2b283f15c831c5ed86ff3a1fa296cd6165e"
 
@@ -70,7 +74,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "96c59f5e45b3dadcff3413c7675a57f4e6636f8752988e96884c13b60c148243"
+hash = "1475143b03d3bf8fa32dc442f39fc9d87fae032f60724e9f9c5d8ce72b155759"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -130,7 +134,7 @@ hash = "4babba9155224ef9713ac66a602f6a02eb62825aa5eb730af651642c8e009d0b"
 
 [[files]]
 file = "config/fancymenu/customization/credits.txt"
-hash = "90f12aae4d3805bc00a4b3b198848da65e67f262176a918b3966edef33edfd17"
+hash = "b42cce77c5a41297a840311eaf1e61b7002a92ff57316bb7e9d1ca0b940700a8"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
@@ -142,7 +146,7 @@ hash = "18aaec5a48688496ef9419e920941eaa00310a18f6c86e1851d9eaceec503fef"
 
 [[files]]
 file = "config/fancymenu/customization/s6release.txt"
-hash = "29ee0cd7dc103d163c2030b8d1ba58013a80da734104abf5868d48df8acdb928"
+hash = "cbb43c1b38a3082f44e730cf9d8bafcb1de81f1e9692931099297f90c5f9cdb5"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -154,7 +158,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "c01103316c4ed26b58bdcdfbbb2663830c06ead93fcddee23e26085734611535"
+hash = "111c42ad890c4ab31f752f07d7afff25dc49ca6491046df27bef64d59e9de1d9"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
@@ -542,7 +546,7 @@ hash = "aabee8656d97d65fa18477fe8467a65325bcf80cb0fa3f384e2a8604d9f61b4d"
 
 [[files]]
 file = "kubejs/server_scripts/base/loot_tables/loottables.js"
-hash = "de52a3f71973a62e7b27b218225fa7b59a07191b53175a901b1f6235eef626c5"
+hash = "833c89d59babebeef0ced214928e10a55e9bf79fc3435560629f89698eae6be3"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/ae2/explosion_crafting.js"
@@ -558,15 +562,15 @@ hash = "bde433d1eedf0dcd455ebf841b6816289686b865f01f1b1e8059723168af6920"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Crushing.js"
-hash = "b04532675cc9e5452a09b0e824ebdd8628fc7923057198c94e88e3f8b1728904"
+hash = "b7c4212818bd63224e9bf85c73d6600359be2047245c2b4ae3c506838ee1666c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Cutting.js"
-hash = "77e2c7509d975db747081f60a84e3fabdb864d5f7b86ddd2733c3ae26637f932"
+hash = "81f396ad0dbed5883dd1be3829a1ef2140aa1936340c188b770ce5f55396e67e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Deploying.js"
-hash = "9102a2e72d8d20fe117708af0d474c232d05ddc9b8b3e065f29dfd77445593c1"
+hash = "f8605359b19a85a6ba0602ad7247547cccb95a0e3a9415270e9014a5886633f3"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Emptying_Filling.js"
@@ -574,11 +578,11 @@ hash = "c0cca8061f32623106f96c36be3f186e225b75a2d1e054365956ae47b6b5fe59"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Milling.js"
-hash = "5a8e2f9b666aaecd4f773a81833f9ba03470bd0bae59b7abfcfca55e1738db66"
+hash = "c2a75169a3a88fa44bf068f052fb0bf4e49f5658562c9d6d1c5ef11ee390db5f"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Mixing.js"
-hash = "42118b9b5ff1f47d0b8f17d87e2abcdc29bfb72c9b3c186079532c8e3b80fdc2"
+hash = "a6aa742116d00a049dc7096541b9df4043b66a5a495dc28495591949ce37b795"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Pressing.js"
@@ -586,11 +590,11 @@ hash = "de20cc66996e47fe485d9cbdff85405ca91bb30aa7c99ffa61f0f5edbda8b3cf"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/SequencedAssembly.js"
-hash = "3ea880be258f3665d98da5d1963cb2466f2ad628167c3def08ce2e6fbeb5a73c"
+hash = "2804185086f3def55cda62e32843500b3d19f274c20c5d63e699721e7fe3ae3c"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/Washing.js"
-hash = "dc446cba1b4777acfe39439667b5c6ea46f0152262b05dade71355ed01aea6a6"
+hash = "f4144028f2c73a84ce8d867a0841f3b70de1f3d39356dcb6c71f25d19cb482d4"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create/mechanical_crafting.js"
@@ -598,7 +602,7 @@ hash = "9b92a84d96664869e11b4d13dd56471787ad94770d62a9b8a6b2e5bbcb1c0822"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/basin_processing.js"
-hash = "6a496d7808dee962242f4a1211a28093a06417a9a7ed8ee8aeb80ca9c12b0b12"
+hash = "4d6dff40c4e4688990a676b983d981b8ef291581663e2f9bd1dbb6ad8e7ad96e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/distillation.js"
@@ -606,7 +610,7 @@ hash = "2d0ee59d63c9776d60dc5fac8563b121fad027201ea6cfc3b82c46292e45909e"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_diesel_generators/pumpjack.js"
-hash = "e286e9ea7bf672a96d86c9cb6e16c70d46408efadc87ec57373940fb2ef27fa3"
+hash = "df2d8365365984f368dde98cf2bb6d412f9db609f7f78b8a5ad39515740c0302"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/create_new_age/energising.js"
@@ -614,7 +618,7 @@ hash = "f8eb24b80599a4d36bdf03d68e2663af92f67c6a3af1945773866183b5ebc261"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/RemovedRecipes.js"
-hash = "1e8b7aca3d8b6c65f52253e9133834c3fe916a9e93db4da855d435af6a784c46"
+hash = "7fefcf3ae14768c6bc0a3dd9e0b4c853f3f82ce30c6e74f2c7fcce8df5aac1e5"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/furnace_recipes.js"
@@ -622,7 +626,7 @@ hash = "292c8f861c15ee0ccb44a54836f6a4c734147d2e211db509b6a1a5df755c4b37"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shaped.js"
-hash = "b02a9e49bbd4ff8a4e7252129f64bb06df50529d1676fde51a76675ed2e060ed"
+hash = "61e5c19186ed777408476ba6ef557c686bc74a8d080dc6fbae4840c9d951c5ac"
 
 [[files]]
 file = "kubejs/server_scripts/base/recipes/misc/recipes_shapeless.js"
@@ -646,7 +650,7 @@ hash = "d07263db274e239ed0dd9c7c5906b308f5b2fc9489ee5be53b9bfdc316ae62ae"
 
 [[files]]
 file = "kubejs/server_scripts/base/tags/tags.js"
-hash = "8c5cb486a14f300833b20e53e35a0b62147b1632c8b12bbb10fa9a492eeeb45d"
+hash = "402bf3377401ab6a5e5ff329f05b898934d4d88b9ec7ed9e5d28bc5be6d4feae"
 
 [[files]]
 file = "kubejs/startup_scripts/block_registry.js"
@@ -943,8 +947,13 @@ hash = "b0c61413cc2dd7fca52014fa070c40aa478dc9007dc7a94330b97f1be7827bd5"
 metafile = true
 
 [[files]]
+file = "mods/advancedae.pw.toml"
+hash = "db2b2be56b661668acd7799856656b2f4585ce99231dd8cbcb8038b744c5e448"
+metafile = true
+
+[[files]]
 file = "mods/ae2.pw.toml"
-hash = "6946aa6679b9ef660ec5183d49b5eb0f097c54772d0215d21a9f33b25529a73b"
+hash = "74bbdad7434bc02ec767c15c0136269f885331601f73fa2365252c24e58c09bd"
 metafile = true
 
 [[files]]
@@ -974,7 +983,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "1b31cb793a692d9f692b233eab37e6fed156f7b05c4a2080a75ea6c06c38c178"
+hash = "f8b6ef08945410e1341212a2723477487fb66a2c8fd67dd201433658791d298d"
 metafile = true
 
 [[files]]
@@ -985,6 +994,11 @@ metafile = true
 [[files]]
 file = "mods/better-ping-display.pw.toml"
 hash = "9d1b7461e30b45be9b85a401c211ba298012c2cd01950e55ff2daeca30ba4c3f"
+metafile = true
+
+[[files]]
+file = "mods/betterf3.pw.toml"
+hash = "30b863b9415712a52a1f30ed866fe7e4792b09bb7e1d4c503072d3b95f86275c"
 metafile = true
 
 [[files]]
@@ -1208,6 +1222,11 @@ hash = "fef08253ff367a9a250756cbf52f30341ef6d517e8d36e353298c308fefcdccc"
 metafile = true
 
 [[files]]
+file = "mods/do-a-barrel-roll.pw.toml"
+hash = "fd3f78d9e8d07fb76b2058152e3423b2ba9c24fbaf92cb6461107e99dbcb5373"
+metafile = true
+
+[[files]]
 file = "mods/drippy-loading-screen.pw.toml"
 hash = "6dec85831ac459441081f875849707d708b42af23f7e0d4d8062ab949ee72687"
 metafile = true
@@ -1243,8 +1262,13 @@ hash = "c9f73e2b93b64fb0c44fbbde6245a5d5934143d6c4b9cc9829e3ba62c02ead4e"
 metafile = true
 
 [[files]]
+file = "mods/exposure.pw.toml"
+hash = "ea36b8516ea429e479368b708082e89af5fa50dc3576b52c2ff8c8dac595801c"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
-hash = "b7277d2db3a4bc1006861370e6a6b63111571d8913ea0f0585872b525a46ab77"
+hash = "3a71284681b91dab86b15ee01d4d82eecb04757e47f4dd9119588683c9bccb15"
 metafile = true
 
 [[files]]
@@ -1355,6 +1379,11 @@ metafile = true
 [[files]]
 file = "mods/grieflogger.pw.toml"
 hash = "6406896463cb7c34d86cbe583b6fb2852c2306129d9770e403d817ac451a81a4"
+metafile = true
+
+[[files]]
+file = "mods/guideme.pw.toml"
+hash = "5cc92eb0e58c2afbfd625d727d80da1d1c84500ec962bb22f5be28b864f18551"
 metafile = true
 
 [[files]]
@@ -1534,12 +1563,12 @@ metafile = true
 
 [[files]]
 file = "mods/petrolpark.pw.toml"
-hash = "e5a1999432321e1d017f5d7fbdc6701ec62077c24f71cca3cc82d8d92c49f6b7"
+hash = "92b0421c5367bb6dc44435fa3808504e84e1c5a8ed3d919124b472b5f7f58f04"
 metafile = true
 
 [[files]]
 file = "mods/petrols-parts.pw.toml"
-hash = "7e67b31ffb950dac821d0992f6951e11c8b3887cc4b2c3324639862de7d9a8c6"
+hash = "19fd5d0949c89e9273512c873140dcd8f7bf423c5ebcb2d6eaf07c75b295f6c9"
 metafile = true
 
 [[files]]
@@ -1624,7 +1653,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "5d608562aae7967c72f0711fb3836ce341aed463491d987fcf9e6a15fdeda841"
+hash = "0012d406484bb4303404b22ad6b6a318f74aa4dfa4d6b0fd7954b368669e800e"
 metafile = true
 
 [[files]]
@@ -1720,6 +1749,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
+metafile = true
+
+[[files]]
+file = "plugins/simple-voice-chat.pw.toml"
+hash = "754006151ff604c014af8d67b7e24f336aec577f2319d8543f935384c1421678"
 metafile = true
 
 [[files]]

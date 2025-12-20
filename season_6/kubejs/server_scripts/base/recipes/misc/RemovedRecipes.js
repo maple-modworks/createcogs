@@ -25,7 +25,10 @@ ServerEvents.recipes((event) => {
 		'createaddition:seed_oil',
 		'create:tree_fertilizer',
 		'create_new_age:nuclear_fuel',
-		'create:rose_quartz'
+		'create:rose_quartz',
+		'createaddition:seed_oil',
+		'createaddition:bioethanol',
+		'createaddition:zinc_sheet'
 	].forEach((output) => event.remove({ output: output }));
 
 	event.remove({
@@ -43,9 +46,25 @@ ServerEvents.recipes((event) => {
 		"pneumaticcraft:pressure_chamber/capacitor",
 		"pneumaticcraft:pressure_chamber/transistor",
 		"pneumaticcraft:printed_circuit_board",
-		"pneumaticcraft:pressure_chamber/empty_pcb"
+		"pneumaticcraft:pressure_chamber/empty_pcb",
+		"tconstruct:common/materials/steel_block_from_ingots",
+		"createsa:obsidian_haunting",
+		"createaddition:pressing/zinc_ingot",
+		"createaddition:compacting/seed_oil",
+		"createaddition:mixing/bioethanol"
 	].forEach((id) => event.remove({id: id}));
 	//remove recipes for pneumaticcraft's pneumatic armor
 	['helmet', 'leggings', 'chestplate', 'boots'].forEach((piece) => event.remove({id: `pneumaticcraft:pneumatic_${piece}`}));
+
+	event.replaceOutput({}, 'pneumaticcraft:biodiesel', 'createdieselgenerators:biodiesel');
+	event.replaceInput({}, 'pneumaticcraft:biodiesel', 'createdieselgenerators:biodiesel');
+	event.replaceOutput({}, 'pneumaticcraft:gasoline', 'createdieselgenerators:gasoline');
+	event.replaceOutput({}, 'pneumaticcraft:diesel', 'createdieselgenerators:diesel');
+
+	event.replaceOutput({}, 'tcontruct:steel_ingot', 'davebuildingmod:steel_ingot');
+
+	event.replaceOutput({}, 'tconstruct:steel_block', 'davebuildingmod:steel_block');
+
+	event.replaceInput({}, "createaddition:zinc_sheet", "createdeco:zinc_sheet")
 
 });

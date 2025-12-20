@@ -26,6 +26,16 @@ ServerEvents.recipes((event) => {
 		[Fluid.of("kubejs:steel_blend", 750)],
 		["2x create:crushed_raw_iron", "3x #minecraft:coals"],
 	);
+
+	event.recipes.createMixing(
+		[Fluid.of("kubejs:steel_blend", 250)],
+		["minecraft:iron_ingot", "kubejs:graphite_dust"],
+	);
+	event.recipes.createMixing(
+		[Fluid.of("kubejs:steel_blend", 750)],
+		["2x minecraft:iron_ingot", "3x #minecraft:coals"],
+	);
+
 	event.recipes.createMixing(
 		[Fluid.of("kubejs:crimson_essence", 250)],
 		[
@@ -36,12 +46,19 @@ ServerEvents.recipes((event) => {
 		],
 	);
 	event.recipes
+		.createMixing("3x minecraft:redstone", [
+			"createaddition:electrum_nugget",
+			"create:cinder_flour",
+			"kubejs:graphite_dust",
+		])
+		.heated();
+	event.recipes
 		.createMixing("minecraft:redstone", [
-			"3x createaddition:electrum_nugget",
 			"create:cinder_flour",
 			"kubejs:graphite_dust",
 		])
 		.superheated();
+	
 	event.recipes.createMixing("create:blaze_cake_base", [
 		Fluid.of("createdieselgenerators:plant_oil", 300),
 		"minecraft:sugar",

@@ -72,4 +72,30 @@ ServerEvents.recipes((event) => {
 			D: "create:item_drain",
 		}
 	);
+
+	[ //i hate you BOP...
+		"biomesoplenty:fir_planks",
+		"biomesoplenty:redwood_planks",
+		"biomesoplenty:mahogany_planks",
+		"biomesoplenty:jacaranda_planks",
+		"biomesoplenty:palm_planks",
+		"biomesoplenty:willow_planks",
+		"biomesoplenty:dead_planks",
+		"biomesoplenty:magic_planks",
+		"biomesoplenty:umbran_planks",
+		"biomesoplenty:hellbark_planks",
+	].forEach( (id) =>{
+		event.shaped(
+			"minecraft:chest",
+			[
+				"PPP",
+				"P P",
+				"PPP"
+			],
+			{
+				P: id
+			}
+		);
+	});
+	
 });
