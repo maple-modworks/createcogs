@@ -74,7 +74,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "cc82514fd2470cd30fe3f0b53810687fd343a261c662f70d04d79b4d928ad058"
+hash = "1475143b03d3bf8fa32dc442f39fc9d87fae032f60724e9f9c5d8ce72b155759"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -146,7 +146,7 @@ hash = "18aaec5a48688496ef9419e920941eaa00310a18f6c86e1851d9eaceec503fef"
 
 [[files]]
 file = "config/fancymenu/customization/s6release.txt"
-hash = "58340c23fa765c32ff9505b4e1d38a1dc7ec9fdd2008a3a08fe0f0f373de6ddc"
+hash = "cbb43c1b38a3082f44e730cf9d8bafcb1de81f1e9692931099297f90c5f9cdb5"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
