@@ -5,6 +5,10 @@ file = "config/defaultoptions/keybindings.txt"
 hash = "0eb03e74d7ce218d4b55e563b1c49b1f0bc3d2edbd3f7af10f6b1fe34569b471"
 
 [[files]]
+file = "config/drippyloadingscreen/options.txt"
+hash = "e0e8c50f3d6fe28a59f79d8977e300c1ac7aaa7ded151b80532009779f3cd6dc"
+
+[[files]]
 file = "config/fancymenu/assets/alpha.png"
 hash = "77b53a76bba8e28e452fba2b8622e2b283f15c831c5ed86ff3a1fa296cd6165e"
 
@@ -70,7 +74,7 @@ hash = "bc9f3222a6eda6f63d09891b15c47646764aea729b5d29d3cc1ea8414959a760"
 
 [[files]]
 file = "config/fancymenu/assets/newsplash.txt"
-hash = "96c59f5e45b3dadcff3413c7675a57f4e6636f8752988e96884c13b60c148243"
+hash = "cc82514fd2470cd30fe3f0b53810687fd343a261c662f70d04d79b4d928ad058"
 
 [[files]]
 file = "config/fancymenu/assets/offline.png"
@@ -130,7 +134,7 @@ hash = "4babba9155224ef9713ac66a602f6a02eb62825aa5eb730af651642c8e009d0b"
 
 [[files]]
 file = "config/fancymenu/customization/credits.txt"
-hash = "90f12aae4d3805bc00a4b3b198848da65e67f262176a918b3966edef33edfd17"
+hash = "b42cce77c5a41297a840311eaf1e61b7002a92ff57316bb7e9d1ca0b940700a8"
 
 [[files]]
 file = "config/fancymenu/customization/s6alpha.txt"
@@ -142,7 +146,7 @@ hash = "18aaec5a48688496ef9419e920941eaa00310a18f6c86e1851d9eaceec503fef"
 
 [[files]]
 file = "config/fancymenu/customization/s6release.txt"
-hash = "29ee0cd7dc103d163c2030b8d1ba58013a80da734104abf5868d48df8acdb928"
+hash = "58340c23fa765c32ff9505b4e1d38a1dc7ec9fdd2008a3a08fe0f0f373de6ddc"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -154,7 +158,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "c01103316c4ed26b58bdcdfbbb2663830c06ead93fcddee23e26085734611535"
+hash = "111c42ad890c4ab31f752f07d7afff25dc49ca6491046df27bef64d59e9de1d9"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
