@@ -3,14 +3,14 @@ type = fancymenu_layout
 layout-meta {
   identifier = drippy_loading_overlay
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1742790374584
+  last_edited_time = 1766367110234
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
   custom_menu_title = Create-ive Cogs Season 6
-  [loading_requirement_container_meta:598719e0-d91f-4919-883e-b1020e70f406-1742790282947] = [groups:][instances:]
+  [loading_requirement_container_meta:033d4395-fda0-41bf-9b6d-acfd08f0c978-1766366964610] = [groups:][instances:]
 }
 
 customization {
@@ -41,6 +41,11 @@ scroll_list_customization {
   show_scroll_list_header_footer_preview_in_editor = false
   repeat_scroll_list_header_texture = false
   repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
 }
 
 element {
