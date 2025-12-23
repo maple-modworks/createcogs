@@ -130,7 +130,7 @@ hash = "a474ea7af5a5f1e5b18ebf6838cf75db9fbad4227460e4572f2bfd9838d276d9"
 
 [[files]]
 file = "config/fancymenu/customization/cogsloadingscreen.txt"
-hash = "4babba9155224ef9713ac66a602f6a02eb62825aa5eb730af651642c8e009d0b"
+hash = "db5b34c0d885fd244e8482e1cdbc0a3a4ae7f8413b85ddbc5ba5479ad6306a54"
 
 [[files]]
 file = "config/fancymenu/customization/credits.txt"
@@ -146,7 +146,7 @@ hash = "18aaec5a48688496ef9419e920941eaa00310a18f6c86e1851d9eaceec503fef"
 
 [[files]]
 file = "config/fancymenu/customization/s6release.txt"
-hash = "cbb43c1b38a3082f44e730cf9d8bafcb1de81f1e9692931099297f90c5f9cdb5"
+hash = "2b567805005781169f10ee3cdd5288e70f8a00e2d80e9d7254b1fcc348d128d5"
 
 [[files]]
 file = "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget"
@@ -158,7 +158,7 @@ hash = "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
 
 [[files]]
 file = "config/fancymenu/options.txt"
-hash = "111c42ad890c4ab31f752f07d7afff25dc49ca6491046df27bef64d59e9de1d9"
+hash = "ef843509ec88be198efe1e327b3142b6dd618faf6e236fb78b5a73fc45a4d50c"
 
 [[files]]
 file = "config/fancymenu/ui_themes/dark.json"
