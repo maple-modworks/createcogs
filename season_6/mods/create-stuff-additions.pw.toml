@@ -1,13 +1,13 @@
 name = "Create Stuff & Additions"
-filename = "create-stuff-additions1.20.1_v2.0.8.jar"
+filename = "create-stuff-additions1.20.1_v2.1.0.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/Fyf059LK/create-stuff-additions1.20.1_v2.0.8.jar"
+url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/Z3P99xA8/create-stuff-additions1.20.1_v2.1.0.jar"
 hash-format = "sha512"
-hash = "e08d64da7dbe80955520a50e868d84678dca73ce96f041766c7eebccc8977d46e33fec025b57e3204506785e1880aba02639b871b334f94ff905243c14ee3b31"
+hash = "165020b72403b58d1265685d5a13c3a32186c28ea95f3ebea3f677ff0cf3c271dbcbc701cfd2680fa846a2eb594f7d3c09c39f51cdd257b64c4e48fb108246aa"
 
 [update]
 [update.modrinth]
 mod-id = "aq9qUUQG"
-version = "Fyf059LK"
+version = "Z3P99xA8"
