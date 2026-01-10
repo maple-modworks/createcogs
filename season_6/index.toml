@@ -1616,11 +1616,6 @@ hash = "611d55e849ad376f995d82e4e420f4e179b665bff87f6d7546aa74ce0db1dca6"
 metafile = true
 
 [[files]]
-file = "mods/rcc-discord-shim.pw.toml"
-hash = "3c2ac73d75e1e81b28ebcb66b3f2581cb278bffefd29eb6aa8271359d11e7b92"
-metafile = true
-
-[[files]]
 file = "mods/rcc-library.pw.toml"
 hash = "e831fc2532f65078ef51cbd047ea0c2cb9d45881c2e73f404bc6847458c59a31"
 metafile = true
