@@ -1,0 +1,835 @@
+diff --git a/season_6/index.toml b/season_6/index.toml
+index b97975e..0fb65e4 100644
+--- a/season_6/index.toml
++++ b/season_6/index.toml
+@@ -958,7 +958,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/amendments.pw.toml"
+-hash = "f4c04d35eca1714e7d3f07f6f1756a75b24892a3c3f040accb4a3c0800c778e6"
++hash = "a966c425617e0583ccadc2fe7f521a53833c93f4aacd9c89c24ad7cc76eca97a"
+ metafile = true
+ 
+ [[files]]
+@@ -1006,6 +1006,11 @@ file = "mods/biomes-o-plenty.pw.toml"
+ hash = "b0119b17c7c9a075780d55dc87749942a835365db5578102d6250db8875e8267"
+ metafile = true
+ 
++[[files]]
++file = "mods/blocks-bogies.pw.toml"
++hash = "028ff66b700318886b8d975b2a76f5ec6d1dafba8d2aa70b8a830862a4701199"
++metafile = true
++
+ [[files]]
+ file = "mods/bookshelf-lib.pw.toml"
+ hash = "40bab89c8030327eba75a6fe4350d6ac883d4b168a8171d4c0ca3a416efbd318"
+@@ -1043,7 +1048,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/cc-tweaked.pw.toml"
+-hash = "b7b5d139282c441057c253e1d01d8333ed22b377a75242edac5c78bb26907ab2"
++hash = "c45dce6b9e52796c0606ff222efa5833fd1d420fa67e7a8f26852196b80f6fa5"
+ metafile = true
+ 
+ [[files]]
+@@ -1068,7 +1073,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/compressedcreativity.pw.toml"
+-hash = "39fc70ada6da75706190a552190ef37e0707d15c6126abdf48baecb3b7359c13"
++hash = "17be84f385e68f623982229b7044f8c1e9fa9c8e55a464d1ac4d8d03ea9e060a"
+ metafile = true
+ 
+ [[files]]
+@@ -1083,7 +1088,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/copycats.pw.toml"
+-hash = "ffa609907fd0f338204de9af2c795b1698f374dff630ac1b6d4ec836a943e102"
++hash = "00bcb49250fa1f8e533a321cd650e8e57e3d7f7b6178e0f92c21b93736bfb6a8"
+ metafile = true
+ 
+ [[files]]
+@@ -1118,42 +1123,42 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/create-central-kitchen.pw.toml"
+-hash = "c35784e2cbb1721fe6b27f118f2e7459e4a38faaf88fb214c759df4228b24791"
++hash = "0b69f772db857977d0e70bad04d4a8112f0963074ca07258efb44d2d3e5f4578"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-connected.pw.toml"
+-hash = "2db78de43f113bb7ceefa7bcb1c2d8f1d33363ed83dde7593abca19cf4c957c4"
++hash = "834517e20257dd0b64f4a6d778ad773d8e422cf7864b46a557e2fab26d153ad0"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-deco.pw.toml"
+-hash = "0bbb0d5c211ddf6fd76fd602167b1f012dbfe56e72c5f2568ec1089cd930ece0"
++hash = "fee58a333eaf51d4862fee34fe8ba7cb70140500023e06aca3c9fcf0e0f34719"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-diesel-generators.pw.toml"
+-hash = "55e774a83edf2998fd3cb94a5a8e848648e2ea102d4cd689924b56424ff93f33"
++hash = "c5f30d9ab224c5df151659e50f45e02fad4c59ff4262d75247373dd667b6e704"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-encased.pw.toml"
+-hash = "aa99d0fe202d07270eabca2f5089e977c373f842cecc775957df5e78b0a61c74"
++hash = "5b2c34be48b89edad127b4d73b9fb2ef7bd18739e631cb0a98810394b6a7b8eb"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-enchantment-industry.pw.toml"
+-hash = "80061143ef327fe4611e10a6c2bce219be4fb893260106a321c6628e151a57ec"
++hash = "5735cd877c7519a2ab6c88a0508f64abd67e51b6027c728d86a4ab50e30aea7b"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-framed.pw.toml"
+-hash = "5cdd45df3ad9acb4c93e5c84b702d8d9c472cc6742b029e96ecbcb18b9b3dc67"
++hash = "53d4c60fdfa2bccaca8498bf04f29f65fcc39720a0f2dbf8b46d3d0fd46d3741"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-new-age.pw.toml"
+-hash = "011d35087c3d81b17000ba7604a73fef600a868021eed8c14df2dc2b77ca7ddc"
++hash = "fc77e6c318e39dbf41c7ffc6d08fb913b1937603331648a6ac262eb613d1a51c"
+ metafile = true
+ 
+ [[files]]
+@@ -1163,32 +1168,32 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/create-railways-navigator.pw.toml"
+-hash = "4c8be1c0bc09cf2a6ef82e4fdab03d17fa4f403cea043898d2b57d1162663d92"
++hash = "5dc6a3a35f7df10e2b85a0dbc73939630284979803f5de8fab85df6638820c23"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-steam-n-rails.pw.toml"
+-hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
++hash = "0971029a9e6cbc93c8fd694f97942c566979973f3d98023b730b1d436f617220"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-stuff-additions.pw.toml"
+-hash = "1a671e706d847e222c95dae4caa9c2c9d7d5525ed877938480d70503063417b0"
++hash = "d83ee58bd994d4c13d4fc2f833e553ac55a01ced1c2e535865b1b8b50eb1362b"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create-unlimited.pw.toml"
+-hash = "e95f908ec0a34bab6dac891312b8da44141ccba69bc780ac56d4a517b9bf88e5"
++hash = "c6764964282826d006088bfdbe20d19c84d762c9e17945b1df911cfaf16fbc18"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/create.pw.toml"
+-hash = "7c56e7a4afd735ee502970c08d52b4f495af482254bbd934150d176f26e146c5"
++hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/createaddition.pw.toml"
+-hash = "5bf5d5fd3ee61dae57ec321ef60921c159ab1afea32db67b097fd42cbddee3cc"
++hash = "8a5f33277995fccd2be6793c4fba1b5d657983be32f0b47e4afab4eac70b8ab8"
+ metafile = true
+ 
+ [[files]]
+@@ -1226,6 +1231,11 @@ file = "mods/do-a-barrel-roll.pw.toml"
+ hash = "fd3f78d9e8d07fb76b2058152e3423b2ba9c24fbaf92cb6461107e99dbcb5373"
+ metafile = true
+ 
++[[files]]
++file = "mods/dragonlib.pw.toml"
++hash = "a7bcd625886fcb580a2f85bb43f3e58362a546c31ec0880b97c138c753313199"
++metafile = true
++
+ [[files]]
+ file = "mods/drippy-loading-screen.pw.toml"
+ hash = "6dec85831ac459441081f875849707d708b42af23f7e0d4d8062ab949ee72687"
+@@ -1271,11 +1281,6 @@ file = "mods/extended-ae.pw.toml"
+ hash = "3a71284681b91dab86b15ee01d4d82eecb04757e47f4dd9119588683c9bccb15"
+ metafile = true
+ 
+-[[files]]
+-file = "mods/extended-bogeys.pw.toml"
+-hash = "ed801f0f50169db90b7f5b8cbe27e151d2b1e0888ec4cdc9a172a1ec3a02c581"
+-metafile = true
+-
+ [[files]]
+ file = "mods/fancymenu.pw.toml"
+ hash = "449b1d2c13a1f3d245bf8f8901c325364cfb6f1586929136bd20b003062c6fb4"
+@@ -1393,7 +1398,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/interiors.pw.toml"
+-hash = "ba66d23c40149b26ce4c4a5a27a78c9443d6ddeb8591e18fd625d27e9806ab20"
++hash = "f23d2a15fbf156b95e4e24fc3851cb04075fed5c318dfcd650d2a03107c6c23d"
+ metafile = true
+ 
+ [[files]]
+@@ -1443,7 +1448,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/kubejs-create.pw.toml"
+-hash = "432015ce62e9acfd7f305102eb0aa8423e3d424f06193c333b71dc21f1fba29e"
++hash = "7e9ef26310359f482e595815664b3d08381b30c6517c32a58078b0999e1d953a"
+ metafile = true
+ 
+ [[files]]
+@@ -1453,7 +1458,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/ldlib.pw.toml"
+-hash = "db2b121b5fc67d2db2390f9ff56baa1cea12929062d05132fc6fd848da95694f"
++hash = "b96504b85a5193250bbdd3fedf4434b503c6aa135d563adccfc562cf1104109b"
+ metafile = true
+ 
+ [[files]]
+@@ -1506,6 +1511,11 @@ file = "mods/miners-delight-plus.pw.toml"
+ hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
+ metafile = true
+ 
++[[files]]
++file = "mods/moonlight.pw.toml"
++hash = "c3fe09de76654cbd7012ab476423de1eb1e3ae80cc2a3aec7ff547560e1b56c9"
++metafile = true
++
+ [[files]]
+ file = "mods/mouse-tweaks.pw.toml"
+ hash = "e72f73611904e14d915418f0e3c6cb483cdc600e211375c2eceb393fec5b80f1"
+@@ -1513,7 +1523,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/multiblocked2.pw.toml"
+-hash = "1648ef41a3fba92b491ba587494023b823331e1727b5f2894b8a277510d79d93"
++hash = "391e7abca3ef714d339250de76c8a9b7b554272db4002cf1f6c2c277be2392a0"
+ metafile = true
+ 
+ [[files]]
+@@ -1543,7 +1553,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/numismatics.pw.toml"
+-hash = "e9dc04504831b4dd873f2f5c7b9ad3bf0de816186c1de3b30435309702209e06"
++hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
+ metafile = true
+ 
+ [[files]]
+@@ -1563,12 +1573,12 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/petrolpark.pw.toml"
+-hash = "92b0421c5367bb6dc44435fa3808504e84e1c5a8ed3d919124b472b5f7f58f04"
++hash = "08db67f5571e690b026c38becb5c5273fc95b8519124cd046112529104605784"
+ metafile = true
+ 
+ [[files]]
+ file = "mods/petrols-parts.pw.toml"
+-hash = "19fd5d0949c89e9273512c873140dcd8f7bf423c5ebcb2d6eaf07c75b295f6c9"
++hash = "ee7905fd6574b870ba30073402da121d40ee4ea3b90967480605f2d38d7a1dc6"
+ metafile = true
+ 
+ [[files]]
+@@ -1693,7 +1703,7 @@ metafile = true
+ 
+ [[files]]
+ file = "mods/supplementaries.pw.toml"
+-hash = "6567b97fa70dd81ab517ce62fb6ebf0325710bb6fb5f175a09fc7b622fa57d62"
++hash = "31883f2697767614c5b0671e9600c4e584c8e60be8062867667ddfc9d2624e23"
+ metafile = true
+ 
+ [[files]]
+diff --git a/season_6/mods/amendments.pw.toml b/season_6/mods/amendments.pw.toml
+index d95f798..0fb4c53 100644
+--- a/season_6/mods/amendments.pw.toml
++++ b/season_6/mods/amendments.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Amendments"
+-filename = "amendments-1.20-1.2.18.jar"
++filename = "amendments-1.20-2.2.3.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "c9e68c5f2a5d2a12c4726f9d8a9c19523dc08968"
++hash = "70f46de146e959d6abb4346a0ac7dfb04475d239"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6181548
++file-id = 7240735
+ project-id = 896746
+diff --git a/season_6/mods/cc-tweaked.pw.toml b/season_6/mods/cc-tweaked.pw.toml
+index bd3bc43..7204a0a 100644
+--- a/season_6/mods/cc-tweaked.pw.toml
++++ b/season_6/mods/cc-tweaked.pw.toml
+@@ -1,13 +1,13 @@
+ name = "CC: Tweaked"
+-filename = "cc-tweaked-1.20.1-forge-1.113.1.jar"
++filename = "cc-tweaked-1.20.1-forge-1.117.0.jar"
+ side = "both"
+ 
+ [download]
+-hash-format = "sha1"
+-hash = "ca74a2ad65f149e7465e849b479abec863a82bf1"
+-mode = "metadata:curseforge"
++url = "https://cdn.modrinth.com/data/gu7yAYhd/versions/W45ytlaC/cc-tweaked-1.20.1-forge-1.117.0.jar"
++hash-format = "sha512"
++hash = "1dce8ee17e600f9d81c44281631b5dd1883edd344d1a9f67d0361064d4a03cf31a26ff5508ae95dd0a122e322d85c6221ce5619b95c8a672dc53cdedfbc70a6c"
+ 
+ [update]
+-[update.curseforge]
+-file-id = 5714507
+-project-id = 282001
++[update.modrinth]
++mod-id = "gu7yAYhd"
++version = "W45ytlaC"
+diff --git a/season_6/mods/compressedcreativity.pw.toml b/season_6/mods/compressedcreativity.pw.toml
+index 967e93b..3dba33f 100644
+--- a/season_6/mods/compressedcreativity.pw.toml
++++ b/season_6/mods/compressedcreativity.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Compressed Creativity"
+-filename = "compressedcreativity-1.20.1-0.1.8.b.jar"
++filename = "compressedcreativity-1.20.1-0.2.0-all.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "85ae03688b6809429ba947309c4887b2dd9ee836"
++hash = "0a87cacce547e6d96364b5376e0b415c90f17b59"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 4871104
++file-id = 6603441
+ project-id = 549381
+diff --git a/season_6/mods/copycats.pw.toml b/season_6/mods/copycats.pw.toml
+index 6cc930e..1dba585 100644
+--- a/season_6/mods/copycats.pw.toml
++++ b/season_6/mods/copycats.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Copycats+"
+-filename = "copycats-2.2.0+mc.1.20.1-forge.jar"
++filename = "copycats-3.0.4+mc.1.20.1-forge.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "9a97996db8f73c3c4c0604dfd47764476a23366d"
++hash = "11be262d6149d01b2c808bb091a9dfb839e71a41"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6156797
++file-id = 7251864
+ project-id = 968398
+diff --git a/season_6/mods/create-central-kitchen.pw.toml b/season_6/mods/create-central-kitchen.pw.toml
+index 2a77338..a639259 100644
+--- a/season_6/mods/create-central-kitchen.pw.toml
++++ b/season_6/mods/create-central-kitchen.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Central Kitchen"
+-filename = "create_central_kitchen-1.20.1-for-create-0.5.1.j-1.3.13.jar"
++filename = "create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/btq68HMO/versions/Bl1U5lSl/create_central_kitchen-1.20.1-for-create-0.5.1.j-1.3.13.jar"
+-hash-format = "sha1"
+-hash = "2de9ad800d6fc8acac8df4620cfd163ba856c187"
++url = "https://cdn.modrinth.com/data/btq68HMO/versions/b6J7xYnJ/create_central_kitchen-1.20.1-for-create-6.0.6-1.4.3b.jar"
++hash-format = "sha512"
++hash = "0578fdcfc9e8f5f3717e2dab468fadca35480e6a2c6a701b43004c57ea1ff0d979c790148d68b6c9233c4c697e9e972d82e7ffd22d11db514b69d23b06f80bbc"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "btq68HMO"
+-version = "Bl1U5lSl"
++version = "b6J7xYnJ"
+diff --git a/season_6/mods/create-connected.pw.toml b/season_6/mods/create-connected.pw.toml
+index ef0119e..5a36960 100644
+--- a/season_6/mods/create-connected.pw.toml
++++ b/season_6/mods/create-connected.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Connected"
+-filename = "create_connected-0.9.4-mc1.20.1-all.jar"
++filename = "create_connected-1.1.10-mc1.20.1-all.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "a079058a39c4c1cf5da046edcd7a9ad59010674d"
++hash = "eea1d04aee638689a99acf66457327b13a4b3f96"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6160354
++file-id = 7251637
+ project-id = 947914
+diff --git a/season_6/mods/create-deco.pw.toml b/season_6/mods/create-deco.pw.toml
+index f88c447..e1659a0 100644
+--- a/season_6/mods/create-deco.pw.toml
++++ b/season_6/mods/create-deco.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Deco"
+-filename = "createdeco-2.0.2-1.20.1-forge.jar"
++filename = "createdeco-2.0.3-1.20.1-forge.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "606650f31ca0a5eb64d4bbb8fbaecf357a3bdb43"
++hash = "54c8ad5686b846310bca9e69982a455e668dede3"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5293982
++file-id = 6373226
+ project-id = 509285
+diff --git a/season_6/mods/create-diesel-generators.pw.toml b/season_6/mods/create-diesel-generators.pw.toml
+index a461462..637377c 100644
+--- a/season_6/mods/create-diesel-generators.pw.toml
++++ b/season_6/mods/create-diesel-generators.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Diesel Generators"
+-filename = "createdieselgenerators-1.20.1-1.2i.jar"
++filename = "createdieselgenerators-1.20.1-1.3.8.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "7f626b7ddd79bd1abf90bf816c67c674ac111e22"
++hash = "abef5050bd1a700a892208ed4dd913011093d0e2"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5401010
++file-id = 7350909
+ project-id = 869316
+diff --git a/season_6/mods/create-encased.pw.toml b/season_6/mods/create-encased.pw.toml
+index 5301a8f..d2415bc 100644
+--- a/season_6/mods/create-encased.pw.toml
++++ b/season_6/mods/create-encased.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Encased"
+-filename = "CreateCasing-1.20.1-1.6.2-fix3.jar"
++filename = "Create Encased-1.20.1-1.7.2-fix2.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "a0873d3996d1e201bdb3a125bcf2bb6ad18bc9b1"
++hash = "8b5b7944fa5b66df81778305ffd494aaf48bfcbd"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6214533
++file-id = 7159795
+ project-id = 829380
+diff --git a/season_6/mods/create-enchantment-industry.pw.toml b/season_6/mods/create-enchantment-industry.pw.toml
+index 6a3700b..bdd4229 100644
+--- a/season_6/mods/create-enchantment-industry.pw.toml
++++ b/season_6/mods/create-enchantment-industry.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Enchantment Industry"
+-filename = "create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar"
++filename = "create_enchantment_industry-1.3.3-for-create-6.0.6.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/JWGBpFUP/versions/JFhYaP3a/create_enchantment_industry-1.20.1-for-create-0.5.1.f-1.2.9.d.jar"
+-hash-format = "sha1"
+-hash = "eec891067ec8c72fdaeb97bece103eed5e10e719"
++url = "https://cdn.modrinth.com/data/JWGBpFUP/versions/E8bB0Vws/create_enchantment_industry-1.3.3-for-create-6.0.6.jar"
++hash-format = "sha512"
++hash = "aa1714ee1c7562f0b01780bb3a1271e7214a790711efc8279f11b133075fc72de6e1c08ca87fbf4eeb113d2ea816947153c2383bd90b18e2221d28bd14b7844e"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "JWGBpFUP"
+-version = "JFhYaP3a"
++version = "E8bB0Vws"
+diff --git a/season_6/mods/create-framed.pw.toml b/season_6/mods/create-framed.pw.toml
+index 2926212..940bede 100644
+--- a/season_6/mods/create-framed.pw.toml
++++ b/season_6/mods/create-framed.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Framed"
+-filename = "createframed-1.20.1-1.5.6.jar"
++filename = "createframed-1.7.1.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "7eb3d0e5ae8f59c8dc5824949c282cef740cc2c6"
++hash = "2751ff7b421f12ea8da28e0169bb1db2f08f8b40"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5935206
++file-id = 7280926
+ project-id = 953126
+diff --git a/season_6/mods/create-new-age.pw.toml b/season_6/mods/create-new-age.pw.toml
+index 1b6381d..a357623 100644
+--- a/season_6/mods/create-new-age.pw.toml
++++ b/season_6/mods/create-new-age.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: New Age"
+-filename = "create-new-age-forge-1.20.1-1.1.2.jar"
++filename = "create-new-age-1.1.7e+forge-mc1.20.1.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "92fcbc49d41a4d1b2038b469154a4c36e3934e36"
++hash = "8f5ed6c35a47690e4c886b744c0cbf6152a55197"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5080957
++file-id = 7388264
+ project-id = 905861
+diff --git a/season_6/mods/create-railways-navigator.pw.toml b/season_6/mods/create-railways-navigator.pw.toml
+index e224ee1..22099cd 100644
+--- a/season_6/mods/create-railways-navigator.pw.toml
++++ b/season_6/mods/create-railways-navigator.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Railways Navigator"
+-filename = "createrailwaysnavigator-forge-1.20.1-beta-0.7.2.jar"
++filename = "createrailwaysnavigator-forge-1.20.1-alpha-0.9.0-1-C6.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "89b421f88d631aec6ce2927e550aec92e9f781c9"
++hash = "c93c0b3605d1c2de68a7b028f0e4cc7e2ee0dce2"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6087014
++file-id = 7351155
+ project-id = 935929
+diff --git a/season_6/mods/create-steam-n-rails.pw.toml b/season_6/mods/create-steam-n-rails.pw.toml
+index b410de7..b4ce0b9 100644
+--- a/season_6/mods/create-steam-n-rails.pw.toml
++++ b/season_6/mods/create-steam-n-rails.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Steam 'n' Rails"
+-filename = "Steam_Rails-1.6.7+forge-mc1.20.1.jar"
++filename = "Steam_Rails-1.6.14-beta+forge-mc1.20.1.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "7449e9cbaae6a23a31127a3cf0886899c28639dc"
++hash = "90ea1d917bc20a5e4cc50abaa512d2084149dc64"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5840017
++file-id = 7201308
+ project-id = 688231
+diff --git a/season_6/mods/create-stuff-additions.pw.toml b/season_6/mods/create-stuff-additions.pw.toml
+index d1b884b..2b7ae95 100644
+--- a/season_6/mods/create-stuff-additions.pw.toml
++++ b/season_6/mods/create-stuff-additions.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Stuff & Additions"
+-filename = "create-stuff-additions1.20.1_v2.0.8.jar"
++filename = "create-stuff-additions1.20.1_v2.1.0.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/Fyf059LK/create-stuff-additions1.20.1_v2.0.8.jar"
++url = "https://cdn.modrinth.com/data/aq9qUUQG/versions/Z3P99xA8/create-stuff-additions1.20.1_v2.1.0.jar"
+ hash-format = "sha512"
+-hash = "e08d64da7dbe80955520a50e868d84678dca73ce96f041766c7eebccc8977d46e33fec025b57e3204506785e1880aba02639b871b334f94ff905243c14ee3b31"
++hash = "165020b72403b58d1265685d5a13c3a32186c28ea95f3ebea3f677ff0cf3c271dbcbc701cfd2680fa846a2eb594f7d3c09c39f51cdd257b64c4e48fb108246aa"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "aq9qUUQG"
+-version = "Fyf059LK"
++version = "Z3P99xA8"
+diff --git a/season_6/mods/create-unlimited.pw.toml b/season_6/mods/create-unlimited.pw.toml
+index f6f919d..b9e778b 100644
+--- a/season_6/mods/create-unlimited.pw.toml
++++ b/season_6/mods/create-unlimited.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Unlimited"
+-filename = "createunlimited-0.6.3.jar"
++filename = "createunlimited-0.7.0.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/jyG2CDff/versions/LD1Ax5h7/createunlimited-0.6.3.jar"
+-hash-format = "sha1"
+-hash = "0302bf40001a91dab3b2c74b918c53b4d1fb33d1"
++url = "https://cdn.modrinth.com/data/jyG2CDff/versions/V22b8Eq3/createunlimited-0.7.0.jar"
++hash-format = "sha512"
++hash = "1e88f7969cefffae2bd05db3251fbee4ab12adc33a81d2a2755acfd8e8a16841803dbadf1d4991c537692d036d85e3c22d415736b0adc7528120472edd336af2"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "jyG2CDff"
+-version = "LD1Ax5h7"
++version = "V22b8Eq3"
+diff --git a/season_6/mods/create.pw.toml b/season_6/mods/create.pw.toml
+index f6894b5..ce69014 100644
+--- a/season_6/mods/create.pw.toml
++++ b/season_6/mods/create.pw.toml
+@@ -1,9 +1,13 @@
+ name = "Create"
+-filename = "create-1.20.1-0.5.1.h.jar"
++filename = "create-1.20.1-6.0.8.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/LNytGWDc/versions/6R069CcK/create-1.20.1-0.5.1.j.jar"
+-hash-format = "sha1"
+-hash = "fab2ae7fcf685b3875ca20022bfecf0d4fdafbf7"
++url = "https://cdn.modrinth.com/data/LNytGWDc/versions/8amzvn9x/create-1.20.1-6.0.8.jar"
++hash-format = "sha512"
++hash = "5b51f5d31437d9bfbf221b67459abd87260d284874e1e23b7ed1d522b23a48059a3b1d2c1c541428da35dc6be15561b4f3c7f36aac6df3a0e8db6a278f6b0316"
+ 
++[update]
++[update.modrinth]
++mod-id = "LNytGWDc"
++version = "8amzvn9x"
+diff --git a/season_6/mods/createaddition.pw.toml b/season_6/mods/createaddition.pw.toml
+index 122d8a2..2cbe670 100644
+--- a/season_6/mods/createaddition.pw.toml
++++ b/season_6/mods/createaddition.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create Crafts & Additions"
+-filename = "createaddition-1.20.1-1.2.5.jar"
++filename = "createaddition-1.20.1-1.3.3.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "956186484bab4eeee5eb0250e5509f1e01ad5094"
++hash = "c7d464c451fdc2979bc29a67d7eec2a30858af12"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6084982
++file-id = 7208610
+ project-id = 439890
+diff --git a/season_6/mods/extended-bogeys.pw.toml b/season_6/mods/extended-bogeys.pw.toml
+deleted file mode 100644
+index 12c9b9f..0000000
+--- a/season_6/mods/extended-bogeys.pw.toml
++++ /dev/null
+@@ -1,7 +0,0 @@
+-name = "extended-bogeys"
+-filename = "extendedbogeys-0.5.5-1.20.1-0.5.1.d-f-forge.jar"
+-
+-[download]
+-url = "https://github.com/WeidosOddities/Extended-Bogeys-Borked/releases/download/0.5.5-1.20.1/extendedbogeys-0.5.5-1.20.1-0.5.1.d-f-forge.jar"
+-hash-format = "sha256"
+-hash = "54dd5b2121b57ff1691341ae057d63bca9aa00fc1dbe80f8e1d7d7670fba44b4"
+diff --git a/season_6/mods/interiors.pw.toml b/season_6/mods/interiors.pw.toml
+index d9d53c4..6abe69a 100644
+--- a/season_6/mods/interiors.pw.toml
++++ b/season_6/mods/interiors.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Interiors"
+-filename = "interiors-0.5.6+forge-mc1.20.1-build.104.jar"
++filename = "interiors-1.20.1-forge-0.6.0.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "fe4c41e125f01e64c4ac08a8b201abaea98f1a95"
++hash = "3371c5ab69a1169f74bee7ab6349bc0f5d6e69bb"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 5694662
++file-id = 7338640
+ project-id = 906239
+diff --git a/season_6/mods/kubejs-create.pw.toml b/season_6/mods/kubejs-create.pw.toml
+index cc4aafe..ba5cae5 100644
+--- a/season_6/mods/kubejs-create.pw.toml
++++ b/season_6/mods/kubejs-create.pw.toml
+@@ -1,13 +1,13 @@
+ name = "KubeJS Create"
+-filename = "kubejs-create-forge-2001.2.5-build.2.jar"
++filename = "kubejs-create-forge-2001.3.0-build.8.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "b5548110822245de13c7adf1d10e00ecab9cd633"
++hash = "cbeb6643d1cea979a7e01c87cfb08b9210a1c393"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 4884096
++file-id = 6265498
+ project-id = 429371
+diff --git a/season_6/mods/ldlib.pw.toml b/season_6/mods/ldlib.pw.toml
+index 0e1b118..ac3ee65 100644
+--- a/season_6/mods/ldlib.pw.toml
++++ b/season_6/mods/ldlib.pw.toml
+@@ -1,13 +1,13 @@
+ name = "LDLib"
+-filename = "ldlib-forge-1.20.1-1.0.35.jar"
++filename = "ldlib-forge-1.20.1-1.0.48.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/K1DEZJSC/ldlib-forge-1.20.1-1.0.35.jar"
++url = "https://cdn.modrinth.com/data/B1CBVXHX/versions/yhlCY3k1/ldlib-forge-1.20.1-1.0.48.jar"
+ hash-format = "sha512"
+-hash = "4908ec2bdd6178050fbf285837dfe0326a563015c1c3de2d5cb22ae8769e2f41f09434d5e29f4c6498e49ce5f59d0fad0cda58af26c9b5f054c93ea753bea905"
++hash = "564f71dccc84854e84fc795d7c2972b785498de198bafdae22e46e7b6fd257e6b4cd0b24396eae7caaec16f090500069f06e6b43ad50130a9d50ee9923850c59"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "B1CBVXHX"
+-version = "K1DEZJSC"
++version = "yhlCY3k1"
+diff --git a/season_6/mods/multiblocked2.pw.toml b/season_6/mods/multiblocked2.pw.toml
+index 5852049..6361433 100644
+--- a/season_6/mods/multiblocked2.pw.toml
++++ b/season_6/mods/multiblocked2.pw.toml
+@@ -1,9 +1,13 @@
+ name = "Multiblocked2"
+-filename = "multiblocked2-1.20.1-1.0.23.jar"
++filename = "multiblocked2-1.20.1-1.0.38.a.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/ScFPMpMO/multiblocked2-1.20.1-1.0.23.jar"
++url = "https://cdn.modrinth.com/data/R2gjKEpa/versions/Uf8VhleU/multiblocked2-1.20.1-1.0.38.a.jar"
+ hash-format = "sha512"
+-hash = "c899fe2c616d6e954340ca2787879c42d5c1b22159e43afb98f712d3deffcbcce2e2a3c8033edefc7a839bcf586ec3dc2ce71148bd2677b7aefdff8a990d314c"
++hash = "f71fc07b97897560c7bacea17dde3d3610202cf8b3edcacdda7ec8cfe16e8629d4e0c2cef38e3000358e8813d4ba9a9d302acd82b80b1233fe5a7af6ba8db4c4"
+ 
++[update]
++[update.modrinth]
++mod-id = "R2gjKEpa"
++version = "Uf8VhleU"
+diff --git a/season_6/mods/numismatics.pw.toml b/season_6/mods/numismatics.pw.toml
+index 454ea93..e0b7a38 100644
+--- a/season_6/mods/numismatics.pw.toml
++++ b/season_6/mods/numismatics.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Create: Numismatics"
+-filename = "CreateNumismatics-1.0.11+forge-mc1.20.1.jar"
++filename = "CreateNumismatics-1.0.15+forge-mc1.20.1.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/Jdbbtt0i/versions/b0Dgh7jg/CreateNumismatics-1.0.11%2Bforge-mc1.20.1.jar"
++url = "https://cdn.modrinth.com/data/Jdbbtt0i/versions/wjKJbg4D/CreateNumismatics-1.0.15%2Bforge-mc1.20.1.jar"
+ hash-format = "sha512"
+-hash = "26accf1dd0c92517b405dc7a7c533189c9299f361a937d470bd7e8e43dd7f7d8e1686e9ed576214eecee69c318a4a7c0b9248f22915caa06756ba5652d7983c8"
++hash = "775481ce32bc34f580d4e2bd6b9084f003370b0a61a6938549857b4cdf9d483e19e838214ae15fba4b4732cc9a077849851b744a4a1156049ed5e555573b8b83"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "Jdbbtt0i"
+-version = "b0Dgh7jg"
++version = "wjKJbg4D"
+diff --git a/season_6/mods/petrolpark.pw.toml b/season_6/mods/petrolpark.pw.toml
+index 5372f93..e773f2b 100644
+--- a/season_6/mods/petrolpark.pw.toml
++++ b/season_6/mods/petrolpark.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Petrolpark's Library"
+-filename = "petrolpark-1.20.1-1.4.1-all.jar"
++filename = "petrolpark-1.20.1-1.4.23-all.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/ik2WZkTZ/versions/71Mw5ZWY/petrolpark-1.20.1-1.4.1-all.jar"
++url = "https://cdn.modrinth.com/data/ik2WZkTZ/versions/8asIbMXN/petrolpark-1.20.1-1.4.23-all.jar"
+ hash-format = "sha512"
+-hash = "302b6448ead00e149229762788266e240885f165c7ede856333739e927988ef8263bf1b1cb5b119af3627fb95fb007303637369fd0f0a76adacdaaad2efeb857"
++hash = "02b67298181ab8c7e679f8ea449543851d01da15c8c59a4c2dfe76ec2db325a42a7e8e1adc0f1d29d7943961134d8bdeace5fdc50b9b992b4168e92dfc52392f"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "ik2WZkTZ"
+-version = "71Mw5ZWY"
++version = "8asIbMXN"
+diff --git a/season_6/mods/petrols-parts.pw.toml b/season_6/mods/petrols-parts.pw.toml
+index 06127fd..daa2710 100644
+--- a/season_6/mods/petrols-parts.pw.toml
++++ b/season_6/mods/petrols-parts.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Petrol's Parts"
+-filename = "petrolsparts-1.20.1-1.1.4.jar"
++filename = "petrolsparts-1.20.1-1.2.3-all.jar"
+ side = "both"
+ 
+ [download]
+-url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/iRcVFEob/petrolsparts-1.20.1-1.1.4.jar"
++url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/hCQO8AvZ/petrolsparts-1.20.1-1.2.3-all.jar"
+ hash-format = "sha512"
+-hash = "02ef6801516b31fdb31b13c28d9522cde718149f00b1b6bf89b2f86a1caac879f0655ccac419e80be2d97a16bf54274424cac307e78a8a95c1925bd5f6ac63d4"
++hash = "1688cfe270a21a111d4a2faf93bdb6ffeb2a86faba34a6569f329e96af8ca4f937a954f45b7a57907602fc44ea4793b2af6e3e482d36f4ce435d88c4809db57b"
+ 
+ [update]
+ [update.modrinth]
+ mod-id = "AN0CZD9P"
+-version = "iRcVFEob"
++version = "hCQO8AvZ"
+diff --git a/season_6/mods/supplementaries.pw.toml b/season_6/mods/supplementaries.pw.toml
+index 1fc355b..00e1a8a 100644
+--- a/season_6/mods/supplementaries.pw.toml
++++ b/season_6/mods/supplementaries.pw.toml
+@@ -1,13 +1,13 @@
+ name = "Supplementaries"
+-filename = "supplementaries-1.20-3.1.18.jar"
++filename = "supplementaries-1.20-3.1.41.jar"
+ side = "both"
+ 
+ [download]
+ hash-format = "sha1"
+-hash = "129c7ba5a3fd16671dedc0c139e987f7b7cfd130"
++hash = "9ab9dd5ffed81cbb547facf2849920af99bf96c3"
+ mode = "metadata:curseforge"
+ 
+ [update]
+ [update.curseforge]
+-file-id = 6228530
++file-id = 7113231
+ project-id = 412082
+diff --git a/season_6/pack.toml b/season_6/pack.toml
+index 52b7eaa..c1d8d5c 100644
+--- a/season_6/pack.toml
++++ b/season_6/pack.toml
+@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
+ [index]
+ file = "index.toml"
+ hash-format = "sha256"
+-hash = "bec61d7bea656f5449cb23894790bf5e0631bcb04115c98cf09cfa22fde4e052"
++hash = "2afd2fa1213e6ae79fb9991771f2600e6f633f9322ad80665e1597ee5f1466e0"
+ 
+ [versions]
+ forge = "47.3.33"

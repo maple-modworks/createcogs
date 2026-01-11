@@ -1,8 +1,0 @@
-name = "rcc-chatbox"
-filename = "rcc-chatbox-1.8.10.jar"
-side = "server"
-
-[download]
-url = "https://dl.herrkatze.com/rcc-chatbox-1.8.10.jar"
-hash-format = "sha256"
-hash = "26072c12658f5de11f572d157a3b41e5fb0e1718f2e0f86443be6761854a5678"

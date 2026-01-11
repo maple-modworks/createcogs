@@ -1,13 +1,13 @@
 name = "Petrol's Parts"
-filename = "petrolsparts-1.20.1-1.1.4.jar"
+filename = "petrolsparts-1.20.1-1.2.3-all.jar"
 side = "both"
 
 [download]
-url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/iRcVFEob/petrolsparts-1.20.1-1.1.4.jar"
+url = "https://cdn.modrinth.com/data/AN0CZD9P/versions/hCQO8AvZ/petrolsparts-1.20.1-1.2.3-all.jar"
 hash-format = "sha512"
-hash = "02ef6801516b31fdb31b13c28d9522cde718149f00b1b6bf89b2f86a1caac879f0655ccac419e80be2d97a16bf54274424cac307e78a8a95c1925bd5f6ac63d4"
+hash = "1688cfe270a21a111d4a2faf93bdb6ffeb2a86faba34a6569f329e96af8ca4f937a954f45b7a57907602fc44ea4793b2af6e3e482d36f4ce435d88c4809db57b"
 
 [update]
 [update.modrinth]
 mod-id = "AN0CZD9P"
-version = "iRcVFEob"
+version = "hCQO8AvZ"
