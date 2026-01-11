@@ -971,6 +971,11 @@ hash = "a966c425617e0583ccadc2fe7f521a53833c93f4aacd9c89c24ad7cc76eca97a"
 metafile = true
 
 [[files]]
+file = "mods/applied-energistics-2-wireless-terminals.pw.toml"
+hash = "36c1d9057db42df7c2573c8673bef9a2d6ac0c43599ee0f8209573bbd3dd3bcf"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
 hash = "4e81241ba2da06f425efc5e09fb6b38470125c1581c39e1310c5843a0b96ec76"
 metafile = true
@@ -1061,6 +1066,11 @@ hash = "c45dce6b9e52796c0606ff222efa5833fd1d420fa67e7a8f26852196b80f6fa5"
 metafile = true
 
 [[files]]
+file = "mods/cc-vs.pw.toml"
+hash = "fdf79665dd59c66d4dff01eb8530189fe43f140eb5b9420e6dd3981d7b28c2cc"
+metafile = true
+
+[[files]]
 file = "mods/chipped.pw.toml"
 hash = "71a33fe41bead909b3e95643351ef8015def70d3cb083916469f492f66434b45"
 metafile = true
@@ -1131,8 +1141,18 @@ hash = "1d93eff4b510bb974ab096ad5b83d71a3713d248044c33368c823140366b0cab"
 metafile = true
 
 [[files]]
+file = "mods/create-bitterballen.pw.toml"
+hash = "a7007df219d698305d58d3649bdf7f7b94731eafe82d89a8afd2257a3a8d4aa7"
+metafile = true
+
+[[files]]
 file = "mods/create-central-kitchen.pw.toml"
 hash = "0b69f772db857977d0e70bad04d4a8112f0963074ca07258efb44d2d3e5f4578"
+metafile = true
+
+[[files]]
+file = "mods/create-clockwork.pw.toml"
+hash = "cc128baeb57c03ec23d58d4ea94b5179335e6c394049b0b54cbaa680f598ba7b"
 metafile = true
 
 [[files]]
@@ -1168,6 +1188,11 @@ metafile = true
 [[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "fc77e6c318e39dbf41c7ffc6d08fb913b1937603331648a6ac262eb613d1a51c"
+metafile = true
+
+[[files]]
+file = "mods/create-qol.pw.toml"
+hash = "1a93aa50d6aa8ad9be312b80884af747b92bb499ce510aadeb2af5ebffcfa8cc"
 metafile = true
 
 [[files]]
@@ -1232,7 +1257,7 @@ metafile = true
 
 [[files]]
 file = "mods/distanthorizons.pw.toml"
-hash = "fef08253ff367a9a250756cbf52f30341ef6d517e8d36e353298c308fefcdccc"
+hash = "a9b2b4b65024ea2a2f43053047b0a50c02c3cf082c83e7286604a4565c4cfa13"
 metafile = true
 
 [[files]]
@@ -1521,6 +1546,11 @@ hash = "eab12c7fddf20f293b8726f7553d2c0c0b6c578a2ba03ddf59ae40f6e684e2ce"
 metafile = true
 
 [[files]]
+file = "mods/merequester.pw.toml"
+hash = "6d52b6989ddabb53a1f86aee4ab315c2c8726b800276975eb510a31884891082"
+metafile = true
+
+[[files]]
 file = "mods/miners-delight-plus.pw.toml"
 hash = "8a459a2534f09d18581fa154a84f428b1eaf1721fc8493ebe1e80df490e7502c"
 metafile = true
@@ -1612,7 +1642,12 @@ metafile = true
 
 [[files]]
 file = "mods/polymorph.pw.toml"
-hash = "dd105e501832dcd4e443015af266973c58586553331512a6c171d865dd36c3bc"
+hash = "4ab869d8784f4ac318b5c92fa3d9e65f997352b8b57f34b409ca6f171637f0fe"
+metafile = true
+
+[[files]]
+file = "mods/polymorphic-energistics.pw.toml"
+hash = "76bfc1b2689919394cdf14b28cc97110f20a43e53aa69bbccd1b4a6aa850a046"
 metafile = true
 
 [[files]]
@@ -1731,8 +1766,18 @@ hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
 
 [[files]]
+file = "mods/trackwork.pw.toml"
+hash = "973388a9461c0012eb1c13d5868d37c4ad310b54900f8ab42f507bf159f399c2"
+metafile = true
+
+[[files]]
 file = "mods/travelersbackpack.pw.toml"
 hash = "0c8a34a342d427e38c61312f248b57d601ecd15e1572265639736034108cca3c"
+metafile = true
+
+[[files]]
+file = "mods/valkyrien-skies.pw.toml"
+hash = "4a99189bb405cef0912f67530bc227d28d89f8c40e484267e66bf64ed9231020"
 metafile = true
 
 [[files]]
