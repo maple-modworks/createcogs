@@ -1181,13 +1181,13 @@ hash = "53d4c60fdfa2bccaca8498bf04f29f65fcc39720a0f2dbf8b46d3d0fd46d3741"
 metafile = true
 
 [[files]]
-file = "mods/create-new-age.pw.toml"
-hash = "fc77e6c318e39dbf41c7ffc6d08fb913b1937603331648a6ac262eb613d1a51c"
+file = "mods/create-more-parallel-pipes.pw.toml"
+hash = "ddc68d3b587d688d0fa9bb65c5b8a99500489ef6a44806aa0c0abaf5d769bd6a"
 metafile = true
 
 [[files]]
-file = "mods/create-qol.pw.toml"
-hash = "1a93aa50d6aa8ad9be312b80884af747b92bb499ce510aadeb2af5ebffcfa8cc"
+file = "mods/create-new-age.pw.toml"
+hash = "fc77e6c318e39dbf41c7ffc6d08fb913b1937603331648a6ac262eb613d1a51c"
 metafile = true
 
 [[files]]
