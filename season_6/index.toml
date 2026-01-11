@@ -941,11 +941,6 @@ file = "ldlib/projects/fxproj/tower_smoke.fxproj"
 hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
-file = "maple-chatbox.pw.toml"
-hash = "611d55e849ad376f995d82e4e420f4e179b665bff87f6d7546aa74ce0db1dca6"
-metafile = true
-
-[[files]]
 file = "mods/advanced-backups.pw.toml"
 hash = "d3a18bbfbb1436f8917f5275ce336de3fc6012dfe44ac074a4cc616976bae038"
 metafile = true
