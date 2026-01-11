@@ -1,0 +1,8 @@
+name = "maple-chatbox"
+filename = "rcc-chatbox-1.8.11.jar"
+side = "server"
+
+[download]
+url = "https://dl.herrkatze.com/mods/rcc-chatbox-1.8.11.jar"
+hash-format = "sha256"
+hash = "0842f85ff3f2728d4e88401607eab2e091fde9ac7bc4568f9829f7ccc3ce1c46"

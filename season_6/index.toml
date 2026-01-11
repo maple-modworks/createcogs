@@ -941,6 +941,11 @@ file = "ldlib/projects/fxproj/tower_smoke.fxproj"
 hash = "1f3f3b95793248a85b9228098b3afa63eda610668471f9187ab1b612468bdd8a"
 
 [[files]]
+file = "maple-chatbox.pw.toml"
+hash = "611d55e849ad376f995d82e4e420f4e179b665bff87f6d7546aa74ce0db1dca6"
+metafile = true
+
+[[files]]
 file = "mods/advanced-backups.pw.toml"
 hash = "d3a18bbfbb1436f8917f5275ce336de3fc6012dfe44ac074a4cc616976bae038"
 metafile = true
@@ -1491,6 +1496,11 @@ hash = "50089e9e41f8e332aa6af6ed6490ac8f02caf314609e8ddd5c385e79cf7abe78"
 metafile = true
 
 [[files]]
+file = "mods/maple-chatbox.pw.toml"
+hash = "156045e9c67cd8d7042355c3bfa8c427bf2ff71912057c012ffa17ced5c57a20"
+metafile = true
+
+[[files]]
 file = "mods/mc2discord.pw.toml"
 hash = "89515ed26c65972322160e628623c6fd8ece91514a80ad3d4c5cb8caa743d00f"
 metafile = true
@@ -1608,11 +1618,6 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "d92b242de1f5ba59226bbe69a6567493434874ecb63413fec62d82b43f081f4e"
-metafile = true
-
-[[files]]
-file = "mods/rcc-chatbox.pw.toml"
-hash = "611d55e849ad376f995d82e4e420f4e179b665bff87f6d7546aa74ce0db1dca6"
 metafile = true
 
 [[files]]
