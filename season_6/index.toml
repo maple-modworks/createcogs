@@ -1781,6 +1781,11 @@ hash = "6cdd0327a10ccd5c02143d602da29d6c94313640d3bcc5f2946054bb8f1cf21b"
 metafile = true
 
 [[files]]
+file = "mods/vs-ship-retrieval-service.pw.toml"
+hash = "647e7687e23c3a2b52510c06fd4f028506babbe9a4f4b30da1eadaf53dbbed99"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "718ec3f4126f8e520dac17aa2e0644e5bb8f870b0de2d20fa682a56b07876484"
 metafile = true

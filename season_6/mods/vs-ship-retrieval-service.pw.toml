@@ -1,0 +1,13 @@
+name = "VS: Ship Retrieval Service"
+filename = "ShipRetrievalService-Forge-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "2d06978a03a4950fc39467c90b9dd24814cd73cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7407682
+project-id = 1418825
