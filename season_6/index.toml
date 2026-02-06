@@ -1591,6 +1591,11 @@ hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "252c5199daf5f3459056cf21cb6a2cd357a6cae8e2a60594a9668d5d93384d72"
+metafile = true
+
+[[files]]
 file = "mods/numismatics.pw.toml"
 hash = "63504f8d1db513fa1a78c214d824be5a9ddba732850a461cae0bb1029b8462b7"
 metafile = true
