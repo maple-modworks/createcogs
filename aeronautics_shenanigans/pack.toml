@@ -1,0 +1,13 @@
+name = "Aeronautics Shenanigans"
+author = "Maple Modworks"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "99ae1002a4e3936502f62b4df4d17f34a15cdfdba9b8da184a859a684143edac"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.227"
