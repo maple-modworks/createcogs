@@ -1,12 +1,12 @@
 name = "Aeronautics Shenanigans"
 author = "Maple Modworks"
-version = "1.0.1"
+version = "1.0.2"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "8b597b762897df7b572fb0520780980e64eebb4c6446801cf2af095773671355"
+hash = "550a7ba0dc0488c05abfffaee5a878ac451faa43bd188f44369b13990a7494f8"
 
 [versions]
 minecraft = "1.21.1"
