@@ -41,6 +41,11 @@ hash = "9da22561c3a5e45beb91121518a49f2e8a62bedb332574ce43a9d9b287ebc705"
 metafile = true
 
 [[files]]
+file = "mods/essential-mod.pw.toml"
+hash = "f4a8a0e0c9cbbebee624ac45cc8c4824558bed4540920bc22bcdf9e8f46dc042"
+metafile = true
+
+[[files]]
 file = "mods/extended-ae.pw.toml"
 hash = "0a5570c6ae3540f4b058e84f1dfee75c0b2367dbbf3578dcff927183f9df3973"
 metafile = true
